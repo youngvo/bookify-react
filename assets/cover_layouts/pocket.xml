@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<CoverLayouts trim_size="5x8">
+  <FlapLayout id="blurb.dj.60836545-6e2e-4d87-96b3-50bc253b6606" group_id="d2e98960-fe64-11e0-be50-0800200c9a66" cover_type="dustjacket" segment_type="front" width="272" height="612">
+    <ImageContainer id="b689b823-7a06-4451-aff6-463d7ca1888c" x="42" y="38" width="184" height="142" binding="" two_way="false" x_translate="0"/>
+    <ImageContainer id="6eabeb73-832f-4e8f-8f24-5ab698a58ff1" x="42" y="439" width="184" height="120" binding="" two_way="false" x_translate="0"/>
+    <TextContainer id="235a8f4d-6a90-4231-b21e-f7d4d6306a63" x="42" y="191" width="184" height="236" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false"/>
+  </FlapLayout>
+  <CoverLayout id="blurb.dj.cf52393e-c73e-4ed4-9420-bbcdcffed3eb" group_id="876ea604-2250-43c5-a208-12f0ba8adf99" cover_type="dustjacket" segment_type="back" width="409" height="612">
+    <ImageContainer id="1b1c184d-93bb-498f-9c15-a6393f1f5540" x="0" y="0" width="409" height="612" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="c9e25732-f74e-4633-b605-45374c8c6595" x="69" y="215" width="296" height="346" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.iw.22b47bce-bada-4d6a-88d8-bee852932912" group_id="876ea604-2250-43c5-a208-12f0ba8adf99" cover_type="imagewrap" segment_type="back" width="409" height="648">
+    <ImageContainer id="1b1c184d-93bb-498f-9c15-a6393f1f5540" x="0" y="0" width="409" height="648" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="c9e25732-f74e-4633-b605-45374c8c6595" x="47" y="211" width="326" height="400" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.sc.16ba6102-f6a2-4d65-83c2-c7d477148525" group_id="876ea604-2250-43c5-a208-12f0ba8adf99" cover_type="softcover" segment_type="back" width="369" height="594">
+    <ImageContainer id="1b1c184d-93bb-498f-9c15-a6393f1f5540" x="0" y="0" width="369" height="594" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="c9e25732-f74e-4633-b605-45374c8c6595" x="49" y="182" width="283" height="357" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <SpineLayout id="blurb.dj.fb704152-9b15-42a1-be5e-8082b72d0d62" group_id="50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" cover_type="dustjacket" width="612" height="33">
+    <TextContainer id="4348f26f-0ec4-4cc8-bc65-fe6cb4079e72" x="53" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="6ed51203-0b37-4b66-92a1-fc0596f299df" x="407" y="5" width="230" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <SpineLayout id="blurb.iw.877235dc-c95a-45a2-b79f-ed0c30ad4e2d" group_id="50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" cover_type="imagewrap" width="648" height="33">
+    <TextContainer id="4348f26f-0ec4-4cc8-bc65-fe6cb4079e72" x="71" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="6ed51203-0b37-4b66-92a1-fc0596f299df" x="425" y="5" width="230" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <SpineLayout id="blurb.sc.ff4218b0-8cbf-4200-83e6-422240b85f10" group_id="50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" cover_type="softcover" width="666" height="11">
+    <TextContainer id="4348f26f-0ec4-4cc8-bc65-fe6cb4079e72" x="39" y="0" width="300" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="6ed51203-0b37-4b66-92a1-fc0596f299df" x="355" y="0" width="205" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <CoverLayout id="blurb.dj.cc6f7bf4-3aef-4c16-8960-fd4d35a0315d" group_id="b9bac22e-4263-411e-860c-1966d6a8c776" cover_type="dustjacket" segment_type="front" width="409" height="612">
+    <ImageContainer id="25f78386-fa3f-4668-9da1-a4a5759181ac" x="0" y="0" width="409" height="464" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="288de365-596c-4dd4-b131-9edd84188f7c" x="40" y="487" width="326" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="0d163931-eddf-44c8-87f8-24530e1f6147" x="40" y="549" width="326" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.iw.4a8d5b7f-afa2-4c47-bf7c-fd4656192e37" group_id="b9bac22e-4263-411e-860c-1966d6a8c776" cover_type="imagewrap" segment_type="front" width="409" height="648">
+    <ImageContainer id="25f78386-fa3f-4668-9da1-a4a5759181ac" x="0" y="0" width="409" height="495" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="288de365-596c-4dd4-b131-9edd84188f7c" x="44" y="513" width="326" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="0d163931-eddf-44c8-87f8-24530e1f6147" x="44" y="545" width="326" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.sc.1a8c2494-5b0c-4d32-9e2f-02f600475631" group_id="b9bac22e-4263-411e-860c-1966d6a8c776" cover_type="softcover" segment_type="front" width="369" height="594">
+    <ImageContainer id="25f78386-fa3f-4668-9da1-a4a5759181ac" x="0" y="0" width="369" height="441" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="288de365-596c-4dd4-b131-9edd84188f7c" x="29" y="468" width="316" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="0d163931-eddf-44c8-87f8-24530e1f6147" x="29" y="529" width="316" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <FlapLayout id="blurb.dj.1cd33710-76f6-45ab-9d34-1df58354bd2d" group_id="c452a490-fe64-11e0-be50-0800200c9a66" cover_type="dustjacket" segment_type="back" width="272" height="612">
+    <ImageContainer id="cf73ff01-e70b-4e3f-97c2-b870fac51c0d" x="42" y="38" width="184" height="142" binding="" two_way="false" x_translate="0"/>
+    <ImageContainer id="65e52cca-39e4-401a-bad6-083adfc811db" x="42" y="439" width="184" height="120" binding="" two_way="false" x_translate="0"/>
+    <TextContainer id="828d8534-88c3-40d8-9209-7176ab755715" x="42" y="191" width="184" height="236" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false"/>
+  </FlapLayout>
+  
+  <FlapLayout id="blurb.dj.c823b04d-ea22-462b-9524-13a0687c8c23" group_id="85EAEF2A-4F13-44A1-8051-DCA19E12AD7A" cover_type="dustjacket" segment_type="front" width="272" height="612">
+    <ImageContainer id="046e54d1-88e6-4ca9-874a-fb1296a7113d" x="42" y="38" width="184" height="142" binding="" two_way="false" x_translate="0"/>
+    <ImageContainer id="f9ac1e18-4d69-473b-8d5e-63984eb79186" x="42" y="439" width="184" height="120" binding="" two_way="false" x_translate="0"/>
+    <TextContainer id="c41c3cee-7c9e-414e-88cb-3b8556482dca" x="42" y="191" width="184" height="236" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false"/>
+  </FlapLayout>
+  <CoverLayout id="blurb.dj.408477c9-4c42-40f8-813d-ed0b01921c81" group_id="8F9E16D1-1200-406B-BC0C-6517AB56F755" cover_type="dustjacket" segment_type="back" width="409" height="612">
+    <ImageContainer id="e3d4c178-5173-4198-be54-0e4130e64ad9" x="0" y="0" width="409" height="612" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="de5b9e8d-cae2-42b3-8fe1-d80e14f3363d" x="69" y="215" width="296" height="346" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.iw.2210401b-8d05-49e3-9e10-bde451e91da0" group_id="8F9E16D1-1200-406B-BC0C-6517AB56F755" cover_type="imagewrap" segment_type="back" width="409" height="648">
+    <ImageContainer id="e3d4c178-5173-4198-be54-0e4130e64ad9" x="0" y="0" width="409" height="648" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="de5b9e8d-cae2-42b3-8fe1-d80e14f3363d" x="47" y="211" width="326" height="400" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.sc.f6f8a878-b800-4dec-990f-c1982c3a90a3" group_id="8F9E16D1-1200-406B-BC0C-6517AB56F755" cover_type="softcover" segment_type="back" width="369" height="594">
+    <ImageContainer id="e3d4c178-5173-4198-be54-0e4130e64ad9" x="0" y="0" width="369" height="594" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="de5b9e8d-cae2-42b3-8fe1-d80e14f3363d" x="49" y="182" width="283" height="357" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <SpineLayout id="blurb.dj.209a5c57-beeb-42c3-b1d6-de7a7e770f16" group_id="8E2295BA-4C67-4A1A-A83D-5829A43C9ECA" cover_type="dustjacket" width="612" height="33">
+    <TextContainer id="a71c6a6b-282e-455e-9553-e98039995cb7" x="53" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="f16663fe-6a07-4c21-9af8-d92511d347cb" x="407" y="5" width="230" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <SpineLayout id="blurb.iw.2f963277-3b3b-4b6f-803a-71c55ad99d43" group_id="8E2295BA-4C67-4A1A-A83D-5829A43C9ECA" cover_type="imagewrap" width="648" height="33">
+    <TextContainer id="a71c6a6b-282e-455e-9553-e98039995cb7" x="71" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="f16663fe-6a07-4c21-9af8-d92511d347cb" x="425" y="5" width="230" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <SpineLayout id="blurb.sc.3c700322-c3f5-47e8-b75f-5738c1b28bf9" group_id="8E2295BA-4C67-4A1A-A83D-5829A43C9ECA" cover_type="softcover" width="666" height="11">
+    <TextContainer id="a71c6a6b-282e-455e-9553-e98039995cb7" x="39" y="0" width="300" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="f16663fe-6a07-4c21-9af8-d92511d347cb" x="355" y="0" width="205" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <CoverLayout id="blurb.dj.d81dfe5a-34c3-44f2-a8f1-4e00de10a638" group_id="F52FE27D-7A5C-455E-A272-C450340355A3" cover_type="dustjacket" segment_type="front" width="409" height="612">
+    <ImageContainer id="0e360d23-3e00-4ada-a27b-4a756ce860d3" x="63" y="38" width="296" height="426" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="54f0f31e-5b09-4b87-b734-f84b5579b9cd" x="63" y="487" width="296" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="82851ba1-5344-4e2c-853e-e4f8e26f8180" x="63" y="549" width="296" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.iw.3318f70b-4a47-4f2e-8be7-03ad24b6fc1a" group_id="F52FE27D-7A5C-455E-A272-C450340355A3" cover_type="imagewrap" segment_type="front" width="409" height="648">
+    <ImageContainer id="0e360d23-3e00-4ada-a27b-4a756ce860d3" x="43" y="50" width="296" height="445" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="54f0f31e-5b09-4b87-b734-f84b5579b9cd" x="43" y="510" width="296" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="82851ba1-5344-4e2c-853e-e4f8e26f8180" x="43" y="550" width="296" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.sc.5e07e56b-65e6-4313-9ab7-9369c3248206" group_id="F52FE27D-7A5C-455E-A272-C450340355A3" cover_type="softcover" segment_type="front" width="369" height="594">
+    <ImageContainer id="0e360d23-3e00-4ada-a27b-4a756ce860d3" x="29" y="43" width="316" height="398" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="54f0f31e-5b09-4b87-b734-f84b5579b9cd" x="29" y="468" width="316" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="82851ba1-5344-4e2c-853e-e4f8e26f8180" x="29" y="529" width="316" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <FlapLayout id="blurb.dj.e07bf091-d5fd-45d8-b217-9f841c6b663c" group_id="20A4625F-829C-47DF-A7CF-FA298C344433" cover_type="dustjacket" segment_type="back" width="272" height="612">
+    <ImageContainer id="e833a456-1012-4126-8d1a-b6591de7d5e3" x="42" y="38" width="184" height="142" binding="" two_way="false" x_translate="0"/>
+    <ImageContainer id="876621e2-d98b-4e76-80cd-681a1a2f6e86" x="42" y="439" width="184" height="120" binding="" two_way="false" x_translate="0"/>
+    <TextContainer id="6672ba4a-7933-4aa0-80b1-aa8c1df84be1" x="42" y="191" width="184" height="236" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false"/>
+  </FlapLayout>
+  
+  <FlapLayout id="blurb.dj.08ff58ae-a9f7-4fba-9a9a-33761f39204a" group_id="7E98C01D-0788-4C2B-9F21-5538D3D9F9F5" cover_type="dustjacket" segment_type="front" width="272" height="612">
+    <ImageContainer id="b2228586-3472-40ba-9347-37af80b09d9e" x="42" y="38" width="184" height="142" binding="" two_way="false" x_translate="0"/>
+    <ImageContainer id="8ae1c243-9853-40ba-b0af-7849dc71303f" x="42" y="439" width="184" height="120" binding="" two_way="false" x_translate="0"/>
+    <TextContainer id="46395cd5-57a3-4b65-a9ee-b6789ed9cfaa" x="42" y="191" width="184" height="236" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false"/>
+  </FlapLayout>
+  <CoverLayout id="blurb.dj.17b21417-ad51-4396-b79c-db4d8888bb58" group_id="163F418E-BB36-490B-B99E-C14084924B8B" cover_type="dustjacket" segment_type="back" width="409" height="612">
+    <ImageContainer id="047c53a7-5f08-4d2a-a37b-be3d60b44418" x="0" y="0" width="409" height="612" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="abc3169d-05b3-40eb-9c43-ed7de6d8d518" x="69" y="215" width="296" height="346" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.iw.aa06d0ae-51be-43f0-916d-5b3005ae736d" group_id="163F418E-BB36-490B-B99E-C14084924B8B" cover_type="imagewrap" segment_type="back" width="409" height="648">
+    <ImageContainer id="047c53a7-5f08-4d2a-a37b-be3d60b44418" x="0" y="0" width="409" height="648" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="abc3169d-05b3-40eb-9c43-ed7de6d8d518" x="47" y="211" width="326" height="400" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.sc.f6f8a878-b800-4dec-990f-c1982c3a90a3" group_id="163F418E-BB36-490B-B99E-C14084924B8B" cover_type="softcover" segment_type="back" width="369" height="594">
+    <ImageContainer id="047c53a7-5f08-4d2a-a37b-be3d60b44418" x="0" y="0" width="369" height="594" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="abc3169d-05b3-40eb-9c43-ed7de6d8d518" x="49" y="182" width="283" height="357" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <SpineLayout id="blurb.dj.de66241e-19b5-470d-a7b1-2ddf77c699c4" group_id="DAF8B1B2-B862-4BF9-A020-4D05BD54EFDC" cover_type="dustjacket" width="612" height="33">
+    <TextContainer id="6919f36d-628a-4671-9c5a-d59480a770c1" x="53" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="2cb585ea-de1c-4a3b-a6c0-d8fc94e96f75" x="407" y="5" width="230" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <SpineLayout id="blurb.iw.01e9eb5b-d5ef-48e6-a71e-eebcfb27811f" group_id="DAF8B1B2-B862-4BF9-A020-4D05BD54EFDC" cover_type="imagewrap" width="648" height="33">
+    <TextContainer id="6919f36d-628a-4671-9c5a-d59480a770c1" x="71" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="2cb585ea-de1c-4a3b-a6c0-d8fc94e96f75" x="425" y="5" width="230" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <SpineLayout id="blurb.sc.feccf558-5f6e-4912-82b5-85498f2d4033" group_id="DAF8B1B2-B862-4BF9-A020-4D05BD54EFDC" cover_type="softcover" width="666" height="11">
+    <TextContainer id="6919f36d-628a-4671-9c5a-d59480a770c1" x="39" y="0" width="300" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+    <TextContainer id="2cb585ea-de1c-4a3b-a6c0-d8fc94e96f75" x="355" y="0" width="205" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false"/>
+  </SpineLayout>
+  <CoverLayout id="blurb.dj.bf6b259a-910d-43d9-995b-99881c01ba83" group_id="439A8B57-B3E0-400F-83A8-EE58A30BA4B4" cover_type="dustjacket" segment_type="front" width="409" height="612">
+    <ImageContainer id="84899e17-b653-4237-bfca-0caa43dd3e0f" x="0" y="136" width="409" height="475" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="9c24e40a-2008-4b57-94eb-6fba515808eb" x="41" y="42" width="312" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="8606dcb0-bc2b-44f5-aa1a-7533ae13903b" x="41" y="104" width="312" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.iw.447f910b-45db-4c62-99bf-8386fec77c84" group_id="439A8B57-B3E0-400F-83A8-EE58A30BA4B4" cover_type="imagewrap" segment_type="front" width="409" height="648">
+    <ImageContainer id="84899e17-b653-4237-bfca-0caa43dd3e0f" x="0" y="147" width="409" height="500" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="9c24e40a-2008-4b57-94eb-6fba515808eb" x="47" y="50" width="312" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="8606dcb0-bc2b-44f5-aa1a-7533ae13903b" x="47" y="112" width="312" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <CoverLayout id="blurb.sc.9b481063-2ebd-408f-88ca-0a52a2378684" group_id="439A8B57-B3E0-400F-83A8-EE58A30BA4B4" cover_type="softcover" segment_type="front" width="369" height="594">
+    <ImageContainer id="84899e17-b653-4237-bfca-0caa43dd3e0f" x="0" y="148" width="369" height="445" binding="" two_way="false" x_translate="0" border="false"/>
+    <TextContainer id="9c24e40a-2008-4b57-94eb-6fba515808eb" x="29" y="43" width="316" height="57" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false"/>
+    <TextContainer id="8606dcb0-bc2b-44f5-aa1a-7533ae13903b" x="29" y="105" width="316" height="19" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false"/>
+  </CoverLayout>
+  <FlapLayout id="blurb.dj.14a1001f-06e4-4fd3-ad7c-903f1afe8f7c" group_id="4D4F1662-FC35-4B3E-BF26-926552E317F4" cover_type="dustjacket" segment_type="back" width="272" height="612">
+    <ImageContainer id="9525dbf2-7921-4a90-bfc4-0bbccdce083c" x="42" y="38" width="184" height="142" binding="" two_way="false" x_translate="0"/>
+    <ImageContainer id="a549864a-1f84-46ca-80ca-f5c81620961a" x="42" y="439" width="184" height="120" binding="" two_way="false" x_translate="0"/>
+    <TextContainer id="7b3f3fc2-6189-4e08-a957-aeaad3c9dcb2" x="42" y="191" width="184" height="236" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false"/>
+  </FlapLayout>
+  
+</CoverLayouts>
