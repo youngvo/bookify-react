@@ -1,0 +1,273 @@
+.page-zone {
+	display: inline-block;
+	position: relative;
+	box-shadow: 2px 2px 2px #222;
+}
+
+.page-zone.nav-arrow {
+	align-self: center
+}
+
+.nav-arrow.icon-wingLeft {
+	font-size: 184px;
+	color: rgba(0, 0, 0, .1);
+	position: absolute;
+	left: -48px;
+	top: 50%;
+	margin-top: -92px;
+}
+
+.nav-arrow.icon-wingRight {
+	font-size: 184px;
+	color: rgba(0, 0, 0, .1);
+	position: absolute;
+	right: -49px;
+	top: 50%;
+	margin-top: -92px;
+}
+
+.nav-arrow.icon-wingLeft:hover, .nav-arrow.icon-wingRight:hover {
+	color: rgba(41, 171, 226, .4);
+	cursor: pointer;
+}
+
+.inside.icon-ArrowLeft {
+	position: absolute;
+	font-size: 18px;
+	top: 50%;
+	left: 50%;
+	margin-left: -5px;
+	margin-top: -9px;
+	color: #29abe2;
+}
+
+.inside.icon-ArrowRight {
+	position: absolute;
+	font-size: 18px;
+	top: 50%;
+	right: 50%;
+	margin-right: -5px;
+	margin-top: -9px;
+	color: #29abe2;
+}
+
+.page-zone-single {
+	position: relative;
+}
+
+.add-remove-left-page .swap-add {
+	position: absolute;
+	left: -35px;
+	bottom: 15px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.add-remove-left-page .swap-remove {
+	position: absolute;
+	left: -69px;
+	bottom: 15px;
+	font-size: 24px;
+	cursor: pointer
+}
+
+.add-remove-right-page .swap-add {
+	position: absolute;
+	right: -35px;
+	bottom: 15px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.add-remove-right-page .swap-remove {
+	position: absolute;
+	right: -69px;
+	bottom: 15px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.swap-add:hover .icon-AddPageIconActive .path3:before {
+	color: #10357e;
+}
+
+.swap-remove:hover .icon-DeletePageIconNormal {
+	text-shadow: 0px 0px 1px #00ADEF, 0px 0px 2px #00ADEF, 0px 0px 4px #00ADEF, 0px 0px 6px #00ADEF;
+}
+
+.swap-remove:hover .icon-DeletePageIconNormal .path4:before, .swap-remove:hover .icon-DeletePageIconNormal .path2:before, .swap-remove:hover .icon-DeletePageIconNormal .path3:before {
+	color: #10357e;
+	text-shadow: none;
+}
+
+.change-layout-border-background.left-page {
+	transform-origin: top left;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	z-index: 10;
+}
+
+.change-layout-border-background.left-page .icon-button-blurb, .change-layout-border-background.right-page .icon-button-blurb {
+	display: inline-block;
+	color: #2dabe2;
+	font-size: 18px;
+	padding: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin: 0;
+}
+
+.change-layout-border-background.left-page .icon-button-blurb .icon-LayoutsIcon, .change-layout-border-background.right-page .icon-button-blurb .icon-LayoutsIcon {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.change-layout-border-background.left-page .margin-button {
+	margin-right: 6px;
+}
+
+.change-layout-border-background.right-page .margin-button {
+	margin-left: 6px;
+}
+
+.change-layout-border-background.left-page .icon-button-blurb:hover .icon-LayoutsIcon:before, .change-layout-border-background.right-page .icon-button-blurb:hover .icon-LayoutsIcon:before {
+	color: #10357e;
+}
+
+.change-layout-border-background.left-page .icon-button-blurb:hover, .change-layout-border-background.right-page .icon-button-blurb:hover {
+	color: #10357e;
+}
+
+.change-layout-border-background.left-page .text-page, .change-layout-border-background.right-page .text-page {
+	color: #e8e8e8;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding-top: 7px;
+}
+
+.change-layout-border-background.left-page .text-page {
+	float: right;
+}
+
+.change-layout-border-background.right-page .text-page {
+	float: left;
+}
+
+.change-layout-border-background.right-page {
+	transform-origin: top right;
+	right: 0;
+	position: absolute;
+	bottom: -40px;
+	z-index: 10;
+}
+
+.page-zone-single.change-layout-popup-left-page {
+	position: absolute;
+	top: 38%;
+}
+
+.page-zone-single.change-layout-popup-right-page {
+	position: absolute;
+	top: 38%;
+}
+
+/*tooltip-custom*/
+.rc-tooltip-custom-page {
+	position: absolute;
+	visibility: visible;
+	pointer-events: none;
+	font-size: 11px;
+	opacity: 0.9;
+	border-radius: 6px;
+	z-index: 1000;/*for IE*/
+}
+
+.rc-tooltip-custom-page-inner {
+	position: absolute;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	text-align: center;
+	background-color: #0cb0ee;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.51);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.51);
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.51);
+	font-size: 15px;
+	white-space: nowrap;
+	border-bottom: 1px solid #076a8f;
+	margin-top:10px;
+	margin-left: 5px;
+}
+
+.rc-tooltip-custom-page-footer {
+	position: absolute;
+	visibility: visible;
+	font-size: 11px;
+	opacity: 0.9;
+	border-radius: 6px;
+	z-index: 100;/*for IE*/
+}
+
+.rc-tooltip-custom-page-footer-inner {
+	position: absolute;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	text-align: center;
+	background-color: #00adee;
+	box-shadow: 0 3px 2px #888;
+	font-size: 15px;
+	white-space: nowrap;
+	margin-left: -100px;
+}
+
+.rc-tooltip-custom-page-hidden, .rc-tooltip-custom-page-footer-hidden {
+	display: none;
+}
+
+.tooltip-custom-div-wrapper {
+	float: left;
+}
+
+/*showHelpTooltip*/
+.show-help-tooltip-custom-page{
+	position: absolute;
+	z-index: 100;
+}
+
+.show-help-tooltip-custom-page-hidden {
+	display: none;
+}
+
+.show-help-tooltip-custom-page-inner {
+	color: #504646;
+	text-align: left;
+	background-color: #eaa608;
+	font-size: 15px;
+	padding: 10px 15px 15px 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px #1d1a1a;
+	margin-left: -112px;
+	max-width: 280px;
+}
+
+.show-help-tooltip-custom-page-arrow {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	bottom: -25px;
+	border-width: 15px;
+	border-top-color: #eaa608;
+	left: 52%;
+	transform: rotate(0deg);
+}
+
+.show-help-tooltip-custom-page-text {
+	padding-top: 5px;
+	padding-right: 15px;
+}
+
+.show-help-tooltip-custom-page-wrapper{
+	padding-top: 12px;
+}

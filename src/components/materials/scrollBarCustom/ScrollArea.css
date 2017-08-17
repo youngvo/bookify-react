@@ -1,0 +1,103 @@
+.scrollarea-content {
+  margin: 0;
+  padding: 0;
+   position: relative;
+}
+.scrollarea-content:focus {
+  outline: 0;
+}
+.scrollarea {
+  position: relative;
+  
+}
+.scrollarea .scrollbar-container {
+  position: absolute;
+  background: none;
+    z-index: 9999;
+
+}
+.scrollarea .scrollbar-container.horizontal {
+  width: 100%;
+  height: 14px;
+  left: 0;
+  bottom: 0;
+}
+.scrollarea .scrollbar-container.horizontal .scrollbar {
+height: 14px;
+position: absolute;
+top: -2px;
+border: 1px solid #ffffff;
+background: rgb(209, 209, 209);
+background: -moz-linear-gradient(top, rgba(209, 209, 209, 1) 0%, rgba(226, 227, 227, 1) 100%);
+background: -webkit-linear-gradient(top, rgba(209, 209, 209, 1) 0%, rgba(226, 227, 227, 1) 100%);
+background: linear-gradient(to bottom, rgba(209, 209, 209, 1) 0%, rgba(226, 227, 227, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#e2e3e3', GradientType=1);
+border-radius: 20px;
+-webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.45);
+-moz-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.45);
+box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.45);
+}
+.scrollarea .scrollbar-container.vertical {
+ width: 12px;
+ right: 5px;
+  
+  top: 0;
+  bottom: 0;
+}
+.scrollarea .scrollbar-container.vertical .scrollbar {
+  width: 14px;
+  position: absolute;
+  right: -2px;
+  border: 1px solid #ffffff;
+  background: rgb(209, 209, 209);
+  background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(226, 227, 227, 1) 100%);
+  background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(226, 227, 227, 1) 100%);
+  background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(226, 227, 227, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#e2e3e3', GradientType=1);
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  height: 20px;  
+  margin-left: 1px;
+}
+
+.scrollarea .scrollbar-container:hover {
+   background: rgba(0, 0, 0, .2);
+     opacity: 1;
+  
+}
+.scrollarea .scrollbar-container.active {
+    background: rgba(0, 0, 0, .2);
+      opacity: 1;
+    
+}
+.scrollarea:hover .scrollbar-container {
+  opacity: 1;
+}
+
+.scrollarea .scrollbar-container {
+  background: rgba(0, 0, 0, .2);
+  opacity: 1;
+  border-radius: 20px;
+}
+
+
+.scrollbar-arrow-topleft.icon-ArrowLeft-copy.vertical {
+  position: absolute;
+  top: -20px;
+  right: 4px;
+  color: #cccccc;
+}
+
+.scrollbar-arrow-bottomright.icon-ArrowRight-copy.vertical {
+  position: absolute;
+  bottom: -20px;
+  right: 4px;
+  color: #cccccc;
+}
+
+.scrollbar-arrow-topleft.icon-ArrowLeft-copy.vertical:hover,
+.scrollbar-arrow-bottomright.icon-ArrowRight-copy.vertical:hover {
+  color: #acacac;
+}

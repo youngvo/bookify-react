@@ -1,0 +1,163 @@
+.pagination-zone {
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    border: 2px;
+    display: flex;
+    position: relative;
+    /*min-width: 900px;*/
+}
+
+.pagination-zone-hide {
+    /*background: transparent;*/
+    min-width: 0;
+    width: 0%;
+    animation-name: animeHide;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.3s;
+}
+
+@keyframes animeHide {
+    0% {
+        background: rgba(000, 000, 000, 0.25);
+        width: 100%;
+    }
+    100% {
+        background: rgba(000, 000, 000, 0.25);
+        width: 0%;
+    }
+}
+
+.pagination-zone-show {
+    width: 100%;
+    animation-name: animeShow;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.3s;
+}
+
+@keyframes animeShow {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.pagination-zone * {
+    animation-name: animeItemShow;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.3s;
+}
+
+@keyframes animeItemShow {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.left-button {
+    background: rgba(000, 000, 000, 0.25);
+    padding-top: 7px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-left: 15px;
+    color: #a6a8a8;
+    font-size: 14px;
+}
+
+.left-button .img-arrow,
+.right-button .img-arrow,
+.hide-button .img-arrow {
+    cursor: pointer;
+}
+
+.left-button:hover,
+.right-button:hover,
+.hide-button:hover,
+.unhide-button:hover {
+    color: #fff;
+}
+
+.right-button {
+    font-size: 11px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-right: 3px;
+    padding-left: 15px;
+    cursor: pointer;
+    color: #a6a8a8;
+    position: absolute;
+    right: 32px;
+	height: 13px;
+    background: rgba(000, 000, 000, 0.25);
+}
+
+.right-arrow {
+    transform: rotate(180deg);
+}
+
+.hide-button {
+    position: absolute;
+    padding-top: 11px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    padding-left: 11px;
+    color: #a6a8a8;
+    font-size: 10px;
+    right: 0;
+    background: rgba(000, 000, 000, 0.25);
+	height: 12px;
+}
+
+.unhide-button {
+    height: 30px;
+    width: 30px;
+    color: #a6a8a8;
+    font-size: 12px;
+    position: relative;
+    padding-left: 25px;
+    background: linear-gradient(225deg, transparent 10px, #4A4B4E 0) top right, linear-gradient(315deg, transparent 10px, #4A4B4E 0) bottom right;
+    background-size: 30px 16px;
+    background-repeat: no-repeat;
+}
+
+.unhide-button .img-arrow {
+    cursor: pointer;
+    position: absolute;
+    left: 4px;
+    top: 8px;
+}
+
+.list-page-zone {
+    background: rgba(000, 000, 000, 0.25);
+    position: absolute;
+    height: 30px;
+    width: auto;
+    left: 30px;
+    right: 61px;
+    overflow-x: hidden;
+}
+
+.list-page {
+    display: inline-flex;
+    position: absolute;
+    transition: 1s ease-in-out;
+}
+
+.list-page-hide {
+    background: rgba(000, 000, 000, 0.25);
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: auto;
+}

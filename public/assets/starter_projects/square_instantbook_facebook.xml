@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<project>
+  <metadata />
+  <data>	
+    <Book format="square" theme="blurb.instantbook_facebook">
+      <Contents>
+        <Covers>
+          <Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+            <!-- FrontCover layout_group_id="fb_instant_square.front" background_id="solid_2">
+              <ImageContainer ref_id="blurb.fb001"/>
+              <TextContainer ref_id="blurb.fb002"/>
+              <TextContainer ref_id="blurb.fb003"/>
+            </FrontCover-->
+            <FrontCover layout_group_id="fb_instant_square.frontFour" background_id="solid_2">
+              <ImageContainer ref_id="blurb.fb001"/>
+              <ImageContainer ref_id="blurb.fb002"/>
+              <ImageContainer ref_id="blurb.fb003"/>
+              <ImageContainer ref_id="blurb.fb004"/>
+              <TextContainer ref_id="blurb.fb005"/>
+              <TextContainer ref_id="blurb.fb006"/>
+            </FrontCover>
+            <BackCover layout_group_id="fb_instant_square.back" background_id="solid_2">
+            </BackCover>
+            <Spine layout_group_id="fb_instant_square.spine" background_id="solid_2">
+              <TextContainer ref_id="blurb.fb002"/>
+              <TextContainer ref_id="blurb.fb003"/>
+            </Spine>
+            <FrontFlap layout_group_id="fb_instant_square.frontFlap" background_id="solid_2">
+              <ImageContainer ref_id="blurb.fb001"/>
+              <TextContainer ref_id="blurb.fb002"/>
+            </FrontFlap>						
+            <BackFlap layout_group_id="fb_instant_square.backFlap" background_id="solid_2">
+              <ImageContainer ref_id="blurb.fb001"/>
+              <TextContainer ref_id="blurb.fb002"/>
+            </BackFlap>				
+          </Cover>
+        </Covers>
+        <Pages>
+		  <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+          <Page page_layout_id="blurb.zero_comments_no_caption" background_id="solid_1">
+            <ImageContainer ref_id="u1d015"/>
+          </Page>
+
+          <!-- last page, should have a background_id -->
+          <Page page_layout_id="blurb.7x7.logo_page" can_change_layouts="false" background_id="solid_1"/>
+        </Pages>
+      </Contents>
+    </Book>
+  </data>
+</project>

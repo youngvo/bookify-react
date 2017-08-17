@@ -1,0 +1,171 @@
+.swap {
+    position: absolute;
+    left: 0;
+    margin-left: -180px;
+    bottom: -260px;
+    ;
+}
+
+.photo-order-content {
+    padding: 12px;
+    background: #fcfcfc;
+    background: linear-gradient(180deg, #fcfcfc 0, #d9d9d9);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#fcfcfc", endColorstr="#d9d9d9", GradientType=0);
+    border-radius: 10px;
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+    border: 1px solid #ccc;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+
+.swap .triangle {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0;
+    left: 60px;
+    top: -23px;
+}
+
+.swap .triangle::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #fcfcfc;
+    transform: rotate(45deg);
+    top: 42%;
+    left: 20%;
+    box-shadow: 3px -1px 8px -2px rgba(0, 0, 0, .6);
+}
+
+.order-component {
+    width: 227px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    display: block;
+    height: 157px;
+    position: relative;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 12px;
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 25%, #d9d9d9 74%, #d9d9d9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 25%, #d9d9d9 74%, #d9d9d9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 25%, #d9d9d9 74%, #d9d9d9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+    /* IE6-9 */
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+.order-component:hover {
+    cursor: pointer;
+}
+
+.order-component:after {
+    border: 3px solid rgba(255, 255, 255, 0);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.order-component-photo {
+    color: #696969;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+    align-items: center;
+    display: table;
+}
+
+.order-component-photo .thumb {
+    height: 55px;
+    max-width: 90px;
+    display: table-cell;
+}
+
+.order-component-photo .thumb img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.order-component-photo .thumb>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.order-component-photo-arrow {
+    margin: 0 5px;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    color: #808080;
+}
+
+.order-component-text {
+    text-align: center;
+    color: #696969;
+    width: 100%;
+    position: absolute;
+    bottom: 12px;
+}
+
+.order-component:hover::after {
+    border: 3px solid #fdb913;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.order-component:hover .order-component-photo-arrow, .order-component.is-checked .order-component-photo-arrow {
+    color: #fdb913;
+}
+
+.order-component.is-checked:after {
+    border: 3px solid #fdb913;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}

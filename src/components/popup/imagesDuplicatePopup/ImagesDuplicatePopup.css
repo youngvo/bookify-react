@@ -1,0 +1,36 @@
+.images-dup-popup {
+    top: 26%;
+    left : 35%;
+    max-width: 500px;
+}
+
+.images-dup-zone {
+    margin: 20px;
+}
+
+p.images-dup-text {
+    font-weight: bold;
+}
+
+.image-name-dup {
+    word-wrap: break-word;
+    text-align: center;
+    margin: 10px 10px 10px 5px;
+}
+
+.images-dup-zone .slick-next:before, .images-dup-zone .slick-prev:before {
+    color: rgb(50, 200, 255);
+}
+
+.image-dup {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-height: 80px;
+    max-width: 153px;
+}
+
+.image-duplicated{
+}

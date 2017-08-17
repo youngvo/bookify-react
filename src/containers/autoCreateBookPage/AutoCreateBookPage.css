@@ -1,0 +1,87 @@
+.auto-create-book-menu-photo .menu-photo-component {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    -ms-transform: translate(0, -100%);
+    transform: translate(5px, -63px);
+}
+
+.auto-create-book-menu-photo .menu-photo-component .triangle {
+    transform: translate(-115px, 269px) rotate(180deg);
+    position: absolute;
+    z-index: 5;
+}
+
+.auto-create-book-menu-photo .menu-photo-component .triangle::after {
+    background: #d9d9d9;
+}
+
+.importing-photo {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    right: 15px;
+    top: 95px;
+    z-index: 20;
+}
+
+.importing-photo .image-upload {
+    border: 1px solid #9e9e9e;
+    -webkit-box-shadow: 3px 3px 12px -2px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 3px 3px 12px -2px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 3px 12px -2px rgba(0, 0, 0, 0.7);
+    background: #787878;
+    background: -moz-linear-gradient(top, #787878 0%, #767676 3%, #6f6f6f 8%, #707070 10%, #6c6c6c 11%, #6d6d6d 12%, #686868 17%, #656565 19%, #656565 21%, #5c5c5c 28%, #525252 39%, #4f4f4f 41%, #505050 42%, #4c4c4c 43%, #4d4d4d 45%, #464646 50%, #474747 51%, #414141 55%, #404040 57%, #383838 64%, #383838 66%, #343434 68%, #353535 69%, #323232 70%, #272727 81%, #262626 85%, #1d1d1d 91%, #1d1d1d 93%, #151515 100%);
+    background: -webkit-linear-gradient(top, #787878 0%, #767676 3%, #6f6f6f 8%, #707070 10%, #6c6c6c 11%, #6d6d6d 12%, #686868 17%, #656565 19%, #656565 21%, #5c5c5c 28%, #525252 39%, #4f4f4f 41%, #505050 42%, #4c4c4c 43%, #4d4d4d 45%, #464646 50%, #474747 51%, #414141 55%, #404040 57%, #383838 64%, #383838 66%, #343434 68%, #353535 69%, #323232 70%, #272727 81%, #262626 85%, #1d1d1d 91%, #1d1d1d 93%, #151515 100%);
+    background: linear-gradient(to bottom, #787878 0%, #767676 3%, #6f6f6f 8%, #707070 10%, #6c6c6c 11%, #6d6d6d 12%, #686868 17%, #656565 19%, #656565 21%, #5c5c5c 28%, #525252 39%, #4f4f4f 41%, #505050 42%, #4c4c4c 43%, #4d4d4d 45%, #464646 50%, #474747 51%, #414141 55%, #404040 57%, #383838 64%, #383838 66%, #343434 68%, #353535 69%, #323232 70%, #272727 81%, #262626 85%, #1d1d1d 91%, #1d1d1d 93%, #151515 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#787878', endColorstr='#151515', GradientType=0);
+}
+
+.importing-photo .image-upload-title-info {
+    margin-top: 7px;
+    font-size: 17px;
+}
+
+.importing-photo .image-upload-title-close .icon-button-blurb {
+    border: 1px solid #000000;
+    background: #757575;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #757575 0%, #0c0c0c 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #757575 0%, #0c0c0c 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #757575 0%, #0c0c0c 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#0c0c0c', GradientType=0);
+    /* IE6-9 */
+    color: #fff;
+}
+
+.importing-photo .image-upload-content-cancel .button-blurb {
+    background: #757575;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #757575 0%, #0c0c0c 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #757575 0%, #0c0c0c 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #757575 0%, #0c0c0c 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#0c0c0c', GradientType=0);
+    /* IE6-9 */
+    color: #fff;
+    border: 1px solid #909092;
+}
+
+.importing-photo .image-upload-content-percent span {
+    color: #ababab;
+    font-size: 13px;
+}
+
+.importing-photo .image-upload-title-content {
+    margin-top: 4px;
+}
+
+.importing-photo .image-upload-title-content span {
+    color: #ababab;
+    font-size: 12px;
+}

@@ -1,0 +1,234 @@
+.photo-edit-control-zone {
+    margin-top: 23px;
+    border: 1px solid #d6d6d6;
+    display: flex;
+    height: 60px;
+    box-shadow: 5px 3px 6px rgba(0, 0, 0, .6);
+    border-radius: 12px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f6f6+0,dadada+100 */
+    background: rgb(246, 246, 246);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(246, 246, 246, 1) 0%, rgba(218, 218, 218, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(246, 246, 246, 1) 0%, rgba(218, 218, 218, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(246, 246, 246, 1) 0%, rgba(218, 218, 218, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.photo-edit-control-zone.disable * {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.photo-edit-control-zone .photo-edit-control-divider-line,
+.photo-edit-control-zone .button-blurb,
+.photo-edit-control-zone .photo-edit-control-info-button {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.photo-edit-control-zone .button-photo-edit {
+    position: relative;
+    top: 45%;
+    transform: translate(0, -50%);
+}
+
+.photo-edit-control-zone .rc-slider {
+    position: relative;
+    top: 40%;
+    transform: translate(0, -50%);
+}
+
+.photo-edit-control-divider-line {
+    width: 1px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: #eee;
+    height: 35px;
+    position: relative;
+}
+
+.photo-edit-control-divider-line:after {
+    content: "";
+    position: absolute;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #ddd;
+}
+
+.photo-edit-control-slider {
+    margin: 0 15px;
+    display: inline-flex;
+    position: relative;
+}
+
+.photo-edit-control-slider .rc-slider {
+    width: 146px;
+    align-items: center;
+}
+
+.photo-edit-control-slider .rc-slider .rc-slider-track {
+    background: transparent;
+}
+
+.photo-edit-control-slider .rc-slider .rc-slider-step {
+    height: 15px;
+}
+
+.photo-edit-control-slider .rc-slider .rc-slider-handle {
+    background: #dcdddd;
+    width: 17px;
+    height: 17px;
+    border: solid 1px #fff;
+    transform: translate(0, 3px);
+    margin-left: -10px;
+}
+
+.photo-edit-control-slider .rc-slider .rc-slider-handle:hover {
+    background: #c7c7c8;
+}
+
+.photo-edit-control-slider .rc-slider .rc-slider-rail {
+    background-color: #d1d1d1;
+    height: 14px;
+    border-radius: 15px;
+}
+
+.photo-edit-control-arrow {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, 5px);
+}
+
+.photo-edit-control-arrow:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #f7f7f7;
+    transform: rotate(45deg);
+    top: 42%;
+    left: 20%;
+    box-shadow: 4px -2px 8px -2px rgba(0, 0, 0, .6);
+}
+
+.photo-edit-control-info-button {
+    padding: 2px;
+    height: 100%;
+    width: 30px;
+}
+
+.character-zoombar {
+    position: absolute;
+    font-size: 12px;
+    color: gray;
+}
+
+.character-zoombar.minus {
+    left: 0;
+    bottom: 5px;
+}
+
+.character-zoombar.plus {
+    right: 0;
+    bottom: 5px;
+}
+
+.character-zoombar.zoom {
+    left: 50%;
+    bottom: 5px;
+    transform: translate(-50%, 0);
+}
+
+.photo-edit-control-slider .character-zoombar.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid gray;
+    left: 50%;
+    top: 12px;
+    transform: translate(-50%, 0);
+}
+
+
+/*image sprite*/
+
+.button-photo-edit-content {
+    white-space: nowrap;
+}
+
+.button-photto-font-icon .font-icon-custom {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.sprite-fill-org:hover {
+    width: 33px;
+    height: 25px;
+    background-position: 0 0;
+}
+
+.sprite-fill-org {
+    width: 33px;
+    height: 25px;
+    background-position: -33px 0;
+}
+
+.sprite-fit-org:hover {
+    width: 33px;
+    height: 25px;
+    background-position: -66px 0;
+}
+
+.sprite-fit-org {
+    width: 33px;
+    height: 25px;
+    background-position: -99px 0;
+}
+
+.sprite-info {
+    width: 33px;
+    height: 25px;
+    background-position: -132px 0;
+}
+
+.sprite-info:hover {
+    width: 33px;
+    height: 25px;
+    background-position: -165px 0;
+}
+
+.sprite-remove-org:hover {
+    width: 33px;
+    height: 25px;
+    background-position: -198px 0;
+}
+
+.sprite-remove-org {
+    width: 33px;
+    height: 25px;
+    background-position: -231px 0;
+}
+
+.sprite-rotate-org:hover {
+    width: 33px;
+    height: 25px;
+    background-position: -264px 0;
+}
+
+.sprite-rotate-org {
+    width: 33px;
+    height: 25px;
+    background-position: -297px 0;
+}

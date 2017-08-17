@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<project>
+  <metadata />
+  <data>	
+    <Book format="square" theme="blurb.instantbook_instagram">
+      <Contents>
+        <Covers>
+          <Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+            <FrontCover layout_group_id="instant_square.front" background_id="solid_1">
+              <ImageContainer ref_id="img1"/>
+              <ImageContainer ref_id="img2"/>
+              <ImageContainer ref_id="img3"/>
+              <ImageContainer ref_id="img4"/>
+              <TextContainer ref_id="txt1"/>
+            </FrontCover>
+            <BackCover layout_group_id="instant_square.back" background_id="solid_1">
+            </BackCover>
+            
+            <Spine layout_group_id="instant_square.spine" background_id="solid_1">
+              <TextContainer ref_id="txt1"/>
+            </Spine>
+            <FrontFlap layout_group_id="instant_square.frontFlap" background_id="solid_1">
+              <ImageContainer ref_id="img1"/>
+              <TextContainer ref_id="txt1"/>
+            </FrontFlap>						
+            <BackFlap layout_group_id="instant_square.backFlap" background_id="solid_1">
+              <ImageContainer ref_id="img1"/>
+              <TextContainer ref_id="txt1"/>
+            </BackFlap>				
+          </Cover>
+        </Covers>
+        <Pages>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>
+          <Page page_layout_id="blurb.m18958" background_id="solid_1">
+            <ImageContainer ref_id="i13249INSTA"/>
+          </Page>           
+
+          <!-- last page, should have a background_id -->
+          <Page page_layout_id="blurb.7x7.logo_page" can_change_layouts="false" background_id="solid_1"/>
+        </Pages>
+      </Contents>
+    </Book>
+  </data>
+</project>

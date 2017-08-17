@@ -1,0 +1,7 @@
+#include support for bud stages, loaded remotedly
+require "lib/bud/setup"
+
+# Include default deployment tasks
+require 'capistrano/deploy'
+set :application, "bookify-react"
+require_relative "config/deploy"

@@ -1,0 +1,146 @@
+exports[`test MenuOptions component MenuOptions Snapshot 1`] = `
+<div
+  className="main-menu-component">
+  <div
+    className="triangle-on-menu" />
+  <div
+    className="main-menu-zone">
+    <div
+      className="menu-item-zone menu-item-left">
+      <p
+        className="title-text">
+        default_book_title
+      </p>
+      <div
+        className="sd" />
+      <div
+        className="link-text">
+        <a
+          href={undefined}
+          onClick={undefined}
+          target="_self">
+           
+          label.style_book
+           
+        </a>
+      </div>
+      <div
+        className="link-text">
+        <p
+          href={undefined}
+          style={
+            Object {
+              "color": "#777777",
+            }
+          }>
+          label.auto_create
+        </p>
+      </div>
+      <div
+        className="hr-white">
+         
+      </div>
+      <div
+        className="sd" />
+      <div
+        className="link-text">
+        <a
+          href={undefined}
+          onClick={undefined}
+          target="_self">
+           
+          label.preview_book
+           
+        </a>
+      </div>
+      <div
+        className="link-text">
+        <a
+          href={undefined}
+          onClick={undefined}
+          target="_self">
+           
+          label.publish
+           
+        </a>
+      </div>
+    </div>
+    <div
+      className="menu-item-zone menu-item-right">
+      <p
+        className="title-text">
+        blurb.com
+      </p>
+      <div
+        className="sd" />
+      <div
+        className="link-text">
+        <a
+          href="urls.faq"
+          onClick={[Function]}
+          target="_blank">
+           
+          label.faq
+           
+        </a>
+      </div>
+      <div
+        className="link-text">
+        <a
+          href="urls.mybooks"
+          onClick={[Function]}
+          target="_blank">
+           
+          label.my_blurb_books
+           
+        </a>
+      </div>
+      <div
+        className="link-text">
+        <a
+          href="urls.pricing"
+          onClick={[Function]}
+          target="_blank">
+           
+          label.pricing
+           
+        </a>
+      </div>
+      <div
+        className="link-text">
+        <a
+          href="urls.feedback"
+          onClick={[Function]}
+          target="_blank">
+           
+          actions_menu.link.feedback
+           
+        </a>
+      </div>
+      <div
+        className="link-text">
+        <a
+          href="urls.customerSupport"
+          onClick={[Function]}
+          target="_blank">
+           
+          actions_menu.link.customer_support
+           
+        </a>
+      </div>
+    </div>
+    <div
+      className="close-main-menu icon-button-blurb"
+      onClick={[Function]}
+      style={
+        Object {
+          "height": 18,
+          "width": 18,
+        }
+      }>
+      <div
+        className="icon-CloseIconCleanActive" />
+    </div>
+  </div>
+</div>
+`;

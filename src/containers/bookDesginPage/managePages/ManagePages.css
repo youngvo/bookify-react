@@ -1,0 +1,105 @@
+.book-design-manage-pages {
+    display: flex;
+    position: absolute;
+    bottom: 117px;
+    top: 55px;
+    z-index: 2;
+    left: 45px;
+    right: 45px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.manage-pages-controller {
+    position: fixed;
+    float: left;
+}
+
+.manage-pages-present-all-pages {
+    left: 320px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+}
+
+.manage-pages-present-all-pages .scrollarea {
+    position: absolute;
+    left: -16px;
+    right: -16px;
+    top: 6px;
+    bottom: 16px;
+}
+
+.manage-pages-present-all-pages .scrollarea .mask {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    margin-top: -16px;
+}
+
+.manage-pages-present-all-pages .scrollarea .scrollbar-container.vertical {
+    width: 12px;
+    right: 5px;
+}
+
+.book-design-manage-pages.mini-mode {
+    bottom: 120px;
+    min-height: 200px;
+}
+
+.book-design-manage-pages.extend-mode {
+    bottom: 320px;
+    min-height: 100px;
+}
+
+
+/*showHelpTooltip*/
+
+.show-help-tooltip-custom-manage-page {
+    position: absolute;
+    z-index: 100;
+}
+
+.show-help-tooltip-custom-manage-page-hidden {
+    display: none;
+}
+
+.show-help-tooltip-custom-manage-page-inner {
+    color: #504646;
+    text-align: left;
+    background-color: #eaa608;
+    font-size: 15px;
+    padding: 10px 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #1d1a1a;
+    margin-top: 12px;
+    max-width: 190px;
+}
+
+.show-help-tooltip-custom-manage-page-arrow {
+    position: absolute;
+    border: 12px solid transparent;
+    bottom: -23px;
+    border-top-color: #eaa608;
+    left: 44%;
+    transform: rotate(0deg);
+}
+
+.show-help-tooltip-custom-manage-page-text {
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.whole-mini-pages .book-cover {
+    margin: 0;
+}
+
+.whole-mini-pages .front-cover {
+    left: 0;
+}

@@ -1,0 +1,18 @@
+.mini-image-field {
+    position: absolute;
+    overflow: hidden;
+}
+
+.mini-image-field.null-image {
+    background: rgba(255, 255, 255, 0.4);
+    outline: 0.1px solid lightgray;
+}
+
+.mini-image {
+    position: absolute;
+	object-fit: cover;
+}
+
+.mini-image.image-center {
+    /*make center*/
+}

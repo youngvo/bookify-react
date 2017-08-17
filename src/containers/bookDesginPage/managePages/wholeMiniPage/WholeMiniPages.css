@@ -1,0 +1,315 @@
+.whole-mini-pages {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 60px;
+	margin-right: 93px;
+}
+.whole-mini-pages-present {
+	display: inline-flex;
+}
+.whole-mini-pages-present.remove-whole-page {
+	position: absolute;
+	font-size: 28px;
+	z-index: 10;
+	left: -8px;
+	bottom: -18px;
+	cursor: pointer;
+}
+.whole-mini-pages-present.remove-whole-page:hover .icon-DeletePageIconBEV {
+	text-shadow: 0px 0px 1px #00ADEF, 0px 0px 2px #00ADEF, 0px 0px 4px #00ADEF, 0px 0px 6px #00ADEF;
+}
+.whole-mini-pages-present.remove-whole-page:hover .icon-DeletePageIconBEV .path1:before {
+	color: #10357e;
+}
+.whole-mini-pages .book-mini-cover {
+	display: inline-flex;
+	position: relative;
+	margin-top: 0px;
+	top: 6px;
+	margin-left: 60px;
+	margin-right: 44px;
+}
+.whole-mini-pages-present .book-mini-cover {
+	display: inline-flex;
+	position: relative;
+	top: 6px;
+	margin-right: 6px;
+	margin-left: 6px;
+}
+.book-mini-cover.front-cover .above-book {
+	top: -6px;
+	left: -4px;
+	background: #a6a6a6;
+	border-top: 2px solid #797979;
+}
+.book-mini-cover.back-cover .above-book {
+	top: -6px;
+	right: -4px;
+	background: #a6a6a6;
+	border-top: 2px solid #797979;
+}
+.book-mini-cover.front-cover .drak-sha {
+	top: -6px;
+	bottom: 0;
+	position: absolute;
+	width: 6px;
+	z-index: 1;
+	left: -5px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.book-mini-cover.back-cover .drak-sha {
+	top: -6px;
+	bottom: 0;
+	position: absolute;
+	width: 6px;
+	z-index: 1;
+	right: -5px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.book-mini-cover.front-cover .spin-on-cover {
+	top: -5px;
+	left: -5px;
+	bottom: 0;
+	position: absolute;
+	width: 6px;
+	z-index: 4;
+}
+.book-mini-cover.back-cover .spin-on-cover {
+	top: -5px;
+	right: -5px;
+	bottom: 0;
+	position: absolute;
+	width: 6px;
+	z-index: 4;
+}
+.book-mini-cover.front-cover .paper-book {
+	box-shadow: 4px 4px 1px 0 rgba(0,0,0,.5);
+}
+.book-mini-cover.back-cover .paper-book {
+	box-shadow: 4px 4px 1px 0 rgba(0,0,0,.5);
+}
+.book-mini-cover.front-cover .page-shadow {
+	width: 3px;
+	background: linear-gradient(90deg, rgba(0,0,0,.25) 0, rgba(77,77,77,0) 74%, hsla(0,0%,41%,0));
+	top: 0;
+	bottom: 0;
+}
+.book-mini-cover.back-cover .page-shadow {
+	width: 3px;
+	background: linear-gradient(270deg, rgba(0,0,0,.25) 0, rgba(77,77,77,0) 74%, hsla(0,0%,41%,0));
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.book-mini-cover.back-cover .back-drop {
+	right: -5px;
+	box-shadow: 2px 3px 1px 0 rgba(0,0,0,.5);
+	border-radius: 0 0 30px 0;
+	top: -5px;
+	width: 6px;
+	bottom: 0;
+	-webkit-transform: skewY(-20deg);
+	-ms-transform: skewY(-20deg);
+	transform: skewY(-20deg);
+}
+.book-mini-cover.front-cover .above-book {
+	top: -6px;
+	left: -4px;
+	background: #a6a6a6;
+	border-top: 2px solid #797979;
+}
+.book-mini-cover.back-cover .above-book {
+	top: -6px;
+	right: -4px;
+	background: #a6a6a6;
+	border-top: 2px solid #797979;
+}
+.book-mini-cover.front-cover .drak-sha {
+	top: -6px;
+	bottom: 0;
+	position: absolute;
+	width: 6px;
+	z-index: 1;
+	left: -5px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.book-mini-cover.back-cover .drak-sha {
+	top: -6px;
+	bottom: 0;
+	position: absolute;
+	width: 6px;
+	z-index: 1;
+	right: -5px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.book-mini-cover.front-cover .spin-on-cover {
+	top: -5px;
+	left: -5px;
+	bottom: 0;
+	position: absolute;
+	width: 6px;
+	z-index: 4;
+}
+.book-mini-cover.back-cover .spin-on-cover {
+	top: -5px;
+	right: -5px;
+	bottom: 0;
+	position: absolute;
+	width: 6px;
+	z-index: 4;
+}
+.book-mini-cover.front-cover .paper-book {
+	box-shadow: 4px 4px 1px 0 rgba(0,0,0,.5);
+}
+.book-mini-cover.back-cover .paper-book {
+	box-shadow: 4px 4px 1px 0 rgba(0,0,0,.5);
+}
+.book-mini-cover.front-cover .page-shadow {
+	width: 3px;
+	background: linear-gradient(90deg, rgba(0,0,0,.25) 0, rgba(77,77,77,0) 74%, hsla(0,0%,41%,0));
+	top: 0;
+	bottom: 0;
+}
+.book-mini-cover.back-cover .page-shadow {
+	width: 3px;
+	background: linear-gradient(270deg, rgba(0,0,0,.25) 0, rgba(77,77,77,0) 74%, hsla(0,0%,41%,0));
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.book-mini-cover.back-cover .back-drop {
+	right: -5px;
+	box-shadow: 2px 3px 1px 0 rgba(0,0,0,.5);
+	border-radius: 0 0 30px 0;
+	top: -5px;
+	width: 6px;
+	bottom: 0;
+	-webkit-transform: skewY(-20deg);
+	-ms-transform: skewY(-20deg);
+	transform: skewY(-20deg);
+}
+.mini-page .flap-cover-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 6px;
+	padding: 5px;
+	text-align: center;
+}
+.whole-mini-pages-present .mini-page .flap-cover-content {
+	font-size: 3px;
+}
+.mini-page.left-page-is-choosed {
+	position: relative;
+}
+.mini-page.right-page-is-choosed {
+	position: relative;
+}
+.whole-mini-pages-present.whole-page-is-choosed .mini-page.left-page-is-choosed:after {
+	border-right: none;
+}
+.whole-mini-pages-present.whole-page-is-choosed .mini-page.right-page-is-choosed:after {
+	border-left: none;
+}
+.mini-page.left-page-is-choosed:after {
+	pointer-events: none;
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border: 5px solid #54b8e3;
+}
+.mini-page.right-page-is-choosed:after {
+	pointer-events: none;
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border: 5px solid #54b8e3;
+}
+.whole-mini-page.number-page {
+	position: absolute;
+	bottom: -16px;
+	z-index: 1;
+	color: #b2b2b2;
+	font-size: 12px;
+	left: 0;
+}
+.add-right-page {
+	bottom: 50px;
+	right: -55px;
+	position: absolute;
+	align-self: center;
+	cursor: pointer;
+}
+.add-right-page .swap-add {
+	font-size: 24px;
+}
+.whole-mini-page.edit-page-btn {
+	position: absolute;
+	left: 45px;
+	left: 50%;
+	margin-left: -60px;
+	z-index: 5;
+	bottom: -30px
+}
+.whole-mini-page.edit-page-btn .mana-page {
+	font-size: 12px;
+	white-space: nowrap;
+	color: #2dabe2;
+	margin-left: 8px;
+}
+.whole-mini-page.edit-page-btn .button-blurb-content {
+	font-size: 22px;
+}
+
+.whole-mini-page.edit-page-btn .button-blurb:hover .icon-ViewSpreadIcon:before {
+	color: #10357e
+}
+
+.whole-mini-page.edit-page-btn .button-blurb-content:hover .icon-ViewSpreadIcon:before {
+	color: #10357e
+}
+/*showHelpTooltip*/
+.show-help-tooltip-custom-whole-mini-page {
+	position: absolute;
+	z-index: 100;
+}
+.show-help-tooltip-custom-whole-mini-page-hidden {
+	display: none;
+}
+.show-help-tooltip-custom-whole-mini-page-inner {
+	color: #504646;
+	text-align: left;
+	background-color: #eaa608;
+	font-size: 15px;
+	padding: 8px 8px 4px 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px #1d1a1a;
+	max-width: 190px;
+}
+.show-help-tooltip-custom-whole-mini-page-arrow {
+	position: absolute;
+	border: 12px solid transparent;
+	top: -20px;
+	border-top-color: #eaa608;
+	left: 44%;
+	transform: rotate(180deg);
+}
+.show-help-tooltip-custom-whole-mini-page-text {
+	padding-top: 5px;
+	padding-right: 25px;
+}

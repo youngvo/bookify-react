@@ -1,0 +1,130 @@
+.triangle-on-menu {
+    width: 50px;
+    height: 23px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 0;
+    transform: translate(80px, 1px);
+    z-index: 2;
+}
+
+.triangle-on-menu:after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: #fcfcfc;
+    transform: rotate(45deg);
+    /* Prefixes... */
+    top: 50%;
+    left: 20%;
+    box-shadow: 6px -2px 10px -2px rgba(0, 0, 0, 0.8);
+}
+
+.main-menu-component {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    transform: translate(-60px, 0px);
+}
+
+.main-menu-zone {
+    display: flex;
+    width: 500px;
+    background: #fcfcfc;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fcfcfc 0%, #d9d9d9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fcfcfc 0%, #d9d9d9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fcfcfc 0%, #d9d9d9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#d9d9d9', GradientType=0);
+    /* IE6-9 */
+    border-radius: 8px;
+    transform: translate(0, -5px);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .6);
+    border: 1px solid #ccc;
+}
+
+.main-menu-zone .title-text {
+    font-family: 'ProximaNovaSB';
+    color: #545244;
+    font-size: 20px;
+}
+
+.menu-item-zone {
+    display: block;
+    position: relative;
+    width: 250px;
+    padding: 12px;
+    /*height: 100px;*/
+}
+
+.menu-item-zone * {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.sd {
+    background: #ccc;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+}
+
+.hr-white {
+    background: #fff;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+}
+
+.close-main-menu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+/*=========I think this is a material component theme===============*/
+
+.title-text {
+    cursor: default;
+}
+
+
+/* style for link text */
+
+.link-text {
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.link-text * {
+    padding: 5px;
+    font-family: 'ProximaNovaSB';
+    color: #6f6d62;
+    font-size: 13px;
+    text-decoration: none;
+    left: 0;
+    top: 0;
+}
+
+.link-text a:hover {
+    color: #ffffff;
+    background-color: #00adee;
+}
+
+.link-text p:hover {
+    cursor: default;
+}
+
+.menu-option-tooltip-custom {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+}

@@ -1,0 +1,18 @@
+.publish-failed-popup{
+    width: 580px;
+    height: 140px;
+    top: 45%;
+    left: 33%;
+}
+
+.content-publish-failed{
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.group-button-publish-failed{
+    position: relative;
+    margin-top: 5px;
+}

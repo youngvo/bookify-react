@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2013. -->
+<project>
+	<metadata />
+	<data>
+		<Book format="square" theme="blurb.designerbook_catalina">
+			<Contents>
+				<Covers>
+					<Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+						<FrontCover layout_group_id="designerbook_catalina_square.front" background_id="solid_2">
+							<LockedImageContainer ref_id="catalina_front_l1" />
+							<ImageContainer ref_id="catalina_front_i1" />
+							<TextContainer ref_id="catalina_front_t1" />
+							<TextContainer ref_id="catalina_front_t2" />
+						</FrontCover>
+						<BackCover layout_group_id="designerbook_catalina_square.back" background_id="solid_2">
+							<LockedImageContainer ref_id="catalina_back_001" />
+							<TextContainer ref_id="catalina_back_t1" />
+							<TextContainer ref_id="catalina_back_t2" />
+						</BackCover>
+						<Spine layout_group_id="designerbook_catalina_square.spine" background_id="solid_2">
+							<TextContainer ref_id="catalina_spine_t1" />
+							<TextContainer ref_id="catalina_spine_t2" />
+						</Spine>
+						<FrontFlap layout_group_id="designerbook_catalina_square.frontFlap" background_id="solid_2">
+							<ImageContainer ref_id="catalina_flap_left_i1" />
+							<TextContainer ref_id="catalina_flap_left_t1" />
+						</FrontFlap>
+						<BackFlap layout_group_id="designerbook_catalina_square.backFlap" background_id="solid_2">
+							<ImageContainer ref_id="catalina_flap_right_i1" />
+							<TextContainer ref_id="catalina_flap_right_t1" />
+						</BackFlap>
+					</Cover>
+				</Covers>
+				<Pages>
+					<Page page_layout_id="blurb.designerbook.catalina.right_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_balanced_l1" />
+						<ImageContainer ref_id="catalina_right_balanced_i1" />
+						<TextContainer ref_id="catalina_right_balanced_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.left_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_wide_l1" />
+						<ImageContainer ref_id="catalina_left_wide_i1" />
+						<TextContainer ref_id="catalina_left_wide_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_wide_l1" />
+						<ImageContainer ref_id="catalina_right_wide_i1" />
+						<TextContainer ref_id="catalina_right_wide_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.left_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_tall_l1" />
+						<ImageContainer ref_id="catalina_left_tall_i1" />
+						<TextContainer ref_id="catalina_left_tall_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_tall_l1" />
+						<ImageContainer ref_id="catalina_right_tall_i1" />
+						<TextContainer ref_id="catalina_right_tall_t1" style_id="designerbook_body_2" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.catalina.left_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_balanced_l1" />
+						<ImageContainer ref_id="catalina_left_balanced_i1" />
+						<TextContainer ref_id="catalina_left_balanced_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_balanced_l1" />
+						<ImageContainer ref_id="catalina_right_balanced_i1" />
+						<TextContainer ref_id="catalina_right_balanced_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.left_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_wide_l1" />
+						<ImageContainer ref_id="catalina_left_wide_i1" />
+						<TextContainer ref_id="catalina_left_wide_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_wide_l1" />
+						<ImageContainer ref_id="catalina_right_wide_i1" />
+						<TextContainer ref_id="catalina_right_wide_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.left_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_tall_l1" />
+						<ImageContainer ref_id="catalina_left_tall_i1" />
+						<TextContainer ref_id="catalina_left_tall_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_tall_l1" />
+						<ImageContainer ref_id="catalina_right_tall_i1" />
+						<TextContainer ref_id="catalina_right_tall_t1" style_id="designerbook_body_2" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.catalina.left_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_balanced_l1" />
+						<ImageContainer ref_id="catalina_left_balanced_i1" />
+						<TextContainer ref_id="catalina_left_balanced_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_balanced_l1" />
+						<ImageContainer ref_id="catalina_right_balanced_i1" />
+						<TextContainer ref_id="catalina_right_balanced_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.left_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_wide_l1" />
+						<ImageContainer ref_id="catalina_left_wide_i1" />
+						<TextContainer ref_id="catalina_left_wide_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_wide_l1" />
+						<ImageContainer ref_id="catalina_right_wide_i1" />
+						<TextContainer ref_id="catalina_right_wide_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.left_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_tall_l1" />
+						<ImageContainer ref_id="catalina_left_tall_i1" />
+						<TextContainer ref_id="catalina_left_tall_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_tall_l1" />
+						<ImageContainer ref_id="catalina_right_tall_i1" />
+						<TextContainer ref_id="catalina_right_tall_t1" style_id="designerbook_body_2" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.catalina.left_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_left_balanced_l1" />
+						<ImageContainer ref_id="catalina_left_balanced_i1" />
+						<TextContainer ref_id="catalina_left_balanced_t1" style_id="designerbook_body_2" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.catalina.right_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="catalina_right_balanced_l1" />
+						<ImageContainer ref_id="catalina_right_balanced_i1" />
+						<TextContainer ref_id="catalina_right_balanced_t1" style_id="designerbook_body_2" />
+					</Page>
+
+					<!-- last page, should have a background_id -->
+					<Page page_layout_id="blurb.7x7.logo_page" can_change_layouts="false" background_id="solid_1" />
+				</Pages>
+			</Contents>
+		</Book>
+	</data>
+</project>

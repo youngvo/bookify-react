@@ -1,0 +1,236 @@
+.book-design-content-zone {
+	position: absolute;
+	bottom: 0;
+	top: 55px;
+	width: 100%;
+}
+.book-view-zone.mini-mode {
+	position: absolute;
+	pointer-events: none;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 35px;
+	bottom: 0;
+	min-height: 500px;
+	overflow: auto;
+	z-index: 3;
+}
+.book-view-zone.extend-mode {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 35px;
+	bottom: 320px;
+	min-height: 100px;
+	overflow: auto;
+}
+.book-safe-zone {
+	transform-origin: bottom left;
+	position: absolute;
+	color: white;
+	top: -25px;
+	left: 0px;
+	font-size: 13px;
+}
+/**/
+
+.book-safe-zone .rc-checkbox-input {
+	margin: 0;
+}
+.book-safe-zone .rc-checkbox-inner {
+	width: 10px !important;
+	height: 10px !important;
+	border: 1px solid #4f4f4f;
+	border-radius: 0;
+}
+.book-safe-zone .rc-checkbox:hover .rc-checkbox-inner {
+	border: 1px solid #4f4f4f;
+	border-radius: 0;
+}
+.book-safe-zone .rc-checkbox-input:focus+.rc-checkbox-inner {
+	border: 1px solid #4f4f4f;
+	border-radius: 0;
+}
+.book-safe-zone .rc-checkbox:hover .rc-checkbox-inner {
+	background: rgb(228, 229, 229);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e4e5e5', endColorstr='#b1b2b3', GradientType=0);
+/* IE6-9 */
+}
+.book-safe-zone .rc-checkbox-inner {
+	background: rgb(255, 255, 255);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 10%, rgba(245, 245, 245, 1) 40%, rgba(237, 237, 237, 1) 50%, rgba(225, 225, 225, 1) 90%, rgba(227, 227, 227, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 10%, rgba(245, 245, 245, 1) 40%, rgba(237, 237, 237, 1) 50%, rgba(225, 225, 225, 1) 90%, rgba(227, 227, 227, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 10%, rgba(245, 245, 245, 1) 40%, rgba(237, 237, 237, 1) 50%, rgba(225, 225, 225, 1) 90%, rgba(227, 227, 227, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3', GradientType=0);
+/* IE6-9 */
+}
+.book-safe-zone .rc-checkbox-inner:after {
+	top: -5px;
+	left: 4;
+}
+/**/
+
+.book-safe-zone span {
+	color: #b1b2b4;
+}
+.book-safe-zone-bold-style {
+	font-weight: 600;
+	color: #b1b2b4;
+	margin-left: 3px;
+}
+.book-safe-zone-what-is-that {
+	color: #29abe2;
+	cursor: pointer;
+	text-decoration: none;
+}
+.book-safe-zone-double-pages {
+	display: inline-flex;
+	position: relative;
+}
+.book-safe-zone-border {
+	display: inline-flex;
+	position: relative;
+}
+.show-book-safe-zone .strip {
+	pointer-events: none;
+	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(-45deg, rgba(255, 255, 255, .05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);
+	-webkit-background-size: 40px 40px;
+	background-size: 40px 40px;
+}
+.show-book-safe-zone .top-safe {
+	position: absolute;
+	top: 0;
+	height: 5%;
+	left: 0;
+	right: 0;
+	background-color: #e1c3d3;
+}
+.show-book-safe-zone .bot-safe {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5%;
+	background-color: #e1c3d3;
+}
+.show-book-safe-zone .left-safe {
+	position: absolute;
+	right: 0;
+	width: 5%;
+	top: 5%;
+	bottom: 5%;
+	background-color: #e1c3d3;
+}
+.show-book-safe-zone .right-safe {
+	position: absolute;
+	left: 0;
+	width: 5%;
+	top: 5%;
+	bottom: 5%;
+	background-color: #e1c3d3;
+}
+.book-cover-design {
+	position: absolute;
+	top: 0;
+	pointer-events: auto;
+	left: 0;
+	right: 0;
+	bottom: 118px;
+	display: flex;
+	margin: 25px 45px 25px;
+}
+
+.book-view-zone.extend-mode .book-cover-design { bottom: 0;}
+
+.design-cover-box {
+	position: fixed;
+	float: left;
+}
+.book-cover-design-zone {
+	left: 350px;
+	right: 0;
+	bottom: 0;
+	top: 5px;
+	position: absolute;
+	display: flex;
+	transform-origin: top left;
+}
+.cover-type-selector-wrapper {
+	width: 226px;
+	position: relative;
+	display: block;
+	border-radius: 8px;
+	padding: 12px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(233, 234, 234);
+	border-image: initial;
+	background: linear-gradient(rgb(255, 255, 255) 0px, rgb(230, 231, 232));
+}
+
+/*showHelpTooltip*/
+.show-help-tooltip-custom-design-page{
+	position: absolute;
+	z-index: 100;
+}
+
+.show-help-tooltip-custom-design-page-hidden {
+	display: none;
+}
+
+.show-help-tooltip-custom-design-page-inner {
+	color: #504646;
+	text-align: left;
+	background-color: #eaa608;
+	font-size: 15px;
+	padding: 10px 15px 20px 10px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 5px #1d1a1a;
+	margin-left: -100px;
+	margin-top: 12px;
+	max-width: 160px;
+}
+
+.show-help-tooltip-custom-design-page-arrow {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	bottom: 30px;
+	border-width: 12px;
+	border-top-color: #eaa608;
+	left: 100%;
+	transform: rotate(-90deg);
+}
+
+.show-help-tooltip-custom-design-page-text {
+	padding-top: 10px;
+	padding-right: 15px;
+}
+
+.book {
+	position: absolute;
+	display: flex;
+	pointer-events: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 118px;
+	justify-content: center;
+	align-items: center;
+}
+
+.book-view-zone.extend-mode .book { bottom: 0;}

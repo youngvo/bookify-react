@@ -1,0 +1,8 @@
+.login-fail-message {
+    background-color: blue;
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 120px;
+    z-index: 10;
+}

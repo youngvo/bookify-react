@@ -1,0 +1,439 @@
+.header-main {
+	height: 55px;
+	margin: 0 30px;
+	/* background: url(./../../../assets/gradient-head.jpg) no-repeat center center; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.55);
+	-moz-box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.55);
+	box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.55);
+	z-index: 12;
+	display: flex;
+	min-width: 900px;
+	position: relative;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.btn-header-gd {
+	background: #ffffff;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 24%, #dddddd 72%, #d9d9d9 80%, #d9d9d9 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 24%, #dddddd 72%, #d9d9d9 80%, #d9d9d9 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 24%, #dddddd 72%, #d9d9d9 80%, #d9d9d9 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+	/* IE6-9 */
+}
+
+.relative-pos {
+	position: relative;
+}
+
+.header-zone {
+	display: flex;
+}
+
+.header-zone * {
+	user-select: none;
+}
+
+.header-left {
+	padding-top: 12px;
+	width: 40%;
+	min-width: 380px;
+}
+
+.header-middle {
+	width: 20%;
+	min-width: 180px;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-right {
+	padding-top: 12px;
+	width: 40%;
+	float: right;
+	justify-content: flex-end;
+}
+
+.header-logo {
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	font-size: 34px;
+	margin-right: 12px;
+}
+
+.header-logo img {
+	height: 35px;
+	width: auto;
+}
+
+.header-menu-button {
+	margin-right: 12px;
+}
+
+.button-blurb.header-undo-button-design {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-right: white 1px solid;
+}
+
+.button-blurb.header-redo-button-design {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.header-save {
+	margin-left: 16px;
+	font-size: 13px;
+	color: #a0a0a0;
+}
+
+.header-save.status-action {
+	background: darkorange;
+	color: white;
+	border-radius: 5px;
+}
+
+.header-save p {
+	margin: 0px 0 0 0;
+	color: #29abe2;
+	cursor: pointer;
+}
+
+.header-save p:hover {
+	text-decoration: underline;
+}
+
+.header-slider-zoom {
+	margin: auto;
+	justify-content: center;
+	display: flex;
+}
+
+.header-right .header-button button {
+	border-radius: 4px;
+}
+
+.header-preview-button {
+	margin-right: 14px;
+}
+
+.header-get-photo-button {
+	margin-right: 12px;
+}
+
+.header-show-help-checkbox {
+	margin-right: 12px;
+	font-size: 12px;
+	margin-top: 3px;
+}
+
+.get-photo-button {
+	min-width: 80px;
+}
+
+
+/* checkbox*/
+
+.rc-checkbox {
+	white-space: nowrap;
+	cursor: pointer;
+	outline: none;
+	display: inline-block;
+	position: relative;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.rc-checkbox:hover .rc-checkbox-inner, .rc-checkbox-input:focus + .rc-checkbox-inner {
+	border-color: #3dbcf6;
+}
+
+.rc-checkbox-inner {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #d9d9d9;
+	background-color: #ffffff;
+	transition: border-color 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55), background-color 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.rc-checkbox-inner:after {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	left: 4px;
+	top: 1px;
+	display: table;
+	width: 5px;
+	height: 8px;
+	border: 2px solid rgba(0, 0, 0, 0);
+	border-top: 0;
+	border-left: 0;
+	content: ' ';
+	-webkit-animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-name: amCheckboxOut;
+	animation-name: amCheckboxOut;
+}
+
+.rc-checkbox-input {
+	position: absolute;
+	left: 0;
+	z-index: 9999;
+	cursor: pointer;
+	opacity: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+
+/* 选中状态 */
+
+.rc-checkbox-checked:hover .rc-checkbox-inner {
+	border-color: #3dbcf6;
+}
+
+.rc-checkbox-checked .rc-checkbox-inner {
+	border-color: #3dbcf6;
+	background-color: #3dbcf6;
+}
+
+.rc-checkbox-checked .rc-checkbox-inner:after {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	display: table;
+	width: 4px;
+	height: 11px;
+	border: 2px solid #4f4f4f;
+	border-top: 0;
+	border-left: 0;
+	content: ' ';
+	-webkit-animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-name: amCheckboxOut;
+	animation-name: amCheckboxOut;
+}
+
+.rc-checkbox-disabled.rc-checkbox-checked:hover .rc-checkbox-inner {
+	border-color: #d9d9d9;
+}
+
+.rc-checkbox-disabled.rc-checkbox-checked .rc-checkbox-inner {
+	background-color: #f3f3f3;
+	border-color: #d9d9d9;
+}
+
+.rc-checkbox-disabled.rc-checkbox-checked .rc-checkbox-inner:after {
+	-webkit-animation-name: none;
+	animation-name: none;
+	border-color: #cccccc;
+}
+
+.rc-checkbox-disabled:hover .rc-checkbox-inner {
+	border-color: #d9d9d9;
+}
+
+.rc-checkbox-disabled .rc-checkbox-inner {
+	border-color: #d9d9d9;
+	background-color: #f3f3f3;
+}
+
+.rc-checkbox-disabled .rc-checkbox-inner:after {
+	-webkit-animation-name: none;
+	animation-name: none;
+	border-color: #f3f3f3;
+}
+
+.rc-checkbox-disabled .rc-checkbox-inner-input {
+	cursor: default;
+}
+
+@-webkit-keyframes amCheckboxIn {
+	0% {
+		opacity: 0;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		-webkit-transform: scale(0, 0) rotate(45deg);
+		transform: scale(0, 0) rotate(45deg);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		-webkit-transform: scale(1, 1) rotate(45deg);
+		transform: scale(1, 1) rotate(45deg);
+	}
+}
+
+@keyframes amCheckboxIn {
+	0% {
+		opacity: 0;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		-webkit-transform: scale(0, 0) rotate(45deg);
+		transform: scale(0, 0) rotate(45deg);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		-webkit-transform: scale(1, 1) rotate(45deg);
+		transform: scale(1, 1) rotate(45deg);
+	}
+}
+
+@-webkit-keyframes amCheckboxOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes amCheckboxOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+/*custom*/
+
+.header-zone .label {
+	font-size: 12px;
+	color: #6d6a6a;
+	margin-right: 12px;
+	margin-top: 8px;
+	margin-left: 5px;
+	font-weight: 700;
+}
+
+.header-zone .header-show-help-checkbox {
+	margin-top: 8px;
+	margin-right: 0;
+}
+
+.header-zone .rc-checkbox-input {
+	margin: 0;
+}
+
+.header-zone .rc-checkbox-inner {
+	width: 12px !important;
+	height: 12px !important;
+	border: 1px solid #4f4f4f;
+	border-radius: 0;
+}
+
+.header-zone .rc-checkbox:hover .rc-checkbox-inner, .rc-checkbox-input:focus + .rc-checkbox-inner {
+	border: 1px solid #4f4f4f;
+	border-radius: 0;
+}
+
+.header-zone .rc-checkbox:hover .rc-checkbox-inner {
+	background: rgb(228, 229, 229);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e4e5e5', endColorstr='#b1b2b3', GradientType=0);
+	/* IE6-9 */
+}
+
+.header-zone .rc-checkbox-inner {
+	background: rgb(255, 255, 255);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 10%, rgba(245, 245, 245, 1) 40%, rgba(237, 237, 237, 1) 50%, rgba(225, 225, 225, 1) 90%, rgba(227, 227, 227, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 10%, rgba(245, 245, 245, 1) 40%, rgba(237, 237, 237, 1) 50%, rgba(225, 225, 225, 1) 90%, rgba(227, 227, 227, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(251, 251, 251, 1) 10%, rgba(245, 245, 245, 1) 40%, rgba(237, 237, 237, 1) 50%, rgba(225, 225, 225, 1) 90%, rgba(227, 227, 227, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3', GradientType=0);
+	/* IE6-9 */
+}
+
+.header-zone .rc-checkbox-inner:after {
+	top: -4px;
+}
+
+.header-undo-button.header-button.undo-disable {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.header-redo-button.header-button.redo-disable {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.rc-checkbox, .rc-checkbox-input {
+	cursor: default;
+}
+
+/*showHelpTooltip*/
+.show-help-tooltip-custom-book-design-header{
+	position: absolute;
+	z-index: 100;
+}
+
+.show-help-tooltip-custom-book-design-header-hidden {
+	display: none;
+}
+
+.show-help-tooltip-custom-book-design-header-inner {
+	color: #504646;
+	text-align: left;
+	background-color: #eaa608;
+	font-size: 15px;
+	padding: 10px 15px 15px 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px #1d1a1a;
+	margin-left: -112px;
+	max-width: 300px;
+}
+
+.show-help-tooltip-custom-book-design-header-arrow {
+	position: absolute;
+	border: 15px solid transparent;
+	top: -26px;
+	border-top-color: #eaa608;
+	left: 40%;
+	transform: rotate(180deg);
+}
+
+.show-help-tooltip-custom-book-design-header-text {
+	padding-top: 5px;
+	padding-right: 15px;
+}

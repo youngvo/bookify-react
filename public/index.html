@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Blurb Bookify: Square, 20 pages</title>
+  </head>
+  <body>
+  <script>
+      if (!String.prototype.startsWith) {
+          console.log('map startWith.');
+          String.prototype.startsWith = function(searchString, position){
+              return this.substr(position || 0, searchString.length) === searchString;
+          };
+      }
+  </script>
+  <noscript>
+    <div class="popup-wrapper">
+        <div class="popup-zone">
+            <div class="top-popup-zone">
+                <div class="popup-item">
+                  <div class="title-popup">
+                      Javascript Detection
+                  </div>
+                    <div class="content-popup"><p>Uh oh, it seems JavaScript is disabled. Please enable JavaScript by changing your browser options, then try again.</p></div>
+                </div>
+            </div>
+            <div class="bottom-popup-zone">
+                <hr class="divider-popup" />
+                <div class="group-button-item-popup">
+                    <a href="http://www.wikihow.com/Disable-JavaScript" target="_blank">Instruction to turn on Javascript</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>

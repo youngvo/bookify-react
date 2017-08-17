@@ -1,0 +1,16 @@
+.start-select-photo-content {
+    display: block;
+    padding: 20px 60px;
+}
+
+.start-select-photo-content-text {
+    display: block;
+    position: relative;
+    color: #5d5d5d;
+}
+
+.start-select-photo-content-button {
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+}

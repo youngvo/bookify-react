@@ -1,0 +1,66 @@
+.photo-layout {
+    position: absolute;
+    margin-top: 40px;
+    left: -50%;
+    width: 645px;
+    background-image: linear-gradient(to bottom, #FFFFFF 30%, #DDDDDD 60%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    padding: 0px 30px 20px 40px;
+}
+
+
+.photo-layout-close-button {
+    float: right;
+    margin: 10px -20px 0px 0px;
+}
+
+.layout-photo-component {
+    display: block;
+    position: relative;
+    box-shadow: 1px 1px 5px #251e1e;
+    padding: 10px 10px 10px 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-right: 10px;
+    text-align: center;
+    width: 170px;
+}
+
+.layout-photo-component img {
+    max-height: 100px;
+    max-width: 170px;
+}
+
+.layout-photo-component:hover {
+    border: 2px solid orange;
+}
+
+.photo-layout .triangle {
+    transform: translate(-160px, -23px);
+}
+
+.photo-layout .triangle:after {
+    background: #FFFFFF;
+}
+
+
+.layout-photo-component.is-checked {
+    border: 2px solid orange;
+}
+
+.photo-layout .slick-prev {
+    left: -25px;
+}
+
+.photo-layout .slick-next {
+    right: -8px;
+}
+
+.photo-layout .slick-prev:before, .photo-layout .slick-next:before {
+    color: grey;
+}
+

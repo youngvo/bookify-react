@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appconfig>
+
+	<cteventconfig>
+		<commit_sha>574fe3acec7bb122db0f6415a1f6f04f869651ac</commit_sha>
+		<build_number>50</build_number>
+		<app_instance></app_instance>
+		<branch>staging</branch>
+		<version>1.1.24</version>
+	</cteventconfig>
+
+	<failIfVersionFileNotFound>true</failIfVersionFileNotFound>
+	<logging>
+		<!-- Determines the log level to log at. The log levels are the same as firebug.
+			<code>
+				INFO = 3;
+				WARN = 2;
+				ERROR = 1;
+			</code>
+		 -->
+		<level>3</level>
+		<!-- Determines whether or not logging is enabled.  -->
+		<enabled>true</enabled>
+	</logging>
+    <enableDevTools>false</enableDevTools>
+	<services>
+		<apiVersion>v1_1</apiVersion>
+		<baseUrls>
+			<api>http://master-bookify-api.eng.blurb.com/api/{apiVersion}</api>
+		   	<apihttps>https://bookify-api.blurb.com/api/{apiVersion}</apihttps>
+			<apache>http://master-bookify-images.eng.blurb.com/api/{apiVersion}</apache>
+		   	<assets>http://local.blurb.com:3000/obt/assets</assets>
+			<auth>http://master-bookify-api.eng.blurb.com/api</auth>
+			<analytics>http://clientevents.blurb.com</analytics>
+			<localurl>http://{subdomain}.{domain}</localurl>
+		   	<s3url>http://blurbstaging1000.s3.amazonaws.com</s3url>
+			<customizeassets>http://www.blurb.com/bookify-react/assets/</customizeassets>
+	  </baseUrls>
+		<sessionUrl>[api]/sessions</sessionUrl>
+		<loginUrl>[api]/logins</loginUrl>
+		<imageSetUrl>[api]/photo_imports</imageSetUrl>
+		<imageUploadUrl>[apache]/photos</imageUploadUrl>
+		<httpProxyUrl>[apache]/proxy</httpProxyUrl>
+		<projectServiceUrl>[api]/projects</projectServiceUrl>
+		<testDriveUrl>[api]/testdrive</testDriveUrl>
+		<starterProjectServiceUrl>[assets]/starter_projects</starterProjectServiceUrl>
+		<bbfJobServiceUrl>[api]/bbf_jobs</bbfJobServiceUrl>
+		<bookRepublishServiceUrl>[api]/bbf_jobs/replace</bookRepublishServiceUrl>
+		<quickRenderServiceUrl>[api]/quick_renders</quickRenderServiceUrl>
+		<pageLayoutServiceUrl>[assets]/page_layouts</pageLayoutServiceUrl>
+		<coverLayoutServiceUrl>[assets]/cover_layouts</coverLayoutServiceUrl>
+		<themeServiceUrl>[assets]/themes</themeServiceUrl>
+		<autoflowLayoutsServiceUrl>[assets]/autoflow_layouts</autoflowLayoutsServiceUrl>
+		<pageBackgroundServiceUrl>[assets]/backgrounds</pageBackgroundServiceUrl>
+		<imageBorderServiceUrl>[assets]/image_borders</imageBorderServiceUrl>
+		<usernameValidationUrl>[api]/users/verify</usernameValidationUrl>
+		<userUrl>[api]/users</userUrl>
+		<fontUrl>[assets]/fonts</fontUrl>
+		<errorServiceUrl>[api]/errors</errorServiceUrl>
+		<pricingServiceUrl>[api]/book_prices</pricingServiceUrl>
+		<bookDimensionsServiceUrl>[api]/book_dimensions</bookDimensionsServiceUrl>
+		<pdfBookServiceUrl>[api]/pdf_books</pdfBookServiceUrl>
+		<analyticsServiceUrl>[analytics]/notice</analyticsServiceUrl>
+		<crossdomainXmlUrl>[localurl]/crossdomain.xml</crossdomainXmlUrl>
+		<s3CrossdomainXmlUrl>[s3url]/crossdomain.xml</s3CrossdomainXmlUrl>
+	</services>
+	<!-- Identify the build number and server environment for metrics tracking -->
+	<build_number>1234</build_number>
+	<job_name>Local-Bookify-Instance</job_name>
+
+	<!-- 8 bits = 1KB, 1024 bytes = 1KB * 1024 bytes = 1MB * 10 = 10MB -->
+	<maxImageUploadSize>10485760</maxImageUploadSize>
+	<maxImageImportSize>10485760</maxImageImportSize>
+	<altMaxImageUploadSize>26214400</altMaxImageUploadSize>
+	<altMaxImageImportSize>26214400</altMaxImageImportSize>
+	<largeUpload>true</largeUpload>
+
+	<defaultProjectStarterId>square_cleansimple</defaultProjectStarterId>
+	<!-- How often the app will try to auto-save the project in milliseconds, NOTE: this is not a production value -->
+	<autoSaveInterval>3000000</autoSaveInterval>
+	<!-- How often the app will prompt an anonymous user to login/register in milliseconds, NOTE: this is not a production value -->
+	<registrationTimeout>300000</registrationTimeout>
+	<!-- whether or not to warn the user that they should save their data when the app is closing or they are navigating to a new page -->
+	<warnOnExit>true</warnOnExit>
+	<!-- whether or not to show the photo import and my/automagic screens when opening a starter book, should be false for dev? -->
+	<showStartupBlankSlate>true</showStartupBlankSlate>
+	<levelsOfUndo>100</levelsOfUndo>
+	<newBookUrl>/bookify</newBookUrl>
+	<pricingUrl>/create/book/pricing</pricingUrl>
+	<myBlurbBooksUrl>/my/store</myBlurbBooksUrl>
+	<myInProgressBlurbBooksUrl>/my/store</myInProgressBlurbBooksUrl>
+	<booksmartUrl>/bookwright</booksmartUrl>
+
+	<!-- facebook app id -->
+	<facebookAppID>174018906009542</facebookAppID>
+	<facebookAppIDTest>149782938885657</facebookAppIDTest>
+
+	<!-- facebook app id -->
+	<instagramAppID>4ec46ef64ff5445aa7f668c2b5239009</instagramAppID>
+	<instagramAppIDTest>4d84c6d399ed43c88246f057e4221828</instagramAppIDTest>
+
+	<!-- 500px app id -->
+	<px500AppID>5d1acf640312d2707e2fb5ea02d887ad76256640</px500AppID>
+	<px500AppIDTest>2cd23b5977e3d0a3bfba47b8b57dbad58390e59a</px500AppIDTest>
+	
+	<!-- FLickr app id -->
+	<flickrAppID>e21532e618d85aa5f0ef5a9bb11c1835</flickrAppID>
+	<flickrSecretAppID>877fadef7fa4da1d</flickrSecretAppID>
+	
+	<flickrAppIDTest>b39b9123b870b1630e4b56d63ff905a1</flickrAppIDTest>
+	<flickrSecretAppIDTest>d2134e9f73948698</flickrSecretAppIDTest>
+
+	<!-- Smugmug app id -->
+	<smugmugAppID>RT47JGmxMKvx69Fsf4GmH22tzM5L6hbr</smugmugAppID>
+	<smugmugSecretAppID>ZNF9L2GjfSS8TGDddmHzGS9WGJh5PDppRCthvVWkcw2fQmjVxXVc6br34WLf9pPq</smugmugSecretAppID>
+	
+	<smugmugAppIDTest>zpzz3TwwdChPzvCLsrJFq5Jx5xQP8V2h</smugmugAppIDTest>
+	<smugmugSecretAppIDTest>rcm898mrrgtJqd8xC5Prr4cdjCd36RKMDBNBZXxrf5DWgQjj2NWTR7ZWSZwN22Hs</smugmugSecretAppIDTest>
+
+	<!-- instant book -->
+	<instantBookTrimId>square_instantbook</instantBookTrimId>
+	<instantBookImagesToAutoflow>59</instantBookImagesToAutoflow>
+	<instantBookImagesToFetch>240</instantBookImagesToFetch>
+
+	<!-- pdf book -->
+	<pdfBookDefaultTrimId>standard_portrait</pdfBookDefaultTrimId>
+	<pdfBookDefaultThemeId>elegant</pdfBookDefaultThemeId>
+	<pdfBookMaxImageLimit>25</pdfBookMaxImageLimit>
+
+	<termsAndConditionsUrl>/about/tandcs_plain</termsAndConditionsUrl>
+	<forgotPasswordUrl>/my/account/forgot_password</forgotPasswordUrl>
+
+	<minPagesInBook>20</minPagesInBook>
+	<maxPagesInBook>440</maxPagesInBook>
+	<maxImageLimit>1000</maxImageLimit>
+	<maxImageWarning>100</maxImageWarning>
+	<maxUndo>10</maxUndo>
+
+	<!-- How long the app will wait (in ms) to re-check publish status between status requests while waiting for a publish operation: -->
+	<publishPollInterval>5000</publishPollInterval>
+	<!-- How long the app will wait (in ms) before assuming publish failed after initiating a publish operation. 0 means infinite. -->
+	<publishTimeout>0</publishTimeout>
+	<!-- Whether or not we enable logging out from the application -->
+	<enableLogout>false</enableLogout>
+	<!-- The amount of time the app will wait (in seconds) for a response from the server before throwing a fault. -->
+	<serviceRequestTimeout>75</serviceRequestTimeout>
+	<!-- The number of times the app will try a service request before we give up, when the server is not responding. -->
+	<serviceRequestAttempts>3</serviceRequestAttempts>
+	<!-- The amount of time (in seconds) the app will wait before the next service request attempt, when the server is not responding. -->
+	<serviceRequestRetryDelay>30</serviceRequestRetryDelay>
+
+	<!-- api key for tracking metrics -->
+	<metricsAPIKey>4b599788a1b03cfcc3e9d6c0897d3961</metricsAPIKey>
+
+	<!-- available fonts: -->
+	<fontSizes>7,8,9,10,11,12,13,14,16,18,20,23,24,28,30,32,36,40,42,48,50,54,60,72,96,130</fontSizes>
+  	<fonts>
+  		<!-- the order listed here controls the order presented in the UI (should be sorted on the resolved name from the resource bundle) -->
+  		<font family="Abril Fat Face"	embedded="true"		bold="false"		italic="false"		bold_italic="false"		name_key="font.abrilfatface"/>
+  		<font family="Advent Pro"	embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.advent_pro"/>
+			<font family="Alegreya"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.alegreya"/>
+			<font family="Amaranth"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.amaranth"/>
+  		<font family="AmericanTypewriter Condensed"	embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.american_typewriter_condensed"/>
+			<font family="AmericanTypewriter Medium"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.american_typewriter"/>
+  		<font family="Arial"						embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.arial"/>
+			<font family="Arvo"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.arvo"/>
+  		<font family="Avenir LT 65 Medium"			embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.avenir"/>
+			<font family="Calvert MT"					embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.calvert"/>
+  		<font family="Caxton Book"					embedded="true"		bold="false"	italic="false"		bold_italic="false"		name_key="font.caxton"/>
+  		<font family="Century Schoolbook"			embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.century_schoolbook"/>
+  		<font family="Courier New"					embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.courier_new"/>
+			<font family="Crimson Text"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.crimson_text"/>
+			<font family="Crimson Text Roman"	embedded="true"		bold="false"		italic="false"		bold_italic="false"		name_key="font.crimson_text_roman"/>
+			<font family="DartangnonITC TT"				embedded="true"		bold="true"	italic="true"		bold_italic="true"		name_key="font.dartangnon"/>
+  		<font family="Didot"						embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.didot"/>
+			<font family="Dosis"	embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.dosis"/>
+			<font family="Droid Serif"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.droid_serif"/>
+			<font family="Economica"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.economica"/>
+			<font family="EnglischeSchTDemBol"			embedded="true"		bold="true"	italic="true"		bold_italic="true"		name_key="font.englische"/>
+			<font family="Exo"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.exo"/>
+			<font family="Font Awesome"	embedded="true"		bold="false"		italic="false"		bold_italic="false"		name_key="font.font_awesome"/>
+			<font family="Francois One"	embedded="true"		bold="false"		italic="false"		bold_italic="false"		name_key="font.francois_one"/>
+			<font family="Futura"						embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.futura"/>
+			<font family="Georgia"						embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.georgia"/>
+  		<font family="Helvetica Condensed"			embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.helvetica_condensed"/>
+  		<font family="Helvetica LT 55 Roman"		embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.helvetica_neue"/>
+			<font family="Jockey One"	embedded="true"		bold="false"		italic="false"		bold_italic="false"		name_key="font.jockey_one"/>
+			<font family="Josefin Sans"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.josefin_sans"/>
+			<font family="Josefin Slab"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.josefin_slab"/>
+			<font family="Jura"	embedded="true"		bold="false"		italic="false"		bold_italic="false"		name_key="font.jura"/>
+			<font family="Jura Demi"	embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.jura_demi"/>
+			<font family="Lato"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.lato"/>
+			<font family="Lora"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.lora"/>
+			<font family="Marvel"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.marvel"/>
+			<font family="Maven Pro"	embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.maven_pro"/>
+			<font family="Museo"						embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.museo"/>
+  		<font family="Museo Sans"					embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.museo_sans"/>
+			<font family="Neuton"	embedded="true"		bold="true"		italic="true"		bold_italic="false"		name_key="font.neuton"/>
+			<font family="OpenSans"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.open_sans"/>
+			<font family="Oxygen"	embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.oxygen"/>
+			<font family="Philosopher"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.philosopher"/>
+			<font family="Playfair Display SC"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.playfair_display_sc"/>
+			<font family="Proxima Nova"					embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.proxima_nova"/>
+  		<font family="Proxima Nova Condensed"		embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.proxima_nova_condensed"/>
+			<font family="PT Sans Web"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.pt_sans_web"/>
+			<font family="Quicksand"	embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.quicksand"/>
+			<font family="Raleway"	embedded="true"		bold="true"		italic="false"		bold_italic="false"		name_key="font.raleway"/>
+			<font family="Rambla"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.rambla"/>
+			<font family="Roboto"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.roboto"/>
+			<font family="SnellRoundhand Script"		embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.snell_roundhand"/>
+  		<font family="StempelGaramond LT Roman"		embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.stempel_garamond"/>
+  		<font family="Stone Humanist ITC Medium"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.humanist"/>
+			<font family="Times New Roman"				embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.titillium_web"/>
+			<font family="Titillium Web"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.abrilfatface_typewriter"/>
+  		<font family="Trebuchet MS"					embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.trebuchet_ms"/>
+			<font family="Ubuntu"	embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.ubuntu"/>
+			<font family="Verdana"						embedded="true"		bold="true"		italic="true"		bold_italic="true"		name_key="font.verdana"/>
+			<font family="Vollkorn"	embedded="true"		bold="false"		italic="false"		bold_italic="false"		name_key="font.vollkorn"/>
+  		<font family="ZemkeHandITC TT"				embedded="true"		bold="false"	italic="false"		bold_italic="false"		name_key="font.zemke_handwritten"/>
+  	</fonts>
+
+	<!-- A list of all sources to disable.  If book should be disabled for everything
+	     except books started as an instant book, set the "disable_instant_book" flag
+	     to false. -->
+
+	<disabledImportSources>
+		<importSource disable_instant_book="false">zenfolio</importSource>
+		<importSource disable_instant_book="true">picasa</importSource>
+    </disabledImportSources>
+
+	<!-- list of domains that should check the email subscribe checkbox by default in the user registration form -->
+	<domainsToCheckSubscribe>www.blurb.com,la.blurb.com,au.blurb.com,www.blurb.co.uk,www.blurb.fr,www.blurb.es,www.blurb.ca,fr.blurb.ca,ct.blurb.com,ct-la.blurb.com,ct-au.blurb.com,ct.blurb.co.uk,ct.blurb.fr,ct.blurb.es,ct.blurb.ca,ct-fr.blurb.ca,wt6.blurb.com,wt6-la.blurb.com,wt6-au.blurb.com,wt6.blurb.co.uk,wt6.blurb.fr,wt6.blurb.es,wt6.blurb.ca,wt6-fr.blurb.ca,ws.blurb.com,ws-la.blurb.com,ws-au.blurb.com,ws.blurb.co.uk,ws.blurb.fr,ws.blurb.es,ws.blurb.ca,ws-fr.blurb.ca</domainsToCheckSubscribe>
+
+	<icons>
+		<icon id="ic_edit" name="" />
+		<icon id="ic_arrow_right" name="" />
+	</icons>
+
+	<images>
+		<image id="img_booklogo" name="booklogo.png" />
+		<image id="img_booklogo_white" name="booklogo_white.png" />
+		<image id="img_header_background" name="img_header_background.jpg" />
+		<image id="img_footer_background" name="img_footer_background.png" />
+		<image id="img_applogo" name="img_blurbLogo.png" />
+		<image id="img_narrow" name="img_narrow.png" />
+		<image id="img_arrow" name="img_arrow.png" />
+		<image id="img_main_background" name="img_main_background.jpg" />
+		<image id="img_background_white" name="img_background_white.jpg" />
+		<image id="img_500px" name="img_500px.png" />
+		<image id="img_facebook" name="img_facebook.png" />
+		<image id="img_flickr" name="img_flickr.png" />
+		<image id="img_instagram" name="img_instagram.png" />
+		<image id="img_laptop" name="img_laptop.png" />
+		<image id="img_1892130684" name="img_1892130684.png" />
+		<image id="img_1628303658" name="img_1628303658.png" />
+		<image id="img_smug" name="img_smug.png" />
+		<image id="img_arrow_next" name="img_arrow_next.png" />
+		<image id="img_fill" name="img_fill.png" />
+		<image id="img_fillHover" name="img_fillHover.png" />
+		<image id="img_fit" name="img_fit.png" />
+		<image id="img_fitHover" name="img_fitHover.png" />
+		<image id="img_rotate" name="img_rotate.png" />
+		<image id="img_rotateHover" name="img_rotateHover.png" />
+		<image id="img_info" name="img_info.png" />
+		<image id="img_info_icon" name="img_info_icon.png" />
+		<image id="img_infoHover" name="img_infoHover.png" />
+		<image id="img_remove" name="img_remove.png" />
+		<image id="img_removeHover" name="img_removeHover.png" />
+		<image id="img_colorPicker" name="img_colorPicker.png" />
+		<image id="img_pickerColor" name="img_pickerColor.png" />
+		<image id="img_resetFont" name="img_resetFont.png" />
+		<image id="img_checked" name="img_checked.png" />
+		<image id="img_icon-text-overflow" name="img_icon-text-overflow.png" />
+		<image id="img_importPhotoIcon" name="img_importPhotoIcon.png" />
+		<image id="img_image_not_available" name="img_image_not_available.png" />
+		<image id="img_icon-info-32x32" name="img_icon-info-32x32.png" />
+		<image id="img_red_x" name="img_red_x.png" />
+		<image id="img_eyedropper" name="img_eyedropper.png" />
+		<image id="img_SwapPhotosDragCursor" name="img_SwapPhotosDragCursor.png" />
+		<image id="img_LinkPhotosDragCursor" name="img_LinkPhotosDragCursor.png" />
+		<image id="img_AddPhotosDragCursor" name="img_AddPhotosDragCursor.png" />
+		<image id="img_spine" name="img_spine.png" />
+		<image id="img_softCover" name="img_softCover.png" />
+		<image id="img_frontFlapDisabled" name="img_frontFlapDisabled.png" />
+		<image id="img_imageWrap" name="img_imageWrap.png" />
+		<image id="img_frontFlap" name="img_frontFlap.png" />
+		<image id="img_frontCover" name="img_frontCover.png" />
+		<image id="img_dustJacket" name="img_dustJacket.png" />
+		<image id="img_backFlap" name="img_backFlap.png" />
+		<image id="img_backFlapDisabled" name="img_backFlapDisabled.png" />
+		<image id="img_backCover" name="img_backCover.png" />
+		<image id="img_color_palette_landscape" name="img_color_palette_landscape.png" />
+		<image id="img_color_palette" name="img_color_palette.png" />
+		<image id="img_bookCoverIcon" name="img_bookCoverIcon.png" />
+		<image id="img_viewFinderTheme" name="img_viewfinderTheme.png" />
+		<image id="img_darkRoomTheme" name="img_darkroomTheme.png" />
+		<image id="img_girlieTheme" name="img_girlieTheme.png" />
+		<image id="img_elegantTheme" name="img_elegantTheme.png" />
+		<image id="light-yellow-bar" name="light-yellow-bar.svg" />
+
+		<image id="img_page_layout_blurb.viewfinder" name="img_page_layout_01.png" />
+		<image id="img_page_layout_blurb.elegant" name="img_page_layout_02.png" />
+		<image id="img_page_layout_blurb.girlie" name="img_page_layout_03.png" />
+		<image id="img_page_layout_blurb.darkroom" name="img_page_layout_04.png" />
+
+<!--Image borders, the name will map data, pleased don't change name-->
+		<image id="frame_deco_01" name="frame_deco_01.png" />
+		<image id="frame_deco_02" name="frame_deco_02.png" />
+		<image id="frame_deco_03" name="frame_deco_03.png" />
+		<image id="frame_deco_04" name="frame_deco_04.png" />
+		<image id="frame_deco_05" name="frame_deco_05.png" />
+		<image id="frame_deco_06" name="frame_deco_06.png" />
+		<image id="frame_deco_07" name="frame_deco_07.png" />
+		<image id="frame_deco_08" name="frame_deco_08.png" />
+		<image id="frame_deco_09" name="frame_deco_09.png" />
+		<image id="frame_deco_10" name="frame_deco_10.png" />
+		<image id="frame_deco_11" name="frame_deco_11.png" />
+		<image id="frame_deco_12" name="frame_deco_12.png" />
+		<image id="frame_deco_13" name="frame_deco_13.png" />
+		<image id="frame_deco_14" name="frame_deco_14.png" />
+		<image id="frame_deco_15" name="frame_deco_15.png" />
+		<image id="frame_deco_16" name="frame_deco_16.png" />
+		<image id="frame_deco_17" name="frame_deco_17.png" />
+		<image id="frame_deco_18" name="frame_deco_18.png" />
+
+		<image id="frame_ill_01" name="frame_ill_01.png" />
+		<image id="frame_ill_02" name="frame_ill_02.png" />
+		<image id="frame_ill_03" name="frame_ill_03.png" />
+		<image id="frame_ill_04" name="frame_ill_04.png" />
+		<image id="frame_ill_05" name="frame_ill_05.png" />
+		<image id="frame_ill_06" name="frame_ill_06.png" />
+		<image id="frame_ill_07" name="frame_ill_07.png" />
+
+		<image id="frame_line_01" name="frame_line_01.png" />
+		<image id="frame_line_02" name="frame_line_02.png" />
+		<image id="frame_line_03" name="frame_line_03.png" />
+		<image id="frame_line_04" name="frame_line_04.png" />
+		<image id="frame_line_05" name="frame_line_05.png" />
+		<image id="frame_line_06" name="frame_line_06.png" />
+		<image id="frame_line_07" name="frame_line_07.png" />
+		<image id="frame_line_08" name="frame_line_08.png" />
+		<image id="frame_line_09" name="frame_line_09.png" />
+		<image id="frame_line_10" name="frame_line_10.png" />
+		<image id="frame_line_11" name="frame_line_11.png" />
+		<image id="frame_line_12" name="frame_line_12.png" />
+		<image id="frame_line_13" name="frame_line_13.png" />
+		<image id="frame_line_14" name="frame_line_14.png" />
+		<image id="frame_line_15" name="frame_line_15.png" />
+		<image id="frame_line_18" name="frame_line_18.png" />
+		<image id="frame_line_20" name="frame_line_20.png" />
+		<image id="frame_line_22" name="frame_line_22.png" />
+
+		<image id="girlie_background3" name="girlie_background3.svg" />
+		<image id="girlie_background4" name="girlie_background4.svg" />
+
+	</images>
+
+	<leftMenuItems>
+		<option id="mi_changedesign" text="label.style_book" url="#" type="text" clickable="1" onClickAction="onChangeDesignClick" newTab="0"/>
+		<option id="mi_autocreate" text="label.auto_create" url="#" type="text" clickable="1" onClickAction="onAutoCreateClick" newTab="0"/>
+		<option id="mi_divider_0" text="" url="#" type="divider" clickable="0" newTab="0"/>
+		<option id="mi_previewbook" text="label.preview_book" url="#"  type="text" clickable="1" onClickAction="onPreviewBookClick" newTab="0"/>
+		<option id="mi_finish" text="label.publish" url="#"  type="text" clickable="1" onClickAction="onFinishClick" newTab="0"/>
+	</leftMenuItems>
+
+	<rightMenuItems>
+		<option id="mi_faq" text="label.faq" url="urls.faq" type="text" clickable="1"  onClickAction="onClose" newTab="1"/>
+		<option id="mi_mybooks" text="label.my_blurb_books" url="urls.mybooks" type="text" clickable="1"  onClickAction="onClose" newTab="1"/>
+		<option id="mi_pricing" text="label.pricing" url="urls.pricing" type="text" clickable="1" onClickAction="onClose" newTab="1"/>
+		<option id="mi_suggestionandfeedback" text="actions_menu.link.feedback" url="urls.feedback" type="text" clickable="1" onClickAction="onClose" newTab="1"/>
+		<option id="mi_customersupport" text="actions_menu.link.customer_support" url="urls.customerSupport" type="text" clickable="1" onClickAction="onClose" newTab="1"/>
+	</rightMenuItems>
+
+	<photoImportOptions>
+		<option id="opt_local" enabled="1"/>
+		<option id="opt_flickr" enabled="1"/>
+		<option id="opt_smugmug" enabled="1" />
+		<option id="opt_500px" enabled="1" />
+		<option id="opt_instagram" enabled="1" />
+		<option id="opt_facebook" enabled="1" />
+	</photoImportOptions>
+
+	<strings>
+		<string id="appname" text="Blurb Bookify" />
+		<string id="tm" text="TM" />
+	</strings>
+
+	<supportedBrowsers>
+		<browser id="firefox" version="30" />
+		<browser id="safari" version="5" />
+		<browser id="mise" version="11" />
+		<browser id="chrome" version="35" />
+		<browser id="opera" version="16" />
+		<browser id="msedge" version="11" />
+	</supportedBrowsers>
+
+</appconfig>

@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<PageLayouts trim_size="8x10">
+	<PageLayout id="blurb.8x10.logo_page" width="567" height="720">
+		<LockedImageContainer id="logo" x="236" y="605" width="126" height="81" source="assets/images/booklogo.png" />
+	</PageLayout>
+	<PageLayout id="blurb.8x10.dark_logo_page" width="567" height="720">
+		<LockedImageContainer id="logo" x="236" y="605" width="126" height="81" source="assets/images/booklogo_white.png" />
+	</PageLayout>
+	<PageLayout id="blurb.u107bb" width="567" height="720" type="blank">
+	</PageLayout>
+	<PageLayout id="blurb.u107bc" width="567" height="720" type="chapter">
+		<TextContainer id="u10850" x="45" y="370" width="450" height="270" binding="" two_way="false" x_translate="27" style_id="sechdr_l_25-30_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u6771" width="567" height="720" type="copyright">
+		<ImageContainer id="u8ebe" x="340" y="359" width="126" height="82" binding="" two_way="false" x_translate="30" border="false" />
+		<ImageContainer id="u6847" x="340" y="565" width="126" height="81" binding="" two_way="false" x_translate="30" border="false" />
+		<TextContainer id="u684c" x="45" y="362" width="272" height="210" binding="" two_way="false" x_translate="28" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u6830" x="45" y="581" width="272" height="59" binding="" two_way="false" x_translate="28" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.ub835" width="567" height="720" type="copyright">
+		<ImageContainer id="ub863" x="340" y="565" width="126" height="81" binding="" two_way="false" x_translate="30" border="false" />
+		<TextContainer id="ub866" x="45" y="362" width="272" height="210" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="ub84d" x="45" y="581" width="272" height="59" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u6e09" width="567" height="720" type="text_only">
+		<TextContainer id="u6e79" x="45" y="90" width="450" height="567" binding="" two_way="false" x_translate="27" style_id="bodsub_l_12-15_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u12f4c" width="567" height="720" type="">
+		<ImageContainer id="u12f7a" x="0" y="0" width="567" height="350" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u12f64" x="45" y="360" width="451" height="296" binding="" two_way="false" x_translate="26" style_id="bodsub_l_12-15_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u1312d" width="567" height="720" type="">
+		<ImageContainer id="u1315b" x="0" y="0" width="567" height="350" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u13253" x="45" y="360" width="216" height="297" binding="" two_way="false" x_translate="27" style_id="bodsub_l_12-15_s4" border="false" />
+		<TextContainer id="u1326a" x="279" y="360" width="216" height="297" binding="" two_way="false" x_translate="27" style_id="bodsub_l_12-15_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u9035" width="567" height="720" type="text_only">
+		<TextContainer id="u9063" x="45" y="91" width="450" height="567" binding="" two_way="false" x_translate="27" style_id="sechdr_l_25-30_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u8e06" width="567" height="720" type="">
+		<ImageContainer id="u8e93" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u8e34" x="45" y="91" width="450" height="567" binding="" two_way="false" x_translate="27" style_id="sechdr_l_25-30_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u137c1" width="567" height="720" type="">
+		<ImageContainer id="u137c3" x="198" y="0" width="369" height="720" binding="" two_way="false" x_translate="-198" border="false" />
+		<TextContainer id="u137c4" x="45" y="90" width="143" height="567" binding="" two_way="false" x_translate="334" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+	<PageLayout id="blurb.ue813" width="567" height="720" type="">
+		<ImageContainer id="ue9eb" x="0" y="244" width="261" height="234" binding="" two_way="false" x_translate="306" border="false" />
+		<TextContainer id="ue859" x="271" y="243" width="225" height="237" binding="" two_way="false" x_translate="-200" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+	<PageLayout id="blurb.u7775" width="567" height="720" type="">
+		<ImageContainer id="u7870" x="45" y="360" width="450" height="261" binding="" two_way="false" x_translate="27" />
+		<TextContainer id="u7844" x="45" y="90" width="450" height="261" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u9271" x="45" y="630" width="450" height="33" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u79f0" width="567" height="720" type="">
+		<ImageContainer id="u7abe" x="45" y="360" width="220" height="261" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u7ad3" x="275" y="360" width="220" height="261" binding="" two_way="false" x_translate="26" />
+		<TextContainer id="u92e5" x="45" y="90" width="450" height="252" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u92fb" x="46" y="630" width="219" height="30" binding="" two_way="false" x_translate="25" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u931a" x="276" y="630" width="220" height="30" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u10d85" width="567" height="720" type="">
+		<ImageContainer id="u10d87" x="45" y="90" width="220" height="270" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u10d88" x="275" y="90" width="220" height="270" binding="" two_way="false" x_translate="26" />
+		<TextContainer id="u10d89" x="46" y="369" width="220" height="25" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u10d9f" x="275" y="369" width="220" height="25" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u10de3" x="45" y="414" width="220" height="252" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u10e16" x="275" y="414" width="220" height="252" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u12e41" width="567" height="720" type="">
+		<ImageContainer id="u12f26" x="45" y="90" width="220" height="141" binding="" two_way="false" x_translate="28" />
+		<ImageContainer id="u12f27" x="274" y="90" width="220" height="141" binding="" two_way="false" x_translate="27" />
+		<TextContainer id="u10d89" x="45" y="240" width="220" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u10d9f" x="274" y="240" width="220" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u12ede" x="45" y="279" width="450" height="378" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u1330a" width="567" height="720" type="">
+		<ImageContainer id="u133b6" x="45" y="90" width="145" height="141" binding="" two_way="false" x_translate="26" />
+		<ImageContainer id="u133b7" x="199" y="90" width="144" height="141" binding="" two_way="false" x_translate="25" />
+		<ImageContainer id="u133b8" x="352" y="90" width="144" height="141" binding="" two_way="false" x_translate="25" />
+		<TextContainer id="u133cf" x="45" y="239" width="144" height="25" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u133e5" x="198" y="239" width="144" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u133e9" x="352" y="239" width="144" height="25" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u133b9" x="45" y="279" width="450" height="378" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u9800" width="567" height="720" type="">
+		<ImageContainer id="u98ab" x="45" y="90" width="135" height="135" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u98af" x="45" y="234" width="135" height="135" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u985b" x="45" y="378" width="135" height="135" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u985f" x="45" y="522" width="135" height="135" binding="" two_way="false" x_translate="27" />
+		<TextContainer id="u98f9" x="198" y="90" width="296" height="135" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u9a0b" x="198" y="234" width="296" height="135" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u9a25" x="199" y="378" width="296" height="135" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u9a3e" x="198" y="522" width="296" height="135" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u8556" width="567" height="720" type="">
+		<ImageContainer id="u86c6" x="0" y="0" width="567" height="530" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u86ca" x="45" y="545" width="451" height="18" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u9f2c" x="45" y="567" width="451" height="90" binding="" two_way="false" x_translate="26" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.ubcb3" width="567" height="720" type="">
+		<ImageContainer id="ubccc" x="45" y="91" width="449" height="467" binding="" two_way="false" x_translate="28" />
+		<TextContainer id="ubd79" x="46" y="72" width="449" height="18" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ubd2d" x="45" y="567" width="450" height="90" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.ua8e1" width="567" height="720" type="">
+		<ImageContainer id="ua8e3" x="0" y="90" width="567" height="522" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="uc415" x="46" y="72" width="449" height="18" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua8fd" x="45" y="621" width="450" height="41" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.ua957" width="567" height="720" type="">
+		<ImageContainer id="ua95a" x="0" y="189" width="567" height="342" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="uc447" x="46" y="73" width="449" height="108" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua973" x="45" y="540" width="450" height="122" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u8558" width="567" height="720" type="">
+		<ImageContainer id="u8714" x="45" y="90" width="450" height="225" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u8730" x="45" y="387" width="450" height="225" binding="" two_way="false" x_translate="27" />
+		<TextContainer id="ube31" x="45" y="73" width="450" height="18" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u86fe" x="45" y="325" width="450" height="32" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="uce4b" x="45" y="370" width="449" height="18" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u9e83" x="45" y="622" width="450" height="36" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u112fc" width="567" height="720" type="">
+		<ImageContainer id="u113c0" x="0" y="91" width="279" height="531" binding="" two_way="false" x_translate="288" border="false" />
+		<ImageContainer id="u113ed" x="279" y="91" width="288" height="531" binding="" two_way="false" x_translate="-279" border="false" />
+		<TextContainer id="u113c1" x="45" y="72" width="450" height="18" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u11404" x="45" y="630" width="450" height="36" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u855a" width="567" height="720" type="">
+		<ImageContainer id="u11273" x="45" y="90" width="449" height="216" binding="" two_way="false" x_translate="28" />
+		<ImageContainer id="u877a" x="45" y="371" width="221" height="144" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u8792" x="274" y="371" width="221" height="144" binding="" two_way="false" x_translate="27" />
+		<TextContainer id="ube90" x="45" y="72" width="448" height="18" binding="" two_way="false" x_translate="29" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u877b" x="45" y="315" width="449" height="25" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="uce9b" x="45" y="353" width="220" height="18" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="uceb1" x="274" y="353" width="220" height="18" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u8764" x="45" y="525" width="220" height="132" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u8795" x="274" y="525" width="220" height="132" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u10ecb" width="567" height="720" type="">
+		<ImageContainer id="u10ecd" x="45" y="72" width="220" height="243" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u10ece" x="275" y="72" width="220" height="243" binding="" two_way="false" x_translate="26" />
+		<ImageContainer id="u10f75" x="45" y="369" width="220" height="243" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u10f76" x="275" y="369" width="220" height="243" binding="" two_way="false" x_translate="26" />
+		<TextContainer id="u10ecf" x="45" y="323" width="221" height="32" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u10ee5" x="275" y="323" width="220" height="32" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u10f77" x="45" y="621" width="221" height="40" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u10f8d" x="275" y="621" width="220" height="40" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u855e" width="567" height="720" type="">
+		<ImageContainer id="u88ca" x="45" y="90" width="220" height="144" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u88cb" x="275" y="90" width="220" height="144" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u899a" x="45" y="289" width="220" height="144" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u899b" x="275" y="289" width="220" height="144" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua30f" x="45" y="492" width="220" height="144" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua310" x="275" y="492" width="220" height="144" binding="" two_way="false" x_translate="27" />
+		<TextContainer id="ucfbe" x="45" y="73" width="220" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ucfd4" x="275" y="73" width="220" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua247" x="45" y="242" width="220" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="uc0ab" x="275" y="242" width="220" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud017" x="45" y="272" width="220" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud02d" x="275" y="272" width="220" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="uc0f2" x="45" y="442" width="220" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="uc108" x="275" y="442" width="220" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud06f" x="45" y="476" width="220" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud085" x="275" y="476" width="220" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="uc1bd" x="45" y="647" width="220" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="uc1d3" x="275" y="647" width="220" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.ua49f" width="567" height="720" type="">
+		<ImageContainer id="ua4f2" x="45" y="90" width="144" height="141" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua4f6" x="198" y="90" width="144" height="141" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua4fa" x="351" y="90" width="144" height="141" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua594" x="45" y="292" width="144" height="142" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua598" x="198" y="292" width="144" height="142" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua59c" x="351" y="292" width="144" height="142" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua626" x="45" y="493" width="144" height="141" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua62a" x="198" y="493" width="144" height="141" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ua62e" x="351" y="493" width="144" height="141" binding="" two_way="false" x_translate="27" />
+		<TextContainer id="uc21f" x="45" y="73" width="144" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud0a2" x="197" y="73" width="145" height="17" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud0c3" x="350" y="73" width="145" height="17" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua4fe" x="46" y="240" width="144" height="25" binding="" two_way="false" x_translate="25" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua514" x="198" y="240" width="145" height="25" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua52a" x="350" y="240" width="146" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud0e1" x="45" y="275" width="144" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud0f7" x="197" y="275" width="145" height="17" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud10d" x="350" y="275" width="145" height="17" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua5a0" x="46" y="441" width="144" height="25" binding="" two_way="false" x_translate="25" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua5b6" x="198" y="441" width="145" height="25" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua5cc" x="350" y="441" width="146" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud123" x="45" y="476" width="144" height="17" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud139" x="197" y="476" width="145" height="17" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ud14f" x="350" y="476" width="145" height="17" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua632" x="46" y="643" width="144" height="25" binding="" two_way="false" x_translate="25" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua648" x="198" y="643" width="145" height="25" binding="" two_way="false" x_translate="26" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ua65e" x="350" y="643" width="146" height="25" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u8b0c" width="567" height="720" type="">
+		<ImageContainer id="u8b2f" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u11290" width="567" height="720" type="">
+		<ImageContainer id="u112eb" x="0" y="0" width="423" height="720" binding="" two_way="false" x_translate="144" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uca37" width="567" height="720" type="">
+		<ImageContainer id="ucab0" x="45" y="72" width="450" height="576" binding="" two_way="false" x_translate="27" />
+	</PageLayout>
+	<PageLayout id="blurb.u8b0e" width="567" height="720" type="">
+		<ImageContainer id="u8b79" x="0" y="0" width="567" height="360" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u8b7b" x="0" y="360" width="567" height="360" binding="" two_way="false" x_translate="0" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uddbf" width="567" height="720" type="">
+		<ImageContainer id="uddc1" x="45" y="90" width="450" height="171" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="uddc2" x="45" y="270" width="450" height="171" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="uddc3" x="45" y="450" width="450" height="171" binding="" two_way="false" x_translate="27" />
+	</PageLayout>
+	<PageLayout id="blurb.u8b10" width="567" height="720" type="">
+		<ImageContainer id="u8b86" x="0" y="0" width="284" height="360" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u8b8b" x="284" y="0" width="283" height="360" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u8b87" x="0" y="360" width="284" height="360" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u8b8c" x="284" y="360" width="283" height="360" binding="" two_way="false" x_translate="0" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uaad2" width="567" height="720" type="">
+		<ImageContainer id="uab00" x="46" y="90" width="449" height="260" binding="" two_way="false" x_translate="26" />
+		<TextContainer id="uaaea" x="46" y="369" width="449" height="288" binding="" two_way="false" x_translate="26" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u1450c" width="567" height="720" type="">
+		<ImageContainer id="u14524" x="44" y="90" width="145" height="108" binding="" two_way="false" x_translate="28" />
+		<ImageContainer id="u14525" x="197" y="90" width="145" height="108" binding="" two_way="false" x_translate="28" />
+		<ImageContainer id="u14526" x="351" y="90" width="144" height="108" binding="" two_way="false" x_translate="27" />
+		<TextContainer id="u14540" x="45" y="73" width="450" height="18" binding="" two_way="false" x_translate="27" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="u1450e" x="44" y="216" width="450" height="441" binding="" two_way="false" x_translate="29" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.ub1d6" width="567" height="720" type="">
+		<ImageContainer id="ub246" x="45" y="90" width="220" height="108" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ub248" x="274" y="90" width="221" height="108" binding="" two_way="false" x_translate="28" />
+		<ImageContainer id="ub24a" x="45" y="207" width="220" height="108" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ub24c" x="274" y="207" width="221" height="108" binding="" two_way="false" x_translate="28" />
+		<ImageContainer id="ub24f" x="45" y="324" width="220" height="108" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="ub251" x="274" y="324" width="221" height="108" binding="" two_way="false" x_translate="28" />
+		<TextContainer id="ub520" x="45" y="72" width="449" height="18" binding="" two_way="false" x_translate="28" style_id="cap_l_9-12_s4" border="false" />
+		<TextContainer id="ub21a" x="45" y="450" width="450" height="207" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u4557" width="567" height="720" type="two_column">
+		<TextContainer id="u14768" x="45" y="90" width="216" height="567" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u1477e" x="279" y="90" width="216" height="567" binding="" two_way="false" x_translate="27" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uc606" width="567" height="720" type="logo" clu_layout="true">
+		<ImageContainer id="uc63a" x="236" y="605" width="126" height="81" binding="" two_way="false" x_translate="0" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u156aa" width="567" height="720" type="">
+		<ImageContainer id="u156c3" x="47" y="92" width="224" height="188" binding="" two_way="false" x_translate="26" />
+		<ImageContainer id="u156ca" x="271" y="92" width="224" height="188" binding="" two_way="false" x_translate="26" />
+		<ImageContainer id="u156c4" x="47" y="280" width="224" height="189" binding="" two_way="false" x_translate="26" />
+		<ImageContainer id="u156cb" x="271" y="280" width="224" height="189" binding="" two_way="false" x_translate="26" />
+		<ImageContainer id="u156c5" x="47" y="468" width="224" height="189" binding="" two_way="false" x_translate="26" />
+		<ImageContainer id="u156cc" x="271" y="468" width="224" height="189" binding="" two_way="false" x_translate="26" />
+	</PageLayout>
+	<PageLayout id="blurb.u156ac" width="567" height="720" type="">
+		<ImageContainer id="u156d4" x="46" y="172" width="224" height="188" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u156d6" x="270" y="172" width="224" height="188" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u156d5" x="46" y="360" width="224" height="189" binding="" two_way="false" x_translate="27" />
+		<ImageContainer id="u156d7" x="270" y="360" width="224" height="189" binding="" two_way="false" x_translate="27" />
+	</PageLayout>
+	<PageLayout id="blurb.u156b0" width="567" height="720" type="">
+		<ImageContainer id="u156f2" x="46" y="266" width="224" height="188" binding="" two_way="false" x_translate="26" />
+		<ImageContainer id="u156f3" x="270" y="266" width="224" height="188" binding="" two_way="false" x_translate="26" />
+	</PageLayout>
+	<PageLayout id="blurb.uf12d" width="567" height="720" type="title">
+		<TextContainer id="uf52d" x="45" y="90" width="441" height="270" binding="$BookTitle" two_way="false" x_translate="36" style_id="cvr_t_l_34-40_s4" border="false" />
+		<TextContainer id="uf543" x="45" y="369" width="441" height="162" binding="$Subtitle" two_way="false" x_translate="36" style_id="bodhdr_l_16-20_s4" border="false" />
+		<TextContainer id="uf559" x="45" y="540" width="441" height="117" binding="$AuthorName" two_way="false" x_translate="36" style_id="bodsub_l_12-15_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uf133" width="567" height="720" type="">
+		<ImageContainer id="uf996" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="uf8f4" x="45" y="72" width="216" height="585" binding="" two_way="false" x_translate="261" style_id="cvr_t_l_34-40_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uf13b" width="567" height="720" type="">
+		<ImageContainer id="uff85" x="46" y="370" width="214" height="287" binding="" two_way="false" x_translate="36" />
+		<ImageContainer id="uff87" x="272" y="370" width="214" height="287" binding="" two_way="false" x_translate="36" />
+		<TextContainer id="uff6f" x="45" y="89" width="441" height="270" binding="" two_way="false" x_translate="36" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uf13d" width="567" height="720" type="">
+		<ImageContainer id="uffc0" x="96" y="90" width="340" height="511" binding="" two_way="false" x_translate="36" />
+		<TextContainer id="uffd4" x="96" y="612" width="340" height="45" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uf13f" width="567" height="720" type="">
+		<ImageContainer id="ufff6" x="45" y="210" width="441" height="294" binding="" two_way="false" x_translate="36" />
+		<TextContainer id="u10009" x="46" y="518" width="441" height="139" binding="" two_way="false" x_translate="36" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uf141" width="567" height="720" type="">
+		<ImageContainer id="u10070" x="45" y="73" width="441" height="294" binding="" two_way="false" x_translate="36" />
+		<ImageContainer id="u10071" x="45" y="375" width="441" height="294" binding="" two_way="false" x_translate="36" />
+	</PageLayout>
+	<PageLayout id="blurb.uf143" width="567" height="720" type="">
+		<ImageContainer id="u10206" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u1020e" x="45" y="90" width="216" height="567" binding="" two_way="false" x_translate="261" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+	<PageLayout id="blurb.uf145" width="567" height="720" type="">
+		<ImageContainer id="u10521" x="0" y="0" width="261" height="720" binding="" two_way="false" x_translate="307" border="false" />
+		<ImageContainer id="u10520" x="271" y="188" width="216" height="163" binding="" two_way="false" x_translate="-192" />
+		<TextContainer id="u10522" x="271" y="360" width="216" height="297" binding="" two_way="false" x_translate="-192" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+	<PageLayout id="blurb.u1076e" width="567" height="720" type="">
+		<ImageContainer id="u107ae" x="0" y="0" width="134" height="174" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b0" x="144" y="0" width="134" height="174" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107af" x="288" y="0" width="134" height="174" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b1" x="432" y="0" width="135" height="174" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107a9" x="0" y="185" width="134" height="174" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107ab" x="144" y="185" width="134" height="174" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107aa" x="288" y="185" width="134" height="174" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107ac" x="432" y="185" width="135" height="174" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b2" x="0" y="371" width="134" height="166" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b4" x="144" y="371" width="134" height="165" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b3" x="288" y="371" width="134" height="165" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b5" x="432" y="371" width="135" height="165" binding="" two_way="false" x_translate="3" border="false" />
+		<ImageContainer id="u107b6" x="0" y="547" width="134" height="173" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b8" x="144" y="547" width="134" height="173" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b7" x="288" y="547" width="134" height="173" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u107b9" x="432" y="547" width="135" height="173" binding="" two_way="false" x_translate="0" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u10770" width="567" height="720" type="">
+		<ImageContainer id="u10804" x="0" y="0" width="278" height="358" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u10801" x="288" y="0" width="279" height="358" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u10805" x="0" y="370" width="278" height="354" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u10802" x="288" y="370" width="279" height="354" binding="" two_way="false" x_translate="0" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u10772" width="567" height="720" type="">
+		<ImageContainer id="u10807" x="275" y="0" width="292" height="358" binding="" two_way="false" x_translate="-275" border="false" />
+		<ImageContainer id="u10809" x="275" y="369" width="292" height="354" binding="" two_way="false" x_translate="-275" border="false" />
+		<TextContainer id="u10821" x="45" y="92" width="214" height="567" binding="" two_way="false" x_translate="262" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u11215" width="567" height="720" type="">
+		<ImageContainer id="u11324" x="196" y="1" width="175" height="237" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u11327" x="381" y="1" width="186" height="237" binding="" two_way="false" x_translate="-381" border="false" />
+		<ImageContainer id="u11323" x="196" y="249" width="175" height="224" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u11326" x="381" y="249" width="186" height="224" binding="" two_way="false" x_translate="-381" border="false" />
+		<ImageContainer id="u11322" x="196" y="483" width="175" height="240" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u11325" x="381" y="483" width="186" height="240" binding="" two_way="false" x_translate="-381" border="false" />
+		<TextContainer id="u11224" x="46" y="91" width="135" height="567" binding="" two_way="false" x_translate="342" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u11268" width="567" height="720" type="">
+		<ImageContainer id="u1126a" x="0" y="0" width="181" height="238" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u1127b" x="192" y="0" width="182" height="238" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u1127c" x="385" y="0" width="182" height="238" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u11275" x="0" y="248" width="181" height="224" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u11279" x="192" y="248" width="182" height="224" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u1127a" x="385" y="248" width="182" height="224" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u11276" x="0" y="483" width="181" height="240" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u11277" x="192" y="483" width="182" height="240" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u11278" x="385" y="483" width="182" height="240" binding="" two_way="false" x_translate="0" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u1129f" width="567" height="720" type="">
+		<ImageContainer id="u112e3" x="0" y="0" width="181" height="359" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u112e8" x="192" y="0" width="182" height="359" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u112e9" x="385" y="0" width="182" height="359" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u112e4" x="0" y="370" width="181" height="353" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u112e6" x="192" y="370" width="182" height="353" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u112e7" x="385" y="370" width="182" height="353" binding="" two_way="false" x_translate="0" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u10774" width="567" height="720" type="">
+		<ImageContainer id="u1083c" x="0" y="0" width="216" height="720" binding="" two_way="false" x_translate="351" border="false" />
+		<ImageContainer id="u1083b" x="216" y="0" width="352" height="720" binding="" two_way="false" x_translate="-216" border="false" />
+		<TextContainer id="u1083d" x="243" y="100" width="243" height="140" binding="" two_way="false" x_translate="-162" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+	<PageLayout id="blurb.u10778" width="567" height="720" type="">
+		<ImageContainer id="u10a6d" x="45" y="90" width="216" height="378" binding="" two_way="false" x_translate="261" />
+		<ImageContainer id="u10a85" x="289" y="90" width="152" height="114" binding="" two_way="false" x_translate="-163" />
+		<ImageContainer id="u10a9c" x="289" y="280" width="152" height="114" binding="" two_way="false" x_translate="-163" />
+		<TextContainer id="u10a86" x="289" y="218" width="152" height="34" binding="" two_way="false" x_translate="-163" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u10a9d" x="289" y="408" width="152" height="34" binding="" two_way="false" x_translate="-163" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u10a6e" x="45" y="476" width="216" height="181" binding="" two_way="false" x_translate="261" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u1077a" width="567" height="720" type="">
+		<ImageContainer id="u10b1b" x="270" y="0" width="297" height="720" binding="" two_way="false" x_translate="-269" border="false" />
+		<TextContainer id="u10b04" x="45" y="360" width="216" height="297" binding="" two_way="false" x_translate="261" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u1077c" width="567" height="720" type="">
+		<ImageContainer id="u10b37" x="45" y="186" width="216" height="345" binding="" two_way="false" x_translate="36" />
+		<ImageContainer id="u10b50" x="270" y="186" width="216" height="210" binding="" two_way="false" x_translate="36" />
+		<TextContainer id="u10b39" x="45" y="90" width="216" height="84" binding="" two_way="false" x_translate="261" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+	<PageLayout id="blurb.u114d1_1" width="567" height="720" type="">
+		<ImageContainer id="u1152b" x="45" y="90" width="216" height="181" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u1152d" x="271" y="90" width="216" height="181" binding="" two_way="false" x_translate="36" />
+		<TextContainer id="u114d3" x="45" y="282" width="216" height="375" binding="" two_way="false" x_translate="36" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u114ff" x="270" y="282" width="216" height="375" binding="" two_way="false" x_translate="36" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u1d1" width="567" height="720" type="">
+		<ImageContainer id="u218" x="45" y="55" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u2a2" x="196" y="55" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u32c" x="347" y="55" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u219" x="45" y="258" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u2a3" x="196" y="258" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u32d" x="347" y="258" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u21a" x="45" y="462" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u2a4" x="196" y="462" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<ImageContainer id="u32e" x="347" y="462" width="142" height="155" binding="" two_way="false" x_translate="37" />
+		<TextContainer id="u22d" x="47" y="217" width="140" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u2b7" x="197" y="217" width="140" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u341" x="347" y="217" width="142" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u243" x="47" y="420" width="140" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u2cd" x="197" y="420" width="140" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u357" x="347" y="420" width="137" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u259" x="47" y="624" width="140" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u2e3" x="197" y="624" width="140" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u36d" x="347" y="624" width="142" height="34" binding="" two_way="false" x_translate="37" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u37a" width="567" height="720" type="">
+		<ImageContainer id="u37d" x="45" y="55" width="217" height="116" binding="" two_way="false" x_translate="35" />
+		<ImageContainer id="u37f" x="271" y="55" width="217" height="116" binding="" two_way="false" x_translate="34" />
+		<ImageContainer id="u381" x="45" y="207" width="217" height="116" binding="" two_way="false" x_translate="35" />
+		<ImageContainer id="u383" x="271" y="207" width="217" height="116" binding="" two_way="false" x_translate="34" />
+		<ImageContainer id="u385" x="45" y="360" width="217" height="116" binding="" two_way="false" x_translate="35" />
+		<ImageContainer id="u387" x="271" y="360" width="217" height="116" binding="" two_way="false" x_translate="34" />
+		<ImageContainer id="u389" x="45" y="512" width="217" height="115" binding="" two_way="false" x_translate="35" />
+		<ImageContainer id="u38b" x="271" y="512" width="217" height="115" binding="" two_way="false" x_translate="34" />
+		<TextContainer id="u3f8" x="45" y="176" width="217" height="26" binding="" two_way="false" x_translate="35" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u4aa" x="270" y="176" width="217" height="26" binding="" two_way="false" x_translate="35" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u40e" x="45" y="328" width="217" height="26" binding="" two_way="false" x_translate="35" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u4c0" x="270" y="328" width="217" height="26" binding="" two_way="false" x_translate="35" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u424" x="45" y="481" width="217" height="26" binding="" two_way="false" x_translate="35" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u4d6" x="270" y="481" width="217" height="26" binding="" two_way="false" x_translate="35" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u43a" x="45" y="633" width="217" height="25" binding="" two_way="false" x_translate="35" style_id="bod_l_9-12_s4" border="false" />
+		<TextContainer id="u4ec" x="270" y="633" width="217" height="25" binding="" two_way="false" x_translate="35" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.uc5" width="567" height="720" type="">
+		<ImageContainer id="uc7" x="0" y="0" width="270" height="433" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u101" x="262" y="0" width="306" height="211" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="uca" x="239" y="199" width="328" height="231" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="ufe" x="0" y="381" width="373" height="339" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="ucd" x="344" y="415" width="223" height="305" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="ud0" x="48" y="117" width="176" height="253" binding="" two_way="false" x_translate="0" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u133" width="567" height="720" type="">
+		<ImageContainer id="u147" x="0" y="0" width="354" height="282" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u14a" x="344" y="0" width="223" height="252" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u14d" x="210" y="216" width="357" height="339" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u150" x="0" y="268" width="252" height="451" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u153" x="222" y="507" width="345" height="212" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u16b" x="47" y="358" width="152" height="231" binding="" two_way="false" x_translate="0" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u136" width="567" height="720" type="">
+		<ImageContainer id="u193" x="0" y="0" width="260" height="242" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u190" x="247" y="0" width="320" height="453" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u196" x="0" y="216" width="325" height="504" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u199" x="289" y="436" width="278" height="284" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u1b1" x="371" y="89" width="152" height="281" binding="" two_way="false" x_translate="0" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u138" width="567" height="720" type="">
+		<ImageContainer id="u1d8" x="0" y="0" width="325" height="504" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u1d5" x="305" y="0" width="262" height="303" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u1dc" x="289" y="285" width="278" height="435" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u20c" x="0" y="478" width="306" height="242" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u1df" x="370" y="362" width="152" height="295" binding="" two_way="false" x_translate="0" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u13a" width="567" height="720" type="">
+		<ImageContainer id="u220" x="0" y="0" width="222" height="252" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u21d" x="217" y="0" width="350" height="273" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u223" x="0" y="205" width="410" height="350" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u226" x="348" y="261" width="219" height="459" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u22a" x="0" y="508" width="368" height="212" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u242" x="411" y="358" width="110" height="231" binding="" two_way="false" x_translate="0" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u13c" width="567" height="720" type="">
+		<ImageContainer id="u29e" x="0" y="0" width="362" height="223" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u26b" x="348" y="0" width="219" height="459" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u268" x="0" y="206" width="366" height="321" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u26e" x="200" y="450" width="367" height="270" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u265" x="0" y="505" width="212" height="215" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u271" x="411" y="90" width="110" height="231" binding="" two_way="false" x_translate="0" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u13e" width="567" height="720" type="">
+		<ImageContainer id="u2ed" x="0" y="0" width="318" height="399" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u2ba" x="311" y="0" width="256" height="369" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="u2bd" x="0" y="359" width="567" height="361" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="u2d5" x="412" y="91" width="110" height="567" binding="" two_way="false" x_translate="0" style_id="bod_l_9-12_s4" border="false" />
+	</PageLayout>
+	<PageLayout id="blurb.u13f" width="567" height="720" type="">
+		<ImageContainer id="u2fb" x="27" y="26" width="520" height="670" binding="" two_way="false" x_translate="-5" />
+	</PageLayout>
+	<PageLayout id="blurb.u308" width="567" height="720" type="">
+		<ImageContainer id="u30c" x="27" y="27" width="520" height="670" binding="" two_way="false" x_translate="-4" />
+		<TextContainer id="u30e" x="46" y="48" width="476" height="629" x_translate="2" placeholder_vertical_offset="40" type="normal" binding="" two_way="false" style_id="bodhdr_l_16-20_s4" />
+	</PageLayout>
+	<PageLayout id="blurb.u137c1_1" width="567" height="720" type="">
+		<ImageContainer id="u137c3" x="0" y="0" width="342" height="720" binding="" two_way="false" x_translate="225" border="false" />
+		<TextContainer id="u137c4" x="352" y="90" width="143" height="567" binding="" two_way="false" x_translate="-280" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<!-- * * * * * * * * * * * * * * * *-->
+	<!-- * * year book page layouts * * -->
+	<!-- * * * * * * * * * * * * * * * *-->
+
+<!-- SPECIAL YEARBOOK IMAGES ARE DENOTED WITH A "$" Intro Letter, Intro Logo,  Instructor, Assistant Instructor, Members Left, Members Right, Group Photo-->
+
+<!-- 0-up, text only -->
+
+	<!-- $ Intro Letter -->
+	<PageLayout id="blurb.yearbook.default.image0_text1" width="567" height="720" type="yearbook_intro_letter">
+		<TextContainer id="blurb.yearbook.default.image0_text1_t1" x="48" y="90" width="471" height="560" style_id="yearbook_body_2" placeholder_text_resource_id="placeholder_text_3a" />
+	</PageLayout>
+
+<!-- 1-up -->
+
+	<PageLayout id="blurb.yearbook.default.image1_text0" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image1_text0_i1" x="0" y="0" width="567" height="720" />
+	</PageLayout>
+
+	<PageLayout id="blurb.yearbook.default.image1_text0_2" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image1_text0_2_i1" x="48" y="48" width="471" height="624" />
+	</PageLayout>
+
+	<!-- Top Headline, Full Image -->
+	<PageLayout id="blurb.yearbook.default.image1_text1" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image1_text1_i1" x="48" y="100" width="471" height="572" />
+
+		<TextContainer id="blurb.yearbook.default.image1_text1_t1" x="48" y="48" width="471" height="45" style_id="yearbook_body_1" placeholder_text_resource_id="placeholder_text_16a" />
+	</PageLayout>
+
+	<!-- $ Intro Logo Page - Top Headline, Bottom Sub, Full Image-->
+	<PageLayout id="blurb.yearbook.default.image1_text2" width="567" height="720" type="yearbook_intro_logo">
+		<ImageContainer id="blurb.yearbook.default.image1_text2_i1" x="48" y="185" width="471" height="400" />
+
+		<TextContainer id="blurb.yearbook.default.image1_text2_t1" x="48" y="50" width="471" height="102" style_id="yearbook_body_1" placeholder_text_resource_id="placeholder_text_1a" />
+		<TextContainer id="blurb.yearbook.default.image1_text2_t2" x="48" y="600" width="471" height="99" style_id="yearbook_body_3" placeholder_text_resource_id="placeholder_text_1b" />
+	</PageLayout>
+
+	<!-- Top Headline, Bottom Sub, Full Image-->
+	<PageLayout id="blurb.yearbook.default.image1_text2_2" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image1_text2_2_i1" x="0" y="90" width="567" height="546" />
+
+		<TextContainer id="blurb.yearbook.default.image1_text2_2_t1" x="48" y="40" width="471" height="40" style_id="yearbook_body_1" placeholder_text_resource_id="placeholder_text_14a" />
+		<TextContainer id="blurb.yearbook.default.image1_text2_2_t2" x="48" y="650" width="449" height="36" style_id="yearbook_body_3" placeholder_text_resource_id="placeholder_text_14b" />
+	</PageLayout>
+
+	<!-- $Group Photo -  Full Image, 4 lines of Text-->
+	<PageLayout id="blurb.yearbook.default.image1_text4" width="567" height="720" type="yearbook_class_photo">
+		<ImageContainer id="blurb.yearbook.default.image1_text4_i1" x="48" y="48" width="471" height="350" />
+
+		<TextContainer id="blurb.yearbook.default.image1_text4_t1" x="60" y="430" width="447" height="43" style_id="yearbook_body_3" placeholder_text_resource_id="placeholder_text_8a" />
+		<TextContainer id="blurb.yearbook.default.image1_text4_t2" x="60" y="500" width="447" height="43" style_id="yearbook_body_3" placeholder_text_resource_id="placeholder_text_8b" />
+		<TextContainer id="blurb.yearbook.default.image1_text4_t3" x="60" y="570" width="447" height="43" style_id="yearbook_body_3" placeholder_text_resource_id="placeholder_text_8c" />
+		<TextContainer id="blurb.yearbook.default.image1_text4_t4" x="60" y="640" width="447" height="43" style_id="yearbook_body_3" placeholder_text_resource_id="placeholder_text_8d" />
+	</PageLayout>
+
+<!-- 3-up -->
+	<PageLayout id="blurb.yearbook.default.image3_text0" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image3_text0_i1" x="48" y="100" width="471" height="183" />
+		<ImageContainer id="blurb.yearbook.default.image3_text0_i2" x="48" y="295" width="471" height="183" />
+		<ImageContainer id="blurb.yearbook.default.image3_text0_i3" x="48" y="490" width="471" height="183" />
+	</PageLayout>
+
+	<!-- $ Instuctor Page -  1 lg image, 2 sm images, teachers name, body copy-->
+	<PageLayout id="blurb.yearbook.default.image3_text2" width="567" height="720" type="yearbook_teacher">
+		<ImageContainer id="blurb.yearbook.default.image3_text2_i1" x="48" y="48" width="344" height="412" />
+		<ImageContainer id="blurb.yearbook.default.image3_text2_i2" x="48" y="470" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image3_text2_i3" x="226" y="470" width="166" height="200" />
+
+		<TextContainer id="blurb.yearbook.default.image3_text2_t1" x="416" y="100" width="103" height="106" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_6a"/>
+		<TextContainer id="blurb.yearbook.default.image3_text2_t2" x="416" y="217" width="103" height="447" style_id="yearbook_body_2" placeholder_text_resource_id="placeholder_text_6b"/>
+	</PageLayout>
+
+	<!-- $ Assstant Instuctors Page -  1 lg image, 2 sm images, teachers name, body copy-->
+	<PageLayout id="blurb.yearbook.default.image3_text3" width="567" height="720" type="yearbook_assistants">
+		<ImageContainer id="blurb.yearbook.default.image3_text3_i1" x="48" y="48" width="344" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image3_text3_i2" x="48" y="260" width="344" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image3_text3_i3" x="48" y="470" width="344" height="200" />
+
+		<TextContainer id="blurb.yearbook.default.image3_text3_t1" x="412" y="100" width="103" height="106" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_7"/>
+		<TextContainer id="blurb.yearbook.default.image3_text3_t2" x="412" y="312" width="103" height="106" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_7"/>
+		<TextContainer id="blurb.yearbook.default.image3_text3_t3" x="412" y="522" width="103" height="106" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_7"/>
+	</PageLayout>
+
+<!-- 4-up -->
+	<PageLayout id="blurb.yearbook.default.image4_text0" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image4_text0_i1" x="0" y="0" width="277" height="358" />
+		<ImageContainer id="blurb.yearbook.default.image4_text0_i2" x="289" y="0" width="279" height="358" />
+		<ImageContainer id="blurb.yearbook.default.image4_text0_i3" x="0" y="370" width="277" height="354" />
+		<ImageContainer id="blurb.yearbook.default.image4_text0_i4" x="289" y="370" width="279" height="354" />
+	</PageLayout>
+
+	<!-- 4 images,  2 captions -->
+	<PageLayout id="blurb.yearbook.default.image4_text2" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image4_text2_i1" x="48" y="48" width="228" height="288" />
+		<ImageContainer id="blurb.yearbook.default.image4_text2_i2" x="288" y="48" width="228" height="288" />
+		<ImageContainer id="blurb.yearbook.default.image4_text2_i3" x="48" y="348" width="228" height="288" />
+		<ImageContainer id="blurb.yearbook.default.image4_text2_i4" x="288" y="348" width="228" height="288" />
+
+		<TextContainer id="blurb.yearbook.default.image4_text2_t1" x="48" y="648" width="228" height="40" style_id="yearbook_body_3" />
+		<TextContainer id="blurb.yearbook.default.image4_text2_t2" x="288" y="648" width="220" height="40" style_id="yearbook_body_3" />
+	</PageLayout>
+
+<!-- 6-up -->
+
+	<!-- left body copy, 6 right hand images -->
+	<PageLayout id="blurb.yearbook.default.image6_text1" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image6_text1_i1" x="160" y="0" width="175" height="237" />
+		<ImageContainer id="blurb.yearbook.default.image6_text1_i2" x="347" y="0" width="175" height="237" />
+		<ImageContainer id="blurb.yearbook.default.image6_text1_i3" x="160" y="249" width="175" height="224" />
+		<ImageContainer id="blurb.yearbook.default.image6_text1_i4" x="347" y="249" width="175" height="224" />
+		<ImageContainer id="blurb.yearbook.default.image6_text1_i5" x="160" y="483" width="175" height="240" />
+		<ImageContainer id="blurb.yearbook.default.image6_text1_i6" x="347" y="483" width="175" height="240" />
+
+		<TextContainer id="blurb.yearbook.default.image6_text1_t2" x="48" y="150" width="92" height="403" style_id="yearbook_body_2" />
+	</PageLayout>
+
+	<!-- $ members images - left names, right 6 images -->
+	<PageLayout id="blurb.yearbook.default.image6_text6" width="567" height="720" type="yearbook_students_6_left">
+		<ImageContainer id="blurb.yearbook.default.image6_text6_i1" x="175" y="48" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_i2" x="353" y="48" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_i3" x="175" y="260" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_i4" x="353" y="260" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_i5" x="175" y="472" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_i6" x="353" y="472" width="166" height="200" />
+
+		<TextContainer id="blurb.yearbook.default.image6_text6_t1" x="48" y="90" width="107" height="42" style_id="yearbook_body_3b" placeholder_text_resource_id="placeholder_text_9a"/>
+		<TextContainer id="blurb.yearbook.default.image6_text6_t2" x="48" y="190" width="107" height="42" style_id="yearbook_body_3b" placeholder_text_resource_id="placeholder_text_9b"/>
+		<TextContainer id="blurb.yearbook.default.image6_text6_t3" x="48" y="302" width="107" height="42" style_id="yearbook_body_3b" placeholder_text_resource_id="placeholder_text_9c"/>
+		<TextContainer id="blurb.yearbook.default.image6_text6_t4" x="48" y="402" width="107" height="42" style_id="yearbook_body_3b" placeholder_text_resource_id="placeholder_text_9d"/>
+		<TextContainer id="blurb.yearbook.default.image6_text6_t5" x="48" y="512" width="107" height="42" style_id="yearbook_body_3b" placeholder_text_resource_id="placeholder_text_9e"/>
+		<TextContainer id="blurb.yearbook.default.image6_text6_t6" x="48" y="612" width="107" height="42" style_id="yearbook_body_3b" placeholder_text_resource_id="placeholder_text_9f"/>
+	</PageLayout>
+
+	<!-- $ members images - right names, left 6 images -->
+	<PageLayout id="blurb.yearbook.default.image6_text6_2" width="567" height="720" type="yearbook_students_6_right">
+		<ImageContainer id="blurb.yearbook.default.image6_text6_2_i1" x="48" y="48" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_2_i2" x="226" y="48" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_2_i3" x="48" y="260" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_2_i4" x="226" y="260" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_2_i5" x="48" y="472" width="166" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image6_text6_2_i6" x="226" y="472" width="166" height="200" />
+
+		<TextContainer id="blurb.yearbook.default.image6_text6_2_t1" x="412" y="90" width="107" height="42" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_9a" />
+		<TextContainer id="blurb.yearbook.default.image6_text6_2_t2" x="412" y="190" width="107" height="42" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_9b" />
+		<TextContainer id="blurb.yearbook.default.image6_text6_2_t3" x="412" y="302" width="107" height="42" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_9c" />
+		<TextContainer id="blurb.yearbook.default.image6_text6_2_t4" x="412" y="402" width="107" height="42" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_9d" />
+		<TextContainer id="blurb.yearbook.default.image6_text6_2_t5" x="412" y="512" width="107" height="42" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_9e" />
+		<TextContainer id="blurb.yearbook.default.image6_text6_2_t6" x="412" y="612" width="107" height="42" style_id="yearbook_body_3c" placeholder_text_resource_id="placeholder_text_9f" />
+	</PageLayout>
+
+<!-- 9-up -->
+	<PageLayout id="blurb.yearbook.default.image9_text0" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i1" x="30" y="48" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i2" x="116" y="48" width="160" height="200" />
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i3" x="374" y="48" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i4" x="288" y="153" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i5" x="30" y="258" width="332" height="303" />
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i6" x="374" y="258" width="74" height="198" />
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i7" x="460" y="258" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i8" x="116" y="573" width="246" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image9_text0_i9" x="374" y="468" width="160" height="198" />
+	</PageLayout>
+
+	<!-- Activity Grid -->	
+	<PageLayout id="blurb.yearbook.default.image9_text9" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i1" x="48" y="90" width="144" height="141" />
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i2" x="204" y="90" width="144" height="141" />
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i3" x="360" y="90" width="144" height="141" />
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i4" x="48" y="292" width="144" height="142" />
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i5" x="204" y="292" width="144" height="142" />
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i6" x="360" y="292" width="144" height="142" />
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i7" x="48" y="493" width="144" height="141" />
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i8" x="204" y="493" width="144" height="141" />
+		<ImageContainer id="blurb.yearbook.default.image9_text9_i9" x="360" y="493" width="144" height="141" />
+
+		<TextContainer id="blurb.yearbook.default.image9_text9_t1" x="48" y="240" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+		<TextContainer id="blurb.yearbook.default.image9_text9_t2" x="204" y="240" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+		<TextContainer id="blurb.yearbook.default.image9_text9_t3" x="360" y="240" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+		<TextContainer id="blurb.yearbook.default.image9_text9_t4" x="48" y="441" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+		<TextContainer id="blurb.yearbook.default.image9_text9_t5" x="204" y="441" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+		<TextContainer id="blurb.yearbook.default.image9_text9_t6" x="360" y="441" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+		<TextContainer id="blurb.yearbook.default.image9_text9_t7" x="48" y="643" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+		<TextContainer id="blurb.yearbook.default.image9_text9_t8" x="204" y="643" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+		<TextContainer id="blurb.yearbook.default.image9_text9_t9" x="360" y="643" width="144" height="40" style_id="yearbook_body_2b" placeholder_text_resource_id="placeholder_text_15"/>
+	</PageLayout>
+
+<!-- 12-up -->
+	<PageLayout id="blurb.yearbook.default.image12_text0" width="567" height="720">
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i1" x="30" y="48" width="74" height="198" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i2" x="202" y="48" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i3" x="288" y="48" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i4" x="116" y="153" width="160" height="198" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i5" x="288" y="153" width="258" height="198" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i6" x="30" y="363" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i7" x="202" y="363" width="160" height="198" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i8" x="374" y="363" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i9" x="30" y="468" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i10" x="116" y="468" width="74" height="198" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i11" x="288" y="573" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.default.image12_text0_i12" x="374" y="468" width="160" height="198" />
+	</PageLayout>
+
+<!-- 24-up -->	
+
+	<!-- $ members images - left names, right 24 images -->
+	<PageLayout id="blurb.yearbook.default.image24_text24" width="567" height="720" type="yearbook_students_24_right">
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i1" x="48" y="48" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i2" x="137" y="48" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i3" x="226" y="48" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i4" x="315" y="48" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i5" x="48" y="154" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i6" x="137" y="154" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i7" x="226" y="154" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i8" x="315" y="154" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i9" x="48" y="260" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i10" x="137" y="260" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i11" x="226" y="260" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i12" x="315" y="260" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i13" x="48" y="366" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i14" x="137" y="366" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i15" x="226" y="366" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i16" x="315" y="366" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i17" x="48" y="472" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i18" x="137" y="472" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i19" x="226" y="472" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i20" x="315" y="472" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i21" x="48" y="578" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i22" x="137" y="578" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i23" x="226" y="578" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_i24" x="315" y="578" width="77" height="94"/>
+		
+		<TextContainer id="blurb.yearbook.default.image24_text24_t1" x="412" y="48" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t2" x="412" y="74" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t3" x="412" y="100" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t4" x="412" y="126" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t5" x="412" y="152" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t6" x="412" y="178" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t7" x="412" y="204" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t8" x="412" y="230" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t9" x="412" y="256" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t10" x="412" y="282" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t11" x="412" y="308" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t12" x="412" y="334" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t13" x="412" y="360" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t14" x="412" y="386" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t15" x="412" y="412" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t16" x="412" y="438" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t17" x="412" y="464" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t18" x="412" y="490" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t19" x="412" y="516" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t20" x="412" y="542" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t21" x="412" y="568" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t22" x="412" y="594" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t23" x="412" y="620" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_t24" x="412" y="646" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2"/>
+	</PageLayout>
+
+<!-- $ members images - right names, left 24 images -->
+	
+	<PageLayout id="blurb.yearbook.default.image24_text24_2" width="567" height="720" type="yearbook_students_24_left">
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i1" x="175" y="48" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i2" x="264" y="48" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i3" x="353" y="48" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i4" x="442" y="48" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i5" x="175" y="154" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i6" x="264" y="154" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i7" x="353" y="154" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i8" x="442" y="154" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i9" x="175" y="260" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i10" x="264" y="260" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i11" x="353" y="260" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i12" x="442" y="260" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i13" x="175" y="366" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i14" x="264" y="366" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i15" x="353" y="366" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i16" x="442" y="366" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i17" x="175" y="472" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i18" x="264" y="472" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i19" x="353" y="472" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i20" x="442" y="472" width="77" height="94"/>
+	
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i21" x="175" y="578" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i22" x="264" y="578" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i23" x="353" y="578" width="77" height="94"/>
+		<ImageContainer id="blurb.yearbook.default.image24_text24_2_i24" x="442" y="578" width="77" height="94"/>
+		
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t1" x="48" y="48" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t2" x="48" y="74" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t3" x="48" y="100" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t4" x="48" y="126" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t5" x="48" y="152" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t6" x="48" y="178" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t7" x="48" y="204" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t8" x="48" y="230" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t9" x="48" y="256" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t10" x="48" y="282" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t11" x="48" y="308" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t12" x="48" y="334" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t13" x="48" y="360" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t14" x="48" y="386" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t15" x="48" y="412" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t16" x="48" y="438" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t17" x="48" y="464" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t18" x="48" y="490" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t19" x="48" y="516" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t20" x="48" y="542" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t21" x="48" y="568" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t22" x="48" y="594" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t23" x="48" y="620" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+		<TextContainer id="blurb.yearbook.default.image24_text24_2_t24" x="48" y="646" width="107" height="22" placeholder_text_resource_id="placeholder_text_24" style_id="yearbook_body_2c"/>
+	</PageLayout>
+	
+	<!-- * * * * * * * * * * * *  -->
+	<!-- palo alto school layouts -->
+	<!-- * * * * * * * * * * * *  -->
+	
+	<PageLayout id="blurb.paloalto.image0_text2" width="567" height="720" type="text_footer">
+		<TextContainer id="blurb.paloalto.image0_text2_t1" x="71" y="90" width="412" height="533" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image0_text2_t2" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image0_text5" width="567" height="720" type="recipe">
+		<TextContainer id="blurb.paloalto.image0_text5_t1" x="71" y="39" width="412" height="41" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image0_text5_t2" x="71" y="95" width="412" height="150" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image0_text5_t3" x="71" y="260" width="206" height="346" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image0_text5_t4" x="277" y="260" width="206" height="346" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image0_text5_t5" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image1_text3" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image1_text3_i1" x="148" y="94" width="248" height="221" x_translate="16" />
+		<TextContainer id="blurb.paloalto.image1_text3_t1" x="85" y="36" width="380" height="42" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text3_t2" x="85" y="328" width="371" height="294" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text3_t3" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image1_text4" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image1_text4_i1" x="71" y="98" width="412" height="157" x_translate="16" />
+		<TextContainer id="blurb.paloalto.image1_text4_t1" x="71" y="39" width="412" height="39" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_t2" x="71" y="271" width="206" height="346" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_t3" x="277" y="271" width="206" height="346" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_t4" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image1_text4_2" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image1_text4_2_i1" x="56" y="93" width="443" height="155" x_translate="16" />
+
+		<TextContainer id="blurb.paloalto.image1_text4_2_t1" x="71" y="59" width="412" height="26" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_2_t2" x="56" y="294" width="443" height="332" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_2_t3" x="71" y="256" width="412" height="28" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_2_t4" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image1_text4_3" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image1_text4_3_i1" x="71" y="475" width="412" height="155" x_translate="16" />
+
+		<TextContainer id="blurb.paloalto.image1_text4_3_t1" x="71" y="59" width="412" height="26" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_3_t2" x="71" y="96" width="412" height="332" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_3_t3" x="71" y="437" width="412" height="28" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image1_text4_3_t4" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image2_text2" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image2_text2_i1" x="59" y="336" width="214" height="287" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image2_text2_i2" x="286" y="336" width="214" height="287" x_translate="16" />
+
+		<TextContainer id="blurb.paloalto.image2_text2_t1" x="59" y="55" width="441" height="270" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image2_text2_t2" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image2_text3" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image2_text3_i1" x="71" y="42" width="201" height="211" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image2_text3_i2" x="285" y="42" width="201" height="211" x_translate="16" />
+
+		<TextContainer id="blurb.paloalto.image2_text3_t1" x="71" y="264" width="412" height="35" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image2_text3_t2" x="71" y="316" width="412" height="299" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image2_text3_t3" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image3_text2" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image3_text2_i1" x="71" y="41" width="184" height="232" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image3_text2_i2" x="299" y="41" width="184" height="233" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image3_text2_i3" x="71" y="445" width="412" height="179" x_translate="16" />
+
+		<TextContainer id="blurb.paloalto.image3_text2_t1" x="71" y="297" width="412" height="128" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image3_text2_t2" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image3_text7" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image3_text7_i1" x="54" y="56" width="449" height="216" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image3_text7_i2" x="54" y="337" width="220" height="144" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image3_text7_i3" x="282" y="337" width="220" height="144" x_translate="16" />
+
+		<TextContainer id="blurb.paloalto.image3_text7_t1" x="54" y="38" width="448" height="18" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image3_text7_t2" x="54" y="281" width="449" height="25" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image3_text7_t3" x="54" y="319" width="220" height="18" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image3_text7_t4" x="282" y="319" width="220" height="18" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image3_text7_t5" x="54" y="491" width="220" height="132" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image3_text7_t6" x="282" y="491" width="220" height="132" x_translate="16" style_id="bod_l_9-12_s4" />
+
+		<TextContainer id="blurb.paloalto.image3_text7_t7" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+
+	<PageLayout id="blurb.paloalto.image4_text5" width="567" height="720" type="">
+		<ImageContainer id="blurb.paloalto.image4_text5_i1" x="50" y="56" width="135" height="135" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image4_text5_i2" x="50" y="200" width="135" height="135" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image4_text5_i3" x="50" y="344" width="135" height="135" x_translate="16" />
+		<ImageContainer id="blurb.paloalto.image4_text5_i4" x="50" y="488" width="135" height="135" x_translate="16" />
+
+		<TextContainer id="blurb.paloalto.image4_text5_t1" x="203" y="56" width="296" height="135" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image4_text5_t2" x="203" y="200" width="296" height="135" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image4_text5_t3" x="203" y="344" width="296" height="135" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image4_text5_t4" x="203" y="488" width="296" height="135" x_translate="16" style_id="bod_l_9-12_s4" />
+		<TextContainer id="blurb.paloalto.image4_text5_t5" x="71" y="641" width="412" height="22" x_translate="16" style_id="bod_l_9-12_s4" />
+	</PageLayout>
+</PageLayouts>

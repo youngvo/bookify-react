@@ -1,0 +1,35 @@
+.text-input {
+    display: inline-block;
+}
+
+.width-input {
+    width: 200px;
+}
+
+.input-zone {
+    color: #3a3a3a;
+    border: 1px solid;
+}
+
+.input-zone:focus {
+    color: #3a3a3a;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px 1px #1972d5;
+    opacity: 0.8;
+    border-radius: 1px;
+}
+
+.input-zone-style-error {
+    color: #3a3a3a;
+    border: 1px solid red;
+    opacity: 0.8;
+}
+
+.input-zone-style-error:focus {
+    color: #3a3a3a;
+    border: 1px solid red;
+    outline-color: red;
+    opacity: 0.8;
+    box-shadow: 0px 0px 1px 1px red;
+    border-radius: 1px;
+}

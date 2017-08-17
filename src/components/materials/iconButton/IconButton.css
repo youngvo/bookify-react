@@ -1,0 +1,92 @@
+.icon-button-blurb {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+	font-size: 11px;
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 24%, #dddddd 72%, #d9d9d9 80%, #d9d9d9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 24%, #dddddd 72%, #d9d9d9 80%, #d9d9d9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 24%, #dddddd 72%, #d9d9d9 80%, #d9d9d9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 3px;
+    align-items: center;
+    cursor: pointer;
+    border: solid 0.5px #b3b3b3;
+    z-index: 10;
+    color: #808080;
+    overflow: hidden;
+}
+
+.icon-button-blurb div { margin:auto;}
+
+
+.icon-button-blurb:hover .icon,
+.icon-button-blurb:hover .icon:after {
+    /*background: deepskyblue;*/
+    color: deepskyblue;
+}
+
+.close.icon {
+    width: 100%;
+    height: 100%;
+    text-justify: center;
+    color: gray;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(1px, -7px);
+}
+
+.img-arrow {}
+
+.img-arrow:hover {}
+
+.info.icon {
+    width: 100%;
+    text-justify: center;
+    color: gray;
+}
+
+.icon-button-blurb:hover .arrow-footer.icon,
+.icon-button-blurb:hover .arrow-footer.icon:after {
+    border-right: deepskyblue solid 3px;
+    border-top: deepskyblue solid 3px;
+    background: transparent;
+    color: transparent;
+}
+
+.arrow-footer.icon {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    border-right: 3px solid gray;
+    border-top: 3px solid gray;
+    transform: translate(-50%, 0) rotate(-45deg);
+}
+
+.arrow-footer.icon::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    transform: translate(-6px, 3px);
+    width: 9px;
+    height: 9px;
+    border-right: 3px solid gray;
+    border-top: 3px solid gray;
+}
+
+.show-help-tooltip-close-btn{
+    font-size: 10px;
+    color: gray;
+    float: right;
+    cursor: pointer;
+}
+
+.show-help-tooltip-close-btn:hover{
+    color: black;
+}

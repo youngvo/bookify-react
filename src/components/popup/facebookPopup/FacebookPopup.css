@@ -1,0 +1,108 @@
+.fb-popup-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    color: white;
+    background: rgba(220, 220, 220, .5);
+    z-index: 10;
+}
+
+.fb-popup-zone {
+    position: absolute;
+    background: rgb(248, 248, 248);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(248, 248, 248, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 25%, rgba(217, 217, 217, 1) 74%, rgba(217, 217, 217, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(248, 248, 248, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 25%, rgba(217, 217, 217, 1) 74%, rgba(217, 217, 217, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 25%, rgba(217, 217, 217, 1) 74%, rgba(217, 217, 217, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#d9d9d9', GradientType=0);
+    /* IE6-9 */
+    border-radius: 5px;
+    padding: 12px;
+    -webkit-box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 6px 6px 16px 0px rgba(0, 0, 0, 0.6);
+    max-height: 210px;
+    border: 1px solid #cccccc;
+    display: block;
+    top: 40%;
+    margin-top: 5px;
+    margin-left: 8px;
+    left: 37%;
+    width: 380px;
+    height:123px;
+}
+
+.fb-top-popup-zone {
+
+}
+
+.fb-bottom-popup-zone {
+    bottom: 0;
+    height: 40px;
+    display: block;
+}
+
+.fb-popup-item {
+    color: #545244;
+}
+
+.fb-popup-zone .fb-popup-button-item {
+    z-index: 3;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color: aqua;
+}
+
+.fb-title-popup {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.fb-content-popup {
+    max-width: 370px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.fb-divider-popup {
+    margin-top: 3px;
+    margin-bottom: 9px;
+    position: relative;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #ffffff;
+}
+
+.fb-button-item-popup {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    padding: 0 10px 10px 0;
+}
+
+.fb-popup-button {
+    width: 50px;
+}
+
+.unsupported-image{
+    width: 395px !important;
+    height: 120px !important;
+}
+
+.content-unsupported-image{
+    font-size: 13.3px !important;
+    line-height: 15px !important;
+    max-width: 400px  !important;
+    margin-bottom: 10px;
+}

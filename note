@@ -1,0 +1,25 @@
+- add comments for basic js => [all]
+- move actions type to actions file => [all] - done.
+- add DevTool module => [Ve] - done.
+- find and add logger => [Ve] - 80%.
+- conventions:
+    + add spaces after function name => [all]
+    + add enter between functions => [all]
+    + add ";" after function, var and import => [all]
+- add file .spec and write a simple jest test an action => [Ve]
+- refactor FBService as a class => [Thuc] - done.
+- write a singleton class to wrapper 500px.js => [Thuc]
+- Write a singleton Instagram => [Thuc]
+- add config file. [Ve]
+- refactor localization base on AS3. [Duong]
+- params for Component:
+    + if function component -> must destruct props.
+    + if class component -> remember to define propTypes
+
+
+
+questions:
+- How to run flash version in local? => [Duong]
+
+--------------------
+to be continued at Services folder

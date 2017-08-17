@@ -1,0 +1,409 @@
+.button-blurb {
+	display: inline-flex;
+	padding: 0 15px;
+	border: 1px solid #cccccc;
+	height: 26px;
+	color: #555555;
+	cursor: pointer;
+	border-radius: 4px;
+	justify-content: center;
+}
+
+.header-undo-button .button-blurb {
+	padding: 0 10px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	border-right: 1px solid #fff;
+}
+
+.header-redo-button .button-blurb {
+	padding: 0 10px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-right: 1px solid #ccc;
+}
+
+.header-redo-button .button-blurb-content div {
+	display: none;
+}
+
+.header-redo-button .button-blurb-content div.icon-in-button.icon-RedoIcon {
+	margin-left: 0px;
+	font-size: 20px;
+	display: block;
+}
+
+.button-blurb:not(.unable):hover {
+	color: #29abe2;
+}
+
+.button-blurb-content {
+	align-items: center;
+	text-align: center;
+	font-family: 'ProximaNovaSB';
+	font-size: 14px;
+	display: flex;
+	position: relative;
+}
+
+.button-blurb img {
+	margin-left: 6px;
+	height: 20px;
+	position: relative;
+}
+
+.button-blurb-color {
+	display: inline-flex;
+	height: 25px;
+	padding: 0 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-style: solid;
+	cursor: pointer;
+	border-radius: 5px;
+	justify-content: center;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+	min-width: 50px;
+}
+
+.button-blurb-orange {
+	border-color: #f47826;
+	color: white;
+	background: #fc771f;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #fc771f 0%, #c75e19 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #fc771f 0%, #c75e19 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #fc771f 0%, #c75e19 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fc771f', endColorstr='#c75e19', GradientType=0);
+	/* IE6-9 */
+	padding: 0 14px;
+	margin-top: 0px !important;
+}
+
+.button-blurb-orange:not(.unable):hover {
+	background: #dd5700;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #dd5700 0%, #b74700 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #dd5700 0%, #b74700 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #dd5700 0%, #b74700 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#dd5700', endColorstr='#b74700', GradientType=0);
+	/* IE6-9 */
+	border-color: #f47826;
+}
+
+.footer-right-side-buttons .button-blurb-orange .button-blurb-content {
+	font-size: 16px;
+}
+
+.footer-right-side-buttons .button-blurb-orange {
+	height: 35px;
+	padding-left: 16px;
+	padding-right: 16px;
+	z-index: 3;
+	border-right: 0px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, .3);
+}
+
+.footer-right-side-buttons .tria {
+	width: 20px;
+	right: -19px;
+	top: -4px;
+	position: absolute;
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	overflow: hidden;
+	z-index: 1;
+	cursor: pointer;
+	height: 50px;
+}
+
+.footer-right-side-buttons:not(.unable):hover .tria:after {
+	background: #dd5700;
+	/* Old browsers */
+	background: -moz-linear-gradient(-45deg, #dd5700 0%, #b74700 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #dd5700 0%, #b74700 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #dd5700 0%, #b74700 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#dd5700', endColorstr='#b74700', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+.footer-right-side-buttons:not(.unable):hover .button-blurb-orange {
+	background: #dd5700;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #dd5700 0%, #b74700 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #dd5700 0%, #b74700 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #dd5700 0%, #b74700 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#dd5700', endColorstr='#b74700', GradientType=0);
+	/* IE6-9 */
+}
+
+.footer-right-side-buttons .tria:after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 1;
+	margin: -13px -10px;
+	border-top: solid 1px #f47826;
+	border-right: solid 1px #f47826;
+	width: 18px;
+	height: 20px;
+	transform: rotate(31deg) skewY(31deg);
+	background: #fc771f;
+	/* Old browsers */
+	background: -moz-linear-gradient(-45deg, #fc771f 0%, #c75e19 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #fc771f 0%, #c75e19 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #fc771f 0%, #c75e19 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fc771f', endColorstr='#c75e19', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+	box-shadow: 2px -2px 3px rgba(0, 0, 0, .3);
+	content: ''
+}
+
+.button-blurb-blue {
+	
+	border: 1px solid #29abe2;
+	color: white;
+	background-image: linear-gradient(to bottom, #00c7fe, #007cce);
+}
+
+.button-blurb-blue:not(.unable):hover {
+	background-image: linear-gradient(to bottom, #0087B9 30%, #005E94 90%);
+	border-color: #068BBA;
+}
+
+.popup-zone .button-blurb-blue, .register-popup-zone-right .button-blurb-blue, .zone-agree-register .button-blurb-blue {
+	background: rgb(0, 199, 254);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0, 199, 254, 1) 0%, rgba(0, 124, 206, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0, 199, 254, 1) 0%, rgba(0, 124, 206, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0, 199, 254, 1) 0%, rgba(0, 124, 206, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00c7fe', endColorstr='#007cce', GradientType=0);
+	/* IE6-9 */
+	border: 1px solid #2dabe2;
+}
+
+.popup-zone .button-blurb-blue:hover, .register-popup-zone-right .button-blurb-blue:hover {
+	background: rgb(0, 137, 188);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0, 137, 188, 1) 0%, rgba(0, 83, 137, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0, 137, 188, 1) 0%, rgba(0, 83, 137, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0, 137, 188, 1) 0%, rgba(0, 83, 137, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0089bc', endColorstr='#005389', GradientType=0);
+	/* IE6-9 */
+	border: 1px solid #008abd;
+}
+
+.button-blurb-black {
+	border: #878789 solid 1px;
+	color: white;
+	background-image: linear-gradient(to bottom, #5F5F5F 20%, #161616 80%);
+}
+
+.button-blurb-black:not(.unable):hover {
+	background-image: linear-gradient(to bottom, #7F7F7F 30%, #313131 90%);
+	border: #ddd solid 1px;
+}
+
+.button-blurb-gray {
+	border: 1px solid #555;
+	color: #6d6b60;
+	box-shadow: none;
+	border-radius: 3px;
+	background: linear-gradient(180deg, #fff 0, #f9f9f9 5%, #efefef 48%, #e7e7e7 52%, #e3e3e3 57%, #cecece 95%, #d9d9d9);
+}
+
+.button-blurb-gray:not(.unable):hover {
+	color: #6d6b60;
+	background: #d8d9d9;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d8d9d9', endColorstr='#aaabac', GradientType=0);
+	/* IE6-9 */
+}
+
+.icon-in-button.triangle-down {
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.icon-in-button.icon-UndoIcon {
+	margin-left: 8px;
+	font-size: 20px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid;
+}
+
+.curved-right-arrow {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-top: 9px solid transparent;
+	border-right: 9px solid;
+	transform: rotate(10deg);
+}
+
+.curved-right-arrow:after {
+	content: "";
+	position: absolute;
+	border: 0 solid transparent;
+	border-top: 3px solid;
+	border-radius: 20px 0 0 0;
+	top: -12px;
+	left: -9px;
+	width: 12px;
+	height: 12px;
+	transform: rotate(45deg);
+}
+
+.curved-left-arrow {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-top: 9px solid transparent;
+	border-left: 9px solid;
+	transform: rotate(-10deg);
+}
+
+.curved-left-arrow:after {
+	content: "";
+	position: absolute;
+	border: 0 solid transparent;
+	border-top: 3px solid;
+	border-radius: 0 20px 0 0;
+	top: -12px;
+	right: -9px;
+	width: 12px;
+	height: 12px;
+	transform: rotate(-45deg);
+}
+
+.button-photo-edit {
+	display: inline-flex;
+	padding: 0 6px;
+	height: 28px;
+	color: #555555;
+	cursor: pointer;
+	justify-content: center;
+}
+
+.button-photo-edit:hover {
+	color: #29abe2;
+}
+
+.button-photo-edit-content {
+	text-align: center;
+	font-size: 13px;
+	display: block;
+	position: relative;
+}
+
+.button-photo-edit-content img {
+	max-width: 25px;
+	margin: 10px 10px 0px 10px;
+}
+
+.button-blurb-content .icon-image-wrapper img {
+	height: 20px;
+	width: 20px;
+	margin: 4px;
+}
+
+.button-blurb.unable, .button-blurb-color.unable {
+	opacity: 0.5;
+	cursor: default;
+}
+
+
+/*.button-photo-edit-content .button-photto-font-icon span {
+	font-size: 25px;
+}*/
+
+.font-icon-same-color {
+	font-size: 15px;
+}
+
+.font-icon-custom {
+	font-size: 25px;
+}
+
+.font-icon-text-edit-control-custom {
+	font-size: 18px;
+}
+
+.button-text-edit {
+	margin-left: 10px;
+}
+
+.font-icon-text-control {
+	font-size: 12px;
+}
+
+
+/*manage page*/
+
+.book-manage-pages {
+	transform-origin: top;
+	position: absolute;
+	bottom: -40px;
+	left: 50%;
+	margin-left: -85px;
+	margin-top: -15px;
+}
+
+.book-manage-pages .button-blurb {
+	height: 30px;
+}
+
+.icon-in-button.icon-ViewAllPagesIcon {
+	font-size: 27px;
+	margin-right: 12px;
+	float: left;
+}
+
+.button-blurb:hover .icon-in-button.icon-ViewAllPagesIcon, .button-blurb:hover .mana-page {
+	color: #10357e;
+}
+
+.button-blurb-content .button-layout-wrapper img {
+	height: 20px;
+	width: 20px;
+	border: 3px solid #dadada;
+	border-radius: 3px;
+	cursor: pointer;
+}

@@ -1,0 +1,69 @@
+.page-item {
+    height: 22px;
+    width: 66px;
+    min-width: 66px;
+    display: flex;
+    margin: 4px 1px;
+    justify-content: center;
+    background: transparent;
+    opacity: 100;
+    cursor: pointer;
+}
+
+.page-item:active {
+    background: rgba(50, 200, 255, 1);
+}
+
+.page-item:hover .item-cell {
+    background: white;
+}
+
+.page-item:hover .cover-item-cell {
+    background: white;
+}
+
+.page-item:hover * {
+    color: rgba(50, 200, 255, 1);
+}
+
+.page-item .item-cell {
+    margin: 2px 1px 2px 1px;
+    width: 28px;
+    height: 18px;
+    background: darkgray;
+    text-align: center;
+    color: dimgray;
+}
+
+.page-item .left-item {
+    margin-left: 2px;
+}
+
+.page-item .right-item {
+    margin-right: 2px;
+}
+
+.page-item p {
+    margin: 1px;
+    padding: 1.2px;
+    font-size: 12px;
+}
+
+.cover-item-cell {
+    margin: 2px 4px 2px 4px;
+    width: 58px;
+    height: 18px;
+    background: darkgray;
+    text-align: center;
+}
+
+.cover-item-cell p {
+    margin: 1px;
+    padding: 0;
+    font-size: 12px;
+    color: dimgray;
+}
+
+.page-item:hover p {
+    color: #000000;
+}

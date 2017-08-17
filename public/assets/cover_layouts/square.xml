@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<CoverLayouts trim_size="7x7">
+	<FlapLayout bs_src="1PhotoLand01.leftFlap" id="blurb.dj.2ba9cf31-e147-422b-a410-571cbe052a51" group_id="2ba9cf31-e147-422b-a410-571cbe052a51" cover_type="dustjacket" segment_type="front" width="241" height="513">
+		<ImageContainer id="a8e7c931-bb41-42f9-b753-1893cc9a1a91" x="45" y="42" width="150" height="213" />
+		<TextContainer id="85bd3663-62d7-4a44-8110-caac9539a98b" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<CoverLayout bs_src="1PhotoLand01.backPage" id="blurb.dj.1987c403-4ec2-4b09-b74c-c26d1b1994f3" group_id="1987c403-4ec2-4b09-b74c-c26d1b1994f3" cover_type="dustjacket" segment_type="back" width="534" height="513">
+		<ImageContainer id="1458aa6d-d769-4598-bac5-a7c01d940321" x="0" y="0" width="534" height="513" />
+		<TextContainer id="d352f798-1c97-4485-984c-dc79fb69e91d" x="56" y="376" width="429" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand01.backPage" id="blurb.iw.1987c403-4ec2-4b09-b74c-c26d1b1994f3" group_id="1987c403-4ec2-4b09-b74c-c26d1b1994f3" cover_type="imagewrap" segment_type="back" width="534" height="549">
+		<ImageContainer id="1458aa6d-d769-4598-bac5-a7c01d940321" x="0" y="0" width="534" height="549" />
+		<TextContainer id="d352f798-1c97-4485-984c-dc79fb69e91d" x="56" y="394" width="429" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand01.backPage" id="blurb.sc.1987c403-4ec2-4b09-b74c-c26d1b1994f3" group_id="1987c403-4ec2-4b09-b74c-c26d1b1994f3" cover_type="softcover" segment_type="back" width="495" height="495">
+		<ImageContainer id="1458aa6d-d769-4598-bac5-a7c01d940321" x="0" y="0" width="495" height="495" />
+		<TextContainer id="d352f798-1c97-4485-984c-dc79fb69e91d" x="36" y="367" width="429" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<SpineLayout bs_src="1PhotoLand01.spine" id="blurb.dj.e5513db6-153c-446a-ab16-a142124d2f29" group_id="e5513db6-153c-446a-ab16-a142124d2f29" cover_type="dustjacket" width="513" height="33">
+		<TextContainer id="b5ed216e-136a-4882-8f0f-8670753adb76" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="9469141f-374e-4356-9a81-5c963fb29fe8" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoLand01.spine" id="blurb.iw.e5513db6-153c-446a-ab16-a142124d2f29" group_id="e5513db6-153c-446a-ab16-a142124d2f29" cover_type="imagewrap" width="549" height="33">
+		<TextContainer id="b5ed216e-136a-4882-8f0f-8670753adb76" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="9469141f-374e-4356-9a81-5c963fb29fe8" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoLand01.spine" id="blurb.sc.e5513db6-153c-446a-ab16-a142124d2f29" group_id="e5513db6-153c-446a-ab16-a142124d2f29" cover_type="softcover" width="495" height="33">
+		<TextContainer id="b5ed216e-136a-4882-8f0f-8670753adb76" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="9469141f-374e-4356-9a81-5c963fb29fe8" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<CoverLayout bs_src="1PhotoLand01.frontPage" id="blurb.dj.3d106cc1-9a7f-4763-8445-c2933a5f56e3_#12226" group_id="3d106cc1-9a7f-4763-8445-c2933a5f56e3_#12226" cover_type="dustjacket" segment_type="front" width="534" height="513">
+		<ImageContainer id="d0c99912-1358-44d5-af3d-415ace0d61ec" x="0" y="0" width="534" height="356" />
+		<TextContainer id="e15755db-d418-48f8-8d02-e8dcf58b35d8" x="38" y="371" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="4ac8c65d-3039-43e9-9212-4fe206d4c0cb" x="37" y="459" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand01.frontPage" id="blurb.iw.3d106cc1-9a7f-4763-8445-c2933a5f56e3_#12226" group_id="3d106cc1-9a7f-4763-8445-c2933a5f56e3_#12226" cover_type="imagewrap" segment_type="front" width="534" height="549">
+		<ImageContainer id="d0c99912-1358-44d5-af3d-415ace0d61ec" x="0" y="0" width="534" height="356" />
+		<TextContainer id="e15755db-d418-48f8-8d02-e8dcf58b35d8" x="38" y="389" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="4ac8c65d-3039-43e9-9212-4fe206d4c0cb" x="37" y="477" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand01.frontPage" id="blurb.sc.3d106cc1-9a7f-4763-8445-c2933a5f56e3_#12226" group_id="3d106cc1-9a7f-4763-8445-c2933a5f56e3_#12226" cover_type="softcover" segment_type="front" width="495" height="495">
+		<ImageContainer id="d0c99912-1358-44d5-af3d-415ace0d61ec" x="0" y="0" width="495" height="356" />
+		<TextContainer id="e15755db-d418-48f8-8d02-e8dcf58b35d8" x="18" y="362" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="4ac8c65d-3039-43e9-9212-4fe206d4c0cb" x="17" y="450" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<FlapLayout bs_src="1PhotoLand01.rightFlap" id="blurb.dj.8e9593e7-db09-4d72-b398-98f2d8659dab" group_id="8e9593e7-db09-4d72-b398-98f2d8659dab" cover_type="dustjacket" segment_type="back" width="241" height="513">
+		<ImageContainer id="779ba636-bf51-4847-adbe-74ca17e8ef0b" x="45" y="42" width="150" height="213" />
+		<TextContainer id="e3209cc4-8070-4d69-a4c6-ad3723d2dfa4" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout bs_src="1PhotoPort01.leftFlap" id="blurb.dj.9cb14421-7cd6-40cc-8cc3-e5ea42ba1225" group_id="9cb14421-7cd6-40cc-8cc3-e5ea42ba1225" cover_type="dustjacket" segment_type="front" width="241" height="513">
+		<ImageContainer id="ef486116-cd92-4ce7-8192-b3f1bfa7ba76" x="45" y="42" width="150" height="213" />
+		<TextContainer id="89e1eb0e-4aad-4375-8843-d4fd69cf12ed" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<CoverLayout bs_src="1PhotoPort01.backPage" id="blurb.dj.7f2e65e4-15c6-4d46-9345-7c70e7e21e38" group_id="7f2e65e4-15c6-4d46-9345-7c70e7e21e38" cover_type="dustjacket" segment_type="back" width="534" height="513">
+		<ImageContainer id="6d031447-a779-418e-bb11-eefc8c1d173b" x="0" y="0" width="534" height="513" />
+		<TextContainer id="c3c46379-e6d2-4ff8-89aa-1c1d3a7f9ca7" x="55" y="376" width="430" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoPort01.backPage" id="blurb.iw.7f2e65e4-15c6-4d46-9345-7c70e7e21e38" group_id="7f2e65e4-15c6-4d46-9345-7c70e7e21e38" cover_type="imagewrap" segment_type="back" width="534" height="549">
+		<ImageContainer id="6d031447-a779-418e-bb11-eefc8c1d173b" x="0" y="18" width="534" height="531" />
+		<TextContainer id="c3c46379-e6d2-4ff8-89aa-1c1d3a7f9ca7" x="55" y="394" width="430" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoPort01.backPage" id="blurb.sc.7f2e65e4-15c6-4d46-9345-7c70e7e21e38" group_id="7f2e65e4-15c6-4d46-9345-7c70e7e21e38" cover_type="softcover" segment_type="back" width="495" height="495">
+		<ImageContainer id="6d031447-a779-418e-bb11-eefc8c1d173b" x="0" y="0" width="495" height="495" />
+		<TextContainer id="c3c46379-e6d2-4ff8-89aa-1c1d3a7f9ca7" x="35" y="367" width="430" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<SpineLayout bs_src="1PhotoPort01.spine" id="blurb.dj.0a01334d-11b6-4088-80f5-ba9d9dcba1cb" group_id="0a01334d-11b6-4088-80f5-ba9d9dcba1cb" cover_type="dustjacket" width="513" height="33">
+		<TextContainer id="efc00f12-6987-4dac-bce3-808f4f0f5bf7" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="c338996c-428e-47b7-ab39-7f5a5360a652" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoPort01.spine" id="blurb.iw.0a01334d-11b6-4088-80f5-ba9d9dcba1cb" group_id="0a01334d-11b6-4088-80f5-ba9d9dcba1cb" cover_type="imagewrap" width="549" height="33">
+		<TextContainer id="efc00f12-6987-4dac-bce3-808f4f0f5bf7" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="c338996c-428e-47b7-ab39-7f5a5360a652" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoPort01.spine" id="blurb.sc.0a01334d-11b6-4088-80f5-ba9d9dcba1cb" group_id="0a01334d-11b6-4088-80f5-ba9d9dcba1cb" cover_type="softcover" width="495" height="33">
+		<TextContainer id="efc00f12-6987-4dac-bce3-808f4f0f5bf7" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="c338996c-428e-47b7-ab39-7f5a5360a652" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<CoverLayout bs_src="1PhotoPort01.frontPage" id="blurb.dj.61f4ba1f-5900-4b89-bb43-b9dbb5ef0a71_#12226" group_id="61f4ba1f-5900-4b89-bb43-b9dbb5ef0a71_#12226" cover_type="dustjacket" segment_type="front" width="534" height="513">
+		<ImageContainer id="90194be9-feee-497f-8728-42ecc7448046" x="134" y="19" width="255" height="340" />
+		<TextContainer id="520a6700-c1d8-427e-8e43-e1b223b9b614" x="38" y="371" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="fce02cba-498b-42af-912c-c61ba86fbcd3" x="37" y="459" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoPort01.frontPage" id="blurb.iw.61f4ba1f-5900-4b89-bb43-b9dbb5ef0a71_#12226" group_id="61f4ba1f-5900-4b89-bb43-b9dbb5ef0a71_#12226" cover_type="imagewrap" segment_type="front" width="534" height="549">
+		<ImageContainer id="90194be9-feee-497f-8728-42ecc7448046" x="134" y="37" width="255" height="340" />
+		<TextContainer id="520a6700-c1d8-427e-8e43-e1b223b9b614" x="38" y="389" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="fce02cba-498b-42af-912c-c61ba86fbcd3" x="37" y="477" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoPort01.frontPage" id="blurb.sc.61f4ba1f-5900-4b89-bb43-b9dbb5ef0a71_#12226" group_id="61f4ba1f-5900-4b89-bb43-b9dbb5ef0a71_#12226" cover_type="softcover" segment_type="front" width="495" height="495">
+		<ImageContainer id="90194be9-feee-497f-8728-42ecc7448046" x="114" y="18" width="255" height="340" />
+		<TextContainer id="520a6700-c1d8-427e-8e43-e1b223b9b614" x="18" y="364" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="fce02cba-498b-42af-912c-c61ba86fbcd3" x="17" y="450" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<FlapLayout bs_src="1PhotoPort01.rightFlap" id="blurb.dj.3478d951-c6e9-464e-b3de-06e78206b108" group_id="3478d951-c6e9-464e-b3de-06e78206b108" cover_type="dustjacket" segment_type="back" width="241" height="513">
+		<ImageContainer id="df0f19ac-5cdd-4fd7-9997-a343ab8246f1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="f43f84d0-503e-45d3-bf4c-213a641c6209" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout bs_src="1PhotoLand02.leftFlap" id="blurb.dj.a1f48eb6-0359-4046-8b44-6303057a1963" group_id="a1f48eb6-0359-4046-8b44-6303057a1963" cover_type="dustjacket" segment_type="front" width="241" height="513">
+		<ImageContainer id="b57327e6-9a54-4ba2-af66-050615f20fa8" x="45" y="42" width="150" height="213" />
+		<TextContainer id="f7f6ee53-4181-40ce-8e07-7854cd51ab3e" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<CoverLayout bs_src="1PhotoLand02.backPage" id="blurb.dj.d11300c9-27ab-4a75-a563-96303eafc6af" group_id="d11300c9-27ab-4a75-a563-96303eafc6af" cover_type="dustjacket" segment_type="back" width="534" height="513">
+		<ImageContainer id="ffa8794f-939f-4f03-a3cb-d2b14eed5f4f" x="0" y="0" width="534" height="513" />
+		<TextContainer id="0cb63036-c3a0-4e7a-a990-2fd261b6a6c8" x="55" y="376" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand02.backPage" id="blurb.iw.d11300c9-27ab-4a75-a563-96303eafc6af" group_id="d11300c9-27ab-4a75-a563-96303eafc6af" cover_type="imagewrap" segment_type="back" width="534" height="549">
+		<ImageContainer id="ffa8794f-939f-4f03-a3cb-d2b14eed5f4f" x="0" y="18" width="534" height="531" />
+		<TextContainer id="0cb63036-c3a0-4e7a-a990-2fd261b6a6c8" x="55" y="394" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand02.backPage" id="blurb.sc.d11300c9-27ab-4a75-a563-96303eafc6af" group_id="d11300c9-27ab-4a75-a563-96303eafc6af" cover_type="softcover" segment_type="back" width="495" height="495">
+		<ImageContainer id="ffa8794f-939f-4f03-a3cb-d2b14eed5f4f" x="0" y="0" width="495" height="495" />
+		<TextContainer id="0cb63036-c3a0-4e7a-a990-2fd261b6a6c8" x="35" y="367" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<SpineLayout bs_src="1PhotoLand02.spine" id="blurb.dj.83cf3cc7-8b55-464a-8fdc-800511252fa9" group_id="83cf3cc7-8b55-464a-8fdc-800511252fa9" cover_type="dustjacket" width="513" height="33">
+		<TextContainer id="6e7dfe0a-8772-4b9f-9ae9-275d2dc01037" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="fddd3fac-de7f-41a5-b417-98fdc8530cd0" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoLand02.spine" id="blurb.iw.83cf3cc7-8b55-464a-8fdc-800511252fa9" group_id="83cf3cc7-8b55-464a-8fdc-800511252fa9" cover_type="imagewrap" width="549" height="33">
+		<TextContainer id="6e7dfe0a-8772-4b9f-9ae9-275d2dc01037" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="fddd3fac-de7f-41a5-b417-98fdc8530cd0" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoLand02.spine" id="blurb.sc.83cf3cc7-8b55-464a-8fdc-800511252fa9" group_id="83cf3cc7-8b55-464a-8fdc-800511252fa9" cover_type="softcover" width="495" height="33">
+		<TextContainer id="6e7dfe0a-8772-4b9f-9ae9-275d2dc01037" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="fddd3fac-de7f-41a5-b417-98fdc8530cd0" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<CoverLayout bs_src="1PhotoLand02.frontPage" id="blurb.dj.d137a331-21cf-4b7b-bfdf-aaa1858d66f1_#12226" group_id="d137a331-21cf-4b7b-bfdf-aaa1858d66f1_#12226" cover_type="dustjacket" segment_type="front" width="534" height="513">
+		<ImageContainer id="36b4e322-4388-4452-aeef-cf4e041b161a" x="36" y="34" width="462" height="325" />
+		<TextContainer id="519cffb5-f181-4eb3-85bd-21ee5503e96d" x="38" y="371" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="ee0e0c6a-6de9-42c9-9255-867fe3cf987d" x="37" y="459" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand02.frontPage" id="blurb.iw.d137a331-21cf-4b7b-bfdf-aaa1858d66f1_#12226" group_id="d137a331-21cf-4b7b-bfdf-aaa1858d66f1_#12226" cover_type="imagewrap" segment_type="front" width="534" height="549">
+		<ImageContainer id="36b4e322-4388-4452-aeef-cf4e041b161a" x="36" y="52" width="462" height="325" />
+		<TextContainer id="519cffb5-f181-4eb3-85bd-21ee5503e96d" x="38" y="389" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="ee0e0c6a-6de9-42c9-9255-867fe3cf987d" x="37" y="477" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand02.frontPage" id="blurb.sc.d137a331-21cf-4b7b-bfdf-aaa1858d66f1_#12226" group_id="d137a331-21cf-4b7b-bfdf-aaa1858d66f1_#12226" cover_type="softcover" segment_type="front" width="495" height="495">
+		<ImageContainer id="36b4e322-4388-4452-aeef-cf4e041b161a" x="16" y="25" width="462" height="325" />
+		<TextContainer id="519cffb5-f181-4eb3-85bd-21ee5503e96d" x="18" y="362" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="ee0e0c6a-6de9-42c9-9255-867fe3cf987d" x="17" y="450" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<FlapLayout bs_src="1PhotoLand02.rightFlap" id="blurb.dj.600cce98-98ea-4a7b-9eaf-c0bece7abfca" group_id="600cce98-98ea-4a7b-9eaf-c0bece7abfca" cover_type="dustjacket" segment_type="back" width="241" height="513">
+		<ImageContainer id="861d75c9-304f-41ae-ba0e-5eb2498bf645" x="45" y="42" width="150" height="213" />
+		<TextContainer id="7e2b443b-0af1-4c0f-a96d-f39e517953ac" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout bs_src="1PhotoLand03.leftFlap" id="blurb.dj.66b4b485-70ee-4215-a0e3-d407f78ad926" group_id="66b4b485-70ee-4215-a0e3-d407f78ad926" cover_type="dustjacket" segment_type="front" width="241" height="513">
+		<ImageContainer id="0c2995bd-e0d8-458d-bf24-7deeb14f5f7a" x="45" y="42" width="150" height="213" />
+		<TextContainer id="10893422-f451-464c-af08-70343ac8f4c7" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<CoverLayout bs_src="1PhotoLand03.backPage" id="blurb.dj.e2a23060-1430-4eb0-b500-6ce7628e5271" group_id="e2a23060-1430-4eb0-b500-6ce7628e5271" cover_type="dustjacket" segment_type="back" width="534" height="513">
+		<ImageContainer id="f6c6894b-2c8e-4f07-8e9a-b2ceb4f2e12f" x="0" y="0" width="534" height="513" />
+		<TextContainer id="42d0291a-983d-4a29-9c01-c1cb915f5b7b" x="54" y="376" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand03.backPage" id="blurb.iw.e2a23060-1430-4eb0-b500-6ce7628e5271" group_id="e2a23060-1430-4eb0-b500-6ce7628e5271" cover_type="imagewrap" segment_type="back" width="534" height="549">
+		<ImageContainer id="f6c6894b-2c8e-4f07-8e9a-b2ceb4f2e12f" x="0" y="18" width="534" height="531" />
+		<TextContainer id="42d0291a-983d-4a29-9c01-c1cb915f5b7b" x="54" y="394" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand03.backPage" id="blurb.sc.e2a23060-1430-4eb0-b500-6ce7628e5271" group_id="e2a23060-1430-4eb0-b500-6ce7628e5271" cover_type="softcover" segment_type="back" width="495" height="495">
+		<ImageContainer id="f6c6894b-2c8e-4f07-8e9a-b2ceb4f2e12f" x="0" y="0" width="495" height="495" />
+		<TextContainer id="42d0291a-983d-4a29-9c01-c1cb915f5b7b" x="34" y="367" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<SpineLayout bs_src="1PhotoLand03.spine" id="blurb.dj.5520c17c-10c1-4556-9d97-dfe2b3cedde9" group_id="5520c17c-10c1-4556-9d97-dfe2b3cedde9" cover_type="dustjacket" width="513" height="33">
+		<TextContainer id="3b3272e5-24fa-4953-a426-3088c9da37e9" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="9f7af48e-a2fd-4a9d-b42f-c0444cce7075" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoLand03.spine" id="blurb.iw.5520c17c-10c1-4556-9d97-dfe2b3cedde9" group_id="5520c17c-10c1-4556-9d97-dfe2b3cedde9" cover_type="imagewrap" width="549" height="33">
+		<TextContainer id="3b3272e5-24fa-4953-a426-3088c9da37e9" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="9f7af48e-a2fd-4a9d-b42f-c0444cce7075" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoLand03.spine" id="blurb.sc.5520c17c-10c1-4556-9d97-dfe2b3cedde9" group_id="5520c17c-10c1-4556-9d97-dfe2b3cedde9" cover_type="softcover" width="495" height="33">
+		<TextContainer id="3b3272e5-24fa-4953-a426-3088c9da37e9" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="9f7af48e-a2fd-4a9d-b42f-c0444cce7075" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<CoverLayout bs_src="1PhotoLand03.frontPage" id="blurb.dj.9c3b1360-b67c-442f-9714-b13b1dd9a3c7_#12226" group_id="9c3b1360-b67c-442f-9714-b13b1dd9a3c7_#12226" cover_type="dustjacket" segment_type="front" width="534" height="513">
+		<ImageContainer id="3369adca-41b0-41f6-83f1-984509510f7e" x="0" y="157" width="534" height="356" />
+		<TextContainer id="d3be83f5-2b73-4630-9767-8269f51fc557" x="36" y="28" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="cc846997-c9ff-4d52-9b7d-b00c25b5ce03" x="36" y="114" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand03.frontPage" id="blurb.iw.9c3b1360-b67c-442f-9714-b13b1dd9a3c7_#12226" group_id="9c3b1360-b67c-442f-9714-b13b1dd9a3c7_#12226" cover_type="imagewrap" segment_type="front" width="534" height="549">
+		<ImageContainer id="3369adca-41b0-41f6-83f1-984509510f7e" x="0" y="175" width="534" height="374" />
+		<TextContainer id="d3be83f5-2b73-4630-9767-8269f51fc557" x="36" y="46" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="cc846997-c9ff-4d52-9b7d-b00c25b5ce03" x="36" y="132" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoLand03.frontPage" id="blurb.sc.9c3b1360-b67c-442f-9714-b13b1dd9a3c7_#12226" group_id="9c3b1360-b67c-442f-9714-b13b1dd9a3c7_#12226" cover_type="softcover" segment_type="front" width="495" height="495">
+		<ImageContainer id="3369adca-41b0-41f6-83f1-984509510f7e" x="0" y="148" width="495" height="347" />
+		<TextContainer id="d3be83f5-2b73-4630-9767-8269f51fc557" x="16" y="19" width="451" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="cc846997-c9ff-4d52-9b7d-b00c25b5ce03" x="16" y="105" width="451" height="29" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<FlapLayout bs_src="1PhotoLand03.rightFlap" id="blurb.dj.2e37b754-823a-405a-ad63-275a67569b41" group_id="2e37b754-823a-405a-ad63-275a67569b41" cover_type="dustjacket" segment_type="back" width="241" height="513">
+		<ImageContainer id="a625f441-ad51-4545-888e-65fadd2adf1e" x="45" y="42" width="150" height="213" />
+		<TextContainer id="825e4c16-7587-402a-aa7e-8eb088d9a8f0" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout bs_src="1PhotoBleed01.leftFlap" id="blurb.dj.5ba02bee-ff74-4ced-86eb-bc62dc25ad42" group_id="5ba02bee-ff74-4ced-86eb-bc62dc25ad42" cover_type="dustjacket" segment_type="front" width="241" height="513">
+		<ImageContainer id="075d25a5-332a-474b-8fb8-551021910f2c" x="45" y="42" width="150" height="213" />
+		<TextContainer id="615a927d-95d6-48e4-b31e-a34ec30dabf2" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<CoverLayout bs_src="1PhotoBleed01.backPage" id="blurb.dj.55bda2ea-117f-4ff4-bce3-f66543ea9baa" group_id="55bda2ea-117f-4ff4-bce3-f66543ea9baa" cover_type="dustjacket" segment_type="back" width="534" height="513">
+		<ImageContainer id="d5172831-9622-4804-926d-701da8cd5403" x="0" y="0" width="534" height="513" />
+		<TextContainer id="21603ae4-7a8e-49df-abd8-9c95fd0bf26b" x="55" y="376" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoBleed01.backPage" id="blurb.iw.55bda2ea-117f-4ff4-bce3-f66543ea9baa" group_id="55bda2ea-117f-4ff4-bce3-f66543ea9baa" cover_type="imagewrap" segment_type="back" width="534" height="549">
+		<ImageContainer id="d5172831-9622-4804-926d-701da8cd5403" x="0" y="18" width="534" height="531" />
+		<TextContainer id="21603ae4-7a8e-49df-abd8-9c95fd0bf26b" x="55" y="394" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoBleed01.backPage" id="blurb.sc.55bda2ea-117f-4ff4-bce3-f66543ea9baa" group_id="55bda2ea-117f-4ff4-bce3-f66543ea9baa" cover_type="softcover" segment_type="back" width="495" height="495">
+		<ImageContainer id="d5172831-9622-4804-926d-701da8cd5403" x="0" y="0" width="495" height="495" />
+		<TextContainer id="21603ae4-7a8e-49df-abd8-9c95fd0bf26b" x="35" y="367" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<SpineLayout bs_src="1PhotoBleed01.spine" id="blurb.dj.c509f3db-54ad-403b-b3c1-44302cf148f7" group_id="c509f3db-54ad-403b-b3c1-44302cf148f7" cover_type="dustjacket" width="513" height="33">
+		<TextContainer id="c93f4038-0984-426b-8aa7-efac49fc5407" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="4752914f-b48e-43e8-a941-e7af4f077766" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoBleed01.spine" id="blurb.iw.c509f3db-54ad-403b-b3c1-44302cf148f7" group_id="c509f3db-54ad-403b-b3c1-44302cf148f7" cover_type="imagewrap" width="549" height="33">
+		<TextContainer id="c93f4038-0984-426b-8aa7-efac49fc5407" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="4752914f-b48e-43e8-a941-e7af4f077766" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoBleed01.spine" id="blurb.sc.c509f3db-54ad-403b-b3c1-44302cf148f7" group_id="c509f3db-54ad-403b-b3c1-44302cf148f7" cover_type="softcover" width="495" height="33">
+		<TextContainer id="c93f4038-0984-426b-8aa7-efac49fc5407" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="4752914f-b48e-43e8-a941-e7af4f077766" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<CoverLayout bs_src="1PhotoBleed01.frontPage" id="blurb.dj.3f89ce97-3cd7-4cb3-b7a3-1da9e3184370_#12226" group_id="3f89ce97-3cd7-4cb3-b7a3-1da9e3184370_#12226" cover_type="dustjacket" segment_type="front" width="534" height="513">
+		<ImageContainer id="fe296153-c3e4-4dae-9599-fc6435635c1c" x="0" y="0" width="534" height="513" />
+		<TextContainer id="1bd63906-ce85-404e-87e2-c9fd991d399d" x="37" y="36" width="451" height="351" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="b240b518-cf62-496e-b83e-12abdded88de" x="37" y="400" width="451" height="76" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoBleed01.frontPage" id="blurb.iw.3f89ce97-3cd7-4cb3-b7a3-1da9e3184370_#12226" group_id="3f89ce97-3cd7-4cb3-b7a3-1da9e3184370_#12226" cover_type="imagewrap" segment_type="front" width="534" height="549">
+		<ImageContainer id="fe296153-c3e4-4dae-9599-fc6435635c1c" x="0" y="0" width="534" height="549" />
+		<TextContainer id="1bd63906-ce85-404e-87e2-c9fd991d399d" x="37" y="54" width="451" height="351" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="b240b518-cf62-496e-b83e-12abdded88de" x="37" y="418" width="451" height="76" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoBleed01.frontPage" id="blurb.sc.3f89ce97-3cd7-4cb3-b7a3-1da9e3184370_#12226" group_id="3f89ce97-3cd7-4cb3-b7a3-1da9e3184370_#12226" cover_type="softcover" segment_type="front" width="495" height="495">
+		<ImageContainer id="fe296153-c3e4-4dae-9599-fc6435635c1c" x="0" y="0" width="495" height="495" />
+		<TextContainer id="1bd63906-ce85-404e-87e2-c9fd991d399d" x="17" y="27" width="451" height="351" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="b240b518-cf62-496e-b83e-12abdded88de" x="17" y="391" width="451" height="76" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<FlapLayout bs_src="1PhotoBleed01.rightFlap" id="blurb.dj.5a751ec3-2570-42f5-842a-24504a53a078" group_id="5a751ec3-2570-42f5-842a-24504a53a078" cover_type="dustjacket" segment_type="back" width="241" height="513">
+		<ImageContainer id="7ba8a471-6583-453a-8a27-36847be3ce7b" x="45" y="42" width="150" height="213" />
+		<TextContainer id="ec0dfd49-7e4e-4403-95eb-72e510f0438a" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout bs_src="1PhotoSquare01.leftFlap" id="blurb.dj.3f3854c6-58fc-48d5-a343-faaa07920d74" group_id="3f3854c6-58fc-48d5-a343-faaa07920d74" cover_type="dustjacket" segment_type="front" width="241" height="513">
+		<ImageContainer id="e4fd0a9f-6ec0-4ac1-bfa8-711be7b6f9ea" x="45" y="42" width="150" height="213" />
+		<TextContainer id="8140e465-9c98-4ccd-8e8d-344143818c15" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<CoverLayout bs_src="1PhotoSquare01.backPage" id="blurb.dj.2a68dbd8-71a3-48ae-ba90-318110b4bf9c" group_id="2a68dbd8-71a3-48ae-ba90-318110b4bf9c" cover_type="dustjacket" segment_type="back" width="534" height="513">
+		<ImageContainer id="a2984a10-1e53-4f2e-9c23-5098f9c59c21" x="0" y="0" width="534" height="513" />
+		<TextContainer id="b5ba8866-b8ca-4097-bd41-ec4926e12374" x="55" y="376" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoSquare01.backPage" id="blurb.iw.2a68dbd8-71a3-48ae-ba90-318110b4bf9c" group_id="2a68dbd8-71a3-48ae-ba90-318110b4bf9c" cover_type="imagewrap" segment_type="back" width="534" height="549">
+		<ImageContainer id="a2984a10-1e53-4f2e-9c23-5098f9c59c21" x="0" y="18" width="534" height="531" />
+		<TextContainer id="b5ba8866-b8ca-4097-bd41-ec4926e12374" x="55" y="394" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoSquare01.backPage" id="blurb.sc.2a68dbd8-71a3-48ae-ba90-318110b4bf9c" group_id="2a68dbd8-71a3-48ae-ba90-318110b4bf9c" cover_type="softcover" segment_type="back" width="495" height="495">
+		<ImageContainer id="a2984a10-1e53-4f2e-9c23-5098f9c59c21" x="0" y="0" width="495" height="495" />
+		<TextContainer id="b5ba8866-b8ca-4097-bd41-ec4926e12374" x="35" y="367" width="432" height="104" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<SpineLayout bs_src="1PhotoSquare01.spine" id="blurb.dj.ea317d88-fb65-4d4b-b6bb-b279f0ff75bd" group_id="ea317d88-fb65-4d4b-b6bb-b279f0ff75bd" cover_type="dustjacket" width="513" height="33">
+		<TextContainer id="02251da2-76b3-446e-b815-9a2d83cd8226" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="859dee96-5faf-413a-b595-c19f65795653" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoSquare01.spine" id="blurb.iw.ea317d88-fb65-4d4b-b6bb-b279f0ff75bd" group_id="ea317d88-fb65-4d4b-b6bb-b279f0ff75bd" cover_type="imagewrap" width="549" height="33">
+		<TextContainer id="02251da2-76b3-446e-b815-9a2d83cd8226" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="859dee96-5faf-413a-b595-c19f65795653" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="1PhotoSquare01.spine" id="blurb.sc.ea317d88-fb65-4d4b-b6bb-b279f0ff75bd" group_id="ea317d88-fb65-4d4b-b6bb-b279f0ff75bd" cover_type="softcover" width="495" height="33">
+		<TextContainer id="02251da2-76b3-446e-b815-9a2d83cd8226" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="859dee96-5faf-413a-b595-c19f65795653" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<CoverLayout bs_src="1PhotoSquare01.frontPage" id="blurb.dj.78187329-6e40-40d4-a18e-c3159901d57e_#12226" group_id="78187329-6e40-40d4-a18e-c3159901d57e_#12226" cover_type="dustjacket" segment_type="front" width="534" height="513">
+		<ImageContainer id="0976aadd-9bb3-4395-81a1-40a26e3bb653" x="36" y="36" width="460" height="445" />
+		<TextContainer id="1ca93253-321c-4ca3-85ea-759505b7e9be" x="55" y="347" width="405" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="69b8f569-d7ad-40b6-9492-0470231caae7" x="55" y="437" width="403" height="37" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoSquare01.frontPage" id="blurb.iw.78187329-6e40-40d4-a18e-c3159901d57e_#12226" group_id="78187329-6e40-40d4-a18e-c3159901d57e_#12226" cover_type="imagewrap" segment_type="front" width="534" height="549">
+		<ImageContainer id="0976aadd-9bb3-4395-81a1-40a26e3bb653" x="36" y="54" width="460" height="445" />
+		<TextContainer id="1ca93253-321c-4ca3-85ea-759505b7e9be" x="55" y="365" width="405" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="69b8f569-d7ad-40b6-9492-0470231caae7" x="55" y="455" width="403" height="37" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<CoverLayout bs_src="1PhotoSquare01.frontPage" id="blurb.sc.78187329-6e40-40d4-a18e-c3159901d57e_#12226" group_id="78187329-6e40-40d4-a18e-c3159901d57e_#12226" cover_type="softcover" segment_type="front" width="495" height="495">
+		<ImageContainer id="0976aadd-9bb3-4395-81a1-40a26e3bb653" x="16" y="27" width="460" height="445" />
+		<TextContainer id="1ca93253-321c-4ca3-85ea-759505b7e9be" x="35" y="338" width="405" height="79" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+		<TextContainer id="69b8f569-d7ad-40b6-9492-0470231caae7" x="35" y="428" width="403" height="37" binding="$AuthorName" two_way="true" x_translate="0" style_id="bodsub_l_12-15_s4" />
+	</CoverLayout>
+	<FlapLayout bs_src="1PhotoSquare01.rightFlap" id="blurb.dj.13523f2f-cfa9-4f5d-a075-aafb324f08a0" group_id="13523f2f-cfa9-4f5d-a075-aafb324f08a0" cover_type="dustjacket" segment_type="back" width="241" height="513">
+		<ImageContainer id="dfb43552-6f5a-4c4b-a97a-e98719bd9796" x="45" y="42" width="150" height="213" />
+		<TextContainer id="d61afef2-5241-4f53-bede-9590d9c35254" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+
+	<!-- instagram instant book covers -->
+
+	<!-- instagram instant book front cover layouts -->
+	<CoverLayout id="blurb.dj.instant_square.front" bs_src="InstagramSquare01.frontPage" width="534" height="513" cover_type="dustjacket" group_id="instant_square.front" segment_type="front">
+		<ImageContainer id="img1" x="52" y="81" width="320" height="320" />
+		<ImageContainer id="img2" x="382" y="81" width="100" height="100" />
+		<ImageContainer id="img3" x="382" y="191" width="100" height="100" />
+		<ImageContainer id="img4" x="382" y="301" width="100" height="100" />
+		<TextContainer id="txt1" x="52" y="419" width="430" height="35" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.iw.instant_square.front" bs_src="InstagramSquare01.frontPage" width="534" height="549" cover_type="imagewrap" group_id="instant_square.front" segment_type="front">
+		<ImageContainer id="img1" x="44" y="99" width="320" height="320" />
+		<ImageContainer id="img2" x="374" y="99" width="100" height="100" />
+		<ImageContainer id="img3" x="374" y="209" width="100" height="100" />
+		<ImageContainer id="img4" x="374" y="319" width="100" height="100" />
+		<TextContainer id="txt1" x="44" y="437" width="430" height="35" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.sc.instant_square.front" bs_src="InstagramSquare01.frontPage" width="495" height="495" cover_type="softcover" group_id="instant_square.front" segment_type="front">
+		<ImageContainer id="img1" x="33" y="72" width="320" height="320" />
+		<ImageContainer id="img2" x="363" y="72" width="100" height="100" />
+		<ImageContainer id="img3" x="363" y="182" width="100" height="100" />
+		<ImageContainer id="img4" x="363" y="292" width="100" height="100" />
+		<TextContainer id="txt1" x="33" y="410" width="430" height="35" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- instagram instant book back covers -->
+	<CoverLayout bs_src="InstagramSquare01.backPage" id="blurb.dj.instant_square.back" group_id="instant_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513"></CoverLayout>
+	<CoverLayout bs_src="InstagramSquare01.backPage" id="blurb.iw.instant_square.back" group_id="instant_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549"></CoverLayout>
+	<CoverLayout bs_src="InstagramSquare01.backPage" id="blurb.sc.instant_square.back" group_id="instant_square.back" cover_type="softcover" segment_type="back" width="495" height="495"></CoverLayout>
+
+	<!-- instagram instant book spine layouts -->
+	<SpineLayout bs_src="InstagramSquare01.spine" id="blurb.dj.instant_square.spine" group_id="instant_square.spine" cover_type="dustjacket" width="513" height="33">
+		<TextContainer id="txt1" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="InstagramSquare01.spine" id="blurb.iw.instant_square.spine" group_id="instant_square.spine" cover_type="imagewrap" width="549" height="33">
+		<TextContainer id="txt1" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+	<SpineLayout bs_src="InstagramSquare01.spine" id="blurb.sc.instant_square.spine" group_id="instant_square.spine" cover_type="softcover" width="495" height="33">
+		<TextContainer id="txt1" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+	</SpineLayout>
+
+	<!-- instagram instant book flap layouts -->
+	<FlapLayout bs_src="InstagramSquare01.frontFlap" id="blurb.dj.instant_square.frontFlap" group_id="instant_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513">
+		<ImageContainer id="img1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="txt1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout bs_src="InstagramSquare01.backFlap" id="blurb.dj.instant_square.backFlap" group_id="instant_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513">
+		<ImageContainer id="img1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="txt1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+
+	<!-- * * * * * * * * * * * * * * * -->
+	<!-- * * Facebook instant book * * -->
+	<!-- * * * * * * * * * * * * * * * -->
+
+	<!-- facebook instant book front cover layouts -->
+	<!-- single image (legacy) layout. kept in order not to modify existing books -->
+	<CoverLayout id="blurb.dj.fb_instant_square.front" group_id="fb_instant_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<ImageContainer id="blurb.fb001" x="74" y="35" width="396" height="396" />
+		<TextContainer id="blurb.fb002" x="74" y="446" width="396" height="23" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="blurb.fb003" x="74" y="471" width="396" height="14" binding="$AuthorName" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.iw.fb_instant_square.front" group_id="fb_instant_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549">
+		<ImageContainer id="blurb.fb001" x="74" y="53" width="396" height="396" />
+		<TextContainer id="blurb.fb002" x="74" y="464" width="396" height="24" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="blurb.fb003" x="74" y="489" width="396" height="13" binding="$AuthorName" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.sc.fb_instant_square.front" group_id="fb_instant_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<ImageContainer id="blurb.fb001" x="54" y="26" width="396" height="396" />
+		<TextContainer id="blurb.fb002" x="54" y="437" width="396" height="27" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="blurb.fb003" x="54" y="462" width="396" height="14" binding="$AuthorName" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	
+	<!-- multi image layout -->
+	<CoverLayout id="blurb.dj.fb_instant_square.frontFour" group_id="fb_instant_square.frontFour" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<ImageContainer id="blurb.fb001" x="55" y="43" width="192" height="192" />
+		<ImageContainer id="blurb.fb002" x="267" y="43" width="192" height="192" />
+		<ImageContainer id="blurb.fb003" x="55" y="247" width="192" height="192" />
+		<ImageContainer id="blurb.fb004" x="267" y="247" width="192" height="192" />
+		<TextContainer id="blurb.fb005" x="55" y="446" width="396" height="23" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="blurb.fb006" x="55" y="471" width="394" height="14" binding="$AuthorName" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.iw.fb_instant_square.frontFour" group_id="fb_instant_square.frontFour" cover_type="imagewrap" segment_type="front" width="534" height="549">
+		<ImageContainer id="blurb.fb001" x="65" y="53" width="192" height="192" />
+		<ImageContainer id="blurb.fb002" x="277" y="53" width="192" height="192" />
+		<ImageContainer id="blurb.fb003" x="65" y="265" width="192" height="192" />
+		<ImageContainer id="blurb.fb004" x="277" y="265" width="192" height="192" />
+		<TextContainer id="blurb.fb005" x="65" y="464" width="396" height="23" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="blurb.fb006" x="65" y="489" width="394" height="14" binding="$AuthorName" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.sc.fb_instant_square.frontFour" group_id="fb_instant_square.frontFour" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<ImageContainer id="blurb.fb001" x="40" y="26" width="192" height="192" />
+		<ImageContainer id="blurb.fb002" x="252" y="26" width="192" height="192" />
+		<ImageContainer id="blurb.fb003" x="40" y="238" width="192" height="192" />
+		<ImageContainer id="blurb.fb004" x="252" y="238" width="192" height="192" />
+		<TextContainer id="blurb.fb005" x="40" y="437" width="396" height="35" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="blurb.fb006" x="40" y="462" width="396" height="35" binding="$AuthorName" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- facebook instant book back cover layouts -->
+	<CoverLayout id="blurb.dj.fb_instant_square.back" group_id="fb_instant_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2"></CoverLayout>
+	<CoverLayout id="blurb.iw.fb_instant_square.back" group_id="fb_instant_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2"></CoverLayout>
+	<CoverLayout id="blurb.sc.fb_instant_square.back" group_id="fb_instant_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2"></CoverLayout>
+
+	<!-- facebook instant book spine layouts -->
+	<SpineLayout id="blurb.dj.fb_instant_square.spine" group_id="fb_instant_square.spine" cover_type="dustjacket" width="513" height="33">
+		<TextContainer id="blurb.fb002" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="true" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="blurb.fb003" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.iw.fb_instant_square.spine" group_id="fb_instant_square.spine" cover_type="imagewrap" width="549" height="33">
+		<TextContainer id="blurb.fb002" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="true" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="blurb.fb003" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.sc.fb_instant_square.spine" group_id="fb_instant_square.spine" cover_type="softcover" width="495" height="33">
+		<TextContainer id="blurb.fb002" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="true" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="blurb.fb003" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+
+	<!-- facebook instant book flap layouts -->
+	<FlapLayout id="blurb.dj.fb_instant_square.frontFlap" group_id="fb_instant_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="blurb.fb001" x="45" y="42" width="150" height="213" />
+		<TextContainer id="blurb.fb002" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout id="blurb.dj.fb_instant_square.backFlap" group_id="fb_instant_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="blurb.fb001" x="45" y="42" width="150" height="213" />
+		<TextContainer id="blurb.fb002" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+
+	<!-- * * * * * * * * * * * * -->
+	<!-- * * designer layouts * * -->
+	<!-- * * * * * * * * * * * * -->
+
+	<!-- amsterdam front -->
+	<CoverLayout id="blurb.designerbook.amsterdam.dj.front" group_id="designerbook_amsterdam_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="amsterdam_front_l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/amsterdam/square/cover_dj_front.png" />
+		<ImageContainer id="amsterdam_front_i1" x="0" y="202" width="534" height="208" />
+		<TextContainer id="amsterdam_front_t1" x="94" y="78" width="97" height="68" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="amsterdam_front_t2" x="82" y="424" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.amsterdam.iw.front" group_id="designerbook_amsterdam_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="amsterdam_front_l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/amsterdam/square/cover_iw_front.png" />
+		<ImageContainer id="amsterdam_front_i1" x="0" y="220" width="534" height="208" />
+		<TextContainer id="amsterdam_front_t1" x="93" y="95" width="97" height="68" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="amsterdam_front_t2" x="80" y="442" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.amsterdam.sc.front" group_id="designerbook_amsterdam_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="amsterdam_front_l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/amsterdam/square/cover_sc_front.png" />
+		<ImageContainer id="amsterdam_front_i1" x="0" y="193" width="495" height="208" />
+		<TextContainer id="amsterdam_front_t1" x="85" y="68" width="97" height="68" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="amsterdam_front_t2" x="72" y="415" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- amsterdam back -->
+	<CoverLayout id="blurb.designerbook.amsterdam.dj.back" group_id="designerbook_amsterdam_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="amsterdam_back_001" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/amsterdam/square/cover_dj_back.png" />
+		<TextContainer id="amsterdam_back_t1" x="118" y="217" width="342" height="20" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="amsterdam_back_t2" x="118" y="241" width="342" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.amsterdam.iw.back" group_id="designerbook_amsterdam_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="amsterdam_back_001" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/amsterdam/square/cover_iw_back.png" />
+		<TextContainer id="amsterdam_back_t1" x="120" y="235" width="342" height="20" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="amsterdam_back_t2" x="120" y="276" width="342" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.amsterdam.sc.back" group_id="designerbook_amsterdam_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="amsterdam_back_001" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/amsterdam/square/cover_sc_back.png" />
+		<TextContainer id="amsterdam_back_t1" x="81" y="199" width="342" height="20" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="amsterdam_back_t2" x="81" y="240" width="342" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- amsterdam spine -->
+	<SpineLayout id="blurb.designerbook.amsterdam.dj.spine" group_id="designerbook_amsterdam_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="amsterdam_spine_t1" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="amsterdam_spine_t2" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.amsterdam.iw.spine" group_id="designerbook_amsterdam_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="amsterdam_spine_t1" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="amsterdam_spine_t2" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.amsterdam.sc.spine" group_id="designerbook_amsterdam_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="amsterdam_spine_t1" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="amsterdam_spine_t2" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+
+	<!-- amsterdam flaps -->
+	<FlapLayout id="blurb.designerbook.amsterdam.dj.flap.front" group_id="designerbook_amsterdam_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="amsterdam_flap_left_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="amsterdam_flap_left_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout id="blurb.designerbook.amsterdam.dj.flap.back" group_id="designerbook_amsterdam_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="amsterdam_flap_right_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="amsterdam_flap_right_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+
+	<!-- austin front -->
+	<CoverLayout id="blurb.designerbook.austin.dj.front" group_id="designerbook_austin_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="austin_front_l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/austin/square/cover_dj_front.png" />
+		<ImageContainer id="austin_front_i1" x="129" y="185" width="108" height="108" />
+		<ImageContainer id="austin_front_i2" x="268" y="185" width="108" height="108" />
+		<ImageContainer id="austin_front_i3" x="129" y="325" width="108" height="108" />
+		<ImageContainer id="austin_front_i4" x="268" y="325" width="108" height="108" />
+		<TextContainer id="austin_front_t1" x="82" y="85" width="351" height="24" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="austin_front_t2" x="82" y="118" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.austin.iw.front" group_id="designerbook_austin_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="austin_front_l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/austin/square/cover_iw_front.png" />
+		<ImageContainer id="austin_front_i1" x="133" y="203" width="108" height="108" />
+		<ImageContainer id="austin_front_i2" x="272" y="203" width="108" height="108" />
+		<ImageContainer id="austin_front_i3" x="133" y="343" width="108" height="108" />
+		<ImageContainer id="austin_front_i4" x="272" y="343" width="108" height="108" />
+		<TextContainer id="austin_front_t1" x="80" y="103" width="351" height="24" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="austin_front_t2" x="80" y="136" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.austin.sc.front" group_id="designerbook_austin_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="austin_front_l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/austin/square/cover_sc_front.png" />
+		<ImageContainer id="austin_front_i1" x="124" y="176" width="108" height="108" />
+		<ImageContainer id="austin_front_i2" x="263" y="176" width="108" height="108" />
+		<ImageContainer id="austin_front_i3" x="124" y="316" width="108" height="108" />
+		<ImageContainer id="austin_front_i4" x="263" y="316" width="108" height="108" />
+		<TextContainer id="austin_front_t1" x="72" y="76" width="351" height="24" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="austin_front_t2" x="72" y="109" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- austin back -->
+	<CoverLayout id="blurb.designerbook.austin.dj.back" group_id="designerbook_austin_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="austin_back_001" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/austin/square/cover_dj_back.png" />
+		<TextContainer id="austin_back_t1" x="153" y="140" width="248" height="22" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="austin_back_t2" x="153" y="174" width="248" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.austin.iw.back" group_id="designerbook_austin_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="austin_back_001" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/austin/square/cover_iw_back.png" />
+		<TextContainer id="austin_back_t1" x="155" y="158" width="248" height="22" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="austin_back_t2" x="155" y="192" width="248" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.austin.sc.back" group_id="designerbook_austin_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="austin_back_001" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/austin/square/cover_sc_back.png" />
+		<TextContainer id="austin_back_t1" x="124" y="130" width="248" height="22" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="austin_back_t2" x="124" y="164" width="248" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- austin spine -->
+	<SpineLayout id="blurb.designerbook.austin.dj.spine" group_id="designerbook_austin_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="austin_spine_t1" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="austin_spine_t2" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.austin.iw.spine" group_id="designerbook_austin_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="austin_spine_t1" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="austin_spine_t2" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.austin.sc.spine" group_id="designerbook_austin_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="austin_spine_t1" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="austin_spine_t2" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+
+	<!-- austin flaps -->
+	<FlapLayout id="blurb.designerbook.austin.dj.flap.front" group_id="designerbook_austin_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="austin_flap_left_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="austin_flap_left_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout id="blurb.designerbook.austin.dj.flap.back" group_id="designerbook_austin_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="austin_flap_right_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="austin_flap_right_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>	
+
+	<!-- catalina front -->
+	<CoverLayout id="blurb.designerbook.catalina.dj.front" group_id="designerbook_catalina_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="catalina_front_l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/catalina/square/cover_dj_front.png" />
+		<ImageContainer id="catalina_front_i1" x="135" y="110" width="236" height="236" />
+		<TextContainer id="catalina_front_t1" x="82" y="390" width="342" height="20" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="catalina_front_t2" x="82" y="416" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.catalina.iw.front" group_id="designerbook_catalina_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="catalina_front_l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/catalina/square/cover_iw_front.png" />
+		<ImageContainer id="catalina_front_i1" x="133" y="128" width="236" height="236" />
+		<TextContainer id="catalina_front_t1" x="80" y="408" width="342" height="20" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="catalina_front_t2" x="80" y="434" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.catalina.sc.front" group_id="designerbook_catalina_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="catalina_front_l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/catalina/square/cover_sc_front.png" />
+		<ImageContainer id="catalina_front_i1" x="125" y="101" width="236" height="236" />
+		<TextContainer id="catalina_front_t1" x="72" y="381" width="342" height="20" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="catalina_front_t2" x="72" y="407" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- catalina back -->
+	<CoverLayout id="blurb.designerbook.catalina.dj.back" group_id="designerbook_catalina_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<TextContainer id="catalina_back_t1" x="94" y="192" width="342" height="20" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="catalina_back_t2" x="94" y="227" width="342" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.catalina.iw.back" group_id="designerbook_catalina_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<TextContainer id="catalina_back_t1" x="96" y="210" width="342" height="20" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="catalina_back_t2" x="96" y="245" width="342" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.catalina.sc.back" group_id="designerbook_catalina_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<TextContainer id="catalina_back_t1" x="57" y="174" width="342" height="20" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="catalina_back_t2" x="57" y="209" width="342" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- catalina spine -->
+	<SpineLayout id="blurb.designerbook.catalina.dj.spine" group_id="designerbook_catalina_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="catalina_spine_t1" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="catalina_spine_t2" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.catalina.iw.spine" group_id="designerbook_catalina_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="catalina_spine_t1" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="catalina_spine_t2" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.catalina.sc.spine" group_id="designerbook_catalina_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="catalina_spine_t1" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="catalina_spine_t2" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+
+	<!-- catalina flaps -->
+	<FlapLayout id="blurb.designerbook.catalina.dj.flap.front" group_id="designerbook_catalina_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="catalina_flap_left_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="catalina_flap_left_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout id="blurb.designerbook.catalina.dj.flap.back" group_id="designerbook_catalina_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="catalina_flap_right_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="catalina_flap_right_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+
+	<!-- geneva front -->
+	<CoverLayout id="blurb.designerbook.geneva.dj.front" group_id="designerbook_geneva_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<ImageContainer id="geneva_front_i1" x="86" y="90" width="108" height="108" />
+		<ImageContainer id="geneva_front_i2" x="199" y="90" width="108" height="108" />
+		<ImageContainer id="geneva_front_i3" x="312" y="90" width="108" height="108" />
+		<ImageContainer id="geneva_front_i4" x="86" y="203" width="108" height="108" />
+		<ImageContainer id="geneva_front_i5" x="199" y="203" width="108" height="108" />
+		<ImageContainer id="geneva_front_i6" x="312" y="203" width="108" height="108" />
+
+		<TextContainer id="geneva_front_t1" x="82" y="344" width="342" height="54" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="geneva_front_t2" x="82" y="423" width="342" height="28" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.geneva.iw.front" group_id="designerbook_geneva_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<ImageContainer id="geneva_front_i1" x="84" y="108" width="108" height="108" />
+		<ImageContainer id="geneva_front_i2" x="197" y="108" width="108" height="108" />
+		<ImageContainer id="geneva_front_i3" x="310" y="108" width="108" height="108" />
+		<ImageContainer id="geneva_front_i4" x="84" y="221" width="108" height="108" />
+		<ImageContainer id="geneva_front_i5" x="197" y="221" width="108" height="108" />
+		<ImageContainer id="geneva_front_i6" x="310" y="221" width="108" height="108" />
+
+		<TextContainer id="geneva_front_t1" x="80" y="362" width="342" height="54" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="geneva_front_t2" x="80" y="441" width="342" height="28" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.geneva.sc.front" group_id="designerbook_geneva_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<ImageContainer id="geneva_front_i1" x="76" y="81" width="108" height="108" />
+		<ImageContainer id="geneva_front_i2" x="189" y="81" width="108" height="108" />
+		<ImageContainer id="geneva_front_i3" x="302" y="81" width="108" height="108" />
+		<ImageContainer id="geneva_front_i4" x="76" y="194" width="108" height="108" />
+		<ImageContainer id="geneva_front_i5" x="189" y="194" width="108" height="108" />
+		<ImageContainer id="geneva_front_i6" x="302" y="194" width="108" height="108" />
+
+		<TextContainer id="geneva_front_t1" x="72" y="335" width="342" height="54" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="geneva_front_t2" x="72" y="414" width="342" height="28" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- geneva back -->
+	<CoverLayout id="blurb.designerbook.geneva.dj.back" group_id="designerbook_geneva_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<TextContainer id="geneva_back_t1" x="94" y="192" width="342" height="22" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="geneva_back_t2" x="94" y="227" width="342" height="200" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.geneva.iw.back" group_id="designerbook_geneva_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<TextContainer id="geneva_back_t1" x="96" y="210" width="342" height="22" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="geneva_back_t2" x="96" y="245" width="342" height="200" style_id="cvr_b_l_34-40_s4" />		
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.geneva.sc.back" group_id="designerbook_geneva_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<TextContainer id="geneva_back_t1" x="57" y="174" width="342" height="22" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="geneva_back_t2" x="57" y="209" width="342" height="200" style_id="cvr_b_l_34-40_s4" />		
+	</CoverLayout>
+
+	<!-- geneva spine -->
+	<SpineLayout id="blurb.designerbook.geneva.dj.spine" group_id="designerbook_geneva_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="geneva_spine_t1" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="geneva_spine_t2" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.geneva.iw.spine" group_id="designerbook_geneva_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="geneva_spine_t1" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="geneva_spine_t2" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.geneva.sc.spine" group_id="designerbook_geneva_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="geneva_spine_t1" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="geneva_spine_t2" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+
+	<!-- geneva flaps -->
+	<FlapLayout id="blurb.designerbook.geneva.dj.flap.front" group_id="designerbook_geneva_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="geneva_flap_left_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="geneva_flap_left_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout id="blurb.designerbook.geneva.dj.flap.back" group_id="designerbook_geneva_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="geneva_flap_right_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="geneva_flap_right_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>	
+
+	<!-- marfa front -->
+	<CoverLayout id="blurb.designerbook.marfa.dj.front" group_id="designerbook_marfa_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="marfa_front_l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/marfa/square/cover_dj_front.png" />
+		<ImageContainer id="marfa_front_i1" x="0" y="225" width="534" height="203" />
+		<TextContainer id="marfa_front_t1" x="83" y="94" width="283" height="30" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="marfa_front_t2" x="213" y="147" width="213" height="14" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.marfa.iw.front" group_id="designerbook_marfa_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="marfa_front_l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/marfa/square/cover_iw_front.png" />
+		<ImageContainer id="marfa_front_i1" x="0" y="241" width="534" height="203" />
+		<TextContainer id="marfa_front_t1" x="81" y="112" width="283" height="30" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="marfa_front_t2" x="210" y="166" width="213" height="14" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.marfa.sc.front" group_id="designerbook_marfa_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="marfa_front_l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/marfa/square/cover_sc_front.png" />
+		<ImageContainer id="marfa_front_i1" x="0" y="214" width="495" height="203" />
+		<TextContainer id="marfa_front_t1" x="73" y="85" width="283" height="30" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="marfa_front_t2" x="202" y="139" width="213" height="14" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- marfa back -->
+	<CoverLayout id="blurb.designerbook.marfa.dj.back" group_id="designerbook_marfa_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="marfa_back_001" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/marfa/square/cover_dj_back.png" />
+		<TextContainer id="marfa_back_t1" x="88" y="247" width="342" height="25" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="marfa_back_t2" x="88" y="287" width="342" height="136" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.marfa.iw.back" group_id="designerbook_marfa_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="marfa_back_001" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/marfa/square/cover_iw_back.png" />
+		<TextContainer id="marfa_back_t1" x="90" y="265" width="342" height="20" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="marfa_back_t2" x="90" y="300" width="342" height="136" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.marfa.sc.back" group_id="designerbook_marfa_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="marfa_back_001" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/designerbook_backgrounds/marfa/square/cover_sc_back.png" />
+		<TextContainer id="marfa_back_t1" x="77" y="234" width="342" height="20" style_id="cvr_b_l_34-40_s2" />
+		<TextContainer id="marfa_back_t2" x="77" y="269" width="342" height="136" style_id="cvr_b_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- marfa spine -->
+	<SpineLayout id="blurb.designerbook.marfa.dj.spine" group_id="designerbook_marfa_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="marfa_spine_t1" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="marfa_spine_t2" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.marfa.iw.spine" group_id="designerbook_marfa_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="marfa_spine_t1" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="marfa_spine_t2" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.marfa.sc.spine" group_id="designerbook_marfa_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="marfa_spine_t1" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="marfa_spine_t2" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+
+	<!-- marfa flaps -->
+	<FlapLayout id="blurb.designerbook.marfa.dj.flap.front" group_id="designerbook_marfa_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="marfa_flap_left_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="marfa_flap_left_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout id="blurb.designerbook.marfa.dj.flap.back" group_id="designerbook_marfa_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="marfa_flap_right_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="marfa_flap_right_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+
+	<!-- zurich front -->
+	<CoverLayout id="blurb.designerbook.zurich.dj.front" group_id="designerbook_zurich_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<ImageContainer id="zurich_front_i1" x="10" y="152" width="90" height="380" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="zurich_front_i2" x="109" y="152" width="90" height="380" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="zurich_front_i3" x="208" y="152" width="90" height="380" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="zurich_front_i4" x="307" y="152" width="90" height="380" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="zurich_front_i5" x="406" y="152" width="90" height="380" binding="" two_way="false" x_translate="0" border="false" />
+
+		<TextContainer id="zurich_front_t1" x="82" y="60" width="342" height="30" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="zurich_front_t2" x="82" y="100" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.zurich.iw.front" group_id="designerbook_zurich_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<ImageContainer id="zurich_front_i1" x="8" y="169" width="90" height="380" />
+		<ImageContainer id="zurich_front_i2" x="107" y="169" width="90" height="380" />
+		<ImageContainer id="zurich_front_i3" x="206" y="169" width="90" height="380" />
+		<ImageContainer id="zurich_front_i4" x="305" y="169" width="90" height="380" />
+		<ImageContainer id="zurich_front_i5" x="404" y="169" width="90" height="380" />
+
+		<TextContainer id="zurich_front_t1" x="80" y="78" width="342" height="30" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="zurich_front_t2" x="80" y="118" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.zurich.sc.front" group_id="designerbook_zurich_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<ImageContainer id="zurich_front_i1" x="0" y="143" width="90" height="352" />
+		<ImageContainer id="zurich_front_i2" x="99" y="143" width="90" height="352" />
+		<ImageContainer id="zurich_front_i3" x="198" y="143" width="90" height="352" />
+		<ImageContainer id="zurich_front_i4" x="297" y="143" width="90" height="352" />
+		<ImageContainer id="zurich_front_i5" x="396" y="143" width="90" height="352" />
+
+		<TextContainer id="zurich_front_t1" x="72" y="51" width="342" height="30" binding="$BookTitle" two_way="true" style_id="cvr_t_l_34-40_s2" />
+		<TextContainer id="zurich_front_t2" x="72" y="91" width="342" height="20" binding="$AuthorName" two_way="true" style_id="cvr_t_l_34-40_s4" />
+	</CoverLayout>
+
+	<!-- zurich back -->
+	<CoverLayout id="blurb.designerbook.zurich.dj.back" group_id="designerbook_zurich_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<ImageContainer id="zurich_back_i1" x="28" y="0" width="90" height="513" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="zurich_back_i2" x="127" y="0" width="90" height="513" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="zurich_back_i3" x="226" y="0" width="90" height="513" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="zurich_back_i4" x="325" y="0" width="90" height="513" binding="" two_way="false" x_translate="0" border="false" />
+		<ImageContainer id="zurich_back_i5" x="424" y="0" width="90" height="513" binding="" two_way="false" x_translate="0" border="false" />  		
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.zurich.iw.back" group_id="designerbook_zurich_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<ImageContainer id="zurich_back_i1" x="30" y="0" width="90" height="549" />
+		<ImageContainer id="zurich_back_i2" x="129" y="0" width="90" height="549" />
+		<ImageContainer id="zurich_back_i3" x="228" y="0" width="90" height="549" />
+		<ImageContainer id="zurich_back_i4" x="327" y="0" width="90" height="549" />
+		<ImageContainer id="zurich_back_i5" x="426" y="0" width="90" height="549" />		
+	</CoverLayout>
+	<CoverLayout id="blurb.designerbook.zurich.sc.back" group_id="designerbook_zurich_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<ImageContainer id="zurich_back_i1" x="9" y="0" width="90" height="495" />
+		<ImageContainer id="zurich_back_i2" x="108" y="0" width="90" height="495" />
+		<ImageContainer id="zurich_back_i3" x="207" y="0" width="90" height="495" />
+		<ImageContainer id="zurich_back_i4" x="306" y="0" width="90" height="495" />
+		<ImageContainer id="zurich_back_i5" x="405" y="0" width="90" height="495" />		
+	</CoverLayout>
+
+	<!-- zurich spine -->
+	<SpineLayout id="blurb.designerbook.zurich.dj.spine" group_id="designerbook_zurich_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="zurich_spine_t1" x="42" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="zurich_spine_t2" x="289" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.zurich.iw.spine" group_id="designerbook_zurich_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="zurich_spine_t1" x="60" y="5" width="238" height="23" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="zurich_spine_t2" x="307" y="5" width="191" height="23" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.designerbook.zurich.sc.spine" group_id="designerbook_zurich_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="zurich_spine_t1" x="33" y="11" width="238" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" />
+		<TextContainer id="zurich_spine_t2" x="280" y="11" width="191" height="11" binding="$AuthorName" two_way="false" style_id="cover_sub_l_16-20_s2" />
+	</SpineLayout>
+
+	<!-- zurich flaps -->
+	<FlapLayout id="blurb.designerbook.zurich.dj.flap.front" group_id="designerbook_zurich_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="zurich_flap_left_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="zurich_flap_left_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>
+	<FlapLayout id="blurb.designerbook.zurich.dj.flap.back" group_id="designerbook_zurich_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2">
+		<ImageContainer id="zurich_flap_right_i1" x="45" y="42" width="150" height="213" />
+		<TextContainer id="zurich_flap_right_t1" x="45" y="267" width="150" height="210" style_id="cvr_flap_9-12_s4" />
+	</FlapLayout>	
+	
+	<!-- * * * * * * * * * ** -->
+	<!-- * * CHICKEN SOUP * * -->
+	<!-- * * * * * * * * * ** -->
+	
+	<!-- christmas volume 1 front -->
+	<CoverLayout id="blurb.chickensoup.christmas.volume1.dj.front" group_id="chickensoup_christmas_volume1_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/christmas/volume1/square/cover_dj_front.png" />
+		<TextContainer id="t1" x="75" y="232" width="361" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="94" y="411" width="343" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.christmas.volume1.iw.front" group_id="chickensoup_christmas_volume1_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/christmas/volume1/square/cover_iw_front.png" />
+		<TextContainer id="t1" x="78" y="251" width="356" height="45" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="95" y="430" width="341" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>		
+	<CoverLayout id="blurb.chickensoup.christmas.volume1.sc.front" group_id="chickensoup_christmas_volume1_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/christmas/volume1/square/cover_sc_front.png" />
+		<TextContainer id="t1" x="67" y="222" width="359" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="85" y="402" width="343" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	
+	<!-- christmas volume 1 back -->
+	<CoverLayout id="blurb.chickensoup.christmas.volume1.dj.back" group_id="chickensoup_christmas_volume1_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/christmas/volume1/square/cover_dj_back.png" />
+		<TextContainer id="t1" width="303" height="185" x="128" y="113" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="230" y="315" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.christmas.volume1.iw.back" group_id="chickensoup_christmas_volume1_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/christmas/volume1/square/cover_iw_back.png" />
+		<TextContainer id="t1" width="303" height="191" x="128" y="124" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="233" y="333" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.christmas.volume1.sc.back" group_id="chickensoup_christmas_volume1_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/christmas/volume1/square/cover_sc_back.png" />
+		<TextContainer id="t1" width="303" height="180" x="100" y="109" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="208" y="304" use_upload_photo_button="true" />
+	</CoverLayout>
+	
+	<!-- christmas volume 1 spine -->
+	<SpineLayout id="blurb.chickensoup.christmas.volume1.dj.spine" group_id="chickensoup_christmas_volume1_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="453" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.christmas.volume1.iw.spine" group_id="chickensoup_christmas_volume1_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="489" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.christmas.volume1.sc.spine" group_id="chickensoup_christmas_volume1_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="435" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	
+	<!-- christmas volume 1 flaps -->
+	<FlapLayout id="blurb.chickensoup.christmas.volume1.dj.flap.front" group_id="chickensoup_christmas_volume1_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2"></FlapLayout>
+	<FlapLayout id="blurb.chickensoup.christmas.volume1.dj.flap.back" group_id="chickensoup_christmas_volume1_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2"></FlapLayout>
+	
+	<!-- ******************** -->
+	
+	<!-- thankful volume 1 front -->
+	<CoverLayout id="blurb.chickensoup.thankful.volume1.dj.front" group_id="chickensoup_thankful_volume1_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/thankful/volume1/square/cover_dj_front.png" />
+		<TextContainer id="t1" x="75" y="232" width="361" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="94" y="411" width="343" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.thankful.volume1.iw.front" group_id="chickensoup_thankful_volume1_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/thankful/volume1/square/cover_iw_front.png" />
+		<TextContainer id="t1" x="78" y="251" width="356" height="45" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="95" y="430" width="341" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>		
+	<CoverLayout id="blurb.chickensoup.thankful.volume1.sc.front" group_id="chickensoup_thankful_volume1_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/thankful/volume1/square/cover_sc_front.png" />
+		<TextContainer id="t1" x="67" y="222" width="359" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="85" y="402" width="343" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	
+	<!-- thankful volume 1 back -->
+	<CoverLayout id="blurb.chickensoup.thankful.volume1.dj.back" group_id="chickensoup_thankful_volume1_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/thankful/volume1/square/cover_dj_back.png" />
+		<TextContainer id="t1" width="303" height="185" x="128" y="113" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="230" y="315" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.thankful.volume1.iw.back" group_id="chickensoup_thankful_volume1_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/thankful/volume1/square/cover_iw_back.png" />
+		<TextContainer id="t1" width="303" height="191" x="128" y="124" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="233" y="333" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.thankful.volume1.sc.back" group_id="chickensoup_thankful_volume1_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/thankful/volume1/square/cover_sc_back.png" />
+		<TextContainer id="t1" width="303" height="180" x="100" y="109" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="208" y="304" use_upload_photo_button="true" />
+	</CoverLayout>
+	
+	<!-- thankful volume 1 spine -->
+	<SpineLayout id="blurb.chickensoup.thankful.volume1.dj.spine" group_id="chickensoup_thankful_volume1_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="453" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.thankful.volume1.iw.spine" group_id="chickensoup_thankful_volume1_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="489" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.thankful.volume1.sc.spine" group_id="chickensoup_thankful_volume1_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="435" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	
+	<!-- thankful volume 1 flaps -->
+	<FlapLayout id="blurb.chickensoup.thankful.volume1.dj.flap.front" group_id="chickensoup_thankful_volume1_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2"></FlapLayout>
+	<FlapLayout id="blurb.chickensoup.thankful.volume1.dj.flap.back" group_id="chickensoup_thankful_volume1_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2"></FlapLayout>
+	
+	<!-- ******************** -->
+	
+	<!-- love volume 1 front -->
+	<CoverLayout id="blurb.chickensoup.love.volume1.dj.front" group_id="chickensoup_love_volume1_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/love/volume1/square/cover_dj_front.png" />
+		<TextContainer id="t1" x="75" y="232" width="361" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="94" y="411" width="343" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.love.volume1.iw.front" group_id="chickensoup_love_volume1_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/love/volume1/square/cover_iw_front.png" />
+		<TextContainer id="t1" x="78" y="251" width="356" height="45" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="95" y="430" width="341" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>		
+	<CoverLayout id="blurb.chickensoup.love.volume1.sc.front" group_id="chickensoup_love_volume1_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/love/volume1/square/cover_sc_front.png" />
+		<TextContainer id="t1" x="67" y="222" width="359" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="85" y="402" width="343" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	
+	<!-- love volume 1 back -->
+	<CoverLayout id="blurb.chickensoup.love.volume1.dj.back" group_id="chickensoup_love_volume1_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/love/volume1/square/cover_dj_back.png" />
+		<TextContainer id="t1" width="303" height="185" x="128" y="113" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="230" y="315" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.love.volume1.iw.back" group_id="chickensoup_love_volume1_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/love/volume1/square/cover_iw_back.png" />
+		<TextContainer id="t1" width="303" height="191" x="128" y="124" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="233" y="333" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.love.volume1.sc.back" group_id="chickensoup_love_volume1_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/love/volume1/square/cover_sc_back.png" />
+		<TextContainer id="t1" width="303" height="180" x="100" y="109" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="208" y="304" use_upload_photo_button="true" />
+	</CoverLayout>
+	
+	<!-- love volume 1 spine -->
+	<SpineLayout id="blurb.chickensoup.love.volume1.dj.spine" group_id="chickensoup_love_volume1_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="453" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.love.volume1.iw.spine" group_id="chickensoup_love_volume1_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="489" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.love.volume1.sc.spine" group_id="chickensoup_love_volume1_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="435" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	
+	<!-- love volume 1 flaps -->
+	<FlapLayout id="blurb.chickensoup.love.volume1.dj.flap.front" group_id="chickensoup_love_volume1_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2"></FlapLayout>
+	<FlapLayout id="blurb.chickensoup.love.volume1.dj.flap.back" group_id="chickensoup_love_volume1_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2"></FlapLayout>
+	
+	<!-- ******************** -->
+	
+	<!-- positive volume 1 front -->
+	<CoverLayout id="blurb.chickensoup.positive.volume1.dj.front" group_id="chickensoup_positive_volume1_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/positive/volume1/square/cover_dj_front.png" />
+		<TextContainer id="t1" x="75" y="232" width="361" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="94" y="411" width="343" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.positive.volume1.iw.front" group_id="chickensoup_positive_volume1_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/positive/volume1/square/cover_iw_front.png" />
+		<TextContainer id="t1" x="78" y="251" width="356" height="45" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="95" y="430" width="341" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>		
+	<CoverLayout id="blurb.chickensoup.positive.volume1.sc.front" group_id="chickensoup_positive_volume1_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/positive/volume1/square/cover_sc_front.png" />
+		<TextContainer id="t1" x="67" y="222" width="359" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="85" y="402" width="343" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	
+	<!-- positive volume 1 back -->
+	<CoverLayout id="blurb.chickensoup.positive.volume1.dj.back" group_id="chickensoup_positive_volume1_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/positive/volume1/square/cover_dj_back.png" />
+		<TextContainer id="t1" width="303" height="185" x="128" y="113" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="230" y="315" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.positive.volume1.iw.back" group_id="chickensoup_positive_volume1_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/positive/volume1/square/cover_iw_back.png" />
+		<TextContainer id="t1" width="303" height="191" x="128" y="124" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="233" y="333" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.positive.volume1.sc.back" group_id="chickensoup_positive_volume1_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/positive/volume1/square/cover_sc_back.png" />
+		<TextContainer id="t1" width="303" height="180" x="100" y="109" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="208" y="304" use_upload_photo_button="true" />
+	</CoverLayout>
+	
+	<!-- positive volume 1 spine -->
+	<SpineLayout id="blurb.chickensoup.positive.volume1.dj.spine" group_id="chickensoup_positive_volume1_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="453" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.positive.volume1.iw.spine" group_id="chickensoup_positive_volume1_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="489" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.positive.volume1.sc.spine" group_id="chickensoup_positive_volume1_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="435" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for {0} Soul" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	
+	<!-- positive volume 1 flaps -->
+	<FlapLayout id="blurb.chickensoup.positive.volume1.dj.flap.front" group_id="chickensoup_positive_volume1_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2"></FlapLayout>
+	<FlapLayout id="blurb.chickensoup.positive.volume1.dj.flap.back" group_id="chickensoup_positive_volume1_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2"></FlapLayout>
+	
+	<!-- ******************** -->
+	
+	<!-- sympathy volume 1 front -->
+	<CoverLayout id="blurb.chickensoup.sympathy.volume1.dj.front" group_id="chickensoup_sympathy_volume1_square.front" cover_type="dustjacket" segment_type="front" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/sympathy/volume1/square/cover_dj_front.png" />
+		<TextContainer id="t1" x="76" y="117" width="360" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="90" y="411" width="352" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.sympathy.volume1.iw.front" group_id="chickensoup_sympathy_volume1_square.front" cover_type="imagewrap" segment_type="front" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/sympathy/volume1/square/cover_iw_front.png" />
+		<TextContainer id="t1" x="75" y="134" width="362" height="45" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="90" y="430" width="352" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>		
+	<CoverLayout id="blurb.chickensoup.sympathy.volume1.sc.front" group_id="chickensoup_sympathy_volume1_square.front" cover_type="softcover" segment_type="front" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/sympathy/volume1/square/cover_sc_front.png" />
+		<TextContainer id="t1" x="65" y="107" width="362" height="43" x_translate="0" style_id="cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer id="t2" x="80" y="402" width="351" height="19" x_translate="0" style_id="cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	
+	<!-- sympathy volume 1 back -->
+	<CoverLayout id="blurb.chickensoup.sympathy.volume1.dj.back" group_id="chickensoup_sympathy_volume1_square.back" cover_type="dustjacket" segment_type="back" width="534" height="513" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="513" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/sympathy/volume1/square/cover_dj_back.png" />
+		<TextContainer id="t1" width="303" height="185" x="128" y="113" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="230" y="315" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.sympathy.volume1.iw.back" group_id="chickensoup_sympathy_volume1_square.back" cover_type="imagewrap" segment_type="back" width="534" height="549" style_id="solid_2">
+		<LockedImageContainer id="l1" width="534" height="549" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/sympathy/volume1/square/cover_iw_back.png" />
+		<TextContainer id="t1" width="303" height="191" x="128" y="124" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="233" y="333" use_upload_photo_button="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.chickensoup.sympathy.volume1.sc.back" group_id="chickensoup_sympathy_volume1_square.back" cover_type="softcover" segment_type="back" width="495" height="495" style_id="solid_2">
+		<LockedImageContainer id="l1" width="495" height="495" x="0" y="0" source="http://www.blurb.com/obt/assets/images/chickensoup/sympathy/volume1/square/cover_sc_back.png" />
+		<TextContainer id="t1" width="303" height="180" x="100" y="109" style_id="cover_back_1" />
+		<ImageContainer id="i1" width="100" height="100" x="208" y="304" use_upload_photo_button="true" />
+	</CoverLayout>
+	
+	<!-- sympathy volume 1 spine -->
+	<SpineLayout id="blurb.chickensoup.sympathy.volume1.dj.spine" group_id="chickensoup_sympathy_volume1_square.spine" cover_type="dustjacket" width="513" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="453" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for the Soul in Loving Memory of {0}" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.sympathy.volume1.iw.spine" group_id="chickensoup_sympathy_volume1_square.spine" cover_type="imagewrap" width="549" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="489" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for the Soul in Loving Memory of {0}" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	<SpineLayout id="blurb.chickensoup.sympathy.volume1.sc.spine" group_id="chickensoup_sympathy_volume1_square.spine" cover_type="softcover" width="495" height="33" style_id="solid_2">
+		<TextContainer id="t1" width="435" height="18" x="30" y="9" binding="$BookTitle" two_way="false" binding_pattern="Chicken Soup for the Soul in Loving Memory of {0}" locked="true" style_id="spine_1" />
+	</SpineLayout>
+	
+	<!-- sympathy volume 1 flaps -->
+	<FlapLayout id="blurb.chickensoup.sympathy.volume1.dj.flap.front" group_id="chickensoup_sympathy_volume1_square.frontFlap" cover_type="dustjacket" segment_type="front" width="241" height="513" style_id="solid_2"></FlapLayout>
+	<FlapLayout id="blurb.chickensoup.sympathy.volume1.dj.flap.back" group_id="chickensoup_sympathy_volume1_square.backFlap" cover_type="dustjacket" segment_type="back" width="241" height="513" style_id="solid_2"></FlapLayout>	
+</CoverLayouts>

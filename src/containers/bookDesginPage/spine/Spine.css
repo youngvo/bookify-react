@@ -1,0 +1,60 @@
+.spine-book {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+}
+.spine-book-zone .book-manage-pages{    bottom: -40px;
+}
+.above-spine-book {
+	position: absolute;
+	top: -165px;
+	border-radius: 0px;
+	height: 140px;
+	background: #faf5ed;
+	-webkit-transform: perspective(10px) rotateX(1deg);
+	transform: perspective(5px) rotateX(1.1deg);
+	-webkit-box-shadow: 2px -1px 2px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 2px 0px 0px 0px rgba(0,0,0,0.4);
+box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.2);
+	
+	
+}
+.sha-spin-top {
+	top: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+	background-blend-mode: overlay;
+background: -moz-linear-gradient(180deg,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(180deg,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%);
+background: linear-gradient(180deg,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#00000000',GradientType=1 );
+
+}
+.sha-spin-bot {
+	background: linear-gradient(0deg, rgba(0,0,0,.1) 0, rgba(77,77,77,0) 64%, hsla(0,0%,41%,0));
+	height: 8px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
+.line-spine-book {
+	position: absolute;
+	bottom: 5px;
+	height: 1px;
+	background: black;
+	right: 0;
+	left: 0;
+	opacity:0.1;
+}
+.spine-book-zone {
+	position: relative;
+	width: 700px;
+	height: 42px;
+	background-color: #faf5ed;
+	-webkit-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.5);
+}

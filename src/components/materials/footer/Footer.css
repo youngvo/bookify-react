@@ -1,0 +1,65 @@
+.footer {
+    left: 15px;
+    ;
+    right: 15px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    height: 60px;
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #dadada 97%, #d6d6d6 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #dadada 97%, #d6d6d6 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%, #dadada 97%, #d6d6d6 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6d6d6', GradientType=0);
+    /* IE6-9 */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow: 0px 6px 12px 1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 6px 12px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 6px 12px 1px rgba(0, 0, 0, 0.6);
+}
+
+.footer-left-side {
+    width: 50%;
+    position: relative;
+    padding-left: 16px;
+    padding-top: 12px;
+    display: flex;
+}
+
+.footer-left-side .button-blurb {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.footer-left-side .button-blurb .button-blurb-content {
+    font-size: 15px;
+    font-weight: 600;
+    color: #6c6a5e;
+}
+
+.footer-right-side {
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+
+.footer-right-side-buttons {
+    position: absolute;
+    right: 28px;
+    top: 12px;
+}
+
+.footer .footer-btn {
+    margin-left: 5px;
+}
+
+.footer-right-side-buttons.unable-click-right-btn {
+    opacity: 0.5;
+    pointer-events: none;
+}

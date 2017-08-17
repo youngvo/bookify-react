@@ -1,0 +1,69 @@
+exports[`test PhotoList component PhotoList snapshot PhotoList does not change layout 1`] = `
+<div
+  className="photo-list-content">
+  <div
+    className="selecting-photo-cell"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}>
+    <div
+      className="preview-photo-zone">
+      <img
+        alt="Detail"
+        className="preview-photo"
+        onClick={[Function]}
+        onDoubleClick={[Function]}
+        src={undefined}
+        style={
+          Object {
+            "background": "#ffffff",
+          }
+        } />
+    </div>
+    <div
+      className="view-button-zone">
+      <button
+        className="view-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "opacity": "0",
+          }
+        }>
+        View
+      </button>
+    </div>
+  </div>
+  <div
+    className="selecting-photo-cell"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}>
+    <div
+      className="preview-photo-zone">
+      <img
+        alt="Detail"
+        className="preview-photo"
+        onClick={[Function]}
+        onDoubleClick={[Function]}
+        src={undefined}
+        style={
+          Object {
+            "background": "#ffffff",
+          }
+        } />
+    </div>
+    <div
+      className="view-button-zone">
+      <button
+        className="view-button"
+        onClick={[Function]}
+        style={
+          Object {
+            "opacity": "0",
+          }
+        }>
+        View
+      </button>
+    </div>
+  </div>
+</div>
+`;

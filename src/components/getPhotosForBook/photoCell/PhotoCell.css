@@ -1,0 +1,189 @@
+.selecting-photo-cell {
+    display: inline-block;
+    margin: 5px 5px 0 0;
+}
+
+.selected-photo-cell {
+    display: inline-block;
+    margin: 5px 5px 0 0;
+}
+
+.preview-photo {
+    min-height: 75px;
+    min-width: 75px;
+    position: absolute;
+    border: 1px hidden;
+    border-radius: 3px;
+    z-index: 5;
+}
+
+.preview-photo-zone {
+    position: relative;
+    width: 75px;
+    height:75px;
+    overflow: hidden;
+    border:  5px solid white;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.preview-photo-zone:hover {
+    border-color: #a9e1fa;
+}
+
+.view-button-zone {}
+
+.view-button {
+    min-width: 100%;
+    /*margin: 0 16px;*/
+    background-image: linear-gradient(to bottom, #FFFFFF 30%, #DDDDDD 60%);
+    border: 1px solid #bebebe;
+    height: 25px;
+    /*color: #555555;*/
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-top:5px;
+}
+
+.photo-cell-remove-icon {
+    z-index: 15;
+    margin-top: -89px;
+    position: absolute;
+    margin-left: 66px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.selected-photo-cell:hover .icon-DeletePageIconNormal {
+    display: block;
+}
+
+.selected-photo-cell:hover .preview-photo {
+    border-color: #fff;
+}
+
+.icon-DeletePageIconNormal:hover span.path1 {
+    text-shadow: 1.2px 0px 0px #00abe9, 0px 1.2px 0px #00abe9, 0px -1.2px 0px #00abe9, -1.2px 0px 0px #00abe9;
+}
+
+.icon-DeletePageIconNormal:hover span.path5 {
+    text-shadow: 1.2px 0px 0px #00abe9, 0px 1.2px 0px #00abe9, 0px -1.2px 0px #00abe9, -1.2px 0px 0px #00abe9;
+}
+
+.icon-DeletePageIconNormal:hover span.path2 {
+    -webkit-text-fill-color: #053462;
+}
+
+.icon-DeletePageIconNormal:hover span.path3 {
+    -webkit-text-fill-color: #053462;
+}
+
+.icon-DeletePageIconNormal:hover span.path4 {
+    -webkit-text-fill-color: #053462;
+}
+
+.view-button:hover {
+    color: #00abe9;
+}
+
+.modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    color: white;
+    background: rgba(55, 55, 55, 0.3);
+    z-index: 2;
+}
+
+.content-modal {
+    align-self: center;
+    display: inline-flex;
+    position: absolute;
+    background-image: linear-gradient(to bottom, #FFFFFF 30%, #DDDDDD 90%);
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 5px 5px 30px black;
+}
+
+.modal-item {
+    color: gray;
+    min-height: 200px;
+    min-width: 200px;
+    position: relative;
+    display: block;
+    align-self: center;
+    transition: opacity 0.5s ease-in;
+}
+
+.content-modal .modal-button-item {
+    z-index: 3;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color: aqua;
+}
+
+.close-button {
+    right: 4px;
+}
+
+.info-button {
+    right: 24px;
+}
+
+.info-item {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #FFFFFF 30%, #DDDDDD 90%);
+}
+
+.info-item-zone {
+    display: inline-block;
+    justify-content: center;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: relative;
+}
+
+
+/*effect for info div*/
+
+.the-info {
+    margin-top: 2em;
+    font-size: 4em;
+}
+
+.info-enter {
+    opacity: 0.01;
+    transition: opacity 1s ease-in;
+}
+
+.info-enter.info-enter-active {
+    opacity: 1;
+}
+
+.info-leave {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+.info-leave.info-leave-active {
+    opacity: 0.01;
+}
+
+.selecting-photo-cell.photo-cell-selected {
+    border-color: yellow;
+}
+

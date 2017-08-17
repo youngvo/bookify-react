@@ -1,0 +1,22 @@
+.background-item-zone {
+    position: relative;
+    height: 60px;
+    display: block;
+    justify-content: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.background-item-child {
+    width: 45px;
+    height: 45px;
+    display: block;
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.45);
+    border: 2px solid transparent;
+}
+
+.background-item-child:hover{
+    border: 2px solid #00aade;
+}

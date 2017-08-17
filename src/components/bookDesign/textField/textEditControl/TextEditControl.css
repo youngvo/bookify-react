@@ -1,0 +1,447 @@
+.text-edit-control-zone {
+    padding: 12px;
+    margin-top: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #d8d7d5;
+    box-shadow: 5px 3px 6px rgba(0, 0, 0, .6);
+    border-radius: 12px;
+    background: rgb(244, 244, 244);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(244, 244, 244, 1) 0%, rgba(218, 218, 218, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(244, 244, 244, 1) 0%, rgba(218, 218, 218, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(244, 244, 244, 1) 0%, rgba(218, 218, 218, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#dadada', GradientType=0);
+    /* IE6-9 */
+}
+
+.text-edit-control-zone .text-edit-control-dropbox, .text-edit-control-zone .button-blurb, .text-edit-control-zone .button-blurb-color {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.text-edit-icon {
+    position: relative;
+    height: 22px;
+    cursor: pointer;
+    width: 23px;
+}
+
+.text-edit-icon .button-photo-edit-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #4d4d4d;
+}
+
+.bold-button-font-icon.text-edit-icon .button-photo-edit-content, .italic-button-font-icon.text-edit-icon .button-photo-edit-content, .underline-text-edit-icon.text-edit-icon .button-photo-edit-content {
+    margin-left: -4px;
+    margin-top: -8px;
+}
+
+.left-button-font-icon.text-edit-icon .button-photo-edit-content, .center-button-font-icon.text-edit-icon .button-photo-edit-content, .right-button-font-icon.text-edit-icon .button-photo-edit-content {
+    margin-left: -6px;
+    margin-top: -6px;
+}
+
+.remove-button-font-icon.text-edit-icon .button-photo-edit-content {
+    margin-left: -6px;
+    margin-top: -6px;
+}
+
+.bold-button-font-icon.text-edit-icon, .left-button-font-icon.text-edit-icon {
+    border-right: none;
+}
+
+.underline-text-edit-icon.text-edit-icon, .right-button-font-icon.text-edit-icon {
+    border-left: none;
+}
+
+.text-edit-icon .icon-image-wrapper img {
+    height: 17px;
+    margin-left: 3px;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 17px;
+    margin-top: 2px;
+}
+
+.text-edit-icon .button-photto-font-icon .icon-bold {
+    font-size: 8px;
+}
+
+.text-edit-icon .button-photto-font-icon .icon-centerAlign {
+    font-size: 13px;
+}
+
+.text-edit-icon .button-photto-font-icon .icon-italic {
+    font-size: 9px;
+}
+
+.text-edit-icon .button-photto-font-icon .icon-underline {
+    font-size: 9px;
+}
+
+.text-edit-icon .button-photto-font-icon .icon-leftAlign {
+    font-size: 13px;
+}
+
+.text-edit-icon .button-photto-font-icon .icon-rightAlign {
+    font-size: 13px;
+}
+
+.text-edit-icon .button-photto-font-icon .icon-ResetStyleIcon {
+    font-size: 13px;
+}
+
+.grad-btn {
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 26%, rgba(217, 217, 217, 1) 78%, rgba(217, 217, 217, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 26%, rgba(217, 217, 217, 1) 78%, rgba(217, 217, 217, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 26%, rgba(217, 217, 217, 1) 78%, rgba(217, 217, 217, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+    /* IE6-9 */
+}
+
+.boder-color {
+    border: 1px solid #b3b3b3;
+}
+
+.text-edit-control-divider-line {
+    width: 1px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.text-edit-control-divider-line:after {
+    content: '';
+    position: absolute;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #dddddd;
+}
+
+.text-edit-control-dropbox {
+    height: 25px;
+}
+
+.text-edit-control-arrow {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, 5px);
+}
+
+.text-edit-control-arrow:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #f5f5f5;
+    transform: rotate(45deg);
+    top: 42%;
+    left: 20%;
+    border: 1px solid #d8d7d5;
+    box-shadow: 4px -2px 8px -2px rgba(0, 0, 0, .6);
+}
+
+.pick-color-button {
+    border-radius: 5px;
+    margin-right: 6px;
+}
+
+.same-color {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bold-button {
+    cursor: pointer;
+}
+
+.underline-text-edit-icon, .right-button-font-icon {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.bold-button-font-icon, .left-button-font-icon {
+    cursor: pointer;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn-active {
+    color: white;
+    font-weight: bold;
+    background: rgb(79, 79, 79);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(79, 79, 79, 1) 0%, rgba(126, 126, 126, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(79, 79, 79, 1) 0%, rgba(126, 126, 126, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(79, 79, 79, 1) 0%, rgba(126, 126, 126, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#7e7e7e', GradientType=0);
+    /* IE6-9 */
+}
+
+.btn-active .font-icon-text-edit-control-bold {
+    color: #ffffff;
+}
+
+.italic-button {
+    cursor: pointer;
+}
+
+.italic-button-active {
+    cursor: pointer;
+    border-radius: 1px 0px 0px 0px;
+}
+
+.left-button-font-icon {
+    margin-left: 6px;
+}
+
+.remove-button-font-icon {
+    border-radius: 4px;
+    margin-left: 6px;
+}
+
+.font-type-drop-down {
+    position: relative;
+}
+
+.font-type-drop-down .Dropdown-root {
+    position: relative;
+    text-align: left;
+    font-size: 11px;
+    width: 210px;
+}
+
+.font-type-drop-down .Dropdown-control, .font-size-drop-down .Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #000;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    color: #555;
+    cursor: default;
+    outline: none;
+    padding: 3px 25px 3px 4px;
+    transition: all 200ms ease;
+    border-radius: 3px;
+    font-size: 12px;
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f9f9f9 5%, #efefef 48%, #e7e7e7 52%, #e3e3e3 57%, #cecece 95%, #d9d9d9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f9f9f9 5%, #efefef 48%, #e7e7e7 52%, #e3e3e3 57%, #cecece 95%, #d9d9d9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 5%, #efefef 48%, #e7e7e7 52%, #e3e3e3 57%, #cecece 95%, #d9d9d9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+    /* IE6-9 */
+}
+
+.font-type-drop-down .Dropdown-root.is-open .Dropdown-control, .font-type-drop-down .Dropdown-control:hover {
+    cursor: default;
+    background: #d8d9d9;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d8d9d9', endColorstr='#aaabac', GradientType=0);
+    /* IE6-9 */
+}
+
+.font-type-drop-down .Dropdown-arrow {
+    border-color: #1d1c1c transparent transparent;
+    border-style: solid;
+    border-width: 4px 4px 0;
+    content: ' ';
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 4px;
+    top: 9px;
+    width: 0;
+}
+
+.font-type-drop-down .is-open .Dropdown-arrow {
+    border-color: transparent transparent #000;
+    border-width: 0 4px 4px;
+}
+
+.font-type-drop-down .Dropdown-menu {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    margin-top: -1px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 1000;
+    -webkit-overflow-scrolling: touch;
+}
+
+.font-type-drop-down .Dropdown-menu .Dropdown-group>.Dropdown-title {
+    padding: 8px 10px;
+    color: rgba(51, 51, 51, 1);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.font-type-drop-down .Dropdown-option {
+    box-sizing: border-box;
+    color: rgba(51, 51, 51, 0.8);
+    cursor: default;
+    display: block;
+    padding: 8px 10px;
+}
+
+.font-type-drop-down.Dropdown-option:last-child {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.font-type-drop-down .Dropdown-option:hover {
+    background-color: #f2f9fc;
+    color: #333;
+}
+
+.font-type-drop-down .Dropdown-option.is-selected {
+    background-color: #f2f9fc;
+    color: #333;
+}
+
+.font-type-drop-down .Dropdown-noresults {
+    box-sizing: border-box;
+    color: #ccc;
+    cursor: default;
+    display: block;
+    padding: 8px 10px;
+}
+
+.font-size-drop-down {
+    position: relative;
+    margin-left: 7px;
+}
+
+.font-size-drop-down .Dropdown-root {
+    position: relative;
+    text-align: left;
+    font-size: 11px;
+    width: 55px;
+}
+
+.font-size-drop-down .Dropdown-root.is-open .Dropdown-control, .font-size-drop-down .Dropdown-control:hover {
+    cursor: default;
+    background: #d8d9d9;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d8d9d9 0%, #cbcdcd 5%, #c3c4c5 48%, #b2b3b4 52%, #aeb0b0 57%, #a0a1a2 95%, #aaabac 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d8d9d9', endColorstr='#aaabac', GradientType=0);
+    /* IE6-9 */
+}
+
+.font-size-drop-down .Dropdown-arrow {
+    border-color: #1d1c1c transparent transparent;
+    border-style: solid;
+    border-width: 4px 4px 0;
+    content: ' ';
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 4px;
+    top: 9px;
+    width: 0;
+}
+
+.font-size-drop-down .Dropdown-arrow:after, .font-type-drop-down .Dropdown-arrow:after {
+    right: 10px;
+}
+
+.font-size-drop-down .is-open .Dropdown-arrow {
+    border-color: transparent transparent #000;
+    border-width: 0 4px 4px;
+}
+
+.font-size-drop-down .Dropdown-menu {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    margin-top: -1px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 1000;
+    -webkit-overflow-scrolling: touch;
+}
+
+.font-size-drop-down .Dropdown-menu .Dropdown-group>.Dropdown-title {
+    padding: 8px 10px;
+    color: rgba(51, 51, 51, 1);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.font-size-drop-down .Dropdown-option {
+    box-sizing: border-box;
+    color: rgba(51, 51, 51, 0.8);
+    cursor: default;
+    display: block;
+    padding: 8px 10px;
+}
+
+.font-size-drop-down.Dropdown-option:last-child {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.font-size-drop-down .Dropdown-option:hover {
+    background-color: #f2f9fc;
+    color: #333;
+}
+
+.font-size-drop-down .Dropdown-option.is-selected {
+    background-color: #f2f9fc;
+    color: #333;
+}
+
+.font-size-drop-down .Dropdown-noresults {
+    box-sizing: border-box;
+    color: #ccc;
+    cursor: default;
+    display: block;
+    padding: 8px 10px;
+}

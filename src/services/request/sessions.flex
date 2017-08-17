@@ -1,0 +1,3 @@
+api_key=avatar
+client_id=OBT
+web_session_id=2002dc549777c0d43d4af96bd9aab940

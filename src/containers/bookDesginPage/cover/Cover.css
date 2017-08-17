@@ -1,0 +1,207 @@
+.book-cover {
+	position: relative;
+	margin-top: 55px;
+}
+
+.spin-on-cover {
+	top: -26px;
+	bottom: 0;
+	position: absolute;
+	width: 30px;
+	z-index: 2;
+}
+.book-cover-design-zone .book-safe-zone {
+	white-space: nowrap;
+	top: 0px;
+	left: -30px;
+}
+.book-cover-design-zone .book-manage-pages {
+	bottom: -10px;
+	left: 50%;
+	margin-left: -78px;
+}
+.spin-on-cover.spin-left {
+	left: -26px;
+}
+.spin-on-cover.spin-right {
+	right: -26px;
+	z-index: 9;
+}
+.above-book {
+	top: -28px;
+	z-index: 0;
+	overflow: hidden;
+	background: #666666;
+	position: absolute;
+	height: 33px;
+	width: 100%;
+}
+.book-cover.front-cover .above-book {
+	-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);
+	border-right: 1px solid #535353;
+}
+.book-cover.front-cover .above-book .jacket {
+	right: 0;
+}
+.above-book .jacket {
+	width: 150px;
+	top: 0;
+	bottom: 0;
+	background: #faf5ed;
+	height: 100%;
+	position: absolute;
+}
+.book-cover.back-cover .above-book .jacket {
+	left: 0;
+}
+.book-cover.back-cover .above-book {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-left: 1px solid #535353;
+}
+.above-book.above-book-on-front-cover {
+	left: -22px;
+	right: 24px;
+}
+.above-book.above-book-on-front-cover span {
+	
+	height: 3px;
+	position: absolute;
+	background-color: #b3b3b3;
+	-webkit-box-shadow: inset 0px 3px 1px -2px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0px 3px 1px -2px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 3px 1px -2px rgba(0,0,0,0.3);
+}
+.above-book.above-book-on-front-cover .page-is-1 {
+	top: 10px;
+	left: -8px;
+	right:8px;
+	-webkit-transform: skewX(-5deg);
+	transform: skewX(-5deg);
+}
+.above-book.above-book-on-front-cover .page-is-2 {
+	top: 13px;
+	left: -9px;
+	right: 9px;
+	-webkit-transform: skewX(-15deg);
+	transform: skewX(-15deg);
+}
+.above-book.above-book-on-front-cover .page-is-3 {
+	top: 16px;
+	left: -9px;
+	right:9px;
+	-webkit-transform: skewX(25deg);
+	transform: skewX(25deg);
+}
+.above-book.above-book-on-front-cover .page-is-4 {
+	top: 19px;
+	left: -8px;
+	right: 8px;
+	-webkit-transform: skewX(25deg);
+	transform: skewX(25deg);
+}
+.above-book.above-book-on-front-cover .page-is-5 {
+	top: 22px;
+	left: -6px;
+	right:6px;
+	-webkit-transform: skewX(20deg);
+	transform: skewX(20deg);
+}
+.above-book.above-book-on-front-cover .page-is-6 {
+	top: 25px;
+	left: -4px;
+	right:4px;
+	-webkit-transform: skewX(25deg);
+	transform: skewX(25deg);
+}
+.above-book.above-book-on-front-cover .page-is-7 {
+	top: 28px;
+	left: -1px;
+	right:1px;
+	-webkit-transform: skewX(25deg);
+	transform: skewX(25deg);
+}
+.above-book.above-book-on-front-cover .page-is-8 {
+	top: 31px;
+	left: 2px;
+	right:-2px;
+	-webkit-transform: skewX(15deg);
+	transform: skewX(15deg);
+}
+/*backcover*/
+
+.above-book.above-book-on-back-cover {
+	right: -21px;
+	left: 21px;
+}
+.above-book.above-book-on-back-cover span {
+	
+	height: 3px;
+	position: absolute;
+	background-color: #b3b3b3;
+	-webkit-box-shadow: inset 0px 3px 1px -2px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0px 3px 1px -2px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 3px 1px -2px rgba(0,0,0,0.3);
+}
+.above-book.above-book-on-back-cover .page-is-1 {
+	top: 10px;
+	right: -8px;
+	left:8px;
+	-webkit-transform: skewX(5deg);
+	transform: skewX(5deg);
+}
+.above-book.above-book-on-back-cover .page-is-2 {
+	top: 13px;
+	right: -9px;
+	left:9px;
+	-webkit-transform: skewX(15deg);
+	transform: skewX(15deg);
+}
+.above-book.above-book-on-back-cover .page-is-3 {
+	top: 16px;
+	right: -9px;
+	left:9px;
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.above-book.above-book-on-back-cover .page-is-4 {
+	top: 19px;
+	right: -8px;
+	left:8px;
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.above-book.above-book-on-back-cover .page-is-5 {
+	top: 22px;
+	right: -6px;
+	left:6px;
+	-webkit-transform: skewX(-20deg);
+	transform: skewX(-20deg);
+}
+.above-book.above-book-on-back-cover .page-is-6 {
+	top: 25px;
+	right: -4px;
+	left:4px;
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.above-book.above-book-on-back-cover .page-is-7 {
+	top: 28px;
+	right: -1px;
+	left:1px;
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.above-book.above-book-on-back-cover .page-is-8 {
+	top: 31px;
+	right: 2px;
+	-webkit-transform: skewX(-15deg);
+	transform: skewX(-15deg);
+}
+.above-book-on-back-cover .drak-sha {
+	right: -26px;
+	
+}

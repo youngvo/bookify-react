@@ -1,0 +1,34 @@
+exports[`Test PhotoCell component PhotoCell snapshot PhotoCell render right 1`] = `
+<div
+  className="selecting-photo-cell"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  <div
+    className="preview-photo-zone">
+    <img
+      alt="Detail"
+      className="preview-photo"
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      src=""
+      style={
+        Object {
+          "background": "#ffffff",
+        }
+      } />
+  </div>
+  <div
+    className="view-button-zone">
+    <button
+      className="view-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": "0",
+        }
+      }>
+      View
+    </button>
+  </div>
+</div>
+`;

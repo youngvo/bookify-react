@@ -1,0 +1,186 @@
+.book-design-zone {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	/* background: url(./../../assets/img_background.jpg) repeat center center; */
+}
+
+.sprite {
+	background-image: url(./../../assets/sprite640.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-size: 330px 25px;
+}
+
+.page-shadow {
+	position: absolute;
+	width: 20px;
+	background-blend-mode: multiply;
+	z-index: 4;
+}
+
+.move-page {
+	background-image: url(./../../assets/movepage-s.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-size: 80px 16px;
+}
+
+.whole-mini-page.move-whole-page {
+	background-image: url(./../../assets/movepage-d.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-size: 144px 16px;
+}
+
+.spin-on-cover {
+	/* background-image: url(./../../assets/light-yellow-bar.svg); */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: 2;
+}
+
+.spin-on-cover:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	/* background-image: url(./../../assets/sha-bar.svg); */
+	background-repeat: no-repeat;
+	z-index: 3;
+	background-size: 100% 100%;
+}
+
+.drak-sha {
+	top: -26px;
+	bottom: 0;
+	position: absolute;
+	width: 28px;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.book-cover.front-cover {
+	left: -26px;
+	background-image: url(./../../assets/dark-bar.svg);
+}
+
+.book-mini-cover.front-cover .drak-sha {
+	background-image: url(./../../assets/dark-bar.svg);
+}
+
+.book-mini-cover.back-cover .drak-sha {
+	background-image: url(./../../assets/dark-bar-right.svg);
+}
+
+.cls-1 {
+	fill: #658;
+}
+
+.book-cover.back-cover .spin-on-cover {
+	/* background-image: url(./../../assets/light-yellow-bar-right.svg); */
+}
+
+.book-cover.back-cover .spin-on-cover:after {
+	/* background-image: url(./../../assets/sha-bar-right.svg); */
+}
+
+.book-mini-cover.back-cover .spin-on-cover {
+	/* background-image: url(./../../assets/light-yellow-bar-right.svg); */
+}
+
+.book-mini-cover.back-cover .spin-on-cover:after {
+	/* background-image: url(./../../assets/sha-bar-right.svg); */
+}
+
+.book-cover.back-cover .drak-sha {
+	background-image: url(./../../assets/dark-bar-right.svg);
+	right: -25px;
+}
+
+.book-cover.front-cover .drak-sha {
+	background-image: url(./../../assets/dark-bar.svg);
+	left: -25px;
+}
+
+.page-shadow.right-sha {
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 100%);
+	background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 100%);
+	background: linear-gradient(270deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 100%);
+	filter: progid:DXImageTransform.Microsoftnpm adient( startColorstr='#6b000000', endColorstr='#00000000', GradientType=1);
+}
+
+.page-shadow.left-sha {
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 100%);
+	background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 100%);
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b000000', endColorstr='#00000000', GradientType=1);
+}
+
+.book-design-content-zone {
+	position: absolute;
+	bottom: 0;
+	top: 55px;
+	width: 100%;
+	/*z-index: 2;*/
+}
+
+.book-view-zone.mini-mode {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 35px;
+	bottom: 118px;
+	min-height: 200px;
+	overflow: auto;
+}
+
+.book-view-zone.extend-mode {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 35px;
+	bottom: 320px;
+	min-height: 100px;
+	overflow: auto;
+}
+
+.book-design-footer {
+	z-index: 2;
+}
+
+.book-design-footer.mini-mode {
+	height: 118px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.book-design-footer.extend-mode {
+	height: 320px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}

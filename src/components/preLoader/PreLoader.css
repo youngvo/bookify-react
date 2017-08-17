@@ -1,0 +1,86 @@
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(./../../assets/gradient.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.loader-zone {
+    padding: 20px;
+    height: 165px;
+    width: 460px;
+    position: fixed;
+    right: 50%;
+    bottom: 50%;
+    border: 1px solid #cdcdcd;
+    transform: translate(50%, 50%);
+    background: rgba(254, 254, 254, 1);
+    background: -moz-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(217, 217, 217, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254, 254, 254, 1)), color-stop(100%, rgba(217, 217, 217, 1)));
+    background: -webkit-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(217, 217, 217, 1) 100%);
+    background: -o-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(217, 217, 217, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(217, 217, 217, 1) 100%);
+    background: linear-gradient(to bottom, rgba(254, 254, 254, 1) 0%, rgba(217, 217, 217, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d9d9d9', GradientType=0);
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, .8);
+}
+
+.loader-top {
+    display: flex;
+}
+
+.loader-top-title-zone {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+
+.loader-top-title-zone * {
+    position: relative;
+    height: 100%;
+    top: 0;
+}
+
+.loader-top-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.loader-top-title {
+    color: #535143;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.loader-top-title em {
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 2px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.loader-zone-progress {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+}
+
+.loader-zone-progress-bar {
+    width: 400px;
+    height: 10px;
+}
+
+.loader-zone-progress-percent {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(0, 8px);
+}

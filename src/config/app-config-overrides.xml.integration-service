@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appconfig>
+	<!--
+		Overrides file for the app-config.xml in the root of the project.
+		(/src) The application loads this file after loding the main config
+		file and overrides the original properties.
+
+		Rename this file to app-config-overrides.xml in order to use it.
+	-->
+	<debugModeEnabled>true</debugModeEnabled>
+	<services>
+		<baseUrls>
+			<apache>http://integration-bookify-images.eng.blurb.com/api/{apiVersion}</apache>
+			<api>http://integration-bookify-api.eng.blurb.com/api/{apiVersion}</api>
+			<assets>http://local.blurb.com:3000/obt/assets</assets>
+			<auth>http://integration-bookify-api.eng.blurb.com/api</auth>
+			<customizeassets>http://integration.eng.blurb.com/bookify-react/assets</customizeassets>
+		</baseUrls>
+	</services>
+	<!-- Increasing timeout on staging since testing accounts can be much larger than real-world
+	     scenarios, which can greatly increase response time for some service calls. -->
+	<serviceRequestTimeout>300</serviceRequestTimeout>
+</appconfig>

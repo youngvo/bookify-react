@@ -1,0 +1,92 @@
+.pre-book .popup-zone {
+	border: 1px solid #696969;
+}
+
+.pre-book .popup-zone .content-popup.publishing-book {
+	text-align: center;
+	margin-top: 3px;
+	max-width: 570px;
+	font-family: 'ProximaNovaSB';
+	font-size: 19px;
+}
+
+.publishing-popup-zone{
+	height: 75px !important;
+	width: 580px !important;
+	top: 45% !important;
+	left: 33% !important;
+}
+
+.pre-book .out-border {
+	border: 1px solid #f5f5f5;
+	height: 7px;
+	width:572px !important;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	margin-left: 2px;
+	border-top: none;
+}
+
+.pre-book .content-popup.progress-bar {
+	height: 5px;
+	min-width:570px;
+	overflow: hidden;
+	background: rgb(255, 255, 255);
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 50%, rgba(225, 225, 225, 1) 51%, rgba(246, 246, 246, 1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 50%, rgba(225, 225, 225, 1) 51%, rgba(246, 246, 246, 1) 100%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 50%, rgba(225, 225, 225, 1) 51%, rgba(246, 246, 246, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+	border: 1px solid rgba(0, 0, 0, .8);
+	position: relative;
+}
+
+.pre-book .content-popup.progress-bar:before {
+	width: 700px;
+	content: '';
+	position: absolute;
+	left: -100px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-image: -webkit-linear-gradient(135deg, rgba(0, 0, 0, .3) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .3) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(135deg, rgba(0, 0, 0, .3) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .3) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(135deg, rgba(0, 0, 0, .3) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .3) 50%, rgba(0, 0, 0, .3) 75%, transparent 75%, transparent);
+	-webkit-background-size: 14px 14px;
+	background-size: 14px 14px;
+	-webkit-animation: MOVE-BG 2s linear infinite;
+	-o-animation: MOVE-BG 2s linear infinite;
+	animation: MOVE-BG 2s linear infinite;
+}
+
+@-webkit-keyframes MOVE-BG {
+	from {
+		-webkit-transform: translateX(0);
+	}
+	to {
+		-webkit-transform: translateX(100px);
+	}
+}
+
+@keyframes MOVE-BG {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100px);
+	}
+}
+
+
+.pre-book .btn-header-gdfooter-btn {background: #fff;
+    background: linear-gradient(180deg,#fff 0,#fff 24%,#ddd 72%,#d9d9d9 80%,#d9d9d9);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d9d9d9",GradientType=0);
+	    border: 1px solid #ccc;
+	height: 35px;
+}
+
+.pre-book .btn-header-gdfooter-btn {background: #fff;
+    background: linear-gradient(180deg,#fff 0,#fff 24%,#ddd 72%,#d9d9d9 80%,#d9d9d9);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d9d9d9",GradientType=0);
+	    border: 1px solid #ccc;
+	height: 35px;
+}

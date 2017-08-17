@@ -1,0 +1,24 @@
+.screen {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+	min-height: 550px;
+    min-width: 1000px;
+}
+
+.screen-body {
+    position: absolute;
+    top: 80px;
+    bottom: 60px;
+    left: 15px;
+    right: 15px;
+    height:84%;
+}
+
+.screen-body.preview-book{
+    width: 100%;
+    left: 0;
+    right: 0;
+}

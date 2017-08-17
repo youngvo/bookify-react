@@ -1,0 +1,41 @@
+.image-upload {
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #666 60%, #333 90%);
+    box-shadow: 4px 4px 8px black;
+    max-width: 300px;
+}
+
+.image-upload span {
+    color: white;
+}
+
+.image-upload-title {
+    display: flex;
+}
+
+.image-upload-title-close {
+    position: absolute;
+    right: 10px;
+}
+
+.image-upload-title-content {
+    margin-left: 8px;
+}
+
+.image-upload-progress {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image-upload-content {
+    display: flex;
+    position: relative;
+}
+
+.image-upload-content-cancel {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

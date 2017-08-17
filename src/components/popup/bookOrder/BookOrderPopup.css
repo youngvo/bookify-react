@@ -1,0 +1,17 @@
+.popup-zone.book-order {
+    padding: 12px;
+    height: 83px;
+    width: 525px;
+    left:33%;
+    top: 42%;
+}
+
+.content-popup.link {
+    color: #07bce3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content-order-popup{
+    max-width: 550px !important;
+}

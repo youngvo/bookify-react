@@ -1,0 +1,236 @@
+.book-flap {
+	position: relative;
+}
+
+.flap-swap-book {
+	display: inline-flex;
+	position: absolute;
+}
+
+.flap-swap-book .book-manage-pages {
+	margin-bottom: -60px;
+}
+
+.page-flap {
+	background-color: rgba(160, 160, 159, .5);
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.front-flap .top-border-flap {
+	position: absolute;
+	left: 0;
+	right: 20px;
+	top: -5px;
+	background: rgba(0, 0, 0, .15);
+	height: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transform: skewX(15deg);
+	transform: skewX(15deg);
+}
+
+.front-flap .bottom-border-flap {
+	position: absolute;
+	left: 0;
+	right: 20px;
+	;
+	bottom: -11px;
+	background: rgba(0, 0, 0, .15);
+	height: 3px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transform: skewX(15deg);
+	transform: skewX(15deg);
+}
+
+.front-flap .full-bot-border-flap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -8px;
+	background: rgba(0, 0, 0, .15);
+	height: 8px;
+}
+
+.front-flap .full-top-border-flap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -2px;
+	background: rgba(0, 0, 0, .15);
+	height: 2px;
+}
+
+.back-flap .full-bot-border-flap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -8px;
+	background: rgba(0, 0, 0, .15);
+	height: 8px;
+}
+
+.back-flap .full-top-border-flap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -2px;
+	background: rgba(0, 0, 0, .15);
+	height: 2px;
+}
+
+.back-flap .top-border-flap {
+	position: absolute;
+	left: 20px;
+	right: 0;
+	top: -5px;
+	background: rgba(0, 0, 0, .15);
+	height: 3px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transform: skewX(-20deg);
+	transform: skewX(-20deg);
+}
+
+.back-flap .bottom-border-flap {
+	position: absolute;
+	left: 20px;
+	right: 0;
+	bottom: -11px;
+	background: rgba(0, 0, 0, .15);
+	height: 3px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transform: skewX(-20deg);
+	transform: skewX(-20deg);
+}
+
+.back-flap-zone {
+	position: absolute;
+	right: 0;
+	top: -5px;
+	bottom: -10px;
+	-webkit-box-shadow: -6px 0px 2px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: -6px 0px 2px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: -6px 0px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.front-flap-zone {
+	-webkit-box-shadow: 6px 0px 2px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 6px 0px 2px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 6px 0px 2px 0px rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: 0;
+	top: -5px;
+	bottom: -10px;
+}
+
+.cover-type-selector-top-zone {
+	overflow: hidden;
+}
+
+.cover-type-selector-top-zone img {
+	float: left;
+}
+
+.cover-type-selector-top-zone .text-cover-img {
+	font-size: 12px;
+	color: #696969;
+	position: relative;
+	text-align: left;
+	top: 20px;
+	display: flex;
+}
+
+.small-text-cover {
+	font-size: 12px;
+	color: #696969;
+	text-align: left;
+}
+
+.cover-type-zone {
+	margin-bottom: 15px;
+}
+
+.cover-type-zone .radio-button-item {
+	display: block;
+	position: relative;
+	margin-right: 0;
+	background: transparent;
+	margin-bottom: 0px;
+	border: none;
+	height: 21px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.cover-type-zone .radio-dot:before {
+	width: 11px;
+	height: 11px;
+	border: 1px solid #000000;
+	top: 10px;
+	left: 5px;
+	background: #fff;
+	background: linear-gradient(180deg, #fff 0, #fbfbfb 10%, #f5f5f5 40%, #ededed 50%, #e1e1e1 90%, #e3e3e3);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e3e3e3", GradientType=0);
+	z-index: 1;
+}
+
+.radio-button-item > input[type="radio"]:checked+span:after {
+	background-color: #000 !important;
+}
+
+.cover-type-zone .radio-dot:after {
+	width: 5px;
+	height: 5px;
+	border-radius: 100%;
+	top: 14px;
+	left: 9px;
+	background: rgba(0, 0, 0, 0);
+	z-index: 2
+}
+
+.checked .radio-dot:after {
+	background: #000;
+}
+
+.cover-type-zone .radio-button-item:hover .radio-dot:before {
+	border: 1px solid #000000 !important;
+	background: rgb(228, 229, 229);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	background: -webkit-linear-gradient(top, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	background: linear-gradient(to bottom, rgba(228, 229, 229, 1) 0%, rgba(213, 215, 215, 1) 10%, rgba(208, 209, 209, 1) 40%, rgba(184, 185, 186, 1) 50%, rgba(175, 175, 176, 1) 90%, rgba(177, 178, 179, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e4e5e5', endColorstr='#b1b2b3', GradientType=0);
+}
+
+.cover-type-zone .radio-button-item:hover .radio-dot:after {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.cover-type-zone .radio-button-item:hover.checked .radio-dot:after {
+	background: rgba(0, 0, 0, 1) !important;
+}
+
+.cover-type-zone .radio-button-item-word {
+	font-weight: 400;
+	margin-left: 0;
+	position: absolute;
+	left: 25px;
+	width: auto;
+	font-size: 11px;
+	color: #696969;
+	top: 10px;
+}
+
+.cover-type-zone .radio-button-item:hover.checked .radio-button-item-word, .cover-type-zone .radio-button-item.checked .radio-button-item-word {
+	color: #696969;
+}
+
+.cover-section-zone {
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	overflow: hidden;
+}

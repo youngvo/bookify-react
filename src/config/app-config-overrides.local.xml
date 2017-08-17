@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appconfig>
+ <failIfVersionFileNotFound>true</failIfVersionFileNotFound>
+ <services>
+  <baseUrls>
+   <api>http://bookify-api.blurb.com/api/{apiVersion}</api>
+   <apihttps>https://bookify-api.blurb.com/api/{apiVersion}</apihttps>
+   <apache>http://bookify-images.blurb.com/api/{apiVersion}</apache>
+   <assets>http://local.blurb.com/obt2/assets</assets>
+   <auth>http://bookify-api.blurb.com/api</auth>
+   <s3url>http://blurbstaging1000.s3.amazonaws.com</s3url>
+   <customizeassets>http://localhost:3000/assets/</customizeassets>
+  </baseUrls>
+ </services>
+ <build_number>1234</build_number>
+ <job_name>Local-Bookify-Instance</job_name>
+
+ <warnOnExit>true</warnOnExit>
+ <autoSaveInterval>6000000</autoSaveInterval>
+ <showStartupBlankSlate>true</showStartupBlankSlate>
+ <enableLogout>false</enableLogout>
+
+ <!-- api key for tracking metrics -->
+ <!--<metricsAPIKey>555a4c56c23df5f265b5474f8d74698a</metricsAPIKey>-->
+
+ <!-- A list of all sources to disable.  If book should be disabled for everything
+      except books started as an instant book, set the "disable_instant_book" flag
+      to false. -->
+ <!--
+ <disabledImportSources>
+     <importSource disable_instant_book="true">facebook</importSource>
+ </disabledImportSources>
+ -->
+
+</appconfig>

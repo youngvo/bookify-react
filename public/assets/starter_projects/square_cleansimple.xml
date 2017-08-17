@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<project>
+	<metadata />
+	<data>
+		<Book format="square" theme="blurb.viewfinder">
+			<Contents>
+				<Covers>
+					<Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+						<FrontCover layout_group_id="3f89ce97-3cd7-4cb3-b7a3-1da9e3184370_#12226" background_id="solid_1">
+							<ImageContainer ref_id="fe296153-c3e4-4dae-9599-fc6435635c1c" />
+							<TextContainer ref_id="1bd63906-ce85-404e-87e2-c9fd991d399d" />
+							<TextContainer ref_id="b240b518-cf62-496e-b83e-12abdded88de" />
+						</FrontCover>
+						<BackCover layout_group_id="1987c403-4ec2-4b09-b74c-c26d1b1994f3" background_id="solid_1">
+							<ImageContainer ref_id="1458aa6d-d769-4598-bac5-a7c01d940321" />
+							<TextContainer ref_id="d352f798-1c97-4485-984c-dc79fb69e91d" />
+						</BackCover>
+						<Spine layout_group_id="e5513db6-153c-446a-ab16-a142124d2f29" background_id="solid_1">
+							<TextContainer ref_id="b5ed216e-136a-4882-8f0f-8670753adb76" />
+							<TextContainer ref_id="9469141f-374e-4356-9a81-5c963fb29fe8" />
+						</Spine>
+						<FrontFlap layout_group_id="2ba9cf31-e147-422b-a410-571cbe052a51" background_id="solid_1">
+							<ImageContainer ref_id="a8e7c931-bb41-42f9-b753-1893cc9a1a91" />
+							<TextContainer ref_id="85bd3663-62d7-4a44-8110-caac9539a98b" />
+						</FrontFlap>
+						<BackFlap layout_group_id="8e9593e7-db09-4d72-b398-98f2d8659dab" background_id="solid_1">
+							<ImageContainer ref_id="779ba636-bf51-4847-adbe-74ca17e8ef0b" />
+							<TextContainer ref_id="e3209cc4-8070-4d69-a4c6-ad3723d2dfa4" />
+						</BackFlap>
+					</Cover>
+				</Covers>
+				<Pages>
+					<Page page_layout_id="blurb.u10ea7" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+					<Page page_layout_id="blurb.uce93" background_id="solid_1" />
+
+					<!-- last page, should have a background_id -->
+					<Page page_layout_id="blurb.7x7.logo_page" can_change_layouts="false" background_id="solid_1" />
+				</Pages>
+			</Contents>
+		</Book>
+	</data>
+</project>

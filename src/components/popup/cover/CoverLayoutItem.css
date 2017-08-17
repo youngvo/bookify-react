@@ -1,0 +1,34 @@
+.cover-layout-item-zone {
+    height: 60px;
+    width: 60px;
+    display: block;
+    justify-content: center;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 8px 8px 10px;
+}
+
+.cover-layout-item-zone:hover{
+    background-color: lightblue;
+}
+
+.cover-layout-item-zone.focus {
+    background-color: #00a0e4;
+}
+
+.cover-layout-item-shadow{
+    background: transparent;
+    box-shadow: 2px 2px 4px #888;
+    height: 50px;
+    width: 50px;
+}
+
+.cover-layout-item-draw{
+    display: block;
+    position: absolute;
+    background-color: #FFFFFF;
+    transform-origin: top left;
+    border: 1px solid;
+}
+

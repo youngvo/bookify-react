@@ -1,0 +1,49 @@
+.scrollbar-body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin-right: 5px;
+}
+
+.scrollbar-thump {
+    position: absolute;
+    height: 100%;
+    background-color: #DBDCDD;
+    border: 1px solid white;
+    border-radius: 15px;
+    z-index: 1;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.enable-scroolbar.scrollbar-thump:hover {
+    background-color: #ccc;
+}
+
+.scrollbar-track {
+    background-color: #888888;
+    position: absolute;
+}
+
+.scrollbar-track.horizontal {
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+}
+
+.scrollbar-track.vertical {
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 70%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.scrollbar-arrow {
+    background-color: transparent;
+    color: #888888;
+    width: 18px;
+    height: 18px;
+}

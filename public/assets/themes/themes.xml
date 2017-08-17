@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<Themes>
+<Theme id="blurb.viewfinder" realname="cleansimple">
+    <Defaults>
+        <DefaultCoverBackground id="solid_1"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+        <TextStyle id="cvr_t_l_54-60_s2" font="Helvetica LT 55 Roman" size="54" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s2" font="Helvetica LT 55 Roman" size="32" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s4" font="Helvetica LT 55 Roman" size="32" color="#000000"/>
+        <TextStyle id="sechdr_l_25-30_s1" font="Helvetica LT 55 Roman" size="24" color="#000000"/>
+        <TextStyle id="sechdr_l_25-30_s4" font="Helvetica LT 55 Roman" size="24" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s2" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s4" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="bodsub_l_12-15_s4" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="cap_l_8-10_s4" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="pgnumber_r_9-12" font="Helvetica LT 55 Roman" size="14" color="#000000" align="right"/>
+        <TextStyle id="pgnumber_l_9-12" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="cvr_flap_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="cap_l_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="cover_spine_l_12-15_s4" font="Helvetica LT 55 Roman" size="10" color="#000000"/>
+        <TextStyle id="cover_sub_l_16-20_s2" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="cover_t3_l_25-30_s2" font="Helvetica LT 55 Roman" size="24" color="#000000"/>
+        <TextStyle id="cover_t_l_34-40_s2" font="Helvetica LT 55 Roman" size="32" color="#000000"/>
+        <TextStyle id="blog.comment.date" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.email" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.author" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.email" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.date" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.author" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.category" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.content" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.content" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.footnote" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.title" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="bodsub_l_12-15_s1" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s1" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="bod_l_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="bod_l_9-12_s1" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s1" font="Helvetica LT 55 Roman" size="32" color="#000000"/>
+        <TextStyle id="cvr_t_l_54-60_s1" font="Helvetica LT 55 Roman" size="54" color="#000000"/>
+        <TextStyle id="text style 1" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="text style 3" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="text style 5" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 8" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 10" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 11" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="text style 14" font="Helvetica LT 55 Roman" size="16" color="#000000"/>
+        <TextStyle id="text style 15" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 18" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 19d" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 20" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 21" font="Helvetica LT 55 Roman" size="14" color="#000000" align="right"/>
+        <TextStyle id="text style 22" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 23" font="Helvetica LT 55 Roman" size="14" color="#000000" align="right"/>
+        <TextStyle id="text style 29" font="Helvetica LT 55 Roman" size="24" color="#000000"/>
+        <TextStyle id="text style 31" font="Helvetica LT 55 Roman" size="28" color="#000000"/>
+        <TextStyle id="text style 33" font="Helvetica LT 55 Roman" size="60" color="#000000"/>
+        <TextStyle id="text style 39" font="Helvetica LT 55 Roman" size="18" color="#000000"/>
+        <TextStyle id="text style 41" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 47" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 45" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+        
+ 		<!-- facebook caption style -->
+		<TextStyle id="text style 100" font="Helvetica LT 55 Roman" size="8" color="#404040" fontLookup="embeddedCFF"/>
+		
+		<!-- 
+		IMPORTANT! THESE STYLES HAVE TO MATCH THE COMMENT STYLES BELOW!
+		The reason we are duplicating them here is because these styles are bindable,
+		so when a user changes themes/styles, their comment text syle will also 
+		change if these are set. Otherwise they would not.
+		
+		FUTURE: We should get rid of these and build a sub-system to re-render the 
+		comments when styles change
+		-->
+		<TextStyle id="text style 101" font="Helvetica LT 55 Roman" size="23" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 102" font="Helvetica LT 55 Roman" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 103" font="Helvetica LT 55 Roman" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 103b" font="Helvetica LT 55 Roman" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 104" font="Helvetica LT 55 Roman" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 105" font="Helvetica LT 55 Roman" size="8" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 106" font="Helvetica LT 55 Roman" size="8" color="#000000" lineHeight="120%"/>	
+    </TextStyles>
+    <FontColors>
+        #FAF5ED,#FAD4B0,#666666,#D3DECB,#98C8E9,#B15832,#E4AE74,#FFFFFF
+    </FontColors>	
+    <CommentStyles>
+        <CommentStyle id="blurb.comment001" description="message">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="23" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment002" description="person">
+            <format>
+                <p color="#939598" fontFamily="Helvetica LT 55 Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment003" description="message">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>	
+		<!-- this may seem like a dupe of blurb.comment003 but it is needed for photoblack to change the text color -->
+        <CommentStyle id="blurb.comment003b" description="message">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>			
+        <CommentStyle id="blurb.comment004" description="person">
+            <format>
+                <p color="#939598" fontFamily="Helvetica LT 55 Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment005" description="message">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment006" description="message and separator">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span color="#939598">
+                        {PERSON}
+                    </span>
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+            <separator initial_separator="true">
+                <p color="#939598" fontFamily="Helvetica LT 55 Roman" fontSize="7" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        --------------------------------------------------
+                    </span>
+                </p>
+            </separator>
+        </CommentStyle>
+    </CommentStyles>
+    <Backgrounds>
+        <Background id="solid_1" color="#FAF5ED"/>
+        <Background id="solid_2" color="#FAD4B0"/>
+        <Background id="solid_3" color="#666666"/>
+        <Background id="solid_4" color="#D3DECB"/>
+        <Background id="solid_5" color="#98C8E9"/>
+        <Background id="solid_6" color="#B15832"/>
+        <Background id="solid_7" color="#E4AE74"/>
+        <Background id="solid_8" color="#FFFFFF"/>
+    </Backgrounds>
+    <ImageBorders>
+        <ImageBorder id="image_border_1" image_id="frame_line_01" type="svg" inset="0" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_2" image_id="frame_line_02" type="svg" inset="2" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_3" image_id="frame_line_03" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_4" image_id="frame_line_05" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+    </ImageBorders>
+</Theme>
+<Theme id="blurb.darkroom" realname="photoblack">
+    <Defaults>
+        <DefaultCoverBackground id="solid_1"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+        <TextStyle id="cvr_t_l_54-60_s2" font="Stone Humanist ITC Medium" size="54" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cvr_t_l_34-40_s2" font="Stone Humanist ITC Medium" size="32" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cvr_t_l_34-40_s4" font="Stone Humanist ITC Medium" size="32" color="#FFFFFF" bold="true"/>
+        <TextStyle id="sechdr_l_25-30_s1" font="Stone Humanist ITC Medium" size="24" color="#FFFFFF" bold="true"/>
+        <TextStyle id="sechdr_l_25-30_s4" font="Stone Humanist ITC Medium" size="24" color="#FFFFFF" bold="true"/>
+        <TextStyle id="bodhdr_l_16-20_s2" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        <TextStyle id="bodhdr_l_16-20_s4" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        <TextStyle id="bodsub_l_12-15_s4" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="bod_l_9-12_s4" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cap_l_8-10_s4" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="pgnumber_r_9-12" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true" align="right"/>
+        <TextStyle id="pgnumber_l_9-12" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cvr_flap_9-12_s4" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cap_l_9-12_s4" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cover_spine_l_12-15_s4" font="Stone Humanist ITC Medium" size="10" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cover_sub_l_16-20_s2" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cover_t3_l_25-30_s2" font="Stone Humanist ITC Medium" size="24" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cover_t_l_34-40_s2" font="Stone Humanist ITC Medium" size="32" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.comment.date" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.comment.email" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.entry.author" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.entry.email" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.entry.date" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.comment.author" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.entry.category" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.comment.content" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.entry.content" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.entry.footnote" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="blog.entry.title" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        <TextStyle id="bodsub_l_12-15_s1" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cvr_t_l_34-40_s1" font="Stone Humanist ITC Medium" size="32" color="#FFFFFF" bold="true"/>
+        <TextStyle id="cvr_t_l_54-60_s1" font="Stone Humanist ITC Medium" size="54" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 1" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 3" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 5" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 8" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 9" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 10" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 11" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 14" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 15" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 18" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 19d" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 20" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 21" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true" align="right"/>
+        <TextStyle id="text style 22" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 23" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true" align="right"/>
+        <TextStyle id="text style 45" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 41" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 47" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 33" font="Stone Humanist ITC Medium" size="60" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 31" font="Stone Humanist ITC Medium" size="28" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 29" font="Stone Humanist ITC Medium" size="24" color="#FFFFFF" bold="true"/>
+        <TextStyle id="text style 39" font="Stone Humanist ITC Medium" size="18" color="#FFFFFF" bold="true"/>
+        <TextStyle id="bod_l_9-12_s1" font="Stone Humanist ITC Medium" size="14" color="#FFFFFF" bold="true"/>
+        <TextStyle id="bodhdr_l_16-20_s1" font="Stone Humanist ITC Medium" size="16" color="#FFFFFF" bold="true"/>
+        
+ 		<!-- facebook caption style -->
+		<TextStyle id="text style 100" font="Stone Humanist ITC Medium" size="8" color="#404040" bold="true"/>
+		
+		<!-- 
+		IMPORTANT! THESE STYLES HAVE TO MATCH THE COMMENT STYLES BELOW!
+		The reason we are duplicating them here is because these styles are bindable,
+		so when a user changes themes/styles, their comment text syle will also 
+		change if these are set. Otherwise they would not.
+		
+		FUTURE: We should get rid of these and build a sub-system to re-render the 
+		comments when styles change
+		-->
+		<TextStyle id="text style 101" font="Stone Humanist ITC Medium" size="23" color="#AAAAAA" fontWeight="bold" lineHeight="120%"/>
+		<TextStyle id="text style 102" font="Stone Humanist ITC Medium" size="8" color="#939598" fontWeight="bold" lineHeight="120%"/>
+		<TextStyle id="text style 103" font="Stone Humanist ITC Medium" size="14" color="#AAAAAA" fontWeight="bold" lineHeight="120%"/>
+		<TextStyle id="text style 103b" font="Stone Humanist ITC Medium" size="14" color="#000000" fontWeight="bold" lineHeight="120%"/>
+		<TextStyle id="text style 104" font="Stone Humanist ITC Medium" size="8" color="#939598" fontWeight="bold" lineHeight="120%"/>
+		<TextStyle id="text style 105" font="Stone Humanist ITC Medium" size="8" color="#000000" fontWeight="bold" lineHeight="120%"/>
+		<TextStyle id="text style 106" font="Stone Humanist ITC Medium" size="8" color="#AAAAAA" fontWeight="bold" lineHeight="120%"/>		
+    </TextStyles>
+    <FontColors>
+        #000000,#4F5F75,#666666,#203264,#FFFFFF
+    </FontColors>	
+    <CommentStyles>
+        <CommentStyle id="blurb.comment001" description="message">
+            <format>
+                <p color="#AAAAAA" fontFamily="Stone Humanist ITC Medium" fontSize="23" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment002" description="person">
+            <format>
+                <p color="#939598" fontFamily="Stone Humanist ITC Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment003" description="message">
+            <format>
+                <p color="#AAAAAA" fontFamily="Stone Humanist ITC Medium" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>				
+        <CommentStyle id="blurb.comment003b" description="message">
+            <format>
+                <p color="#000000" fontFamily="Stone Humanist ITC Medium" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>			
+        <CommentStyle id="blurb.comment004" description="person">
+            <format>
+                <p color="#939598" fontFamily="Stone Humanist ITC Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment005" description="message">
+            <format>
+                <p color="#000000" fontFamily="Stone Humanist ITC Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment006" description="message and separator">
+            <format>
+                <p color="#AAAAAA" fontFamily="Stone Humanist ITC Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span color="#939598">
+                        {PERSON}
+                    </span>
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+            <separator initial_separator="true">
+                <p color="#939598" fontFamily="Stone Humanist ITC Medium" fontSize="7" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        -----------------------------------------------------
+                    </span>
+                </p>
+            </separator>
+        </CommentStyle>
+    </CommentStyles>
+    <Backgrounds>
+        <Background id="solid_1" color="#000000"/>
+        <Background id="solid_2" color="#4F5F75"/>
+        <Background id="solid_3" color="#666666"/>
+        <Background id="solid_4" color="#203264"/>
+        <Background id="solid_5" color="#FFFFFF"/>
+    </Backgrounds>
+    <ImageBorders>
+        <ImageBorder id="image_border_1" image_id="frame_line_02" type="svg" inset="2" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_2" image_id="frame_line_03" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_3" image_id="frame_line_06" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_4" image_id="frame_line_11" type="svg" inset="7" corner="corner" horizontal_edge="horizontal_edge"/>
+    </ImageBorders>
+</Theme>
+<Theme id="blurb.girlie" realname="funfunky">
+    <Defaults>
+        <DefaultCoverBackground id="solid_1"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+        <TextStyle id="cvr_t_l_54-60_s2" font="ZemkeHandITC TT" size="54" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s2" font="ZemkeHandITC TT" size="32" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s4" font="ZemkeHandITC TT" size="32" color="#000000"/>
+        <TextStyle id="sechdr_l_25-30_s1" font="ZemkeHandITC TT" size="24" color="#000000"/>
+        <TextStyle id="sechdr_l_25-30_s4" font="ZemkeHandITC TT" size="24" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s2" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s4" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="bodsub_l_12-15_s4" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="bod_l_9-12_s4" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="cap_l_8-10_s4" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="pgnumber_r_9-12" font="ZemkeHandITC TT" size="14" color="#000000" align="right"/>
+        <TextStyle id="pgnumber_l_9-12" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="cvr_flap_9-12_s4" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="cap_l_9-12_s4" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="cover_spine_l_12-15_s4" font="ZemkeHandITC TT" size="10" color="#000000"/>
+        <TextStyle id="cover_sub_l_16-20_s2" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="cover_t3_l_25-30_s2" font="ZemkeHandITC TT" size="24" color="#000000"/>
+        <TextStyle id="cover_t_l_34-40_s2" font="ZemkeHandITC TT" size="32" color="#000000"/>
+        <TextStyle id="blog.comment.date" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.email" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.author" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.email" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.date" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.author" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.category" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.content" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.content" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.footnote" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.title" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="bodsub_l_12-15_s1" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="bod_l_9-12_s1" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s1" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="cvr_t_l_54-60_s1" font="ZemkeHandITC TT" size="54" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s1" font="ZemkeHandITC TT" size="32" color="#000000"/>
+        <TextStyle id="text style 1" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="text style 3" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="text style 5" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 8" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 9" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 10" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 11" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="text style 14" font="ZemkeHandITC TT" size="16" color="#000000"/>
+        <TextStyle id="text style 15" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 18" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 19d" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 20" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 21" font="ZemkeHandITC TT" size="14" color="#000000" align="right"/>
+        <TextStyle id="text style 22" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 23" font="ZemkeHandITC TT" size="14" color="#000000" align="right"/>
+        <TextStyle id="text style 29" font="ZemkeHandITC TT" size="24" color="#000000"/>
+        <TextStyle id="text style 31" font="ZemkeHandITC TT" size="28" color="#000000"/>
+        <TextStyle id="text style 33" font="ZemkeHandITC TT" size="60" color="#000000"/>
+        <TextStyle id="text style 39" font="ZemkeHandITC TT" size="18" color="#000000"/>
+        <TextStyle id="text style 41" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 47" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        <TextStyle id="text style 45" font="ZemkeHandITC TT" size="14" color="#000000"/>
+        
+		<!-- facebook caption style -->
+		<TextStyle id="text style 100" font="ZemkeHandITC TT" size="8" color="#404040" fontWeight="normal"/>
+		
+		<!-- 
+		IMPORTANT! THESE STYLES HAVE TO MATCH THE COMMENT STYLES BELOW!
+		The reason we are duplicating them here is because these styles are bindable,
+		so when a user changes themes/styles, their comment text syle will also 
+		change if these are set. Otherwise they would not.
+		
+		FUTURE: We should get rid of these and build a sub-system to re-render the 
+		comments when styles change
+		-->
+		<TextStyle id="text style 101" font="ZemkeHandITC TT" size="23" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 102" font="ZemkeHandITC TT" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 103" font="ZemkeHandITC TT" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 103b" font="ZemkeHandITC TT" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 104" font="ZemkeHandITC TT" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 105" font="ZemkeHandITC TT" size="8" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 106" font="ZemkeHandITC TT" size="8" color="#000000" lineHeight="120%"/>	
+    </TextStyles>
+    <FontColors>
+        #E98200,#778D12,#2D8B82,#F15A24,#F4A83B,#1C9FC0,#BB2B48,#FFFFFF
+    </FontColors>	
+    <CommentStyles>
+        <CommentStyle id="blurb.comment001" description="message">
+            <format>
+                <p color="#000000" fontFamily="ZemkeHandITC TT" fontSize="23" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment002" description="person">
+            <format>
+                <p color="#939598" fontFamily="ZemkeHandITC TT" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment003" description="message">
+            <format>
+                <p color="#000000" fontFamily="ZemkeHandITC TT" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+		<!-- this may seem like a dupe of blurb.comment003 but it is needed for photoblack to change the text color -->
+        <CommentStyle id="blurb.comment003b" description="message">
+            <format>
+                <p color="#000000" fontFamily="ZemkeHandITC TT" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>			
+        <CommentStyle id="blurb.comment004" description="person">
+            <format>
+                <p color="#939598" fontFamily="ZemkeHandITC TT" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment005" description="message">
+            <format>
+                <p color="#000000" fontFamily="ZemkeHandITC TT" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment006" description="message and separator">
+            <format>
+                <p color="#000000" fontFamily="ZemkeHandITC TT" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span color="#939598">
+                        {PERSON}
+                    </span>
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+            <separator initial_separator="true">
+                <p color="#939598" fontFamily="ZemkeHandITC TT" fontSize="7" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        ----------------------------------------------
+                    </span>
+                </p>
+            </separator>
+        </CommentStyle>
+    </CommentStyles>
+    <Backgrounds>
+        <Background id="solid_1" color="#E98200"/>
+        <Background id="solid_2" color="#778D12"/>
+        <Background id="solid_3" color="#2D8B82"/>
+        <Background id="solid_4" color="#F15A24"/>
+        <Background id="solid_5" color="#F4A83B"/>
+        <Background id="solid_6" color="#1C9FC0"/>
+        <Background id="solid_7" color="#BB2B48"/>
+        <Background id="solid_8" color="#FFFFFF"/>
+        <Background id="pattern_1" pattern_id="girlie_background3" color="#ffffff" pattern_color="#9dcaf3"/>
+        <Background id="pattern_2" pattern_id="girlie_background4" color="#ffffff" pattern_color="#9dcaf3"/>
+    </Backgrounds>
+    <ImageBorders>
+        <ImageBorder id="image_border_1" image_id="frame_deco_13" type="svg" inset="7" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_2" image_id="frame_line_09" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_3" image_id="frame_deco_15" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_4" image_id="frame_line_22" type="svg" inset="8" corner="corner" horizontal_edge="horizontal_edge"/>
+    </ImageBorders>
+</Theme>
+<Theme id="blurb.elegant" realname="elegant">
+    <Defaults>
+        <DefaultCoverBackground id="solid_8"/>
+        <DefaultPageBackground id="solid_8"/>
+    </Defaults>
+    <TextStyles>
+        <TextStyle id="cvr_t_l_54-60_s2" font="StempelGaramond LT Roman" size="54" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s2" font="StempelGaramond LT Roman" size="32" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s4" font="StempelGaramond LT Roman" size="32" color="#000000"/>
+        <TextStyle id="sechdr_l_25-30_s1" font="StempelGaramond LT Roman" size="24" color="#000000"/>
+        <TextStyle id="sechdr_l_25-30_s4" font="StempelGaramond LT Roman" size="24" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s2" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s4" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="bodsub_l_12-15_s4" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="bod_l_9-12_s4" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="cap_l_8-10_s4" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="pgnumber_r_9-12" font="StempelGaramond LT Roman" size="14" color="#000000" align="right"/>
+        <TextStyle id="pgnumber_l_9-12" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="cvr_flap_9-12_s4" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="cap_l_9-12_s4" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="cover_spine_l_12-15_s4" font="StempelGaramond LT Roman" size="10" color="#000000"/>
+        <TextStyle id="cover_sub_l_16-20_s2" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="cover_t3_l_25-30_s2" font="StempelGaramond LT Roman" size="24" color="#000000"/>
+        <TextStyle id="cover_t_l_34-40_s2" font="StempelGaramond LT Roman" size="32" color="#000000"/>
+        <TextStyle id="blog.comment.date" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.email" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.author" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.email" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.date" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.author" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.category" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.comment.content" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.content" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.footnote" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="blog.entry.title" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="bodsub_l_12-15_s1" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="bod_l_9-12_s1" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="bodhdr_l_16-20_s1" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="cvr_t_l_54-60_s1" font="StempelGaramond LT Roman" size="54" color="#000000"/>
+        <TextStyle id="cvr_t_l_34-40_s1" font="StempelGaramond LT Roman" size="32" color="#000000"/>
+        <TextStyle id="text style 1" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="text style 3" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="text style 5" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 8" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 9" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 10" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 11" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="text style 14" font="StempelGaramond LT Roman" size="16" color="#000000"/>
+        <TextStyle id="text style 15" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 18" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 19d" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 20" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 21" font="StempelGaramond LT Roman" size="14" color="#000000" align="right"/>
+        <TextStyle id="text style 22" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 23" font="StempelGaramond LT Roman" size="14" color="#000000" align="right"/>
+        <TextStyle id="text style 29" font="StempelGaramond LT Roman" size="24" color="#000000"/>
+        <TextStyle id="text style 31" font="StempelGaramond LT Roman" size="28" color="#000000"/>
+        <TextStyle id="text style 33" font="StempelGaramond LT Roman" size="60" color="#000000"/>
+        <TextStyle id="text style 39" font="StempelGaramond LT Roman" size="18" color="#000000"/>
+        <TextStyle id="text style 41" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 47" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        <TextStyle id="text style 45" font="StempelGaramond LT Roman" size="14" color="#000000"/>
+        
+		<!-- facebook caption style -->
+		<TextStyle id="text style 100" font="StempelGaramond LT Roman" size="8" color="#404040" fontWeight="normal"/>
+		
+		<!-- 
+		IMPORTANT! THESE STYLES HAVE TO MATCH THE COMMENT STYLES BELOW!
+		The reason we are duplicating them here is because these styles are bindable,
+		so when a user changes themes/styles, their comment text syle will also 
+		change if these are set. Otherwise they would not.
+		
+		FUTURE: We should get rid of these and build a sub-system to re-render the 
+		comments when styles change
+		-->
+		<TextStyle id="text style 101" font="StempelGaramond LT Roman" size="23" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 102" font="StempelGaramond LT Roman" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 103" font="StempelGaramond LT Roman" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 103b" font="StempelGaramond LT Roman" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 104" font="StempelGaramond LT Roman" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 105" font="StempelGaramond LT Roman" size="8" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 106" font="StempelGaramond LT Roman" size="8" color="#000000" lineHeight="120%"/>	
+    </TextStyles>
+    <FontColors>
+        #7BA1B7,#E0BB9D,#C7D4BC,#D4CAD8,#3A3028,#8E7155,#FAF5ED,#FFFFFF
+    </FontColors>	
+    <CommentStyles>
+        <CommentStyle id="blurb.comment001" description="message">
+            <format>
+                <p color="#000000" fontFamily="StempelGaramond LT Roman" fontSize="23" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment002" description="person">
+            <format>
+                <p color="#939598" fontFamily="StempelGaramond LT Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment003" description="message">
+            <format>
+                <p color="#000000" fontFamily="StempelGaramond LT Roman" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+		<!-- this may seem like a dupe of blurb.comment003 but it is needed for photoblack to change the text color -->
+        <CommentStyle id="blurb.comment003b" description="message">
+            <format>
+                <p color="#000000" fontFamily="StempelGaramond LT Roman" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>			
+        <CommentStyle id="blurb.comment004" description="person">
+            <format>
+                <p color="#939598" fontFamily="StempelGaramond LT Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment005" description="message">
+            <format>
+                <p color="#000000" fontFamily="StempelGaramond LT Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment006" description="message and separator">
+            <format>
+                <p color="#000000" fontFamily="StempelGaramond LT Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span color="#939598">
+                        {PERSON}
+                    </span>
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+            <separator initial_separator="true">
+                <p color="#939598" fontFamily="StempelGaramond LT Roman" fontSize="7" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        --------------------------------------------------
+                    </span>
+                </p>
+            </separator>
+        </CommentStyle>
+    </CommentStyles>
+    <Backgrounds>
+        <Background id="solid_1" color="#7BA1B7"/>
+        <Background id="solid_2" color="#E0BB9D"/>
+        <Background id="solid_3" color="#C7D4BC"/>
+        <Background id="solid_4" color="#D4CAD8"/>
+        <Background id="solid_5" color="#3A3028"/>
+        <Background id="solid_6" color="#8E7155"/>
+        <Background id="solid_7" color="#FAF5ED"/>
+        <Background id="solid_8" color="#FFFFFF"/>
+    </Backgrounds>
+    <ImageBorders>
+        <ImageBorder id="image_border_1" image_id="frame_line_01" type="svg" inset="0" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_2" image_id="frame_line_02" type="svg" inset="2" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_3" image_id="frame_line_03" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_4" image_id="frame_line_05" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_5" image_id="frame_line_06" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_6" image_id="frame_line_09" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_7" image_id="frame_line_11" type="svg" inset="7" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_8" image_id="frame_line_12" type="svg" inset="4" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_9" image_id="frame_line_22" type="svg" inset="8" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_10" image_id="frame_deco_13" type="svg" inset="7" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_11" image_id="frame_deco_14" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_12" image_id="frame_deco_15" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.instantbook_instagram" realname="instantbook_instagram">
+    <Defaults>
+        <DefaultCoverBackground id="solid_1"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+        <TextStyle id="cvr_t_l_54-60_s2" font="Helvetica LT 55 Roman" size="54" color="#999999"/>
+        <TextStyle id="cvr_t_l_34-40_s2" font="Helvetica LT 55 Roman" size="32" color="#999999"/>
+        <TextStyle id="cvr_t_l_34-40_s4" font="Helvetica LT 55 Roman" size="16" color="#7c7c7c" align="right"/>
+        <TextStyle id="sechdr_l_25-30_s1" font="Helvetica LT 55 Roman" size="24" color="#999999"/>
+        <TextStyle id="sechdr_l_25-30_s4" font="Helvetica LT 55 Roman" size="24" color="#999999"/>
+        <TextStyle id="bodhdr_l_16-20_s2" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="bodhdr_l_16-20_s4" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="bodsub_l_12-15_s4" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="cap_l_8-10_s4" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="pgnumber_r_9-12" font="Helvetica LT 55 Roman" size="14" color="#999999" align="right"/>
+        <TextStyle id="pgnumber_l_9-12" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="cvr_flap_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="cap_l_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="cover_spine_l_12-15_s4" font="Helvetica LT 55 Roman" size="11" color="#7c7c7c"/>
+        <TextStyle id="cover_sub_l_16-20_s2" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="cover_t3_l_25-30_s2" font="Helvetica LT 55 Roman" size="24" color="#999999"/>
+        <TextStyle id="cover_t_l_34-40_s2" font="Helvetica LT 55 Roman" size="32" color="#999999"/>
+        <TextStyle id="blog.comment.date" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.comment.email" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.author" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.email" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.date" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.comment.author" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.category" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.comment.content" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.content" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.footnote" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.title" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="bodsub_l_12-15_s1" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="bodhdr_l_16-20_s1" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="bod_l_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="bod_l_9-12_s1" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="cvr_t_l_34-40_s1" font="Helvetica LT 55 Roman" size="32" color="#999999"/>
+        <TextStyle id="cvr_t_l_54-60_s1" font="Helvetica LT 55 Roman" size="54" color="#999999"/>
+        <TextStyle id="text style 1" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="text style 3" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="text style 5" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 8" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 9" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 10" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 11" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="text style 14" font="Helvetica LT 55 Roman" size="16" color="#999999"/>
+        <TextStyle id="text style 15" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 18" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 19d" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 20" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 21" font="Helvetica LT 55 Roman" size="14" color="#999999" align="right"/>
+        <TextStyle id="text style 22" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 23" font="Helvetica LT 55 Roman" size="14" color="#999999" align="right"/>
+        <TextStyle id="text style 29" font="Helvetica LT 55 Roman" size="24" color="#999999"/>
+        <TextStyle id="text style 31" font="Helvetica LT 55 Roman" size="28" color="#999999"/>
+        <TextStyle id="text style 33" font="Helvetica LT 55 Roman" size="60" color="#999999"/>
+        <TextStyle id="text style 39" font="Helvetica LT 55 Roman" size="18" color="#999999"/>
+        <TextStyle id="text style 41" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 47" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        <TextStyle id="text style 45" font="Helvetica LT 55 Roman" size="14" color="#999999"/>
+        
+		<!-- facebook caption style -->
+		<TextStyle id="text style 100" font="Helvetica LT 55 Roman" size="8" color="#404040" fontLookup="embeddedCFF"/>
+		
+		<!-- 
+		IMPORTANT! THESE STYLES HAVE TO MATCH THE COMMENT STYLES BELOW!
+		The reason we are duplicating them here is because these styles are bindable,
+		so when a user changes themes/styles, their comment text syle will also 
+		change if these are set. Otherwise they would not.
+		
+		FUTURE: We should get rid of these and build a sub-system to re-render the 
+		comments when styles change
+		-->
+		<TextStyle id="text style 101" font="Helvetica LT 55 Roman" size="23" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 102" font="Helvetica LT 55 Roman" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 103" font="Helvetica LT 55 Roman" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 103b" font="Helvetica LT 55 Roman" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 104" font="Helvetica LT 55 Roman" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 105" font="Helvetica LT 55 Roman" size="8" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 106" font="Helvetica LT 55 Roman" size="8" color="#000000" lineHeight="120%"/>
+    </TextStyles>
+    <FontColors>
+        #999999
+    </FontColors>
+    <CommentStyles>
+        <CommentStyle id="blurb.comment001" description="message">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="23" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment002" description="person">
+            <format>
+                <p color="#939598" fontFamily="Helvetica LT 55 Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment003" description="message">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>	
+		<!-- this may seem like a dupe of blurb.comment003 but it is needed for photoblack to change the text color -->
+        <CommentStyle id="blurb.comment003b" description="message">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>			
+        <CommentStyle id="blurb.comment004" description="person">
+            <format>
+                <p color="#939598" fontFamily="Helvetica LT 55 Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment005" description="message">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment006" description="message and separator">
+            <format>
+                <p color="#000000" fontFamily="Helvetica LT 55 Roman" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span color="#939598">
+                        {PERSON}
+                    </span>
+                    <span>
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+            <separator initial_separator="true">
+                <p color="#939598" fontFamily="Helvetica LT 55 Roman" fontSize="7" lineHeight="120%" fontLookup="embeddedCFF">
+                    <span>
+                        --------------------------------------------------
+                    </span>
+                </p>
+            </separator>
+        </CommentStyle>
+    </CommentStyles>
+    <Backgrounds>
+        <Background id="solid_1" color="#FFFFFF"/>
+    </Backgrounds>
+    <ImageBorders>
+        <!-- no borders  -->
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.instantbook_facebook" realname="instantbook_facebook">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+        <TextStyle id="cvr_t_l_54-60_s2" font="Avenir LT 65 Medium" size="54" color="#999999"/>
+        <TextStyle id="cvr_t_l_34-40_s2" font="Avenir LT 65 Medium" size="20" color="#FFFFFF" align="right"/>
+        <TextStyle id="cvr_t_l_34-40_s4" font="Avenir LT 65 Medium" size="12" color="#000000" align="right"/>
+        <TextStyle id="sechdr_l_25-30_s1" font="Avenir LT 65 Medium" size="24" color="#999999"/>
+        <TextStyle id="sechdr_l_25-30_s4" font="Avenir LT 65 Medium" size="24" color="#999999"/>
+        <TextStyle id="bodhdr_l_16-20_s2" font="Avenir LT 65 Medium" size="16" color="#999999"/>
+        <TextStyle id="bodhdr_l_16-20_s4" font="Avenir LT 65 Medium" size="16" color="#999999"/>
+        <TextStyle id="bodsub_l_12-15_s4" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="cap_l_8-10_s4" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="pgnumber_r_9-12" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="pgnumber_l_9-12" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="cvr_flap_9-12_s4" font="Avenir LT 65 Medium" size="10" color="#FFFFFF"/>
+        <TextStyle id="cap_l_9-12_s4" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="cover_spine_l_12-15_s4" font="Avenir LT 65 Medium" size="12" color="#FFFFFF"/>
+        <TextStyle id="cover_sub_l_16-20_s2" font="Avenir LT 65 Medium" size="12" color="#000000"/>
+        <TextStyle id="cover_t3_l_25-30_s2" font="Avenir LT 65 Medium" size="24" color="#999999"/>
+        <TextStyle id="cover_t_l_34-40_s2" font="Avenir LT 65 Medium" size="32" color="#999999"/>
+        <TextStyle id="blog.comment.date" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.comment.email" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.author" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.email" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.date" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.comment.author" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.category" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.comment.content" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.content" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.footnote" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="blog.entry.title" font="Avenir LT 65 Medium" size="16" color="#999999"/>
+        <TextStyle id="bodsub_l_12-15_s1" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="bodhdr_l_16-20_s1" font="Avenir LT 65 Medium" size="16" color="#999999"/>
+        <TextStyle id="bod_l_9-12_s4" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="bod_l_9-12_s1" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="cvr_t_l_34-40_s1" font="Avenir LT 65 Medium" size="32" color="#999999"/>
+        <TextStyle id="cvr_t_l_54-60_s1" font="Avenir LT 65 Medium" size="54" color="#999999"/>
+        <TextStyle id="text style 1" font="Avenir LT 65 Medium" size="16" color="#939598"/>
+        <TextStyle id="text style 3" font="Avenir LT 65 Medium" size="16" color="#000000"/>
+        <TextStyle id="text style 5" font="Avenir LT 65 Medium" size="14" color="#000000"/>
+        <TextStyle id="text style 8" font="Avenir LT 65 Medium" size="8" color="#000000"/>
+        <TextStyle id="text style 10" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 11" font="Avenir LT 65 Medium" size="7" color="#000000"/>
+        <TextStyle id="text style 14" font="Avenir LT 65 Medium" size="6" color="#000000"/>
+        <TextStyle id="text style 15" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 18" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 19d" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 20" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 21" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 22" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 23" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 29" font="Avenir LT 65 Medium" size="24" color="#999999"/>
+        <TextStyle id="text style 31" font="Avenir LT 65 Medium" size="28" color="#999999"/>
+        <TextStyle id="text style 33" font="Avenir LT 65 Medium" size="60" color="#999999"/>
+        <TextStyle id="text style 39" font="Avenir LT 65 Medium" size="18" color="#999999"/>
+        <TextStyle id="text style 41" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 47" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        <TextStyle id="text style 45" font="Avenir LT 65 Medium" size="14" color="#999999"/>
+        
+        <!-- facebook caption style -->
+		<TextStyle id="text style 100" font="Avenir LT 65 Medium" size="8" color="#404040"/>
+		
+		<!-- 
+		IMPORTANT! THESE STYLES HAVE TO MATCH THE COMMENT STYLES BELOW!
+		The reason we are duplicating them here is because these styles are bindable,
+		so when a user changes themes/styles, their comment text syle will also 
+		change if these are set. Otherwise they would not.
+		
+		FUTURE: We should get rid of these and build a sub-system to re-render the 
+		comments when styles change
+		-->
+		<TextStyle id="text style 101" font="Avenir LT 65 Medium" size="23" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 102" font="Avenir LT 65 Medium" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 103" font="Avenir LT 65 Medium" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 103b" font="Avenir LT 65 Medium" size="14" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 103c" font="Avenir LT 65 Medium" size="14" color="#404040" lineHeight="120%"/>
+		<TextStyle id="text style 104" font="Avenir LT 65 Medium" size="8" color="#939598" lineHeight="120%"/>
+		<TextStyle id="text style 104b" font="Avenir LT 65 Medium" size="8" color="#404040" fontWeight="bold" lineHeight="120%"/>
+		<TextStyle id="text style 105" font="Avenir LT 65 Medium" size="8" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 106" font="Avenir LT 65 Medium" size="8" color="#000000" lineHeight="120%"/>
+		<TextStyle id="text style 106b" font="Avenir LT 65 Medium" size="8" color="#404040" lineHeight="120%"/>
+    </TextStyles>
+    <FontColors>
+        #999999
+    </FontColors>	
+    <CommentStyles>
+        <CommentStyle id="blurb.comment001" description="message">
+            <format>
+                <p>
+                    <span color="#000000" fontFamily="Avenir LT 65 Medium" fontSize="23" lineHeight="120%" fontLookup="embeddedCFF">
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment002" description="person">
+            <format>
+                <p>
+                    <span color="#939598" fontFamily="Avenir LT 65 Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment003" description="message">
+            <format>
+                <p>
+                    <span color="#000000" fontFamily="Avenir LT 65 Medium" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+		<!-- this may seem like a dupe of blurb.comment003 but it is needed for photoblack to change the text color -->
+        <CommentStyle id="blurb.comment003b" description="message">
+            <format>
+                <p>
+                    <span color="#000000" fontFamily="Avenir LT 65 Medium" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>	
+      	<CommentStyle id="blurb.comment003c" description="message">
+            <format>
+                <p>
+                    <span color="#404040" fontFamily="Avenir LT 65 Medium" fontSize="14" lineHeight="120%" fontLookup="embeddedCFF">
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>	
+        <CommentStyle id="blurb.comment004" description="person">
+            <format>
+                <p>
+                    <span color="#939598" fontFamily="Avenir LT 65 Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                        {PERSON}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment004b" description="person">
+            <format>
+                <p>
+                    <span color="#404040" fontFamily="Avenir LT 65 Medium" fontSize="8" fontWeight="bold" lineHeight="120%" fontLookup="embeddedCFF">
+                        {PERSON}
+                    </span>
+                </p>
+            </format>          
+        </CommentStyle>        
+        <CommentStyle id="blurb.comment005" description="message">
+            <format>
+                <p>
+                    <span color="#000000" fontFamily="Avenir LT 65 Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment006" description="message and separator">
+            <format>
+                <p>
+                    <span color="#939598" fontFamily="Avenir LT 65 Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                        {PERSON}
+                    </span>
+                    <span color="#000000" fontFamily="Avenir LT 65 Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+            <separator initial_separator="true">
+                <p>
+                    <span color="#999999" fontFamily="Avenir LT 65 Medium" fontSize="7" lineHeight="120%" fontLookup="embeddedCFF">
+                        --------------------------------------------------
+                    </span>
+                </p>
+            </separator>
+        </CommentStyle>
+        <CommentStyle id="blurb.comment006b" description="message and separator">
+            <format>
+				<p>
+                    <span fontWeight="bold" color="#404040" fontFamily="Avenir LT 65 Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                        {PERSON}
+                    </span>
+                    <span color="#404040" fontFamily="Avenir LT 65 Medium" fontSize="8" lineHeight="120%" fontLookup="embeddedCFF">
+                        {MESSAGE}
+                    </span>
+                </p>
+            </format>
+            <separator initial_separator="true">
+                <p>
+                    <span color="#999999" fontFamily="Courier New" fontSize="7" lineHeight="120%" fontLookup="embeddedCFF">
+                        .................................
+                    </span>
+                </p>
+            </separator>
+        </CommentStyle>
+    </CommentStyles>
+    <Backgrounds>
+        <Background id="solid_1" color="#FFFFFF"/>
+        <Background id="solid_2" color="#666666"/>
+    </Backgrounds>
+    <ImageBorders>
+        <!-- no borders  -->
+    </ImageBorders>
+</Theme>
+
+<!-- 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+   DESIGNER BOOKS 
+   The order which the themes appear in this file, 
+   is the order they will also appear in the "change design" menu. [CT-8107]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<Theme id="blurb.designerbook_austin" realname="designerbook_austin">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+		<TextStyle id="designerbook_body_1" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_2" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_3" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%" align="center"/>
+		<TextStyle id="designerbook_body_4" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%" align="center"/>
+		
+		<!-- cover styles -->
+		<TextStyle id="cvr_t_l_34-40_s2" font="AmericanTypewriter Medium" size="24" color="#d44320" align="center"/>
+		<TextStyle id="cvr_t_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#000000" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s2" font="AmericanTypewriter Medium" size="20" color="#d44320" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#000000" align="center" />
+		<TextStyle id="cover_spine_l_12-15_s4" font="AmericanTypewriter Medium" size="10" color="#FFFFFF"/>
+		<TextStyle id="cover_sub_l_16-20_s2" font="Helvetica LT 55 Roman" size="10" color="#FFFFFF"/>
+		<TextStyle id="cvr_flap_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#FFFFFF"/>
+    </TextStyles>
+    <FontColors>
+        #999999
+    </FontColors>
+    <Backgrounds>
+        <Background id="solid_1" color="#4c4f58"/>
+        <Background id="solid_2" color="#4c4f58"/>
+    </Backgrounds>
+    <ImageBorders>
+        <!-- no borders  -->
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.designerbook_zurich" realname="designerbook_zurich">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+		<TextStyle id="designerbook_body_1" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_2" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_3" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_4" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		
+		<!-- cover styles -->
+		<TextStyle id="cvr_t_l_34-40_s2" font="Proxima Nova" size="23" color="#000000" align="center"/>
+		<TextStyle id="cvr_t_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#000000" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s2" font="Proxima Nova" size="23" color="#000000" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#000000" align="center"/>
+		<TextStyle id="cover_spine_l_12-15_s4" font="Proxima Nova" size="10" color="#000000"/>
+		<TextStyle id="cover_sub_l_16-20_s2" font="Helvetica LT 55 Roman" size="10" color="#000000"/>
+		<TextStyle id="cvr_flap_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+    </TextStyles>
+    <FontColors>
+        #999999
+    </FontColors>
+    <Backgrounds>
+        <Background id="solid_1" color="#FFFFFF"/>
+        <Background id="solid_2" color="#FFFFFF"/>
+    </Backgrounds>
+    <ImageBorders>
+        <!-- no borders  -->
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.designerbook_geneva" realname="designerbook_geneva">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+		<TextStyle id="designerbook_body_1" font="Helvetica LT 55 Roman" size="9" color="#FFFFFF" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_2" font="Helvetica LT 55 Roman" size="9" color="#FFFFFF" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_3" font="Helvetica LT 55 Roman" size="9" color="#FFFFFF" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_4" font="Helvetica LT 55 Roman" size="9" color="#FFFFFF" lineHeight="120%"/>
+		
+		<!-- cover styles -->
+		<TextStyle id="cvr_t_l_34-40_s2" font="Didot" size="32" color="#FFFFFF" align="center"/>
+		<TextStyle id="cvr_t_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#FFFFFF" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s2" font="Didot" size="20" color="#FFFFFF" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#FFFFFF" align="center"/>
+		<TextStyle id="cover_spine_l_12-15_s4" font="Didot" size="10" color="#FFFFFF"/>
+		<TextStyle id="cover_sub_l_16-20_s2" font="Helvetica LT 55 Roman" size="10" color="#FFFFFF"/>
+		<TextStyle id="cvr_flap_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#FFFFFF"/>
+    </TextStyles>
+    <FontColors>
+        #999999
+    </FontColors>
+    <Backgrounds>
+        <Background id="solid_1" color="#000000"/>
+        <Background id="solid_2" color="#000000"/>
+    </Backgrounds>
+    <ImageBorders>
+        <!-- no borders  -->
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.designerbook_marfa" realname="designerbook_marfa">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+		<TextStyle id="designerbook_body_1" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_2" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_3" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%" align="center"/>
+		<TextStyle id="designerbook_body_4" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%" align="center"/>
+		
+		<!-- cover styles -->
+		<TextStyle id="cvr_t_l_34-40_s2" font="Futura" size="24" style="bold" color="#FFFFFF" align="center"/>
+		<TextStyle id="cvr_t_l_34-40_s4" font="Futura" size="10" style="bold" color="#FFFFFF" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s2" font="Futura" size="18" style="bold" color="#E9241F" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#000000" align="center"/>
+		<TextStyle id="cover_spine_l_12-15_s4" font="Futura" size="10" style="bold" color="#FFFFFF"/>
+		<TextStyle id="cover_sub_l_16-20_s2" font="Futura" size="10" style="bold" color="#FFFFFF"/>
+		<TextStyle id="cvr_flap_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#FFFFFF"/>
+    </TextStyles>
+    <FontColors>
+        #999999
+    </FontColors>
+    <Backgrounds>
+        <Background id="solid_1" color="#563B32"/>
+        <Background id="solid_2" color="#563B32"/>
+    </Backgrounds>
+    <ImageBorders>
+        <!-- no borders  -->
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.designerbook_catalina" realname="designerbook_catalina">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+		<TextStyle id="designerbook_body_1" font="Futura" size="16" color="#000000" lineHeight="120%" align="center"/>
+		<TextStyle id="designerbook_body_2" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_3" font="Futura" size="16" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_4" font="Helvetica LT 55 Roman" size="9" color="#ffffff" lineHeight="120%" align="center"/>
+		
+		<!-- cover styles -->
+		<TextStyle id="cvr_t_l_34-40_s2" font="Futura" size="18" color="#000000" align="center"/>
+		<TextStyle id="cvr_t_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#000000" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s2" font="Futura" size="18" color="#000000" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#000000" align="left"/>
+		<TextStyle id="cover_spine_l_12-15_s4" font="Futura" size="10" color="#000000"/>
+		<TextStyle id="cover_sub_l_16-20_s2" font="Helvetica LT 55 Roman" size="10" color="#000000"/>
+		<TextStyle id="cvr_flap_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#000000"/>
+    </TextStyles>
+    <FontColors>
+        #999999
+    </FontColors>
+    <Backgrounds>
+        <Background id="solid_1" color="#FFFFFF"/>
+        <Background id="solid_2" color="#FFFFFF"/>
+    </Backgrounds>
+    <ImageBorders>
+        <!-- no borders  -->
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.designerbook_amsterdam" realname="designerbook_amsterdam">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+		<TextStyle id="designerbook_body_1" font="Helvetica Condensed" size="16" color="#FFFFFF" lineHeight="120%" align="center"/>
+		<TextStyle id="designerbook_body_2" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		<TextStyle id="designerbook_body_3" font="Helvetica Condensed" size="16" color="#FFFFFF" lineHeight="120%" align="center"/>
+		<TextStyle id="designerbook_body_4" font="Helvetica LT 55 Roman" size="9" color="#000000" lineHeight="120%"/>
+		
+		<!-- cover styles -->
+		<TextStyle id="cvr_t_l_34-40_s2" font="Helvetica Condensed" size="16" color="#FFFFFF" align="center"/>
+		<TextStyle id="cvr_t_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#FFFFFF" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s2" font="Helvetica Condensed" size="16" color="#FFFFFF" align="center"/>
+		<TextStyle id="cvr_b_l_34-40_s4" font="Helvetica LT 55 Roman" size="10" color="#FFFFFF" align="left" />
+		<TextStyle id="cover_spine_l_12-15_s4" font="Helvetica Condensed" size="10" color="#FFFFFF"/>
+		<TextStyle id="cover_sub_l_16-20_s2" font="Helvetica LT 55 Roman" size="10" color="#FFFFFF"/>
+		<TextStyle id="cvr_flap_9-12_s4" font="Helvetica LT 55 Roman" size="14" color="#FFFFFF"/>
+    </TextStyles>
+    <FontColors>
+        #FF0000,#0000FF
+    </FontColors>
+    <Backgrounds>
+        <Background id="solid_1" color="#000000"/>
+        <Background id="solid_2" color="#000000"/>
+    </Backgrounds>
+    <ImageBorders>
+        <!-- no borders  -->
+    </ImageBorders>
+</Theme>
+
+<!-- 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+   YEAR BOOKS 
+   The order which the themes appear in this file, 
+   is the order they will also appear in the "change design" menu.
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<Theme id="blurb.yearbook_spectrum" realname="yearbook_spectrum">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+    	<!-- guts styles -->
+		<TextStyle id="yearbook_body_1" font="Calvert MT" size="30" color="#000000" lineHeight="120%" align="center"/> <!-- Headline -->
+        <TextStyle id="yearbook_body_2" font="Stone Humanist ITC Medium" size="10" color="#000000" lineHeight="140%"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_2b" font="Stone Humanist ITC Medium" size="10" color="#000000" lineHeight="140%" align="center"/> <!-- Body Copy / Headline centered -->
+        <TextStyle id="yearbook_body_2c" font="Stone Humanist ITC Medium" size="10" color="#000000" lineHeight="140%" align="right"/> <!-- Body Copy / Headline centered -->
+        <TextStyle id="yearbook_body_3" font="Calvert MT" size="18" color="#000000" lineHeight="120%" align="center"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_3b" font="Calvert MT" size="18" color="#000000" lineHeight="120%" align="right"/> <!-- Sub-heads right-aligned -->
+        <TextStyle id="yearbook_body_3c" font="Calvert MT" size="18" color="#000000" lineHeight="120%" align="left"/> <!-- Sub-heads right-aligned -->
+        <TextStyle id="yearbook_body_4" font="Stone Humanist ITC Medium" size="7" color="#000000" lineHeight="140%" align="center"/> <!-- Mouse Type -->
+        
+		<!-- cover styles -->
+        <TextStyle id="yearbook_cover_front_1" font="Calvert MT" size="36" color="#ffffff" style="bold" align="center"/>
+        <TextStyle id="yearbook_cover_front_2" font="Stone Humanist ITC Medium" size="28" color="#ffffff" align="center"/>
+
+        <TextStyle id="yearbook_cover_front_3" font="Calvert MT" size="130" color="#ffa63f" style="bold" align="center"/>
+        <TextStyle id="yearbook_cover_front_4" font="Calvert MT" size="130" color="#c9dd6a" style="bold" align="center"/>
+        <TextStyle id="yearbook_cover_front_5" font="Calvert MT" size="130" color="#5bc4bf" style="bold" align="center"/>
+        <TextStyle id="yearbook_cover_front_6" font="Calvert MT" size="130" color="#6587e7" style="bold" align="center"/>
+
+        <TextStyle id="yearbook_cover_back_1" font="Stone Humanist ITC Medium" size="12" color="#ffffff" align="center"/>
+
+        <TextStyle id="yearbook_cover_spine_1" font="Calvert MT" size="16" color="#ffffff"/>
+        <TextStyle id="yearbook_cover_spine_2" font="Stone Humanist ITC Medium" size="14" color="#ffffff"/>
+
+        <TextStyle id="yearbook_cover_flap_1" font="Stone Humanist ITC Medium" size="14" color="#ffffff"/>
+    </TextStyles>
+    <FontColors>
+        #ffffff
+    </FontColors>
+    <Backgrounds>
+		<Background id="solid_1" color="#faf5ed" />
+		<Background id="solid_2" color="#f9263d" />
+		<Background id="solid_3" color="#ffa63f" />
+		<Background id="solid_4" color="#c9dd6a" />
+		<Background id="solid_5" color="#5bc4bf" />
+		<Background id="solid_6" color="#6587e7" />        
+    </Backgrounds>
+    <ImageBorders>
+        <ImageBorder id="image_border_1" image_id="frame_line_01" type="svg" inset="0" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_2" image_id="frame_line_02" type="svg" inset="2" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_3" image_id="frame_line_03" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_4" image_id="frame_line_05" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+    </ImageBorders>
+</Theme>
+
+<!-- PRIMARY THEME DEFINITION - K-12 Demographic-->
+<Theme id="blurb.yearbook_primary" realname="yearbook_primary">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+    
+    	<!-- guts styles -->	
+        <TextStyle id="yearbook_body_1" font="Helvetica LT 55 Roman" size="30" color="#000000" style="bold" lineHeight="120%" align="center"/> <!-- Headline -->
+        <TextStyle id="yearbook_body_2" font="Georgia" size="10" color="#000000" lineHeight="140%"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_2b" font="Georgia" size="10" color="#000000" lineHeight="140%" align="center"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_2c" font="Georgia" size="10" color="#000000" lineHeight="140%" align="right"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_3" font="Helvetica Condensed" size="18" color="#666666" lineHeight="120%" align="center"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_3b" font="Helvetica Condensed" size="18" color="#666666" lineHeight="120%" align="right"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_3c" font="Helvetica Condensed" size="18" color="#666666" lineHeight="120%" align="left"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_4" font="Helvetica LT 55 Roman" size="7" color="#000000" lineHeight="140%"/> <!-- Mouse Type -->
+        
+        <!-- cover styles -->
+        <TextStyle id="yearbook_cover_front_1" font="Helvetica LT 55 Roman" size="40" color="#ffffff" style="bold" align="center"/>
+        <TextStyle id="yearbook_cover_front_2" font="Georgia" size="14" color="#ffffff" style="bold" align="center"/>
+
+        <TextStyle id="yearbook_cover_back_1" font="Georgia" size="18" color="#ffffff" style="italic" align="center"/>
+
+        <TextStyle id="yearbook_cover_back_2" font="Georgia" size="14" color="#ffffff" style="italic" align="center"/>
+
+        <TextStyle id="yearbook_cover_spine_1" font="Helvetica LT 55 Roman" size="16" color="#ffffff"/>
+        <TextStyle id="yearbook_cover_spine_2" font="Georgia" size="12" color="#ffffff"/>
+
+        <TextStyle id="yearbook_cover_flap_1" font="Georgia" size="14" color="#ffffff"/>
+
+    </TextStyles>
+    <FontColors>
+        #000000
+    </FontColors>
+    <Backgrounds>
+    	<Background id="solid_1" color="#ffffff"/>
+        <Background id="solid_2" color="#1585ee"/>
+		<Background id="solid_3" color="#8342ee"/>
+		<Background id="solid_4" color="#c51230"/>
+		<Background id="solid_5" color="#fdbb2f"/>
+		<Background id="solid_6" color="#328a13"/>
+    </Backgrounds>
+    <ImageBorders>
+        <ImageBorder id="image_border_1" image_id="frame_line_01" type="svg" inset="0" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_2" image_id="frame_line_02" type="svg" inset="2" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_3" image_id="frame_line_03" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_4" image_id="frame_line_05" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+    </ImageBorders>
+</Theme>
+
+<!-- VIVID THEME DEFINITION - SPORTS Demographic-->
+<Theme id="blurb.yearbook_vivid" realname="yearbook_vivid">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+    	<!-- guts styles -->
+        <TextStyle id="yearbook_body_1" font="Proxima Nova" size="30" color="#000000" style="bold" lineHeight="120%" align="center"/> <!-- Headline -->
+        <TextStyle id="yearbook_body_2" font="Futura" size="10" color="#000000" lineHeight="140%"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_2b" font="Futura" size="10" color="#000000" lineHeight="140%" align="center"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_2c" font="Futura" size="10" color="#000000" lineHeight="140%" align="right"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_3" font="Proxima Nova" size="18" color="#666666" lineHeight="120%" align="center"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_3b" font="Proxima Nova" size="18" color="#666666" lineHeight="120%" align="right"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_3c" font="Proxima Nova" size="18" color="#666666" lineHeight="120%" align="left"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_4" font="Futura" size="7" color="#000000" lineHeight="140%"/> <!-- Mouse Type -->
+        
+		<!-- cover styles -->
+        <TextStyle id="yearbook_cover_front_1" font="Proxima Nova" size="40" color="#fcb825" style="bold" align="center" />
+        <TextStyle id="yearbook_cover_front_2" font="Proxima Nova" size="24" color="#ffffff" align="center"/>
+
+        <TextStyle id="yearbook_cover_back_1" font="Futura" size="14" color="#ffffff" align="center"/>
+
+        <TextStyle id="yearbook_cover_spine_1" font="Proxima Nova" size="20" color="#ffffff" style="bold"/>
+        <TextStyle id="yearbook_cover_spine_2" font="Futura" size="14" color="#ffffff"/>
+
+        <TextStyle id="yearbook_cover_flap_1" font="Futura" size="14" color="#ffffff"/>
+    </TextStyles>
+    <FontColors>
+        #999999
+    </FontColors>
+    <Backgrounds>
+		<Background id="solid_1" color="#f3f3f3" />
+		<Background id="solid_2" color="#5c1cab" />
+		<Background id="solid_3" color="#af1e3f" />
+		<Background id="solid_4" color="#fcb825" />
+		<Background id="solid_5" color="#047457" />
+		<Background id="solid_6" color="#2330b7" />
+    </Backgrounds>
+    <ImageBorders>
+        <ImageBorder id="image_border_1" image_id="frame_line_01" type="svg" inset="0" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_2" image_id="frame_line_02" type="svg" inset="2" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_3" image_id="frame_line_03" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_4" image_id="frame_line_05" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.yearbook_natural" realname="yearbook_natural">
+    <Defaults>
+        <DefaultCoverBackground id="solid_2"/>
+        <DefaultPageBackground id="solid_1"/>
+    </Defaults>
+    <TextStyles>
+    
+    	<!-- guts styles -->
+        <TextStyle id="yearbook_body_1" font="AmericanTypewriter Medium" size="30" color="#000000" style="bold" lineHeight="120%" align="center"/> <!-- Headline -->
+        <TextStyle id="yearbook_body_2" font="Museo Sans" size="10" color="#000000" lineHeight="140%"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_2b" font="Museo Sans" size="10" color="#000000" lineHeight="140%" align="center"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_2c" font="Museo Sans" size="10" color="#000000" lineHeight="140%" align="right"/> <!-- Body Copy / Headline -->
+        <TextStyle id="yearbook_body_3" font="AmericanTypewriter Medium" size="18" color="#383b28" lineHeight="120%" align="center"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_3b" font="AmericanTypewriter Medium" size="18" color="#383b28" lineHeight="120%" align="right"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_3c" font="AmericanTypewriter Medium" size="18" color="#383b28" lineHeight="120%" align="left"/> <!-- Sub-heads -->
+        <TextStyle id="yearbook_body_4" font="Museo Sans" size="7" color="#000000" lineHeight="140%"/> <!-- Mouse Type -->
+        
+		<!-- cover styles -->
+        <TextStyle id="yearbook_cover_front_1" font="AmericanTypewriter Medium" size="20" color="#000000" style="bold" align="center"/>
+        <TextStyle id="yearbook_cover_front_2" font="Museo Sans"  size="14" color="#000000" align="center"/>
+        
+        <TextStyle id="yearbook_cover_back_1" font="Museo Sans" size="12" color="#000000" align="center"/>
+
+        <TextStyle id="yearbook_cover_spine_1" font="AmericanTypewriter Medium" size="20" color="#000000" style="bold"/>
+        <TextStyle id="yearbook_cover_spine_2" font="Museo Sans" size="14" color="#000000"/>
+
+        <TextStyle id="yearbook_cover_flap_1" font="Museo Sans" size="14" color="#000000"/>
+    </TextStyles>
+    <FontColors>
+        #000000
+    </FontColors>
+    <Backgrounds>
+		<Background id="solid_1" color="#f1ede1" />
+		<Background id="solid_2" color="#e0a959" />
+		<Background id="solid_3" color="#5f6445" />
+		<Background id="solid_4" color="#0e6174" />
+		<Background id="solid_5" color="#586093" />
+		<Background id="solid_6" color="#904743" />
+    </Backgrounds>
+    <ImageBorders>
+        <ImageBorder id="image_border_1" image_id="frame_line_01" type="svg" inset="0" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_2" image_id="frame_line_02" type="svg" inset="2" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_3" image_id="frame_line_03" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+        <ImageBorder id="image_border_4" image_id="frame_line_05" type="svg" inset="5" corner="corner" horizontal_edge="horizontal_edge"/>
+    </ImageBorders>
+</Theme>
+
+<!-- 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+   CHICKEN SOUP
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<Theme id="blurb.chickensoup_christmas" realname="chickensoup_christmas">
+    <Defaults>
+        <DefaultPageBackground id="solid_1"/>
+        <DefaultCoverBackground id="solid_2"/>
+    </Defaults>Caxton Bold, 14pt, left justified, #76644b
+    <TextStyles>
+    	<TextStyle id="guts_1" font="StempelGaramond LT Roman" size="12" color="#000000" align="left" lineHeight="110%" />
+    	
+        <TextStyle id="cover_front_1" font="Caxton Book" size="40" color="#97171e" align="center" lineHeight="110%" /> 
+        <TextStyle id="cover_front_2" font="Stone Humanist ITC Medium" size="16" color="#97171e" />
+        
+		<TextStyle id="cover_back_1" font="Caxton Book" size="10" color="#97171e" align="center" />
+
+        <TextStyle id="cover_flap_1" font="Museo Sans" size="14" color="#000000" />
+
+        <TextStyle id="spine_1" font="Caxton Book" size="12" color="#ffffff" align="center" />        
+    </TextStyles>
+    <FontColors>
+        #000000,#97171e
+    </FontColors>
+    <Backgrounds>
+		<Background id="solid_1" color="#ffffff" />
+		<Background id="solid_2" color="#a12022" />
+    </Backgrounds>
+    <ImageBorders>
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.chickensoup_thankful" realname="chickensoup_thankful">
+    <Defaults>
+        <DefaultPageBackground id="solid_1"/>
+        <DefaultCoverBackground id="solid_2"/>
+    </Defaults>
+    <TextStyles>
+    	<TextStyle id="guts_1" font="StempelGaramond LT Roman" size="12" color="#000000" align="left" lineHeight="110%" />
+    	
+        <TextStyle id="cover_front_1" font="Caxton Book" size="40" color="#0f5952" align="center" lineHeight="110%" /> 
+        <TextStyle id="cover_front_2" font="Stone Humanist ITC Medium" size="16" color="#0f5952" />
+        
+		<TextStyle id="cover_back_1" font="Caxton Book" size="10" color="#0f5952" align="center" />
+
+        <TextStyle id="cover_flap_1" font="Museo Sans" size="14" color="#000000" />
+
+        <TextStyle id="spine_1" font="Caxton Book" size="12" color="#ffffff" align="center" />          
+    </TextStyles>
+    <FontColors>
+        #000000,#0f5952
+    </FontColors>
+    <Backgrounds>
+		<Background id="solid_1" color="#ffffff" />
+		<Background id="solid_2" color="#17736a" />
+    </Backgrounds>
+    <ImageBorders>
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.chickensoup_love" realname="chickensoup_love">
+    <Defaults>
+        <DefaultPageBackground id="solid_1"/>
+        <DefaultCoverBackground id="solid_2"/>
+    </Defaults>
+    <TextStyles>
+    	<TextStyle id="guts_1" font="StempelGaramond LT Roman" size="12" color="#000000" align="left" lineHeight="110%" />
+    	
+        <TextStyle id="cover_front_1" font="Caxton Book" size="40" color="#4d0a56" align="center" lineHeight="110%" /> 
+        <TextStyle id="cover_front_2" font="Stone Humanist ITC Medium" size="16" color="#4d0a56" />
+        
+		<TextStyle id="cover_back_1" font="Caxton Book" size="10" color="#4d0a56" align="center" />
+
+        <TextStyle id="cover_flap_1" font="Museo Sans" size="14" color="#000000" />
+
+        <TextStyle id="spine_1" font="Caxton Book" size="12" color="#ffffff" align="center" />        
+    </TextStyles>
+    <FontColors>
+        #000000,#4d0a56
+    </FontColors>
+    <Backgrounds>
+		<Background id="solid_1" color="#ffffff" />
+		<Background id="solid_2" color="#652e6c" />
+    </Backgrounds>
+    <ImageBorders>
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.chickensoup_positive" realname="chickensoup_positive">
+    <Defaults>
+        <DefaultPageBackground id="solid_1"/>
+        <DefaultCoverBackground id="solid_2"/>
+    </Defaults>
+    <TextStyles>
+    	<TextStyle id="guts_1" font="StempelGaramond LT Roman" size="12" color="#000000" align="left" lineHeight="110%" />
+    	
+        <TextStyle id="cover_front_1" font="Caxton Book" size="40" color="#002133" align="center" lineHeight="110%" /> 
+        <TextStyle id="cover_front_2" font="Stone Humanist ITC Medium" size="16" color="#002133" />
+        
+		<TextStyle id="cover_back_1" font="Caxton Book" size="10" color="#002133" align="center" />
+
+        <TextStyle id="cover_flap_1" font="Museo Sans" size="14" color="#000000" />
+
+        <TextStyle id="spine_1" font="Caxton Book" size="12" color="#ffffff" align="center" />       
+    </TextStyles>
+    <FontColors>
+        #000000,#002133
+    </FontColors>
+    <Backgrounds>
+		<Background id="solid_1" color="#ffffff" />
+		<Background id="solid_2" color="#08405f" />
+    </Backgrounds>
+    <ImageBorders>
+    </ImageBorders>
+</Theme>
+
+<Theme id="blurb.chickensoup_sympathy" realname="chickensoup_sympathy">
+    <Defaults>
+        <DefaultPageBackground id="solid_1"/>
+        <DefaultCoverBackground id="solid_2"/>
+    </Defaults>
+    <TextStyles>
+    	<TextStyle id="guts_1" font="StempelGaramond LT Roman" size="12" color="#000000" align="left" lineHeight="110%" />
+    	
+        <TextStyle id="cover_front_1" font="Caxton Book" size="40" color="#3e434b" align="center" lineHeight="110%" /> 
+        <TextStyle id="cover_front_2" font="Stone Humanist ITC Medium" size="16" color="#3e434b" />
+        
+		<TextStyle id="cover_back_1" font="Caxton Book" size="10" color="#3e434b" align="center" />
+
+        <TextStyle id="cover_flap_1" font="Museo Sans" size="14" color="#000000" />
+
+        <TextStyle id="spine_1" font="Caxton Book" size="12" color="#ffffff" align="center" />       
+    </TextStyles>
+    <FontColors>
+        #000000,#3e434b
+    </FontColors>
+    <Backgrounds>
+		<Background id="solid_1" color="#ffffff" />
+		<Background id="solid_2" color="#3e434b" />
+    </Backgrounds>
+    <ImageBorders>
+    </ImageBorders>
+</Theme>
+</Themes>

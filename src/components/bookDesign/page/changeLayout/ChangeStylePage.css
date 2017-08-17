@@ -1,0 +1,9 @@
+.select-page-layout-left{
+    float: left;
+    position: relative;
+}
+
+.select-page-layout-right{
+    float: left;
+    position: relative;
+}

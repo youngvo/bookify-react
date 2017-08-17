@@ -1,0 +1,49 @@
+GIT
+  remote: git@github.com:blurb/bud_common.git
+  revision: c805a5bddad11c78c12122f478d1d292310123d0
+  specs:
+    bud_common (0.0.12)
+      capistrano (= 3.4.0)
+      json (>= 1.5.5)
+      nokogiri (= 1.6.3.1)
+      rest-client (~> 1.6.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    capistrano (3.4.0)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (~> 1.3)
+    capistrano-ext (1.2.1)
+      capistrano (>= 1.0.0)
+    capistrano_colors (0.5.5)
+    i18n (0.8.1)
+    json (2.1.0)
+    mime-types (1.25.1)
+    mini_portile (0.6.0)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (4.1.0)
+    nokogiri (1.6.3.1)
+      mini_portile (= 0.6.0)
+    rake (10.0.3)
+    rest-client (1.6.9)
+      mime-types (~> 1.16)
+    sshkit (1.13.1)
+      net-scp (>= 1.1.2)
+      net-ssh (>= 2.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bud_common!
+  capistrano
+  capistrano-ext
+  capistrano_colors
+  nokogiri
+  rake (= 10.0.3)
+
+BUNDLED WITH
+   1.13.5

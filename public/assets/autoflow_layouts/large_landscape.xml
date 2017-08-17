@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<AutoflowLayouts trim_size="large_landscape">
+
+  <!-- For each option that has a default_for_theme defined, the first Layout child will be considered the
+       default left page.  The second Layout child will be the default right page.  Any additional layouts
+       will be ignored. -->
+
+  <Option default_for_theme="blurb.viewfinder">
+  	<Layout id="blurb.ub64"/>
+  	<Layout id="blurb.ub64"/>
+  </Option>
+  <Option>
+  	<Layout id="blurb.u37c0"/>
+  	<Layout id="blurb.u37c0"/>
+  </Option>
+  <Option default_for_theme="blurb.elegant">
+  	<Layout id="blurb.u7d3a"/>
+  	<Layout id="blurb.u37c0"/>
+  </Option>
+  <Option default_for_theme="blurb.girlie">
+  	<Layout id="blurb.u1692"/>
+  	<Layout id="blurb.u1692"/>
+  </Option>
+  <Option default_for_theme="blurb.darkroom">
+  	<Layout id="blurb.u2cf8"/>
+  	<Layout id="blurb.u2cf8"/>
+  </Option>
+  <Option>
+  	<Layout id="blurb.u331a"/>
+  	<Layout id="blurb.u331a"/>
+  </Option>
+  <Option>
+  	<Layout id="blurb.u8b0"/>
+  	<Layout id="blurb.u8b0"/>
+  </Option>
+  <Option type="mixitup">
+  	<Layout id="blurb.ub64"/>
+  	<Layout id="blurb.ub64"/>
+  	<Layout id="blurb.u16ae"/>
+  	<Layout id="blurb.u16ae"/>
+  	<Layout id="blurb.u37c0"/>
+  	<Layout id="blurb.u37c0"/>
+  	<Layout id="blurb.u1692"/>
+  	<Layout id="blurb.u8b0"/>
+  </Option>
+</AutoflowLayouts>
