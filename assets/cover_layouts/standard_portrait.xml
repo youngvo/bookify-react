@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<CoverLayouts trim_size="8x10">
+	<FlapLayout id="blurb.dj.b9bac22e-4263-411e-860c-1966d6a8c776" group_id="b9bac22e-4263-411e-860c-1966d6a8c776" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="6549ec31-6b4e-4812-8cba-cea1ceec7083" x="56" y="43" width="191" height="160" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="55685cd6-e1e7-4d3c-80a2-ed9bcb687bda" x="56" y="547" width="191" height="135" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="ee5046cf-e080-4e1c-b077-ba0b0eb208d5" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<CoverLayout id="blurb.dj.876ea604-2250-43c5-a208-12f0ba8adf99" group_id="876ea604-2250-43c5-a208-12f0ba8adf99" cover_type="dustjacket" segment_type="back" width="606" height="738">
+		<ImageContainer id="7403dbb4-74a5-40d4-a0fd-d3fa1959cbe0" x="0" y="0" width="606" height="738" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="0da345e6-9319-4549-9616-d4c0933ea8a8" x="44" y="220" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout id="blurb.iw.876ea604-2250-43c5-a208-12f0ba8adf99" group_id="876ea604-2250-43c5-a208-12f0ba8adf99" cover_type="imagewrap" segment_type="back" width="606" height="774">
+		<ImageContainer id="7403dbb4-74a5-40d4-a0fd-d3fa1959cbe0" x="0" y="0" width="606" height="774" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="0da345e6-9319-4549-9616-d4c0933ea8a8" x="44" y="238" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout id="blurb.sc.876ea604-2250-43c5-a208-12f0ba8adf99" group_id="876ea604-2250-43c5-a208-12f0ba8adf99" cover_type="softcover" segment_type="back" width="567" height="720">
+		<ImageContainer id="7403dbb4-74a5-40d4-a0fd-d3fa1959cbe0" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="0da345e6-9319-4549-9616-d4c0933ea8a8" x="24" y="211" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<SpineLayout id="blurb.dj.50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" group_id="50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="e1fb5db2-a025-4404-a1a3-98a17315f0a5" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="95bcb1e3-e92a-4abd-913e-f418e4d73870" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout id="blurb.iw.50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" group_id="50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="e1fb5db2-a025-4404-a1a3-98a17315f0a5" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="95bcb1e3-e92a-4abd-913e-f418e4d73870" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout id="blurb.sc.50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" group_id="50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" cover_type="softcover" width="720" height="33">
+		<TextContainer id="e1fb5db2-a025-4404-a1a3-98a17315f0a5" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="95bcb1e3-e92a-4abd-913e-f418e4d73870" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<CoverLayout id="blurb.dj.5a81f52d-2420-44b6-9534-34cb5e90872b_#12226" group_id="5a81f52d-2420-44b6-9534-34cb5e90872b_#12226" cover_type="dustjacket" segment_type="front" width="606" height="738">
+		<ImageContainer id="3ab6726f-53a2-48f5-aef3-77a99b321082" x="0" y="0" width="606" height="503" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="fff3d7c4-256d-4add-b9aa-06c4c57001f8" x="72" y="521" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="3f2c79b8-6429-43eb-bcd7-578ce108370d" x="73" y="632" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout id="blurb.iw.5a81f52d-2420-44b6-9534-34cb5e90872b_#12226" group_id="5a81f52d-2420-44b6-9534-34cb5e90872b_#12226" cover_type="imagewrap" segment_type="front" width="606" height="774">
+		<ImageContainer id="3ab6726f-53a2-48f5-aef3-77a99b321082" x="0" y="0" width="606" height="503" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="fff3d7c4-256d-4add-b9aa-06c4c57001f8" x="72" y="539" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="3f2c79b8-6429-43eb-bcd7-578ce108370d" x="73" y="650" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout id="blurb.sc.5a81f52d-2420-44b6-9534-34cb5e90872b_#12226" group_id="5a81f52d-2420-44b6-9534-34cb5e90872b_#12226" cover_type="softcover" segment_type="front" width="567" height="720">
+		<ImageContainer id="3ab6726f-53a2-48f5-aef3-77a99b321082" x="0" y="0" width="567" height="503" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="fff3d7c4-256d-4add-b9aa-06c4c57001f8" x="52" y="512" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="3f2c79b8-6429-43eb-bcd7-578ce108370d" x="53" y="623" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<FlapLayout id="blurb.dj.d95be289-e60e-41c1-8a1a-a7fdf4f9460f" group_id="d95be289-e60e-41c1-8a1a-a7fdf4f9460f" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="255eae07-5e9c-4fb9-8730-a15b85139465" x="56" y="41" width="191" height="161" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="619a8563-68e9-4231-98ef-b2160b188247" x="56" y="549" width="191" height="136" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="9373bf56-3dd4-4cd2-b948-b63d8d2e8cc8" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<FlapLayout bs_src="01.leftFlap" id="blurb.dj.c6f3c94c-7d3d-4ff3-a582-a6b565995976" group_id="c6f3c94c-7d3d-4ff3-a582-a6b565995976" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="7f87f4a2-e6e1-411a-9185-f04c3de8a8e2" x="56" y="43" width="191" height="160" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="fba21d78-fa7e-4275-99a3-028bac157419" x="56" y="547" width="191" height="135" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="d84fa40b-59c9-421e-b1d5-15b9c6fad138" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<CoverLayout bs_src="01.backPage" id="blurb.dj.06e7de97-e1a0-4e1f-bad0-9652227ea634" group_id="06e7de97-e1a0-4e1f-bad0-9652227ea634" cover_type="dustjacket" segment_type="back" width="606" height="738">
+		<ImageContainer id="7c07a668-598c-435b-b53a-217b19f30ced" x="0" y="0" width="606" height="738" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="d6ef058d-9665-4f78-b3bb-6615724f0d31" x="44" y="220" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="01.backPage" id="blurb.iw.06e7de97-e1a0-4e1f-bad0-9652227ea634" group_id="06e7de97-e1a0-4e1f-bad0-9652227ea634" cover_type="imagewrap" segment_type="back" width="606" height="774">
+		<ImageContainer id="7c07a668-598c-435b-b53a-217b19f30ced" x="0" y="0" width="606" height="774" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="d6ef058d-9665-4f78-b3bb-6615724f0d31" x="44" y="238" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="01.backPage" id="blurb.sc.06e7de97-e1a0-4e1f-bad0-9652227ea634" group_id="06e7de97-e1a0-4e1f-bad0-9652227ea634" cover_type="softcover" segment_type="back" width="567" height="720">
+		<ImageContainer id="7c07a668-598c-435b-b53a-217b19f30ced" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="d6ef058d-9665-4f78-b3bb-6615724f0d31" x="24" y="211" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<SpineLayout bs_src="01.spine" id="blurb.dj.d63ce2ef-d353-4ab0-b1a0-6f4ecedb0dd1" group_id="d63ce2ef-d353-4ab0-b1a0-6f4ecedb0dd1" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="78c00c33-3dc7-41ad-9b55-2a9b1bcf2cfc" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="8ca89889-7e07-4e75-b33e-16fd28291e9e" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="01.spine" id="blurb.iw.d63ce2ef-d353-4ab0-b1a0-6f4ecedb0dd1" group_id="d63ce2ef-d353-4ab0-b1a0-6f4ecedb0dd1" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="78c00c33-3dc7-41ad-9b55-2a9b1bcf2cfc" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="8ca89889-7e07-4e75-b33e-16fd28291e9e" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="01.spine" id="blurb.sc.d63ce2ef-d353-4ab0-b1a0-6f4ecedb0dd1" group_id="d63ce2ef-d353-4ab0-b1a0-6f4ecedb0dd1" cover_type="softcover" width="720" height="33">
+		<TextContainer id="78c00c33-3dc7-41ad-9b55-2a9b1bcf2cfc" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="8ca89889-7e07-4e75-b33e-16fd28291e9e" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<CoverLayout bs_src="01.frontPage" id="blurb.dj.c24219c4-d614-4ba7-a086-536c9a9c9fd3_#12226" group_id="c24219c4-d614-4ba7-a086-536c9a9c9fd3_#12226" cover_type="dustjacket" segment_type="front" width="606" height="738">
+		<ImageContainer id="b19b20b5-2571-4899-bc1c-cbe77a04f0e6" x="135" y="46" width="349" height="466" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="b33ff364-777c-4a6f-88ad-0bd71e84dd95" x="71" y="527" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="8665cb94-ee37-4498-a8a4-94649f56c99e" x="72" y="638" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="01.frontPage" id="blurb.iw.c24219c4-d614-4ba7-a086-536c9a9c9fd3_#12226" group_id="c24219c4-d614-4ba7-a086-536c9a9c9fd3_#12226" cover_type="imagewrap" segment_type="front" width="606" height="774">
+		<ImageContainer id="b19b20b5-2571-4899-bc1c-cbe77a04f0e6" x="135" y="64" width="349" height="466" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="b33ff364-777c-4a6f-88ad-0bd71e84dd95" x="71" y="545" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="8665cb94-ee37-4498-a8a4-94649f56c99e" x="72" y="656" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="01.frontPage" id="blurb.sc.c24219c4-d614-4ba7-a086-536c9a9c9fd3_#12226" group_id="c24219c4-d614-4ba7-a086-536c9a9c9fd3_#12226" cover_type="softcover" segment_type="front" width="567" height="720">
+		<ImageContainer id="b19b20b5-2571-4899-bc1c-cbe77a04f0e6" x="115" y="37" width="349" height="466" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="b33ff364-777c-4a6f-88ad-0bd71e84dd95" x="51" y="518" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="8665cb94-ee37-4498-a8a4-94649f56c99e" x="52" y="629" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<FlapLayout bs_src="01.rightFlap" id="blurb.dj.e92b5485-89fd-449a-bab3-7afca9d18bdc" group_id="e92b5485-89fd-449a-bab3-7afca9d18bdc" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="af11f9c9-0ad7-4994-a2e4-8bf0da5409a5" x="56" y="41" width="191" height="161" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="c9fe253b-1ea2-4349-9706-cc7b8fe41886" x="56" y="549" width="191" height="136" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="3ab23e13-a300-44dd-8c14-4e35b054e864" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<FlapLayout bs_src="02.leftFlap" id="blurb.dj.c6f66b86-cd92-46b5-94e2-33db81359c90" group_id="c6f66b86-cd92-46b5-94e2-33db81359c90" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="706e81e1-06ca-4f86-b7e2-0c987660c4bf" x="56" y="43" width="191" height="160" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="552ee2e1-5aba-4c18-abd6-31f9af4fd578" x="56" y="547" width="191" height="135" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="a5654cad-2b21-4046-9049-f0c8c996580a" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<CoverLayout bs_src="02.backPage" id="blurb.dj.e1082373-c57b-425e-a4d4-d88fb10c6b94" group_id="e1082373-c57b-425e-a4d4-d88fb10c6b94" cover_type="dustjacket" segment_type="back" width="606" height="738">
+		<ImageContainer id="11eb97cd-4b6d-43d8-a106-2beb2e5cd9ff" x="0" y="0" width="606" height="738" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="cf94c42d-d358-4d51-96a1-38c896ce9d41" x="44" y="220" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="02.backPage" id="blurb.iw.e1082373-c57b-425e-a4d4-d88fb10c6b94" group_id="e1082373-c57b-425e-a4d4-d88fb10c6b94" cover_type="imagewrap" segment_type="back" width="606" height="774">
+		<ImageContainer id="11eb97cd-4b6d-43d8-a106-2beb2e5cd9ff" x="0" y="0" width="606" height="774" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="cf94c42d-d358-4d51-96a1-38c896ce9d41" x="44" y="238" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="02.backPage" id="blurb.sc.e1082373-c57b-425e-a4d4-d88fb10c6b94" group_id="e1082373-c57b-425e-a4d4-d88fb10c6b94" cover_type="softcover" segment_type="back" width="567" height="720">
+		<ImageContainer id="11eb97cd-4b6d-43d8-a106-2beb2e5cd9ff" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="cf94c42d-d358-4d51-96a1-38c896ce9d41" x="24" y="211" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<SpineLayout bs_src="02.spine" id="blurb.dj.0c1c0c45-4551-48d2-802f-55f1a352c1fc" group_id="0c1c0c45-4551-48d2-802f-55f1a352c1fc" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="7aceac3b-0b9a-4ddd-9245-59685f7d0b1b" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="670e8548-6c8e-426a-8297-ea237d7e9634" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="02.spine" id="blurb.iw.0c1c0c45-4551-48d2-802f-55f1a352c1fc" group_id="0c1c0c45-4551-48d2-802f-55f1a352c1fc" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="7aceac3b-0b9a-4ddd-9245-59685f7d0b1b" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="670e8548-6c8e-426a-8297-ea237d7e9634" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="02.spine" id="blurb.sc.0c1c0c45-4551-48d2-802f-55f1a352c1fc" group_id="0c1c0c45-4551-48d2-802f-55f1a352c1fc" cover_type="softcover" width="720" height="33">
+		<TextContainer id="7aceac3b-0b9a-4ddd-9245-59685f7d0b1b" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="670e8548-6c8e-426a-8297-ea237d7e9634" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<CoverLayout bs_src="02.frontPage" id="blurb.dj.6d2b9452-05b0-4164-b8ba-f5408d66463a_#12226" group_id="6d2b9452-05b0-4164-b8ba-f5408d66463a_#12226" cover_type="dustjacket" segment_type="front" width="606" height="738">
+		<ImageContainer id="f0f68531-6799-46bb-8ac2-55ed931679b5" x="0" y="228" width="606" height="510" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="cafe7ac4-e791-44f9-9e97-ee6d01e049d4" x="74" y="52" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="c3147205-700f-4354-8583-ececc38df7f0" x="75" y="163" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="02.frontPage" id="blurb.iw.6d2b9452-05b0-4164-b8ba-f5408d66463a_#12226" group_id="6d2b9452-05b0-4164-b8ba-f5408d66463a_#12226" cover_type="imagewrap" segment_type="front" width="606" height="774">
+		<ImageContainer id="f0f68531-6799-46bb-8ac2-55ed931679b5" x="0" y="246" width="606" height="528" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="cafe7ac4-e791-44f9-9e97-ee6d01e049d4" x="74" y="70" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="c3147205-700f-4354-8583-ececc38df7f0" x="75" y="181" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="02.frontPage" id="blurb.sc.6d2b9452-05b0-4164-b8ba-f5408d66463a_#12226" group_id="6d2b9452-05b0-4164-b8ba-f5408d66463a_#12226" cover_type="softcover" segment_type="front" width="567" height="720">
+		<ImageContainer id="f0f68531-6799-46bb-8ac2-55ed931679b5" x="0" y="219" width="567" height="501" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="cafe7ac4-e791-44f9-9e97-ee6d01e049d4" x="54" y="43" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="c3147205-700f-4354-8583-ececc38df7f0" x="55" y="154" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<FlapLayout bs_src="02.rightFlap" id="blurb.dj.2c6c4f65-22f6-46e7-bf29-b50a4649618a" group_id="2c6c4f65-22f6-46e7-bf29-b50a4649618a" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="e8bfc7e4-48a8-43ba-ac2c-67015f312140" x="56" y="41" width="191" height="161" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="36a6fb3d-d0a6-4465-98e5-b1df3046d545" x="56" y="549" width="191" height="136" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="eb47b03a-2a1a-45d2-9029-c6d97a538a86" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<FlapLayout bs_src="03.leftFlap" id="blurb.dj.464bb798-b18d-40c2-bc75-08f3cd7c75b8" group_id="464bb798-b18d-40c2-bc75-08f3cd7c75b8" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="6359af8c-ada5-4856-b2a7-3226d9c3df7b" x="56" y="43" width="191" height="160" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="0fb59ff1-0591-457d-9ee5-b6f18889989d" x="56" y="547" width="191" height="135" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="ba267bcd-0bd7-4edc-968f-3aec9b0fe2cc" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<CoverLayout bs_src="03.backPage" id="blurb.dj.abdf580b-732e-4cf9-a746-eab5e8fe3c3c" group_id="abdf580b-732e-4cf9-a746-eab5e8fe3c3c" cover_type="dustjacket" segment_type="back" width="606" height="738">
+		<ImageContainer id="88e08a10-7e23-4d7f-b629-c5a79ad0a8c8" x="0" y="0" width="606" height="738" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="f33e4b8e-f17d-4152-9882-215ad2fddff3" x="44" y="220" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="03.backPage" id="blurb.iw.abdf580b-732e-4cf9-a746-eab5e8fe3c3c" group_id="abdf580b-732e-4cf9-a746-eab5e8fe3c3c" cover_type="imagewrap" segment_type="back" width="606" height="774">
+		<ImageContainer id="88e08a10-7e23-4d7f-b629-c5a79ad0a8c8" x="0" y="0" width="606" height="774" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="f33e4b8e-f17d-4152-9882-215ad2fddff3" x="44" y="238" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="03.backPage" id="blurb.sc.abdf580b-732e-4cf9-a746-eab5e8fe3c3c" group_id="abdf580b-732e-4cf9-a746-eab5e8fe3c3c" cover_type="softcover" segment_type="back" width="567" height="720">
+		<ImageContainer id="88e08a10-7e23-4d7f-b629-c5a79ad0a8c8" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="f33e4b8e-f17d-4152-9882-215ad2fddff3" x="24" y="211" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<SpineLayout bs_src="03.spine" id="blurb.dj.076885b7-d90c-4249-a91e-178fb911a4ea" group_id="076885b7-d90c-4249-a91e-178fb911a4ea" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="186c8142-4b57-43e6-85fa-06e858163d58" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="617b2213-8503-4ae1-8a19-1f13be353dfb" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="03.spine" id="blurb.iw.076885b7-d90c-4249-a91e-178fb911a4ea" group_id="076885b7-d90c-4249-a91e-178fb911a4ea" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="186c8142-4b57-43e6-85fa-06e858163d58" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="617b2213-8503-4ae1-8a19-1f13be353dfb" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="03.spine" id="blurb.sc.076885b7-d90c-4249-a91e-178fb911a4ea" group_id="076885b7-d90c-4249-a91e-178fb911a4ea" cover_type="softcover" width="720" height="33">
+		<TextContainer id="186c8142-4b57-43e6-85fa-06e858163d58" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="617b2213-8503-4ae1-8a19-1f13be353dfb" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<CoverLayout bs_src="03.frontPage" id="blurb.dj.a1c3be54-5e59-4408-bba7-357accb13c8b_#12226" group_id="a1c3be54-5e59-4408-bba7-357accb13c8b_#12226" cover_type="dustjacket" segment_type="front" width="606" height="738">
+		<ImageContainer id="7ab56bfb-4a96-4368-ac5b-7d03526e733c" x="72" y="224" width="468" height="461" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="ebb05b20-c2f0-4848-9940-f3992a2abe91" x="74" y="55" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="80247ded-67f3-488a-ad88-16773d86784d" x="73" y="166" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="03.frontPage" id="blurb.iw.a1c3be54-5e59-4408-bba7-357accb13c8b_#12226" group_id="a1c3be54-5e59-4408-bba7-357accb13c8b_#12226" cover_type="imagewrap" segment_type="front" width="606" height="774">
+		<ImageContainer id="7ab56bfb-4a96-4368-ac5b-7d03526e733c" x="72" y="242" width="468" height="461" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="ebb05b20-c2f0-4848-9940-f3992a2abe91" x="74" y="73" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="80247ded-67f3-488a-ad88-16773d86784d" x="73" y="184" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="03.frontPage" id="blurb.sc.a1c3be54-5e59-4408-bba7-357accb13c8b_#12226" group_id="a1c3be54-5e59-4408-bba7-357accb13c8b_#12226" cover_type="softcover" segment_type="front" width="567" height="720">
+		<ImageContainer id="7ab56bfb-4a96-4368-ac5b-7d03526e733c" x="52" y="215" width="468" height="461" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="ebb05b20-c2f0-4848-9940-f3992a2abe91" x="54" y="46" width="452" height="103" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="80247ded-67f3-488a-ad88-16773d86784d" x="53" y="157" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<FlapLayout bs_src="03.rightFlap" id="blurb.dj.7b521ac8-87d4-40d7-9891-f6de6b39836a" group_id="7b521ac8-87d4-40d7-9891-f6de6b39836a" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="42ef1a1e-a5c5-4314-ba1b-96d889c65491" x="56" y="41" width="191" height="161" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="4d3442db-d74e-4252-972e-db884e9eade8" x="56" y="549" width="191" height="136" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="91fef5bc-85b0-4033-b72b-0a6af935b0b2" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<FlapLayout bs_src="04.leftFlap" id="blurb.dj.1f57d27a-072f-4c7f-a6f5-6f5a949d69d5" group_id="1f57d27a-072f-4c7f-a6f5-6f5a949d69d5" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="c2207d6d-b2eb-43d0-b043-2eebff4fc677" x="56" y="43" width="191" height="160" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="db52de73-6dda-4684-b6f1-0c4aa67c6e3b" x="56" y="547" width="191" height="135" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="de953dc3-c706-4ae5-babf-f9f75257acc5" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<CoverLayout bs_src="04.backPage" id="blurb.dj.af22adbd-6c3f-4f0b-956c-f7e86d5589cb" group_id="af22adbd-6c3f-4f0b-956c-f7e86d5589cb" cover_type="dustjacket" segment_type="back" width="606" height="738">
+		<ImageContainer id="df7a6cd8-11eb-4569-8275-c463f2274bba" x="0" y="0" width="606" height="738" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="1a4383f2-acbf-4e56-97cd-d1cd1362221b" x="44" y="220" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="04.backPage" id="blurb.iw.af22adbd-6c3f-4f0b-956c-f7e86d5589cb" group_id="af22adbd-6c3f-4f0b-956c-f7e86d5589cb" cover_type="imagewrap" segment_type="back" width="606" height="774">
+		<ImageContainer id="df7a6cd8-11eb-4569-8275-c463f2274bba" x="0" y="0" width="606" height="774" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="1a4383f2-acbf-4e56-97cd-d1cd1362221b" x="44" y="238" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="04.backPage" id="blurb.sc.af22adbd-6c3f-4f0b-956c-f7e86d5589cb" group_id="af22adbd-6c3f-4f0b-956c-f7e86d5589cb" cover_type="softcover" segment_type="back" width="567" height="720">
+		<ImageContainer id="df7a6cd8-11eb-4569-8275-c463f2274bba" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="1a4383f2-acbf-4e56-97cd-d1cd1362221b" x="24" y="211" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<SpineLayout bs_src="04.spine" id="blurb.dj.eee68b68-4309-43c0-978e-5b226bc02726" group_id="eee68b68-4309-43c0-978e-5b226bc02726" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="6bd43779-6eb7-4e47-8af2-bac34e92c10d" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="18642915-9e92-43b3-b174-ecbb35dac7af" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="04.spine" id="blurb.iw.eee68b68-4309-43c0-978e-5b226bc02726" group_id="eee68b68-4309-43c0-978e-5b226bc02726" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="6bd43779-6eb7-4e47-8af2-bac34e92c10d" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="18642915-9e92-43b3-b174-ecbb35dac7af" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="04.spine" id="blurb.sc.eee68b68-4309-43c0-978e-5b226bc02726" group_id="eee68b68-4309-43c0-978e-5b226bc02726" cover_type="softcover" width="720" height="33">
+		<TextContainer id="6bd43779-6eb7-4e47-8af2-bac34e92c10d" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="18642915-9e92-43b3-b174-ecbb35dac7af" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<CoverLayout bs_src="04.frontPage" id="blurb.dj.833d1be5-264b-4dbe-9a07-95bc364116fd_#12226" group_id="833d1be5-264b-4dbe-9a07-95bc364116fd_#12226" cover_type="dustjacket" segment_type="front" width="606" height="738">
+		<ImageContainer id="7896f5f1-f540-4602-be16-819681e4fa88" x="0" y="0" width="606" height="738" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="6effb7ab-801a-4015-96a1-672b412895a8" x="73" y="55" width="452" height="377" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="ff3451c7-1612-408d-9fef-b21862d5cab0" x="72" y="611" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="04.frontPage" id="blurb.iw.833d1be5-264b-4dbe-9a07-95bc364116fd_#12226" group_id="833d1be5-264b-4dbe-9a07-95bc364116fd_#12226" cover_type="imagewrap" segment_type="front" width="606" height="774">
+		<ImageContainer id="7896f5f1-f540-4602-be16-819681e4fa88" x="0" y="0" width="606" height="774" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="6effb7ab-801a-4015-96a1-672b412895a8" x="73" y="73" width="452" height="377" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="ff3451c7-1612-408d-9fef-b21862d5cab0" x="72" y="629" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="04.frontPage" id="blurb.sc.833d1be5-264b-4dbe-9a07-95bc364116fd_#12226" group_id="833d1be5-264b-4dbe-9a07-95bc364116fd_#12226" cover_type="softcover" segment_type="front" width="567" height="720">
+		<ImageContainer id="7896f5f1-f540-4602-be16-819681e4fa88" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="6effb7ab-801a-4015-96a1-672b412895a8" x="53" y="46" width="452" height="377" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="ff3451c7-1612-408d-9fef-b21862d5cab0" x="52" y="602" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<FlapLayout bs_src="04.rightFlap" id="blurb.dj.c45dd79b-629a-41e8-8ba9-00954f82aaf8" group_id="c45dd79b-629a-41e8-8ba9-00954f82aaf8" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="ab6bc03b-f3bb-422b-85ad-606f1e4c2a5e" x="56" y="41" width="191" height="161" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="6ea2ab29-a136-4470-b004-a5209b2bc385" x="56" y="549" width="191" height="136" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="51e41580-d8ba-4326-8439-225eca89c5fe" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<FlapLayout bs_src="05.leftFlap" id="blurb.dj.89cc196b-23c7-4d50-9b5f-5636c0f1077b" group_id="89cc196b-23c7-4d50-9b5f-5636c0f1077b" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="26ccbb6b-8c62-4979-b058-667281beab21" x="56" y="43" width="191" height="160" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="4d3a22fe-c8dc-4c73-a896-feafc3f11e31" x="56" y="547" width="191" height="135" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="10139e98-7289-4218-a9e5-f1c71b23ee87" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+	<CoverLayout bs_src="05.backPage" id="blurb.dj.b4fcb708-fe1e-4596-bed2-0a59a1be254b" group_id="b4fcb708-fe1e-4596-bed2-0a59a1be254b" cover_type="dustjacket" segment_type="back" width="606" height="738">
+		<ImageContainer id="197edb03-f747-47a9-a578-c3cc2336f55e" x="0" y="0" width="606" height="738" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="ddf172ce-9dec-4be8-b0cb-68383c3d5250" x="44" y="220" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="05.backPage" id="blurb.iw.b4fcb708-fe1e-4596-bed2-0a59a1be254b" group_id="b4fcb708-fe1e-4596-bed2-0a59a1be254b" cover_type="imagewrap" segment_type="back" width="606" height="774">
+		<ImageContainer id="197edb03-f747-47a9-a578-c3cc2336f55e" x="0" y="0" width="606" height="774" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="ddf172ce-9dec-4be8-b0cb-68383c3d5250" x="44" y="238" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="05.backPage" id="blurb.sc.b4fcb708-fe1e-4596-bed2-0a59a1be254b" group_id="b4fcb708-fe1e-4596-bed2-0a59a1be254b" cover_type="softcover" segment_type="back" width="567" height="720">
+		<ImageContainer id="197edb03-f747-47a9-a578-c3cc2336f55e" x="0" y="0" width="567" height="720" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="ddf172ce-9dec-4be8-b0cb-68383c3d5250" x="24" y="211" width="464" height="471" binding="" two_way="false" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<SpineLayout bs_src="05.spine" id="blurb.dj.697388dc-c190-4125-a281-df05754f46ed" group_id="697388dc-c190-4125-a281-df05754f46ed" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="f26c7784-89ab-4b62-84ca-bcee200e33dd" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="9208076e-0b2e-4016-8d08-37ad324ad3b2" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="05.spine" id="blurb.iw.697388dc-c190-4125-a281-df05754f46ed" group_id="697388dc-c190-4125-a281-df05754f46ed" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="f26c7784-89ab-4b62-84ca-bcee200e33dd" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="9208076e-0b2e-4016-8d08-37ad324ad3b2" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<SpineLayout bs_src="05.spine" id="blurb.sc.697388dc-c190-4125-a281-df05754f46ed" group_id="697388dc-c190-4125-a281-df05754f46ed" cover_type="softcover" width="720" height="33">
+		<TextContainer id="f26c7784-89ab-4b62-84ca-bcee200e33dd" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+		<TextContainer id="9208076e-0b2e-4016-8d08-37ad324ad3b2" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="cover_spine_l_12-15_s4" border="false" />
+	</SpineLayout>
+	<CoverLayout bs_src="05.frontPage" id="blurb.dj.7a918fb1-a238-42b5-85cf-76a30e9c2d78_#12226" group_id="7a918fb1-a238-42b5-85cf-76a30e9c2d78_#12226" cover_type="dustjacket" segment_type="front" width="606" height="738">
+		<ImageContainer id="51d9c4ff-3714-4e98-959d-2335d60c3edc" x="36" y="57" width="533" height="627" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="1551394d-f3e5-432b-bac0-2821cac817f5" x="72" y="497" width="452" height="106" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="9efbc77b-b142-4a79-adff-51077e66229f" x="72" y="609" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="05.frontPage" id="blurb.iw.7a918fb1-a238-42b5-85cf-76a30e9c2d78_#12226" group_id="7a918fb1-a238-42b5-85cf-76a30e9c2d78_#12226" cover_type="imagewrap" segment_type="front" width="606" height="774">
+		<ImageContainer id="51d9c4ff-3714-4e98-959d-2335d60c3edc" x="36" y="75" width="533" height="627" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="1551394d-f3e5-432b-bac0-2821cac817f5" x="72" y="515" width="452" height="106" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="9efbc77b-b142-4a79-adff-51077e66229f" x="72" y="627" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<CoverLayout bs_src="05.frontPage" id="blurb.sc.7a918fb1-a238-42b5-85cf-76a30e9c2d78_#12226" group_id="7a918fb1-a238-42b5-85cf-76a30e9c2d78_#12226" cover_type="softcover" segment_type="front" width="567" height="720">
+		<ImageContainer id="51d9c4ff-3714-4e98-959d-2335d60c3edc" x="16" y="48" width="533" height="627" binding="" two_way="false" x_translate="0" border="false" />
+		<TextContainer id="1551394d-f3e5-432b-bac0-2821cac817f5" x="52" y="488" width="452" height="106" binding="$BookTitle" two_way="true" x_translate="0" style_id="cvr_t_l_34-40_s2" border="false" />
+		<TextContainer id="9efbc77b-b142-4a79-adff-51077e66229f" x="52" y="600" width="451" height="50" binding="$AuthorName" two_way="true" x_translate="0" style_id="cover_sub_l_16-20_s2" border="false" />
+	</CoverLayout>
+	<FlapLayout bs_src="05.rightFlap" id="blurb.dj.e2a3bbe7-8905-474f-aab5-c0deb06312ff" group_id="e2a3bbe7-8905-474f-aab5-c0deb06312ff" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="4b5dd1b4-4147-434a-87d1-24b3036e94ed" x="56" y="41" width="191" height="161" binding="" two_way="false" x_translate="0" />
+		<ImageContainer id="81c1ae04-baf6-442e-a531-ac635ff2aa08" x="56" y="549" width="191" height="136" binding="" two_way="false" x_translate="0" />
+		<TextContainer id="50f0a0c0-5355-4542-b6c5-464c05026ba6" x="56" y="218" width="191" height="305" binding="" two_way="false" x_translate="0" style_id="cvr_flap_9-12_s4" border="false" />
+	</FlapLayout>
+
+	<!-- * * * * * * * * * * * * * * * * -->
+	<!-- * * year book cover layouts * * -->
+	<!-- * * * * * * * * * * * * * * * * -->
+
+	<!-- spectrum front -->
+	<CoverLayout id="blurb.yearbook.spectrum.dj.front" group_id="yearbook_spectrum_standard_portrait.front" cover_type="dustjacket" segment_type="front" width="606" height="738" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.spectrum.front_i1" x="55" y="149" width="471" height="300" />
+
+		<TextContainer id="blurb.yearbook.spectrum.front_t1" x="55" y="49" width="471" height="80" style_id="yearbook_cover_front_1" placeholder_text_resource_id="placeholder_text_S1a" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t2" x="55" y="484" width="471" height="67" style_id="yearbook_cover_front_2" placeholder_text_resource_id="placeholder_text_S1b" binding="$AuthorName" two_way="true" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t3" x="85" y="579" width="90" height="140" style_id="yearbook_cover_front_3" placeholder_text_resource_id="placeholder_text_S1c" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t4" x="195" y="579" width="90" height="140" style_id="yearbook_cover_front_4" placeholder_text_resource_id="placeholder_text_S1d" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t5" x="305" y="579" width="90" height="140" style_id="yearbook_cover_front_5" placeholder_text_resource_id="placeholder_text_S1e" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t6" x="405" y="579" width="90" height="140" style_id="yearbook_cover_front_6" placeholder_text_resource_id="placeholder_text_S1f" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.spectrum.iw.front" group_id="yearbook_spectrum_standard_portrait.front" cover_type="imagewrap" segment_type="front" width="606" height="774" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.spectrum.front_i1" x="52" y="154" width="471" height="300" />
+
+		<TextContainer id="blurb.yearbook.spectrum.front_t1" x="52" y="54" width="471" height="80" style_id="yearbook_cover_front_1" placeholder_text_resource_id="placeholder_text_S1a" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t2" x="52" y="489" width="471" height="67" style_id="yearbook_cover_front_2" placeholder_text_resource_id="placeholder_text_S1b" binding="$AuthorName" two_way="true" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t3" x="84" y="584" width="90" height="120" placeholder_text_resource_id="placeholder_text_S1c" style_id="yearbook_cover_front_3" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t4" x="195" y="584" width="90" height="120" placeholder_text_resource_id="placeholder_text_S1d" style_id="yearbook_cover_front_4" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t5" x="304" y="584" width="90" height="120" placeholder_text_resource_id="placeholder_text_S1e" style_id="yearbook_cover_front_5" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t6" x="404" y="584" width="90" height="120" placeholder_text_resource_id="placeholder_text_S1f" style_id="yearbook_cover_front_6" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.spectrum.sc.front" group_id="yearbook_spectrum_standard_portrait.front" cover_type="softcover" segment_type="front" width="567" height="720" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.spectrum.front_i1" x="43" y="140" width="471" height="300" />
+
+		<TextContainer id="blurb.yearbook.spectrum.front_t1" x="43" y="40" width="471" height="80" placeholder_text_resource_id="placeholder_text_S1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t2" x="43" y="475" width="471" height="67" placeholder_text_resource_id="placeholder_text_S1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t3" x="75" y="560" width="90" height="120" placeholder_text_resource_id="placeholder_text_S1c" style_id="yearbook_cover_front_3" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t4" x="185" y="560" width="90" height="120" placeholder_text_resource_id="placeholder_text_S1d" style_id="yearbook_cover_front_4" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t5" x="295" y="560" width="90" height="120" placeholder_text_resource_id="placeholder_text_S1e" style_id="yearbook_cover_front_5" />
+		<TextContainer id="blurb.yearbook.spectrum.front_t6" x="395" y="560" width="90" height="120" placeholder_text_resource_id="placeholder_text_S1f" style_id="yearbook_cover_front_6" />
+	</CoverLayout>
+
+	<!-- spectrum back -->
+	<CoverLayout id="blurb.yearbook.spectrum.dj.back" group_id="yearbook_spectrum_standard_portrait.back" cover_type="dustjacket" segment_type="back" width="606" height="738" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.spectrum.back_i1" x="62" y="149" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i2" x="302" y="149" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i3" x="62" y="392" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i4" x="302" y="392" width="228" height="228" />
+
+		<TextContainer id="blurb.yearbook.spectrum.back_t1" x="62" y="639" width="471" height="63" placeholder_text_resource_id="placeholder_text_S1g" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.spectrum.iw.back" group_id="yearbook_spectrum_standard_portrait.back" cover_type="imagewrap" segment_type="back" width="606" height="774" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.spectrum.back_i1" x="76" y="154" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i2" x="317" y="154" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i3" x="76" y="397" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i4" x="317" y="397" width="228" height="228" />
+
+		<TextContainer id="blurb.yearbook.spectrum.back_t1" x="76" y="644" width="471" height="63" placeholder_text_resource_id="placeholder_text_S1g" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.spectrum.sc.back" group_id="yearbook_spectrum_standard_portrait.back" cover_type="softcover" segment_type="back" width="567" height="720" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.spectrum.back_i1" x="55" y="140" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i2" x="295" y="140" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i3" x="55" y="383" width="228" height="228" />
+		<ImageContainer id="blurb.yearbook.spectrum.back_i4" x="295" y="383" width="228" height="228" />
+
+		<TextContainer id="blurb.yearbook.spectrum.back_t1" x="55" y="630" width="471" height="63" placeholder_text_resource_id="placeholder_text_S1g" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+
+	<!-- spectrum spine -->
+	<SpineLayout id="blurb.yearbook.spectrum.dj.spine" group_id="yearbook_spectrum_standard_portrait.spine" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="blurb.yearbook.spectrum.spine_t1" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.spectrum.spine_t2" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.yearbook.spectrum.iw.spine" group_id="yearbook_spectrum_standard_portrait.spine" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="blurb.yearbook.spectrum.spine_t1" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.spectrum.spine_t2" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_12" />
+	</SpineLayout>
+	<SpineLayout id="blurb.yearbook.spectrum.sc.spine" group_id="yearbook_spectrum_standard_portrait.spine" cover_type="softcover" width="720" height="33">
+		<TextContainer id="blurb.yearbook.spectrum.spine_t1" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.spectrum.spine_t2" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_2" />
+	</SpineLayout>
+
+	<!-- spectrum flaps -->
+	<FlapLayout id="blurb.yearbook.spectrum.dj.flap.front" group_id="yearbook_spectrum_standard_portrait.frontFlap" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="blurb.yearbook.spectrum.flap_front_i1" x="56" y="43" width="191" height="160" />
+		<ImageContainer id="blurb.yearbook.spectrum.flap_front_i2" x="56" y="547" width="191" height="135" />
+		<TextContainer id="blurb.yearbook.spectrum.flap_front_t1" x="56" y="218" width="191" height="302" style_id="yearbook_cover_flap_1" />
+	</FlapLayout>
+	<FlapLayout id="blurb.yearbook.spectrum.dj.flap.back" group_id="yearbook_spectrum_standard_portrait.backFlap" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="blurb.yearbook.spectrum.flap_back_i1" x="56" y="41" width="191" height="161" />
+		<ImageContainer id="blurb.yearbook.spectrum.flap_back_i2" x="56" y="549" width="191" height="136" />
+		<TextContainer id="blurb.yearbook.spectrum.flap_back_t1" x="56" y="218" width="191" height="302" style_id="yearbook_cover_flap_1" />
+	</FlapLayout>
+
+	<!-- primary front -->
+	<CoverLayout id="blurb.yearbook.primary.dj.front" group_id="yearbook_primary_standard_portrait.front" cover_type="dustjacket" segment_type="front" width="606" height="738" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.primary.front_i1" x="10" y="9" width="567" height="400" />
+		<ImageContainer id="blurb.yearbook.primary.front_i2" x="31" y="604" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i3" x="136" y="604" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i4" x="241" y="604" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i5" x="346" y="604" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i6" x="451" y="604" width="105" height="105" />
+	
+		<TextContainer id="blurb.yearbook.primary.front_t1" x="58" y="439" width="471" height="100" placeholder_text_resource_id="placeholder_text_P1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.primary.front_t2" x="58" y="550" width="471" height="36" placeholder_text_resource_id="placeholder_text_P1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.primary.iw.front" group_id="yearbook_primary_standard_portrait.front" cover_type="imagewrap" segment_type="front" width="606" height="774" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.primary.front_i1" x="4" y="14" width="567" height="400" />
+		<ImageContainer id="blurb.yearbook.primary.front_i2" x="25" y="619" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i3" x="130" y="619" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i4" x="235" y="619" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i5" x="340" y="619" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i6" x="445" y="619" width="105" height="105" />
+
+		<TextContainer id="blurb.yearbook.primary.front_t1" x="57" y="444" width="471" height="100" placeholder_text_resource_id="placeholder_text_P1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.primary.front_t2" x="57" y="554" width="471" height="36" placeholder_text_resource_id="placeholder_text_P1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.primary.sc.front" group_id="yearbook_primary_standard_portrait.front" cover_type="softcover" segment_type="front" width="567" height="720" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.primary.front_i1" x="0" y="0" width="567" height="400" />
+		<ImageContainer id="blurb.yearbook.primary.front_i2" x="16" y="590" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i3" x="121" y="590" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i4" x="226" y="590" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i5" x="331" y="590" width="105" height="105" />
+		<ImageContainer id="blurb.yearbook.primary.front_i6" x="436" y="590" width="105" height="105" />
+
+		<TextContainer id="blurb.yearbook.primary.front_t1" x="43" y="430" width="471" height="100" placeholder_text_resource_id="placeholder_text_P1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.primary.front_t2" x="43" y="540" width="471" height="36" placeholder_text_resource_id="placeholder_text_P1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	
+	<!-- primary back -->
+	<CoverLayout id="blurb.yearbook.primary.dj.back" group_id="yearbook_primary_standard_portrait.back" cover_type="dustjacket" segment_type="back" width="606" height="738" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.primary.back_i1" x="45" y="600" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i2" x="150" y="600" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i3" x="255" y="600" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i4" x="360" y="600" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i5" x="465" y="600" width="105" height="105"/>
+		
+		<TextContainer id="blurb.yearbook.primary.back_t1" x="150" y="109" width="315" height="70" placeholder_text_resource_id="placeholder_text_P1b" style_id="yearbook_cover_back_1"/>
+		<TextContainer id="blurb.yearbook.primary.back_t2" x="150" y="199" width="315" height="303" placeholder_text_resource_id="placeholder_text_P1d" style_id="yearbook_cover_back_2"/>
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.primary.iw.back" group_id="yearbook_primary_standard_portrait.back" cover_type="imagewrap" segment_type="back" width="606" height="774" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.primary.back_i1" x="42" y="619" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i2" x="147" y="619" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i3" x="252" y="619" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i4" x="357" y="619" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i5" x="462" y="619" width="105" height="105"/>
+		
+		<TextContainer id="blurb.yearbook.primary.back_t1" x="152" y="114" width="315" height="70" placeholder_text_resource_id="placeholder_text_P1b" style_id="yearbook_cover_back_1"/>
+		<TextContainer id="blurb.yearbook.primary.back_t2" x="152" y="204" width="315" height="303" placeholder_text_resource_id="placeholder_text_P1d" style_id="yearbook_cover_back_2"/>
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.primary.sc.back" group_id="yearbook_primary_standard_portrait.back" cover_type="softcover" segment_type="back" width="567" height="720" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.primary.back_i1" x="26" y="590" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i2" x="131" y="590" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i3" x="236" y="590" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i4" x="341" y="590" width="105" height="105"/>
+		<ImageContainer id="blurb.yearbook.primary.back_i5" x="446" y="590" width="105" height="105"/>
+		
+		<TextContainer id="blurb.yearbook.primary.back_t1" x="131" y="105" width="315" height="70" placeholder_text_resource_id="placeholder_text_P1b" style_id="yearbook_cover_back_1"/>
+		<TextContainer id="blurb.yearbook.primary.back_t2" x="131" y="190" width="315" height="303" placeholder_text_resource_id="placeholder_text_P1d" style_id="yearbook_cover_back_2"/>
+	</CoverLayout>
+
+	<!-- primary spine -->
+	<SpineLayout id="blurb.yearbook.primary.dj.spine" group_id="yearbook_primary_standard_portrait.spine" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="blurb.yearbook.primary.spine_t1" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.primary.spine_t2" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.yearbook.primary.iw.spine" group_id="yearbook_primary_standard_portrait.spine" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="blurb.yearbook.primary.spine_t1" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.primary.spine_t2" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_12" />
+	</SpineLayout>
+	<SpineLayout id="blurb.yearbook.primary.sc.spine" group_id="yearbook_primary_standard_portrait.spine" cover_type="softcover" width="720" height="33">
+		<TextContainer id="blurb.yearbook.primary.spine_t1" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.primary.spine_t2" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_2" />
+	</SpineLayout>
+
+	<!-- primary flaps -->
+	<FlapLayout id="blurb.yearbook.primary.dj.flap.front" group_id="yearbook_primary_standard_portrait.frontFlap" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="blurb.yearbook.primary.flap_front_i1" x="56" y="43" width="191" height="160" />
+		<ImageContainer id="blurb.yearbook.primary.flap_front_i2" x="56" y="547" width="191" height="135" />
+		<TextContainer id="blurb.yearbook.primary.flap_front_t1" x="56" y="218" width="191" height="302" style_id="yearbook_cover_flap_1" />
+	</FlapLayout>
+	<FlapLayout id="blurb.yearbook.primary.dj.flap.back" group_id="yearbook_primary_standard_portrait.backFlap" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="blurb.yearbook.primary.flap_back_i1" x="56" y="41" width="191" height="161" />
+		<ImageContainer id="blurb.yearbook.primary.flap_back_i2" x="56" y="549" width="191" height="136" />
+		<TextContainer id="blurb.yearbook.primary.flap_back_t1" x="56" y="218" width="191" height="302" style_id="yearbook_cover_flap_1" />
+	</FlapLayout>
+
+	<!-- vivid front -->
+	<CoverLayout id="blurb.yearbook.vivid.dj.front" group_id="yearbook_vivid_standard_portrait.front" cover_type="dustjacket" segment_type="front" width="606" height="738" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.vivid.front_i1" x="15" y="174" width="552" height="280" />
+		<ImageContainer id="blurb.yearbook.vivid.front_i2" x="85" y="589" width="407" height="110" />
+		<TextContainer id="blurb.yearbook.vivid.front_t1" x="58" y="44" width="471" height="100" placeholder_text_resource_id="placeholder_text_N1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.vivid.front_t2" x="58" y="479" width="471" height="93" placeholder_text_resource_id="placeholder_text_N1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.vivid.iw.front" group_id="yearbook_vivid_standard_portrait.front" cover_type="imagewrap" segment_type="front" width="606" height="774" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.vivid.front_i1" x="19" y="184" width="552" height="280" />
+		<ImageContainer id="blurb.yearbook.vivid.front_i2" x="84" y="599" width="407" height="110" />
+		<TextContainer id="blurb.yearbook.vivid.front_t1" x="52" y="54" width="471" height="100" placeholder_text_resource_id="placeholder_text_N1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.vivid.front_t2" x="52" y="484" width="471" height="93" laceholder_text_resource_id="placeholder_text_N1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.vivid.sc.front" group_id="yearbook_vivid_standard_portrait.front" cover_type="softcover" segment_type="front" width="567" height="720" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.vivid.front_i1" x="0" y="165" width="567" height="280" />
+		<ImageContainer id="blurb.yearbook.vivid.front_i2" x="75" y="575" width="407" height="110" />
+		<TextContainer id="blurb.yearbook.vivid.front_t1" x="43" y="40" width="471" height="100" placeholder_text_resource_id="placeholder_text_N1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true" />
+		<TextContainer id="blurb.yearbook.vivid.front_t2" x="43" y="470" width="471" height="93" placeholder_text_resource_id="placeholder_text_N1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true" />
+	</CoverLayout>
+
+	<!-- vivid back -->
+	<CoverLayout id="blurb.yearbook.vivid.dj.back" group_id="yearbook_vivid_standard_portrait.back" cover_type="dustjacket" segment_type="back" width="606" height="738" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.vivid.back_i1" x="24" y="174" width="557" height="280" />
+		<TextContainer id="blurb.yearbook.vivid.back_t1" x="72" y="479" width="470" height="200" placeholder_text_resource_id="placeholder_text_N1c" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.vivid.iw.back" group_id="yearbook_vivid_standard_portrait.back" cover_type="imagewrap" segment_type="back" width="606" height="774" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.vivid.back_i1" x="26" y="184" width="567" height="280" />
+		<TextContainer id="blurb.yearbook.vivid.back_t1" x="79" y="484" width="470" height="200" placeholder_text_resource_id="placeholder_text_N1c" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.vivid.sc.back" group_id="yearbook_vivid_standard_portrait.back" cover_type="softcover" segment_type="back" width="567" height="720" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.vivid.back_i1" x="0" y="165" width="567" height="280" />
+		<TextContainer id="blurb.yearbook.vivid.back_t1" x="53" y="470" width="470" height="200" placeholder_text_resource_id="placeholder_text_N1c" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+
+	<!-- vivid spine -->
+	<SpineLayout id="blurb.yearbook.vivid.dj.spine" group_id="yearbook_vivid_standard_portrait.spine" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="blurb.yearbook.vivid.spine_t1" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.vivid.spine_t2" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.yearbook.vivid.iw.spine" group_id="yearbook_vivid_standard_portrait.spine" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="blurb.yearbook.vivid.spine_t1" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.vivid.spine_t2" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_12" />
+	</SpineLayout>
+	<SpineLayout id="blurb.yearbook.vivid.sc.spine" group_id="yearbook_vivid_standard_portrait.spine" cover_type="softcover" width="720" height="33">
+		<TextContainer id="blurb.yearbook.vivid.spine_t1" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.vivid.spine_t2" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_2" />
+	</SpineLayout>
+
+	<!-- vivid flaps -->
+	<FlapLayout id="blurb.yearbook.vivid.dj.flap.front" group_id="yearbook_vivid_standard_portrait.frontFlap" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="blurb.yearbook.vivid.flap_front_i1" x="56" y="43" width="191" height="160" />
+		<ImageContainer id="blurb.yearbook.vivid.flap_front_i2" x="56" y="547" width="191" height="135" />
+		<TextContainer id="blurb.yearbook.vivid.flap_front_t1" x="56" y="218" width="191" height="302" style_id="yearbook_cover_flap_1" />
+	</FlapLayout>
+	<FlapLayout id="blurb.yearbook.vivid.dj.flap.back" group_id="yearbook_vivid_standard_portrait.backFlap" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="blurb.yearbook.vivid.flap_back_i1" x="56" y="41" width="191" height="161" />
+		<ImageContainer id="blurb.yearbook.vivid.flap_back_i2" x="56" y="549" width="191" height="136" />
+		<TextContainer id="blurb.yearbook.vivid.flap_back_t1" x="56" y="218" width="191" height="302" style_id="yearbook_cover_flap_1" />
+	</FlapLayout>
+
+<!-- natural front -->
+	<CoverLayout id="blurb.yearbook.natural.dj.front" group_id="yearbook_natural_standard_portrait.front" cover_type="dustjacket" segment_type="front" width="606" height="738" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.natural.front_i1" x="40" y="53" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i2" x="126" y="5" width="160" height="141" />
+		<ImageContainer id="blurb.yearbook.natural.front_i3" x="298" y="53" width="246" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i4" x="10" y="160" width="362" height="303" />
+		<ImageContainer id="blurb.yearbook.natural.front_i5" x="384" y="372" width="160" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.front_i6" x="40" y="477" width="160" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.front_i7" x="212" y="477" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i8" x="212" y="582" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i9" x="298" y="582" width="279" height="148" />
+		<TextContainer  id="blurb.yearbook.natural.front_t1" x="384" y="162" width="160" height="198" placeholder_text_resource_id="placeholder_text_N1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer  id="blurb.yearbook.natural.front_t2" x="40" y="685" width="245" height="30"  placeholder_text_resource_id="placeholder_text_N1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true"/>
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.natural.iw.front" group_id="yearbook_natural_standard_portrait.front" cover_type="imagewrap" segment_type="front" width="606" height="774" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.natural.front_i1" x="39" y="72" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i2" x="125" y="24" width="160" height="141" />
+		<ImageContainer id="blurb.yearbook.natural.front_i3" x="297" y="72" width="246" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i4" x="19" y="177" width="352" height="303" />
+		<ImageContainer id="blurb.yearbook.natural.front_i5" x="383" y="387" width="160" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.front_i6" x="39" y="492" width="160" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.front_i7" x="211" y="492" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i8" x="211" y="597" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i9" x="297" y="597" width="279" height="148" />
+		<TextContainer  id="blurb.yearbook.natural.front_t1" x="383" y="177" width="160" height="198" placeholder_text_resource_id="placeholder_text_N1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer  id="blurb.yearbook.natural.front_t2" x="39" y="700" width="245" height="30"  placeholder_text_resource_id="placeholder_text_N1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true"/>
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.natural.sc.front" group_id="yearbook_natural_standard_portrait.front" cover_type="softcover" segment_type="front" width="567" height="720" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.natural.front_i1" x="30" y="48" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i2" x="116" y="0" width="160" height="141" />
+		<ImageContainer id="blurb.yearbook.natural.front_i3" x="288" y="48" width="246" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i4" x="0" y="153" width="362" height="303" />
+		<ImageContainer id="blurb.yearbook.natural.front_i5" x="374" y="363" width="160" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.front_i6" x="30" y="468" width="160" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.front_i7" x="202" y="468" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i8" x="202" y="573" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.front_i9" x="288" y="573" width="279" height="148" />
+		<TextContainer  id="blurb.yearbook.natural.front_t1" x="374" y="153" width="160" height="198" placeholder_text_resource_id="placeholder_text_N1a" style_id="yearbook_cover_front_1" binding="$BookTitle" two_way="true"/>
+		<TextContainer  id="blurb.yearbook.natural.front_t2" x="30" y="676" width="245" height="30"  placeholder_text_resource_id="placeholder_text_N1b" style_id="yearbook_cover_front_2" binding="$AuthorName" two_way="true"/>
+	</CoverLayout>
+	
+	<!-- natural back -->
+	<CoverLayout id="blurb.yearbook.natural.dj.back" group_id="yearbook_natural_standard_portrait.back" cover_type="dustjacket" width="606" height="738" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.natural.back_i1" x="29" y="57" width="104" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i2" x="145" y="57" width="160" height="200" />
+		<ImageContainer id="blurb.yearbook.natural.back_i3" x="403" y="57" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i4" x="317" y="162" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i5" x="403" y="267" width="74" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.back_i6" x="489" y="267" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i7" x="145" y="582" width="246" height="148" />
+		<ImageContainer id="blurb.yearbook.natural.back_i8" x="403" y="477" width="160" height="198" />
+	
+		<TextContainer id="blurb.yearbook.natural.back_t1" x="59" y="318" width="332" height="203" placeholder_text_resource_id="placeholder_text_N1c" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.natural.iw.back" group_id="yearbook_natural_standard_portrait.back" cover_type="imagewrap" width="606" height="774" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.natural.back_i1" x="31" y="72" width="104" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i2" x="147" y="72" width="160" height="200" />
+		<ImageContainer id="blurb.yearbook.natural.back_i3" x="405" y="72" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i4" x="319" y="177" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i5" x="405" y="282" width="74" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.back_i6" x="491" y="282" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i7" x="147" y="597" width="246" height="148" />
+		<ImageContainer id="blurb.yearbook.natural.back_i8" x="405" y="492" width="160" height="198" />
+	
+		<TextContainer id="blurb.yearbook.natural.back_t1" x="61" y="333" width="332" height="203" placeholder_text_resource_id="placeholder_text_N1c" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+	<CoverLayout id="blurb.yearbook.natural.sc.back" group_id="yearbook_natural_standard_portrait.back" cover_type="softcover" width="567" height="720" style_id="solid_2">
+		<ImageContainer id="blurb.yearbook.natural.back_i1" x="0" y="48" width="104" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i2" x="116" y="48" width="160" height="200" />
+		<ImageContainer id="blurb.yearbook.natural.back_i3" x="374" y="48" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i4" x="288" y="153" width="160" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i5" x="374" y="258" width="74" height="198" />
+		<ImageContainer id="blurb.yearbook.natural.back_i6" x="460" y="258" width="74" height="93" />
+		<ImageContainer id="blurb.yearbook.natural.back_i7" x="116" y="573" width="246" height="148" />
+		<ImageContainer id="blurb.yearbook.natural.back_i8" x="374" y="468" width="160" height="198" />
+	
+		<TextContainer id="blurb.yearbook.natural.back_t1" x="30" y="309" width="332" height="203" placeholder_text_resource_id="placeholder_text_N1c" style_id="yearbook_cover_back_1" />
+	</CoverLayout>
+
+	<!-- natural spine -->
+	<SpineLayout id="blurb.yearbook.natural.dj.spine" group_id="yearbook_natural_standard_portrait.spine" cover_type="dustjacket" width="738" height="33">
+		<TextContainer id="blurb.yearbook.natural.spine_t1" x="57" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.natural.spine_t2" x="411" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_2" />
+	</SpineLayout>
+	<SpineLayout id="blurb.yearbook.natural.iw.spine" group_id="yearbook_natural_standard_portrait.spine" cover_type="imagewrap" width="774" height="33">
+		<TextContainer id="blurb.yearbook.natural.spine_t1" x="75" y="5" width="337" height="24" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.natural.spine_t2" x="429" y="5" width="273" height="24" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_12" />
+	</SpineLayout>
+	<SpineLayout id="blurb.yearbook.natural.sc.spine" group_id="yearbook_natural_standard_portrait.spine" cover_type="softcover" width="720" height="33">
+		<TextContainer id="blurb.yearbook.natural.spine_t1" x="48" y="11" width="337" height="11" binding="$BookTitle" two_way="false" style_id="yearbook_cover_spine_1" />
+		<TextContainer id="blurb.yearbook.natural.spine_t2" x="402" y="11" width="273" height="11" binding="$AuthorName" two_way="false" style_id="yearbook_cover_spine_2" />
+	</SpineLayout>
+
+	<!-- natural flaps -->
+	<FlapLayout id="blurb.yearbook.natural.dj.flap.front" group_id="yearbook_natural_standard_portrait.frontFlap" cover_type="dustjacket" segment_type="front" width="303" height="738">
+		<ImageContainer id="blurb.yearbook.natural.flap_front_i1" x="56" y="43" width="191" height="160" />
+		<ImageContainer id="blurb.yearbook.natural.flap_front_i2" x="56" y="547" width="191" height="135" />
+		<TextContainer id="blurb.yearbook.natural.flap_front_t1" x="56" y="218" width="191" height="302" style_id="yearbook_cover_flap_1" />
+	</FlapLayout>
+	<FlapLayout id="blurb.yearbook.natural.dj.flap.back" group_id="yearbook_natural_standard_portrait.backFlap" cover_type="dustjacket" segment_type="back" width="303" height="738">
+		<ImageContainer id="blurb.yearbook.natural.flap_back_i1" x="56" y="41" width="191" height="161" />
+		<ImageContainer id="blurb.yearbook.natural.flap_back_i2" x="56" y="549" width="191" height="136" />
+		<TextContainer id="blurb.yearbook.natural.flap_back_t1" x="56" y="218" width="191" height="302" style_id="yearbook_cover_flap_1" />
+	</FlapLayout>
+</CoverLayouts>

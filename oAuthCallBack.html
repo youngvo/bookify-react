@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+//        var SERVICE_NAME = "500px";
+//
+//
+//        // Read a page's GET URL variables and return them as an associative array.
+//        function getUrlVars()
+//        {
+//            var vars = {service_name: SERVICE_NAME},
+//                hash;
+//            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+//
+//            for(var i = 0; i < hashes.length; i++) {
+//                hash = hashes[i].split('=');
+//                vars[hash[0]] = hash[1];
+//            }
+//            return vars;
+//        }
+//        console.log(getUrlVars());
+//        var token = getUrlVars()["token"];
+//        console.log(token);
+//        document.cookie = "picasaToken=" + token;
+//
+//        if(window.opener && window.opener.BLURB_OAUTH)
+//        {
+//            window.opener.BLURB_OAUTH.notifyOAuthParamsSet(getUrlVars());
+//            self.close();
+//        }
+//        else
+//        {
+//        }
+        var hash_string = window.location.hash.substring(1),
+            parts = hash_string.split(','),
+            part,
+            result = {},
+            parent_document = window.opener ? window.opener : parent;
+        while (part = parts.shift()) {
+            part = part.split(':');
+            result[part[0]] = part[1] == undefined ? true : part[1];
+        }
+        parent_document[result.callback](result);
+        if (window.opener) {
+            window.close();
+        }
+        self.close();
+    </script>
+</head>
+<body>
+
+If this window hasn't closed automatically, please close it now to return to the Bookify...
+
+
+
+
+</body>
+</html>

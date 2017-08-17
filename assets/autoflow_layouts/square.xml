@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<AutoflowLayouts trim_size="square">
+
+	<!-- For each option that has a default_for_theme defined, the first Layout child will be considered the default left page. The second Layout child will be the default right page. Any additional layouts will be ignored. -->
+
+	<Option default_for_theme="blurb.viewfinder">
+		<Layout id="blurb.uce93" />
+		<Layout id="blurb.uce93" />
+	</Option>
+	<Option default_for_theme="blurb.elegant">
+		<Layout id="blurb.u19779" />
+		<Layout id="blurb.u1b0ed" />
+	</Option>
+	<Option default_for_theme="blurb.girlie">
+		<Layout id="blurb.u1aea5" />
+		<Layout id="blurb.u1aea5" />
+	</Option>
+	<Option default_for_theme="blurb.darkroom">
+		<Layout id="blurb.uda63" />
+		<Layout id="blurb.uda63" />
+	</Option>
+	<Option default_for_theme="blurb.instantbook_instagram">
+		<Layout id="blurb.m18958" />
+		<Layout id="blurb.m18958" />
+	</Option>
+	<Option default_for_theme="blurb.instantbook_facebook">
+		<Layout id="blurb.zero_comments_no_caption" />
+		<Layout id="blurb.zero_comments_no_caption" />
+	</Option>
+	
+	<Option default_for_theme="blurb.designerbook_amsterdam">
+		<Layout id="blurb.designerbook.amsterdam.left_balanced" />
+		<Layout id="blurb.designerbook.amsterdam.right_balanced" />
+	</Option>
+	<Option default_for_theme="blurb.designerbook_austin">
+		<Layout id="blurb.designerbook.austin.left_balanced" />
+		<Layout id="blurb.designerbook.austin.right_balanced" />
+	</Option>	
+	<Option default_for_theme="blurb.designerbook_catalina">
+		<Layout id="blurb.designerbook.catalina.left_balanced" />
+		<Layout id="blurb.designerbook.catalina.right_balanced" />
+	</Option>
+	<Option default_for_theme="blurb.designerbook_geneva">
+		<Layout id="blurb.designerbook.geneva.left_balanced" />
+		<Layout id="blurb.designerbook.geneva.right_balanced" />
+	</Option>
+	<Option default_for_theme="blurb.designerbook_marfa">
+		<Layout id="blurb.designerbook.marfa.left_balanced" />
+		<Layout id="blurb.designerbook.marfa.right_balanced" />
+	</Option>
+	<Option default_for_theme="blurb.designerbook_zurich">
+		<Layout id="blurb.designerbook.zurich.left_balanced" />
+		<Layout id="blurb.designerbook.zurich.right_balanced" />
+	</Option>
+	
+	<Option default_for_theme="blurb.chickensoup_christmas">
+		<Layout id="blurb.chickensoup.christmas.volume1.p002" />
+		<Layout id="blurb.chickensoup.christmas.volume1.p002" />
+	</Option>
+	<Option default_for_theme="blurb.chickensoup_thankful">
+		<Layout id="blurb.chickensoup.thankful.volume1.p002" />
+		<Layout id="blurb.chickensoup.thankful.volume1.p002" />
+	</Option>
+	<Option default_for_theme="blurb.chickensoup_love">
+		<Layout id="blurb.chickensoup.love.volume1.p002" />
+		<Layout id="blurb.chickensoup.love.volume1.p002" />
+	</Option>
+	<Option default_for_theme="blurb.chickensoup_positive">
+		<Layout id="blurb.chickensoup.positive.volume1.p002" />
+		<Layout id="blurb.chickensoup.positive.volume1.p002" />
+	</Option>			
+	<Option default_for_theme="blurb.chickensoup_sympathy">
+		<Layout id="blurb.chickensoup.sympathy.volume1.p002" />
+		<Layout id="blurb.chickensoup.sympathy.volume1.p002" />
+	</Option>
+	<Option type="mixitup">
+		<Layout id="blurb.uce93" />
+		<Layout id="blurb.uce93" />
+		<Layout id="blurb.u1b730" />
+		<Layout id="blurb.u1b730" />
+		<Layout id="blurb.u1b0ed" />
+		<Layout id="blurb.u1b0ed" />
+		<Layout id="blurb.u1aea5" />
+		<Layout id="blurb.u17061" />
+	</Option>
+</AutoflowLayouts>

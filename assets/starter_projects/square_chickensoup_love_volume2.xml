@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2013. -->
+<project>
+	<metadata />
+	<data>
+		<Book format="square" theme="blurb.chickensoup_love">
+			<Contents>
+				<Covers>
+					<Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+						<FrontCover layout_group_id="chickensoup_love_volume1_square.front" background_id="solid_2" />
+						<BackCover layout_group_id="chickensoup_love_volume1_square.back" background_id="solid_2" />
+						<Spine layout_group_id="chickensoup_love_volume1_square.spine" background_id="solid_2" />
+						<FrontFlap layout_group_id="chickensoup_love_volume1_square.frontFlap" background_id="solid_2" />
+						<BackFlap layout_group_id="chickensoup_love_volume1_square.backFlap" background_id="solid_2" />
+					</Cover>
+				</Covers>
+				<Pages>
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p001" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p002" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p003" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p004" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p005" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p006" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p007" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p008" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p009" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p010" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p011" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p012" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p013" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p014" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p015" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p016" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p017" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p018" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p019" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p020" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p021" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p022" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p023" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p024" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p025" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p026" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p027" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p028" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p029" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p030" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p031" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p032" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p033" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p034" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p035" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p036" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p037" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p038" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p039" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p040" background_id="solid_1" />																	
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p041" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p042" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p043" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p044" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p045" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p046" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p047" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p048" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p049" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p050" background_id="solid_1" />	
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p051" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p052" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p053" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p054" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p055" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p056" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p057" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p058" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p059" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p060" background_id="solid_1" />	
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p061" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p062" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p063" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p064" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p065" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p066" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p067" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p068" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p069" background_id="solid_1" />
+															
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p070" background_id="solid_1" />	
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p071" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p072" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p073" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p074" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p075" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p076" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p077" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p078" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p079" background_id="solid_1" />
+										
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p080" background_id="solid_1" />	
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p081" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p082" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p083" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p084" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p085" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p086" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p087" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p088" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p089" background_id="solid_1" />
+										
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p090" background_id="solid_1" />	
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p091" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p092" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p093" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p094" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p095" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p096" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p097" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p098" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p099" background_id="solid_1" />
+										
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p100" background_id="solid_1" />	
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p101" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p102" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p103" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p104" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p105" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p106" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p107" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p108" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p109" background_id="solid_1" />
+										
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p110" background_id="solid_1" />	
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p111" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p112" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p113" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p114" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p115" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p116" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p117" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p118" background_id="solid_1" />
+					<Page page_layout_id="blurb.chickensoup.love.volume2.p119" background_id="solid_1" />
+					
+					<!-- last page, should have a background_id -->
+					<Page page_layout_id="blurb.chickensoup.chickensoup_logo" can_change_layouts="false" background_id="solid_1" />
+				</Pages>
+			</Contents>
+		</Book>
+	</data>
+</project>

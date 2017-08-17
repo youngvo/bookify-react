@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<project>
+  <metadata />
+  <data>	
+    <Book format="trade" theme="blurb.elegant">
+      <Contents>
+        <Covers>
+          <Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+            <FrontCover layout_group_id="b9bac22e-4263-411e-860c-1966d6a8c776" background_id="solid_1"/>
+            <BackCover  layout_group_id="876ea604-2250-43c5-a208-12f0ba8adf99" background_id="solid_1"/>
+            <Spine      layout_group_id="50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" background_id="solid_1"/>
+            <FrontFlap  layout_group_id="d2e98960-fe64-11e0-be50-0800200c9a66" background_id="solid_1"/>
+            <BackFlap   layout_group_id="c452a490-fe64-11e0-be50-0800200c9a66" background_id="solid_1"/>
+          </Cover>
+        </Covers>
+        <Pages>
+          <Page page_layout_id="blurb.uf12d" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u6e09" background_id="solid_8"/>
+          <Page page_layout_id="blurb.u13f" background_id="solid_8"/>
+          <Page page_layout_id="blurb.6x9.logo_page" can_change_layouts="false" background_id="solid_8"/>          
+        </Pages>
+      </Contents>
+    </Book>
+  </data>
+</project>

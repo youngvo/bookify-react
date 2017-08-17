@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script>
+        // var domain = location.href.substr(location.href.indexOf("="));
+        // var frobCookie = domain.substring(1,domain.length);
+        // console.log("frob", frobCookie );
+        // document.cookie = "flickrToken=" + frobCookie + ";" ;
+        // console.log(document.cookie);
+        // self.close();
+
+        function getUrlVars()
+       {
+           var vars = {},
+               hash;
+           var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+
+           for(var i = 0; i < hashes.length; i++) {
+               hash = hashes[i].split('=');
+               vars[hash[0]] = hash[1];
+           }
+           return vars;
+       }
+       console.log(getUrlVars());
+       var oauth_verifier = getUrlVars()["oauth_verifier"];
+       var domain = window.location.hostname.substr(window.location.hostname.indexOf("."));
+       document.cookie = "oauthVerifierFlickr=" + oauth_verifier + "; domain=" + domain + '; path=/';
+       
+       if(window.opener)
+       {
+          self.close();
+       }
+    </script>
+  </body>
+</html>

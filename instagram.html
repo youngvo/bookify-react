@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+        var token = window.location.hash.split('=');
+        var domain = window.location.hostname.substr(window.location.hostname.indexOf("."));
+        document.cookie = "instagramToken=" + token[1] + "; domain=" + domain + "; path=/" ;
+
+        self.close();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

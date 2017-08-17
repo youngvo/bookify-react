@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<project>
+	<metadata />
+	<data>
+		<Book format="standard_portrait" theme="blurb.yearbook_primary">
+			<Contents>
+				<Covers>
+					<Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+						<FrontCover layout_group_id="yearbook_primary_standard_portrait.front" background_id="solid_2" />
+						<BackCover layout_group_id="yearbook_primary_standard_portrait.back" background_id="solid_2" />
+						<Spine layout_group_id="yearbook_primary_standard_portrait.spine" background_id="solid_2" />
+						<FrontFlap layout_group_id="yearbook_primary_standard_portrait.frontFlap" background_id="solid_2" />
+						<BackFlap layout_group_id="yearbook_primary_standard_portrait.backFlap" background_id="solid_2" />
+					</Cover>
+				</Covers>
+				<Pages>
+					<Page page_layout_id="blurb.yearbook.default.image1_text2" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image1_text0" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image0_text1" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image12_text0" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image9_text0" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image3_text2" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image3_text3" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image1_text4" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image6_text6_2" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image6_text6" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image6_text6_2" background_id="solid_1" />
+
+					<Page page_layout_id="blurb.yearbook.default.image1_text2_2" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image9_text9" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image1_text1" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image4_text0" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image3_text0" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image1_text1" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image6_text1" background_id="solid_1" />
+					<Page page_layout_id="blurb.yearbook.default.image1_text0" background_id="solid_1" />
+					
+					<Page page_layout_id="blurb.8x10.dark_logo_page" can_change_layouts="false" background_id="solid_1" />
+				</Pages>
+			</Contents>
+		</Book>
+	</data>
+</project>

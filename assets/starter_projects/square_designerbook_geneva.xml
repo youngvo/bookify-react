@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2013. -->
+<project>
+	<metadata />
+	<data>
+		<Book format="square" theme="blurb.designerbook_geneva">
+			<Contents>
+				<Covers>
+					<Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+						<FrontCover layout_group_id="designerbook_geneva_square.front" background_id="solid_2">
+							<ImageContainer ref_id="geneva_front_i1" />
+							<ImageContainer ref_id="geneva_front_i2" />
+							<ImageContainer ref_id="geneva_front_i3" />
+							<ImageContainer ref_id="geneva_front_i4" />
+							<ImageContainer ref_id="geneva_front_i5" />
+							<ImageContainer ref_id="geneva_front_i6" />
+					
+							<TextContainer ref_id="geneva_front_t1" />
+							<TextContainer ref_id="geneva_front_t2" />
+						</FrontCover>	
+						<BackCover layout_group_id="designerbook_geneva_square.back" background_id="solid_2">
+							<TextContainer ref_id="geneva_back_t1" />
+							<TextContainer ref_id="geneva_back_t2" />	
+						</BackCover>
+						<Spine layout_group_id="designerbook_geneva_square.spine" background_id="solid_2">
+							<TextContainer ref_id="geneva_spine_t1" />
+							<TextContainer ref_id="geneva_spine_t2" />
+						</Spine>
+						<FrontFlap layout_group_id="designerbook_geneva_square.frontFlap" background_id="solid_2">
+							<ImageContainer ref_id="geneva_flap_left_i1" />
+							<TextContainer ref_id="geneva_flap_left_t1" />
+						</FrontFlap>
+						<BackFlap layout_group_id="designerbook_geneva_square.backFlap" background_id="solid_2">
+							<ImageContainer ref_id="geneva_flap_right_i1" />
+							<TextContainer ref_id="geneva_flap_right_t1" />
+						</BackFlap>
+					</Cover>
+				</Covers>
+				<Pages>
+					<Page page_layout_id="blurb.designerbook.geneva.right_balanced" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_balanced_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_wide" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.right_wide" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_tall" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.right_tall" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_balanced" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_balanced_i1" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.geneva.right_balanced" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_balanced_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_wide" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.right_wide" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_tall" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.right_tall" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_balanced" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_balanced_i1" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.geneva.right_balanced" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_balanced_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_wide" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.right_wide" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_tall" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.right_tall" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.geneva.left_balanced" background_id="solid_1">
+						<ImageContainer ref_id="geneva_left_balanced_i1" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.geneva.right_balanced" background_id="solid_1">
+						<ImageContainer ref_id="geneva_right_balanced_i1" />
+					</Page>
+
+					<!-- last page, should have a background_id -->
+					<Page page_layout_id="blurb.7x7.logo_page" can_change_layouts="false" background_id="solid_1" />
+				</Pages>
+			</Contents>
+		</Book>
+	</data>
+</project>

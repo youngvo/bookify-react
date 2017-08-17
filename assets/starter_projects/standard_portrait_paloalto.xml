@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2010. -->
+<project>
+	<metadata />
+	<data>
+		<Book format="standard_portrait" theme="blurb.elegant">
+			<Contents>
+				<Covers>
+					<Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+						<FrontCover layout_group_id="5a81f52d-2420-44b6-9534-34cb5e90872b_#12226" background_id="solid_1" />
+						<BackCover layout_group_id="876ea604-2250-43c5-a208-12f0ba8adf99" background_id="solid_1" />
+						<Spine layout_group_id="50e3333d-8acd-4d03-8ae9-e9486f6c0ae6" background_id="solid_1" />
+						<FrontFlap layout_group_id="b9bac22e-4263-411e-860c-1966d6a8c776" background_id="solid_1" />
+						<BackFlap layout_group_id="d95be289-e60e-41c1-8a1a-a7fdf4f9460f" background_id="solid_1" />
+					</Cover>
+				</Covers>
+				<Pages>
+					<Page page_layout_id="blurb.u13f" background_id="solid_8" />
+					
+					<Page page_layout_id="blurb.paloalto.image0_text2" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image0_text2" background_id="solid_8" />
+										
+					<Page page_layout_id="blurb.paloalto.image0_text5" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image0_text5" background_id="solid_8" />
+					
+					<Page page_layout_id="blurb.paloalto.image1_text3" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image1_text3" background_id="solid_8" />
+					
+					<Page page_layout_id="blurb.paloalto.image1_text4" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image1_text4" background_id="solid_8" />
+
+					<Page page_layout_id="blurb.paloalto.image1_text4_2" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image1_text4_2" background_id="solid_8" />
+					
+					<Page page_layout_id="blurb.paloalto.image1_text4_3" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image1_text4_3" background_id="solid_8" />					
+					
+					<Page page_layout_id="blurb.paloalto.image2_text2" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image2_text2" background_id="solid_8" />
+					
+					<Page page_layout_id="blurb.paloalto.image2_text3" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image2_text3" background_id="solid_8" />
+					
+					<Page page_layout_id="blurb.paloalto.image3_text2" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image3_text2" background_id="solid_8" />
+					
+					<Page page_layout_id="blurb.paloalto.image3_text7" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image3_text7" background_id="solid_8" />
+					
+					<Page page_layout_id="blurb.paloalto.image4_text5" background_id="solid_8" />
+					<Page page_layout_id="blurb.paloalto.image4_text5" background_id="solid_8" />
+
+					<Page page_layout_id="blurb.8x10.logo_page" can_change_layouts="false" background_id="solid_8" />
+				</Pages>
+			</Contents>
+		</Book>
+	</data>
+</project>

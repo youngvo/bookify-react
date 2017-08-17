@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Blurb-provided layout designs and graphic elements are copyright Blurb Inc., 2013. -->
+<project>
+	<metadata />
+	<data>
+		<Book format="square" theme="blurb.designerbook_marfa">
+			<Contents>
+				<Covers>
+					<Cover id="1" name="default" cover_types_supported="dustjacket,imagewrap,softcover">
+						<FrontCover layout_group_id="designerbook_marfa_square.front" background_id="solid_2">
+							<LockedImageContainer ref_id="marfa_front_l1" />
+							<ImageContainer ref_id="marfa_front_i1" />
+							<TextContainer ref_id="marfa_front_t1" />
+							<TextContainer ref_id="marfa_front_t2" />
+						</FrontCover>
+						<BackCover layout_group_id="designerbook_marfa_square.back" background_id="solid_2">
+							<LockedImageContainer ref_id="marfa_back_001" />
+							<TextContainer ref_id="marfa_back_t1" />
+							<TextContainer ref_id="marfa_back_t2" />
+						</BackCover>
+						<Spine layout_group_id="designerbook_marfa_square.spine" background_id="solid_2">
+							<TextContainer ref_id="marfa_spine_t1" />
+							<TextContainer ref_id="marfa_spine_t2" />
+						</Spine>
+						<FrontFlap layout_group_id="designerbook_marfa_square.frontFlap" background_id="solid_2">
+							<ImageContainer ref_id="marfa_flap_left_i1" />
+							<TextContainer ref_id="marfa_flap_left_t1" />
+						</FrontFlap>
+						<BackFlap layout_group_id="designerbook_marfa_square.backFlap" background_id="solid_2">
+							<ImageContainer ref_id="marfa_flap_right_i1" />
+							<TextContainer ref_id="marfa_flap_right_t1" />
+						</BackFlap>
+					</Cover>
+				</Covers>
+				<Pages>
+
+					<Page page_layout_id="blurb.designerbook.marfa.right_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_balanced_l1" />
+						<ImageContainer ref_id="marfa_right_balanced_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_wide_l1" />
+						<ImageContainer ref_id="marfa_left_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.right_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_wide_l1" />
+						<ImageContainer ref_id="marfa_right_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_tall_l1" />
+						<ImageContainer ref_id="marfa_left_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.right_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_tall_l1" />
+						<ImageContainer ref_id="marfa_right_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_balanced_l1" />
+						<ImageContainer ref_id="marfa_left_balanced_i1" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.marfa.right_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_balanced_l1" />
+						<ImageContainer ref_id="marfa_right_balanced_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_wide_l1" />
+						<ImageContainer ref_id="marfa_left_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.right_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_wide_l1" />
+						<ImageContainer ref_id="marfa_right_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_tall_l1" />
+						<ImageContainer ref_id="marfa_left_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.right_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_tall_l1" />
+						<ImageContainer ref_id="marfa_right_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_balanced_l1" />
+						<ImageContainer ref_id="marfa_left_balanced_i1" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.marfa.right_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_balanced_l1" />
+						<ImageContainer ref_id="marfa_right_balanced_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_wide_l1" />
+						<ImageContainer ref_id="marfa_left_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.right_wide" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_wide_l1" />
+						<ImageContainer ref_id="marfa_right_wide_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_tall_l1" />
+						<ImageContainer ref_id="marfa_left_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.right_tall" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_tall_l1" />
+						<ImageContainer ref_id="marfa_right_tall_i1" />
+					</Page>
+					<Page page_layout_id="blurb.designerbook.marfa.left_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_left_balanced_l1" />
+						<ImageContainer ref_id="marfa_left_balanced_i1" />
+					</Page>
+
+					<Page page_layout_id="blurb.designerbook.marfa.right_balanced" background_id="solid_1">
+						<LockedImageContainer ref_id="marfa_right_balanced_l1" />
+						<ImageContainer ref_id="marfa_right_balanced_i1" />
+					</Page>
+
+					<!-- last page, should have a background_id -->
+					<Page page_layout_id="blurb.7x7.logo_page" can_change_layouts="false" background_id="solid_1" />
+				</Pages>
+			</Contents>
+		</Book>
+	</data>
+</project>
